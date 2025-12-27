@@ -1,0 +1,504 @@
+<!--
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+
+-->
+
+<html>
+    <head>
+        <title>Quartermaster Templates</title>
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
+
+            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
+
+        <link rel="stylesheet" href="observer.css">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="UTF-8">
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+
+
+
+
+
+    <!-- Media resizing -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});
+
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px');
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+
+	</script>
+
+
+<!-- Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25987979-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End header -->
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
+
+<meta charset="utf-8" />
+</head>
+
+	<body>
+
+		<div id="page">
+
+			<div id="header">
+
+
+				<div class="links">
+					<ul>
+					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
+						<li><a href="http://www.quartermaster.app/">Home</a></li>
+
+
+						<li><a href="http://www.quartermaster.app/about">About</a></li>
+
+						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
+
+						<li>Templates</li>
+
+						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
+
+						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
+
+					</ul>
+				</div>
+
+
+				<div class="blog-title">
+
+                    <h1><a href="/">Quartermaster Templates</a></h1>
+
+				</div>
+
+				<div class="contents" style="margin-top: 50px;">
+					<ul>
+						<li><a href="#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a></li>
+						<li><a href="#HH2">Horus&nbsp;Heresy&nbsp;2nd&nbsp;Edition</a></li>
+						<li><a href="#HH">Horus&nbsp;Heresy&nbsp;1st&nbsp;Edition</a></li>
+						<li><a href="#LI">Legions&nbsp;Imperialis</a></li>
+						<li><a href="#Titanicus">Adeptus&nbsp;Titanicus</a></li>
+						<li><a href="#Epic30k">Epic&nbsp;Armageddon&nbsp;Heresy</a></li>
+					</ul>
+					<ul>
+						<li><a href="/">More Game Systems</a></li>
+					</ul>
+				</div>
+
+
+
+			</div> <!-- header end -->
+
+			<div id="content">
+				<div class="column">
+					<h2 id="HH3">Horus Heresy 3rd Edition</h2>
+					<ul>
+						<li id="HH3-system"><a href="HH3/HH3.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'HH3']);">Horus Heresy 3rd Edition game system</a>
+							<ul class="note">
+								<li>Install the Horus Heresy (3rd Edition) game system to use any of the following templates.</li>
+							</ul>
+						</li>
+						<li id="HH3-Core_Detachments"><a href="HH3/Core_Detachments.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Core Detachments']);">Core Detachments</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Loyalist_Legiones_Astartes"><a href="HH3/Loyalist_Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Loyalist Legiones Astartes']);">Loyalist Legiones Astartes</a></li>
+						<li id="HH3-Traitor_Legiones_Astartes"><a href="HH3/Traitor_Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Traitor Legiones Astartes']);">Traitor Legiones Astartes</a></li>
+                        <li id="HH3-Blackshields"><a href="HH3/Blackshields.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Blackshields']);">Blackshields</a></li>
+                        <li id="HH3-Shattered_Legions"><a href="HH3/Shattered_Legions.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Shattered Legions']);">Shattered Legions</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Solar_Auxilia"><a href="HH3/Solar_Auxilia.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Solar Auxilia']);">Solar Auxilia</a></li>
+						<li id="HH3-Legio_Custodes"><a href="HH3/Legio_Custodes.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Legio Custodes']);">Legio Custodes</a></li>
+						<li id="HH3-Anathema_Psykarna"><a href="HH3/Anathema_Psykarna.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Anathema Psykarna']);">Anathema Psykarna</a></li>
+						<li id="HH3-Divisio_Assassinorum"><a href="HH3/Divisio_Assassinorum.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Divisio Assassinorum']);">Divisio Assassinorum</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Mechanicum_Taghmata"><a href="HH3/Mechanicum_Taghmata.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Mechanicum Taghmata']);">Mechanicum Taghmata</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Questoris_Familia"><a href="HH3/Questoris_Familia.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Questoris Familia']);">Questoris Familia</a></li>
+						<li id="HH3-Legio_Titanicus"><a href="HH3/Legio_Titanicus.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Legio Titanicus']);">Legio Titanicus</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Imperialis_Militia"><a href="HH3/Imperialis_Militia.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Imperialis Militia']);">Imperialis Militia</a></li>
+					</ul>
+					<ul>
+						<li id="HH3-Battlefield_Fortifications"><a href="HH3/Battlefield_Fortifications.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Battlefield Fortifications']);">Battlefield Fortifications</a></li>
+					</ul>
+
+					<h4 id="HH-Unofficial">Unofficial Army Lists</h4>
+					<ul>
+						<li id="HH3-Orks"><a href="HH3/Orks.php" onClick="_gaq.push(['_trackEvent', 'HH3', 'Download', 'Orks']);">Orks</a></li>
+							<ul class="supplements">
+								<li>From <a href="https://xenos-orks.tumblr.com">Xenos: Orks</a> by Always Strikes First</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="HH2">Horus Heresy 2nd Edition</h2>
+					<ul>
+						<li id="HH2-system"><a href="HH2/HH2.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'HH2']);">Horus Heresy 2nd Edition game system</a>
+							<ul class="note">
+								<li>Install the Horus Heresy (2nd Edition) game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="HH2-Legiones_Astartes"><a href="HH2/Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Legiones Astartes']);">Legiones Astartes</a>
+                            <ul class="supplements">
+                                <li>Liber Astartes</li>
+                                <li>Liber Hereticus</li>
+                                <li>Legacies of the Age of Darkness</li>
+                                <li>Siege of Cthonia</li>
+                                <li>Exemplary Battles of the Age of Darkness Volume One</li>
+                                <li>The Battle for Beta-Garmon</li>
+                            </ul>
+                        </li>
+					</ul>
+					<ul>
+						<li id="HH2-Mechanicum"><a href="HH2/Mechanicum.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Mechanicum']);">Mechanicum</a>
+                            <ul class="supplements">
+                                <li>Divisio Tactica: The Titan Legions</li>
+                                <li>Legacies of the Age of Darkness</li>
+                                <li>Daemon Engines</li>
+                                <li>The Martian Civil War</li>
+                            </ul>
+                        </li>
+                        <li id="HH2-Questoris_Household"><a href="HH2/Questoris_Household.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Questoris Household']);">Questoris Household</a>
+                            <ul class="supplements">
+                                <li>Divisio Tactica: Questoris Household</li>
+                                <li>Traitor Knights</li>
+                            </ul>
+                        </li>
+					</ul>
+					<ul id="HH2-Imperium">
+						<li id="HH2-Agents_of_the_Emperor"><a href="HH2/Agents_of_the_Emperor.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Agents of the Emperor']);">Agents of the Emperor</a></li>
+						<li id="HH2-Legio_Custodes"><a href="HH2/Legio_Custodes.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Legio Custodes']);">Legio Custodes</a></li>
+						<li id="HH2-Sisters_of_Silence"><a href="HH2/Sisters_of_Silence.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Sisters of Silence']);">Sisters of Silence</a></li>
+						<li id="HH2-Solar_Auxilia"><a href="HH2/Solar_Auxilia.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Solar Auxilia']);">Solar Auxilia</a>
+                            <ul class="supplements">
+                                <li>Legacies of the Age of Darkness</li>
+                                <li>The Battle for Beta-Garmon</li>
+                            </ul>
+                        </li>
+						<li id="HH2-Divisio_Assassinorum"><a href="HH2/Divisio_Assassinorum.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Divisio Assassinorum']);">Divisio Assassinorum</a></li>
+						<li id="HH2-Imperialis_Militia"><a href="HH2/Imperialis_Militia.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Imperialis Militia']);">Imperialis Militia</a></li>
+					</ul>
+					<ul id="HH2-Daemons">
+						<li id="HH2-Daemons_of_the_Ruinstorm"><a href="HH2/Daemons_of_the_Ruinstorm.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Daemons of the Ruinstorm']);">Daemons of the Ruinstorm</a></li>
+						<li id="HH2-Bound_Daemons"><a href="HH2/Bound_Daemons.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Bound Daemons']);">Bound Daemons</a></li>
+						<li id="HH2-Cults_Abominatio"><a href="HH2/Cults_Abominatio.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Cults Abominatio']);">Cults Abominatio</a></li>
+					</ul>
+
+					<h4 id="HH-Unofficial">Unofficial Army Lists</h4>
+					<ul>
+						<li id="HH2-Mournival_Campaigns"><a href="HH2/Mournival_Campaigns.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Mournival Campaigns']);">Mournival Campaigns</a> 1.5</li>
+						<li id="HH2-Xenos_Orks"><a href="HH2/Xenos_Orks.php" onClick="_gaq.push(['_trackEvent', 'HH2', 'Download', 'Xenos Orks']);">Xenos Orks</a>
+							<ul class="supplements">
+								<li>From <a href="https://xenos-orks.tumblr.com">Xenos: Orks</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="HH">Horus Heresy (1st Edition)</h2>
+					<ul>
+						<li id="HH-system"><a href="HH/HH.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'HH']);">Horus Heresy game system</a>
+							<ul class="note">
+								<li>Install the Horus Heresy game system to use any of the following templates.</li>
+								<li>Check out the <a href="#HH-Additional">Additional</a> section for choices available to multiple factions.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="HH-Legiones_Astartes"><a href="HH/Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Legiones Astartes']);">Legiones Astartes</a>
+							<ul class="supplements">
+								<li>Blackshields</li>
+								<li>All supplements up to Book Nine: Crusade</li>
+								<li>Examplary Battles 1-3</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="HH-Daemons_of_the_Ruinstorm"><a href="HH/Daemons_of_the_Ruinstorm.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Daemons of the Ruinstorm']);">Daemons of the Ruinstorm</a></li>
+						<li id="HH-Imperialis_Militia"><a href="HH/Imperialis_Militia.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Imperialis Militia']);">Imperialis Militia</a>
+							<ul class="supplements">
+								<li>All supplements up to Book Nine: Crusade</li>
+								<li>Questoris Knight Dominus</li>
+								<li>Questoris Knight Moirax Talon</li>
+								<li>Acastus Knight Asterius</li>
+							</ul>
+						</li>
+						<li id="HH-Mechanicum"><a href="HH/Mechanicum.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Mechanicum']);">Mechanicum</a>
+							<ul class="supplements">
+								<li>All supplements up to Book Nine: Crusade</li>
+								<li>Questoris Knight Armiger Talon</li>
+								<li>Questoris Knight Dominus</li>
+							</ul>
+						</li>
+						<li id="HH-Questoris_Knights"><a href="HH/Questoris_Knights.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Questoris Knights']);">Questoris Knights</a>
+							<ul class="supplements">
+								<li>All supplements up to Book Eight: Malevolence</li>
+								<li>Questoris Knight Armiger Talon</li>
+								<li>Questoris Knight Dominus</li>
+								<li>Questoris Knight Moirax Talon</li>
+							</ul>
+						</li>
+						<li id="HH-Solar_Auxilia"><a href="HH/Solar_Auxilia.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Solar Auxilia']);">Solar Auxilia</a>
+							<ul class="supplements">
+								<li>All supplements up to Book Nine: Crusade</li>
+								<li>Questoris Knight Dominus</li>
+							</ul>
+						</li>
+						<li id="HH-Talons_of_the_Emperor"><a href="HH/Talons_of_the_Emperor.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Talons of the Emperor']);">Talons of the Emperor</a>
+							<ul class="supplements">
+								<li>All supplements up to Book Eight: Malevolence</li>
+								<li>Questoris Knight Dominus</li>
+							</ul>
+						</li>
+					</ul>
+					<h4 id="HH-Additional">Additional</h4>
+					<ul>
+						<li id="HH-Agents"><a href="HH/Agents.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Agents']);">Agents</a>
+							<ul class="supplements">
+								<li>Expeditionary Navigator</li>
+								<li>Book Six: Retribution</li>
+							</ul>
+						</li>
+						<li id="HH-Chaos_Daemons"><a href="HH/Chaos_Daemons_(Age_of_Darkness).php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Chaos Daemons (Age of Darkness)']);">Chaos Daemons (Age of Darkness)</a>
+						</li>
+						<li id="HH-Fortifications"><a href="HH/Fortifications_(Age_of_Darkness).php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Fortifications (Age of Darkness)']);">Fortifications (Age of Darkness)</a>
+						</li>
+						<li id="HH-Legio_Titanicus"><a href="HH/Legio_Titanicus.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Legio Titanicus']);">Legio Titanicus</a>
+							<ul class="supplements">
+								<li>All supplements up to 2019 Errata</li>
+							</ul>
+						</li>
+						<li id="HH-Panoply_of_War"><a href="HH/Panoply_of_War.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Panoply of War']);">Panoply of War</a>
+							<ul class="supplements">
+								<li>All supplements up to 2019 Errata</li>
+							</ul>
+						</li>
+					</ul>
+					<h4 id="HH-Unofficial">Unofficial Army Lists</h4>
+					<h5>King Fluff</h5>
+					<ul>
+						<li id="HH-Megarachnids"><a href="HH/Megarachnids.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Megarachnids']);">Megarachnids</a>
+							<ul class="supplements">
+								<li>From <a href="https://battlebunnies.blogspot.com/2016/09/the-great-crusade-enemies-of-emperor.html">Enemies of the Emperor</a></li>
+							</ul>
+						</li>
+					</ul>
+					<h5><a href="https://www.facebook.com/AUS30K">Australis Ultima Sector 30K</a></h5>
+					<ul>
+						<li id="HH-Crusade_Era_Craftworlds"><a href="HH/Crusade_Era_Craftworlds.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Crusade Era Craftworlds']);">Crusade Era Craftworlds</a></li>
+						<li id="HH-Necron_Awakening_Tomb_Worlds"><a href="HH/Necron_Awakening_Tomb_Worlds.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Necron Awakening Tomb Worlds']);">Necron Awakening Tomb Worlds</a></li>
+						<li id="HH-Necron_Allied_Forces"><a href="HH/Necron_Allied_Forces.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Necron Allied Forces']);">Necron Allied Forces</a></li>
+					</ul>
+					<h5><a href="https://www.facebook.com/Roadtoterra/">Road to Terra</a></h5>
+					<ul>
+						<li id="HH-Skitarii_Road_To_Terra"><a href="HH/Skitarii_Road_To_Terra.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Skitarii Road To Terra']);">Skitarii: Road To Terra</a></li>
+					</ul>
+					<h5>Road to Terra - Event Pack</h5>
+					<ul>
+						<li id="HH-RTT_Pack_Agents"><a href="HH/RTT_Pack_Agents.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'RTT Pack Agents']);">RTT Pack: Agents</a></li>
+						<li id="HH-RTT_Pack_Imperialis_Militia"><a href="HH/RTT_Pack_Imperialis_Militia.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'RTT Pack Imperialis Militia']);">RTT Pack: Imperialis Militia</a></li>
+						<li id="HH-RTT_Pack_Legiones_Astartes"><a href="HH/RTT_Pack_Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'RTT Pack Legiones Astartes']);">RTT Pack: Legiones Astartes</a></li>
+					</ul>
+					<h5><a href="https://www.alwaysstrikesfirst.com">Always Strikes First</a></h5>
+					<ul>
+						<li id="HH-Xenos_Orks"><a href="HH/Xenos_Orks.php" onClick="_gaq.push(['_trackEvent', 'HH', 'Download', 'Xenos Orks']);">Xenos: Orks</a>
+							<ul class="supplements">
+								<li>From <a href="https://xenos-orks.tumblr.com">Xenos: Orks</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+                <div class="column">
+                    <h2 id="LI">Legions Imperialis</h2>
+                    <ul>
+                    	<li><a href="LI/LI.php" onClick="_gaq.push(['_trackEvent', 'LI', 'Download', 'LI']);">Legions Imperialis</a>
+                    		<ul class="note">
+                                <li>Install the Legions Imperialis game system to use any of the following templates.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                    	<li id="LI-Legiones_Astartes"><a href="LI/Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'LI', 'Download', 'Legiones_Astartes']);">Legiones Astartes</a></li>
+                    	<li id="LI-Solar_Auxilia"><a href="LI/Solar_Auxilia.php" onClick="_gaq.push(['_trackEvent', 'LI', 'Download', 'Solar Auxilia']);">Solar Auxilia</a></li>
+                    	<li id="LI-Strategic_Assets"><a href="LI/Strategic_Assets.php" onClick="_gaq.push(['_trackEvent', 'LI', 'Download', 'Strategic Assets']);">Strategic Assets</a></li>
+                    </ul>
+                </div>
+				
+                <div class="column">
+                    <h2 id="Titanicus">Adeptus Titanicus</h2>
+                    <ul>
+                        <li><a href="Titanicus/Titanicus.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Adeptus Titanicus']);">Adeptus Titanicus game system</a>
+                            <ul class="note">
+                                <li>Install both the Titanicus game system and the Adeptus Titanicus faction template.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li id="Titanicus-Adeptus_Titanicus"><a href="Titanicus/Adeptus_Titanicus.php" onClick="_gaq.push(['_trackEvent', 'Titanicus', 'Download', 'Adeptus Titanicus']);">Adeptus Titanicus</a>
+                            <ul class="supplements">
+                            	<li>Loyalist Legios</li>
+                                <li>Traitor Legios</li>
+                                <li>Campaign Compendium</li>
+                                <li>Knight Households</li>
+                                <li>Armiger and Moirax Banners</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="column">
+                    <h2 id="Epic30k">Epic Armageddon Heresy</h2>
+                    <ul>
+                        <li><a href="Epic30k/Epic30k.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Epic30k']);">Epic30k game system</a>
+                            <ul class="note">
+                                <li>Install the Epic30k game system to use any of the following templates.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li id="Epic30k-Imperial_Militia"><a href="Epic30k/Imperial_Militia.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Imperial Militia']);">Imperial Militia</a></li>
+                        <li id="Epic30k-Knight_Household"><a href="Epic30k/Knight_Household.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Knight Household']);">Knight Household</a></li>
+                        <li id="Epic30k-Legio_Titanicus"><a href="Epic30k/Legio_Titanicus.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Legio Titanicus']);">Legio Titanicus</a></li>
+                        <li id="Epic30k-Legiones_Astartes"><a href="Epic30k/Legiones_Astartes.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Legiones Astartes']);">Legiones Astartes</a></li>
+                        <li id="Epic30k-Mechanicum_Taghmata"><a href="Epic30k/Mechanicum_Taghmata.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Mechanicum Taghmata']);">Mechanicum Taghmata</a></li>
+                        <li id="Epic30k-Epic_Solar_Auxilia"><a href="Epic30k/Epic_Solar_Auxilia.php" onClick="_gaq.push(['_trackEvent', 'Epic30k', 'Download', 'Solar Auxilia']);">Solar Auxilia</a></li>
+                    </ul>
+                </div>
+
+			</div><!-- content end -->
+
+			<div id="footer">
+
+					<div id="footer-links">
+
+						<ul>
+							<li><a href="/">Home</a></li>
+
+
+    					    <li><a href="/about">About</a></li>
+
+    					    <li><a href="/userguide">User Guide</a></li>
+
+    					    <li><a href="/templates">Templates</a></li>
+
+    					    <li><a href="/contact">Contact</a></li>
+
+    					    <li><a href="/support">Donate</a></li>
+
+
+
+
+                            <li><a href="/legal">Legal</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/archive">Archive</a></li>
+						</ul>
+					</div>
+
+					<div class="colophon">
+
+
+						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
+
+
+	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+
+					</div>
+
+				</div>
+
+		</div> <!-- page end -->
+</body>
+
+</html>

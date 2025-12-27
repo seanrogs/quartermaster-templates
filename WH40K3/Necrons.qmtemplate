@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Necrons</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Wargear</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Chronometron</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Disruption Field</string>
+					<key>Points</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Destroyer Body</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Jetbike</string>
+					<key>Stats</key>
+					<string>T+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Gaze of Flame</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Lightning Field</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Nightmare Shroud</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One per army</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Phase Shifter</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One per army</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Phylactery</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Resurrection Orb</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Solar Pulse</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One per army</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wargear</string>
+					<key>Name</key>
+					<string>Veil of Darkness</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One per army</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Staff of Light</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Assault 3</string>
+								<key>Stats</key>
+								<string>Rng12"•S5•AP3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Warscythe</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>100</real>
+							<key>Name</key>
+							<string>Wargear</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Necron Lord</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Independent Character; Necron</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S5•T5•W3•I4•A3•Ld10•Sv3+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>2</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Warscythes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>built-in gauss blasters</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Assault 2</string>
+											<key>Stats</key>
+											<string>Rng24"•S5•AP4</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Pariahs</string>
+					<key>Points</key>
+					<real>36</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Soulless; Psychic Abomination; Fearless</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S5•T5•W1•I3•A1•Ld10•Sv3+</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>gauss blasters</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Assault 2</string>
+								<key>Stats</key>
+								<string>Rng24"•S5•AP4</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>disruption fields</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Immortals</string>
+					<key>Points</key>
+					<real>28</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Necron</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S4•T5•W1•I2•A1•Ld10•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>claws</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>disruption fields</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Flayed Ones</string>
+					<key>Points</key>
+					<real>18</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Necron; Infiltrators; Deep Strike; Move Through Cover; Terrifying Visage</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S4•T4•W1•I4•A2•Ld10•Sv3+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>2</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>gauss flayers</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Rapid Fire</string>
+								<key>Stats</key>
+								<string>Rng24"•S4•AP5</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>disruption fields</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>20</integer>
+					<key>Minimum Size</key>
+					<integer>10</integer>
+					<key>Name</key>
+					<string>Warriors</string>
+					<key>Points</key>
+					<real>18</real>
+					<key>Size</key>
+					<integer>10</integer>
+					<key>Special Rules</key>
+					<string>Necron; Reserves</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S4•T4•W1•I2•A1•Ld10•Sv3+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>6</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>claws and barbed tails</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Wraiths</string>
+					<key>Plural Name</key>
+					<string>Wraiths</string>
+					<key>Points</key>
+					<real>41</real>
+					<key>Singular Name</key>
+					<string>Wraith</string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Necron; Phaseshift; Wraithflight</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S6•T4•W1•I6•A3•Ld10•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>gauss cannons</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Heavy 3</string>
+								<key>Stats</key>
+								<string>Rng36"•S6•AP4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>5</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Destroyers</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Necron; Jetbikes</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S4•T5•W1•I2•A1•Ld10•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>disruption fields</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Scarab Swarms</string>
+					<key>Points</key>
+					<real>12</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Fearless; Deep Strike; Swarms; Vulnerable to Blasts; Small Target</string>
+					<key>Stats</key>
+					<string>WS2•BS0•S3•T3•W3•I2•A3•Ld10•Sv5+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>claws</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Stats</key>
+										<string>A+1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>particle projector</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault 3</string>
+										<key>Stats</key>
+										<string>Rng12"•S5•AP3</string>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Tomb Spyder</string>
+							<key>Points</key>
+							<real>55</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Hover; Monstrous Creature; Fearless; Artificier</string>
+							<key>Stats</key>
+							<string>WS2•BS2•S6•T6•W2•I2•A2•Ld10•Sv3+</string>
+							<key>Upper Limit</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Tomb Spyders</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>heavy gauss cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Heavy 1</string>
+								<key>Stats</key>
+								<string>Rng36"•S9•AP2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Heavy Destroyers</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Singular Name</key>
+					<string>Heavy Destroyer</string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Necron; Jetbikes</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S4•T5•W1•I2•A1•Ld10•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Gauss flux arc</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Heavy D6 (per target unit)</string>
+								<key>Stats</key>
+								<string>Rng12"•S5•AP4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Monolith</string>
+					<key>Points</key>
+					<real>235</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Tank, Skimmer; Living Metal; Ponderous; Deep Strike; Gauss Flux Arc Projectors; Power Matrix</string>
+					<key>Stats</key>
+					<string>FA14•SA14•RA14•BS4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K3</string>
+	<key>Version</key>
+	<integer>20250413</integer>
+</dict>
+</plist>

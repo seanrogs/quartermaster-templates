@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Order - Collegiate Arcane</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Allegiance</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Leader</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Battlemage’s Staff</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks 1•To Hit 4+•To Wound 3+•Rend -1•Damage D3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Arcane Bolt</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Mystic Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Chain Lightning</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Heavens specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Fireball</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Bright specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Soul Steal</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Amethyst specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Light of Battle</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>White specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Final Transmutation</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Gold specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Mystifying Miasma</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Grey specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Wildform</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Amber specialisation</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lifesurge</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Jade specialisation</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Battlemage</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Magic Specialisation; Keywords: ORDER, HUMAN, COLLEGIATE ARCANE, HERO, WIZARD, BATTLEMAGE</string>
+					<key>Stats</key>
+					<string>Move 5”•Wounds 5•Bravery 6•Save 6+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Leader-Behemoth</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 0-3</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 15”•Twin Beaks 3•Razor Claws 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 4-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 13”•Twin Beaks D3•Razor Claws 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 7-9</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 11”•Twin Beaks D3•Razor Claws 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 10-11</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 9”•Twin Beaks 1•Razor Claws 3</string>
+							</dict>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 12+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 7”•Twin Beaks 1•Razor Claws 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Beaststaff</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks 1•To Hit 4+•To Wound 3+•Rend -1•Damage D3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Griffon’s Twin Beaks</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks 4•To Hit 3+•To Wound 3+•Rend -1•Damage *</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Griffon’s Razor Claws</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks *•To Hit 4+•To Wound 3+•Rend -1•Damage 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Arcane Bolt</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Mystic Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Amber Spear</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Battlemage on Griffon</string>
+					<key>Points</key>
+					<real>240</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fly; Amber Battlemage; Two Headed; Keywords: ORDER, HUMAN, GRIFFON, COLLEGIATE ARCANE, MONSTER, HERO, WIZARD, BATTLEMAGE</string>
+					<key>Stats</key>
+					<string>Move *•Wounds 13•Bravery 6•Save 5+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 0-2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 10”•Portents of Battle 10”•Storm of Shemtek 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 3-4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 9”•Portents of Battle 8”•Storm of Shemtek 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 5-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 8”•Portents of Battle 6”•Storm of Shemtek 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 7-8</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 7”•Portents of Battle 4”•Storm of Shemtek 1</string>
+							</dict>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 9+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 6”•Portents of Battle 2”•Storm of Shemtek 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Storm of Shemtek</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 18”•Attacks *</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Battlemage’s Staff</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks 1•To Hit 4+•To Wound 3+•Rend -1•Damage D3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Acolytes’ Arcane Tools</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 5+•To Wound 5+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Warhorses’ Steel-shod Hooves</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 4+•To Wound 4+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Arcane Bolt</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Mystic Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Comet of Casandora</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Celestial Hurricanum with Celestial Battlemage</string>
+					<key>Points</key>
+					<real>380</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Locus of Azyr; Portents of Battle; Storm of Shemtek; Keywords: ORDER, HUMAN, COLLEGIATE ARCANE, HERO, WIZARD, CELESTIAL HURRICANUM</string>
+					<key>Stats</key>
+					<string>Move *•Wounds 11•Bravery 6•Save 4+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 0-2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 10”•Aura of Protection 10”•Searing Beam of Light 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 3-4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 9”•Aura of Protection 8”•Searing Beam of Light D6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 5-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 8”•Aura of Protection 6”•Searing Beam of Light D6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 7-8</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 7”•Aura of Protection 4”•Searing Beam of Light D3</string>
+							</dict>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 9+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 6”•Aura of Protection 2”•Searing Beam of Light D3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Searing Beam of Light</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 30”•Attacks 1•To Hit 3+•To Wound 3+•Rend -2•Damage *</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Battlemage’s Staff</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 2”•Attacks 1•To Hit 4+•To Wound 3+•Rend -1•Damage D3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Acolytes’ Arcane Tools</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 5+•To Wound 5+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Warhorses’ Steel-shod Hooves</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 4+•To Wound 4+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Arcane Bolt</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Mystic Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Burning Gaze</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Luminark of Hysh with White Battlemage</string>
+					<key>Points</key>
+					<real>240</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Locus of Hysh; Aura of Protection; Keywords: ORDER, HUMAN, COLLEGIATE ARCANE, HERO, WIZARD, LUMINARK OF HYSH</string>
+					<key>Stats</key>
+					<string>Move *•Wounds 11•Bravery 6•Save 4+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Battleline</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Artillery</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Behemoth</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 0-2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 10”•Portents of Battle 10”•Storm of Shemtek 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 3-4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 9”•Portents of Battle 8”•Storm of Shemtek 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 5-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 8”•Portents of Battle 6”•Storm of Shemtek 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 7-8</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 7”•Portents of Battle 4”•Storm of Shemtek 1</string>
+							</dict>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 9+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 6”•Portents of Battle 2”•Storm of Shemtek 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Storm of Shemtek</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 18”•Attacks *</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Acolytes’ Arcane Tools</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 5+•To Wound 5+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Warhorses’ Steel-shod Hooves</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 4+•To Wound 4+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Celestial Hurricanum</string>
+					<key>Points</key>
+					<real>380</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Locus of Azyr; Portents of Battle; Storm of Shemtek; Keywords: ORDER, HUMAN, COLLEGIATE ARCANE, CELESTIAL HURRICANUM</string>
+					<key>Stats</key>
+					<string>Move *•Wounds 11•Bravery 6•Save 4+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 0-2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 10”•Aura of Protection 10”•Searing Beam of Light 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 3-4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 9”•Aura of Protection 8”•Searing Beam of Light D6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 5-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 8”•Aura of Protection 6”•Searing Beam of Light D6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 7-8</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 7”•Aura of Protection 4”•Searing Beam of Light D3</string>
+							</dict>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wounds Suffered 9+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Move 6”•Aura of Protection 2”•Searing Beam of Light D3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Searing Beam of Light</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 30”•Attacks 1•To Hit 3+•To Wound 3+•Rend -2•Damage *</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Acolytes’ Arcane Tools</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 5+•To Wound 5+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Warhorses’ Steel-shod Hooves</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Range 1”•Attacks 4•To Hit 4+•To Wound 4+•Rend -•Damage 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Luminark of Hysh</string>
+					<key>Points</key>
+					<real>240</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Locus of Hysh; Aura of Protection; Keywords: ORDER, HUMAN, COLLEGIATE ARCANE, LUMINARK OF HYSH</string>
+					<key>Stats</key>
+					<string>Move *•Wounds 11•Bravery 6•Save 4+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Battalions</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>War Council</string>
+					<key>Points</key>
+					<real>180</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Augmented Might</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Scenery</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>AoS</string>
+</dict>
+</plist>

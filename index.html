@@ -1,0 +1,454 @@
+<!--
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+
+-->
+
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>Quartermaster Templates</title>
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
+
+            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
+
+        <link rel="stylesheet" href="observer.css">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+
+
+
+
+
+    <!-- Media resizing -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});
+
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px');
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+
+	</script>
+
+
+<!-- Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25987979-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End header -->
+
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
+
+<meta charset="utf-8" />
+</head>
+
+	<body>
+
+		<div id="page">
+
+			<div id="header">
+
+
+				<div class="links">
+					<ul>
+					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
+						<li><a href="http://www.quartermaster.app/">Home</a></li>
+
+
+						<li><a href="http://www.quartermaster.app/about">About</a></li>
+
+						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
+
+						<li>Templates</li>
+
+						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
+
+						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
+
+					</ul>
+				</div>
+
+
+				<div class="blog-title">
+
+                    <h1><a href="/">Quartermaster Templates</a></h1>
+
+				</div>
+
+				<div class="contents" style="margin-top: 50px;">
+					<ul>
+						<li><a href="HH.html#HH3">Horus&nbsp;Heresy</a></li>
+						<li><a href="HH.html#LI">Legions&nbsp;Imperialis</a></li>
+						<li><a href="HH.html#Titanicus">Adeptus&nbsp;Titanicus</a></li>
+					</ul>
+					<ul>
+						<li><a href="WH40K.html#Necromunda">Necromunda</a></li>
+						<li><a href="WH40K.html#WH40K2">Warhammer&nbsp;40,000 2nd Edition</a></li>
+                        <li><a href="WH40K.html#BFG">Battlefleet&nbsp;Gothic</a></li>
+					</ul>
+					<ul>
+					    <li><a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a></li>
+						<li><a href="WHFB.html#Mordheim">Mordheim</a></li>
+					    <li><a href="WHFB.html#WHFB">Warhammer&nbsp;Fantasy&nbsp;Battles</a></li>
+					    <li><a href="WHFB.html#Warmaster">Warmaster</a></li>
+					</ul>
+					<ul>
+						<li><a href="Other.html#TrenchCrusade">Trench Crusade</a></li>
+					</ul>
+					<ul>
+  						<li><a href="Archive.html">Archive</a></li>
+					</ul>
+				</div>
+
+
+
+			</div> <!-- header end -->
+
+			<div id="content">
+				<div class="column">
+					<div>
+						<h3>What's been updated?</h3>
+						<ul>
+							<li><em>28 December</em><br>
+								<a href="WH40K.html#Necromunda">Necromunda</a>
+								<ul>
+									<li>December 2025 Errata updates</li>
+								</ul>
+							</li>
+							<li><em>14 December</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul>
+									<li>Arcane Journal: The Razing of Westerland
+										<ul>
+											<li><a href="WHFB.html#TOW-system">Updated game system</a> with Artefacts of the Shadowlands</li>
+											<li><a href="WHFB.html#TOW-Warriors_of_Chaos">Warriors of Chaos</a></li>
+											<li><a href="WHFB.html#TOW-Heralds_of_Darkness">Heralds of Darkness</a></li>
+											<li><a href="WHFB.html#TOW-Wolves_of_the_Sea">Wolves of the Sea</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>8 November</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li>October errata</li>
+									<li><a href="HH.html#HH3-Battlefield_Fortifications">Battlefield Fortifications</a>
+										<ul class="note">
+											<li>Update the game system to use Fortifications</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>3 November</em><br>
+								<a href="WH40K.html#Necromunda">Necromunda</a>: Bastions of Law
+								<ul>
+									<li><a href="WH40K.html#Necromunda-Palanite_Enforcers">Palanite Enforcers</a></li>
+									<li><a href="WH40K.html#Necromunda-Badzone_Enforcers">Badzone Enforcers</a></li>
+								</ul>
+							</li>
+							<li><em>31 October</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a> - Journal Tactica: The Forges of Saturn
+								<ul class="note">
+									<li>
+										<ul>
+											<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
+											<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
+										</ul>
+									</li>
+									<li><a href="HH.html#HH3-Shattered_Legions">Shattered Legions</a></li>
+								</ul>
+							</li>
+							<li><em>24 October</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul>
+									<li>Arcane Journal: The War of Settra's Fury
+										<ul>
+											<li><a href="WHFB.html#TOW-Renegade_Crowns">Renegade Crowns</a></li>
+											<li><a href="WHFB.html#TOW-Slayer_Host">Slayer Host</a></li>
+										</ul>
+										<ul>
+											<li><a href="WHFB.html#TOW-Tomb_Kings_of_Khemri">Tomb Kings of Khemri</a></li>
+											<li><a href="WHFB.html#TOW-Mortuary_Cult">Mortuary Cult</a></li>
+											<li><a href="WHFB.html#TOW-Nehekharan_Royal_Host">Nehekharan Royal Host</a></li>
+										</ul>
+									</li>
+									<li>Square Based Renegades 1.5
+										<ul>
+											<li><a href="WHFB.html#TOW-Chaos_Dwarfs">Chaos Dwarfs</a></li>
+											<li><a href="WHFB.html#TOW-Daemons_of_Chaos">Daemons of Chaos</a></li>
+											<li><a href="WHFB.html#TOW-Dark_Elves">Dark Elves</a></li>
+											<li><a href="WHFB.html#TOW-Lizardmen">Lizardmen</a></li>
+											<li><a href="WHFB.html#TOW-Ogre_Kingdoms">Ogre Kingdoms</a></li>
+											<li><a href="WHFB.html#TOW-Skaven">Skaven</a></li>
+											<li><a href="WHFB.html#TOW-Vampire_Counts">Vampire Counts</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>20 October</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>: Blackshields and Inductii
+								<ul>
+									<li><a href="HH.html#HH3-Blackshields">Blackshields</a></li>
+									<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
+									<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
+								</ul>
+							</li>
+							<li><em>21 September</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul class="note">
+									<li>Arcane Journal: Dawn of the Storm Dragon
+										<ul>
+											<li><a href="WHFB.html#TOW-Grand_Cathay">Grand Cathay</a></li>
+											<li><a href="WHFB.html#TOW-Jade_Fleet">Jade Fleet</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>16 September</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>: Legacies of the Age of Darkness
+								<ul>
+									<li><a href="HH.html#HH3-Mechanicum_Taghmata">Mechanicum Taghmata</a></li>
+									<li><a href="HH.html#HH3-Solar_Auxilia">Solar Auxilia</a></li>
+								</ul>
+							</li>
+							<li><em>13 September</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Daemons_of_the_Ruinstorm">Daemons of the Ruinstorm</a></li>
+									<li><a href="HH.html#HH3-Cults_Abominatio">Cults Abominatio</a></li>
+								</ul>
+							</li>
+							<li><em>8 September</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Questoris_Familia">Questoris Familia</a></li>
+									<li><a href="HH.html#HH3-Legio_Titanicus">Legio Titanicus</a></li>
+								</ul>
+							</li>
+							<li><em>5 September</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Imperialis_Militia">Imperialis Militia</a></li>
+								</ul>
+							</li>
+							<li><em>28 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li>Legacies of the Age of Darkness:
+										<ul>
+											<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
+											<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>16 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li>Talons of the Emperor:
+										<ul>
+											<li><a href="HH.html#HH3-Legio_Custodes">Legio Custodes</a></li>
+											<li><a href="HH.html#HH3-Anathema_Psykarna">Anathema Psykarna</a></li>
+											<li><a href="HH.html#HH3-Divisio_Assassinorum">Divisio Assassinorum</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>13 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Mechanicum_Taghmata">Mechanicum Taghmata</a></li>
+								</ul>
+							</li>
+							<li><em>9 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Solar_Auxilia">Solar Auxilia</a></li>
+								</ul>
+							</li>
+							<li><em>6 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
+								</ul>
+							</li>
+							<li><em>2 August</em><br>
+								<a href="HH.html#HH3">Horus&nbsp;Heresy&nbsp;3rd&nbsp;Edition</a>
+								<ul>
+									<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
+								</ul>
+							</li>
+							<li><em>6 July</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul class="note">
+									<li><a href="WHFB.html#TOW-Grand_Cathay">Grand Cathay</a></li>
+								</ul>
+							</li>
+							<li><em>30 June</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul class="note">
+									<li>June 2025 Errata updates to game system and templates</li>
+								</ul>
+							</li>
+							<li><em>18 June</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul class="note">
+									<li>Arcane Journal: <a href="WHFB.html#TOW-Beastmen_Brayherds">Beastmen Brayherds</a>
+										<ul>
+											<li><a href="WHFB.html#TOW-Minotaur_Blood_Herd">Minotaur Blood Herd</a></li>
+											<li><a href="WHFB.html#TOW-Wild_Herd">Wild Herd</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><em>6 June</em><br>
+								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
+								<ul class="note">
+									<li>Arcane Journal: <a href="WHFB.html#TOW-Wood_Elf_Realms">Wood Elf Realms</a>
+										<ul>
+											<li><a href="WHFB.html#TOW-Host_of_Talsyn">Host of Talsyn</a></li>
+											<li><a href="WHFB.html#TOW-Orions_Wild_Hunt">Orion’s Wild Hunt</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="caption">
+						<h3>What are <i>qmtemplates</i>?</h3>
+						<p><i>qmtemplates</i> are faction template files for use with <a href="http://quartermaster.app">Quartermaster</a>.</p>
+						<p>All faction templates are made and contributed by the Quartermaster community. Have one to contribute? Email it to <a href="mailto:contribute@quartermaster.app">contribute@quartermaster.app</a></p>
+						<h3>Don't see what you're looking for?</h3>
+						<p>Get involved! You can create your own faction templates in Quartermaster itself. Find out more about <a href="http://quartermaster.app/post/28595799629/editing-a-quartermaster-template">editing a Quartermaster template</a> in the <a href="http://quartermaster.app/tagged/User_Guide">Quartermaster User Guide</a>.</p>
+						<h3>Having trouble downloading?</h3>
+						<p>Open this page in Safari on your device for the best results. Google Chrome, the Facebook browser, and other in-app browsers can't download files on iOS.</p>
+						<p>Make sure you have the latest game system installed for the template. Game system files are listed with the faction templates for each game system.</p>
+					</div>
+				</div>
+			</div><!-- content end -->
+
+			<div id="footer">
+
+					<div id="footer-links">
+
+						<ul>
+							<li><a href="/">Home</a></li>
+
+
+    					    <li><a href="/about">About</a></li>
+
+    					    <li><a href="/userguide">User Guide</a></li>
+
+    					    <li><a href="/templates">Templates</a></li>
+
+    					    <li><a href="/contact">Contact</a></li>
+
+    					    <li><a href="/support">Donate</a></li>
+
+
+
+
+                            <li><a href="/legal">Legal</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/archive">Archive</a></li>
+						</ul>
+					</div>
+
+					<div class="colophon">
+
+
+						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
+
+
+	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+
+					</div>
+
+				</div>
+
+		</div> <!-- page end -->
+</body>
+
+</html>

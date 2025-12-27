@@ -1,0 +1,2866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Beast Herds</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Weapon Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_285_swords</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Hawthorne Curse (HW Enchantment)</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Models without Ambush only!  Attacks made with this weapon gain Devastating Charge (+2 Str, +2 AP) and become Magical Attacks.  The weapon can be used as a Shooting Weapon (3+) with the following profile:  Range 18”, Shots 1, Str 3[6], AP 10, Area Attack (1x5), Reload!, [Multiple Wounds (D3)].  This Shooting Attack never suffers negative to-hit modifiers.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Ancestral Carvings (HW Enchantment)</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Soothsayers Only!  Attacks made with this weapon gain +2 Strength and +2 Armour Penetration, and become Magical Attacks.  The wielder gains +2 Attack Value and Distracting while using this weapon.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Twin Hungers (PW Enchantment)</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Attacks made with this weapon gain Lethal Strike and become Magical Attacks.  Whenever the wielder rolls natural ‘6’ to wound with Close Combat attacks, and this attack successfully causes an unsaved wound, the bearer Recovers 1 Health Point at the end of the Initiative Step.  No more than 1 Health Point may be recovered per phase in this manner.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Fatal Folly (Beast Axe Enchantment)</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Attacks made with this weapon become Magical Attacks.  For each Close Combat Attack against the wielder that rolls a natural to-hit roll of ‘1’, the wielder must perform a Close Combat Attack at the same Initiative Step (this overrides the normal restriction that Beast Axe Attacks always strike at Initiative Step 0).  This must be allocated towards the model (or Health Pool) that rolled the ‘1’ to hit.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Armour Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_283_shield</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Aaghor’s Affliction (Light Armour Enchantment)</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Special Rules</key>
+					<string>The wearer gains +1 Resilience and Fortitude (4+), but automatically fails all of its Armour Saves.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Trickster’s Cunning (Light Armour Enchantment)</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Successful to-wound rolls against the wearer must be rerolled.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Wild Form (Suit of Armour Enchantment)</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>At the start of the Melee Phase the bearer may choose to gain either of the following:  1) +1 Strength, +1 Armour Penetration, and -1 Resilience; or 2) -1 Strength, -1 Armour Piercing, +1 Resilience; - The effects last until the end of the Melee Phase.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Obscuring Fog (Shield Enchantment)</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>While using this Shield, enemy units in base contact with the bearer suffer -1 Agility.  The bearer’s unit does not benefit from +1 Agility for Charging.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Crown of Horns</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>The bearer’s unit and all units within range of its Commanding Presence (If applicable) automatically pass Discipline Tests taken due to Primal Instinct.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Banner Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_291_flag</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Banner Enchantment</string>
+					<key>Name</key>
+					<string>Banner of the Wild Herd (0-3/Army)</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>One Use Only.  A single Banner of the Wild Herd per unit may be activated at the start of each Round of Combat.  For the duration of this Round of Combat, all Mongrels and Wildhorns in the bearer’s unit gain +1 Strength and +1 Armour Penetration.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Artefact</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Dark Rain</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>One use only.  This item is automatically activated at the stet of the first Game Turn (If the bearer is not on the Battlefield at this time, the item cannot be used).  Its effects last until the end of this Game Turn.  If the owner has the second Player Turn, all Shooting Attacks suffer -2 to hit during the opponent’s Shooting Phase.  If the owner has the first Player Turn, instead all Shooting Attacks suffer -1 to hit during the opponent’s Shooting Phase.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Seed of the Dark Forest</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>One use only.  Right before the battle (during Step 7 of the Deployment Phase Sequence), the bearer must place a single Forest Terrain Feature that must be no larger than 10” in length and 6” in width on the Battlefield, not in contact with any other Terrain Feature, more than 1” away from all enemy units, and with its center within 12” of the bearer.  All friendly models inside this Forest Terrain Feature gain a +1 modifier to their casting rolls for Augment, Hex, and Universal spells, and add (+1/+1) to the Power Level of Totem Bound Spells they cast.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Pillager Icon</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Special Rules</key>
+					<string>All Friendly units within 12” of the bearer comprised entirely of Razortusks or single model Chariots, excluding Characters, gain Vanguard.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Eye of Dominance</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Close Combat Attacks from Beast, Cavalry, and Construct Models will always hot the bearer only in a roll of 6+.  If the attacking model is a multipart model, only model parts with Harnessed are affected.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Inscribing Burin</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>While the bearer has the center of its base inside a Forest Terrain Feature, all friendly units with more than half of their models with the center of their bases inside any Forest Terrain Feature on the Battlefield gains Magic Resistance (2).</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Characters</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hunting Call (General Only)</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Throwing Weapons (4+)</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beast Axe</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>200</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Raiding Chariot</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Wildhorn Crew</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Primal Instinct, Light Lance</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>War Hog (2)</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Harnessed</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Chassis</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Impact Hits (D6), Inanimate</string>
+											<key>Stats</key>
+											<string>Str 5 • AP 2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>90</real>
+								<key>Special Rules</key>
+								<string>Light Troops, Strider (Forest), Swiftstride</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 7” • Dis C • HP 4 • Def C • Res C • Arm C+2</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Razortusk Chariot</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Wildhorn Crew</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Primal Instinct, Light Lance</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Razortusk</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Devastating Charge (+1 Str, +1 AP), Harnessed</string>
+											<key>Stats</key>
+											<string>Att 4 • Off 3 • Str 5 • AP 2 • Agi 2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Chassis</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Impact Hits (D6+1), Inanimate</string>
+											<key>Stats</key>
+											<string>Str 5 • AP 2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>125</real>
+								<key>Special Rules</key>
+								<string>Hunting Horn, Light Troops, Strider (Forest), Swiftstride</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 7” • Dis C • HP 5 • Def C • Res C • Arm C+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Beast Lord</string>
+					<key>Points</key>
+					<real>215</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Pack Tactics, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 9 • HP 3 • Def 6 • Res 5 • Arm 0 • Att 4 • Off 6 • Str 5 • AP 2 • Agi 5</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hunting Call (General Only)</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (on Foot Only)</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Throwing Weapons (4+)</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beast Axe</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Greater Totem Bearer</string>
+								<key>Points</key>
+								<real>85</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Raiding Chariot</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Wildhorn Crew</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Primal Instinct, Light Lance</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>War Hog (2)</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Harnessed</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Chassis</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Impact Hits (D6), Inanimate</string>
+											<key>Stats</key>
+											<string>Str 5 • AP 2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>90</real>
+								<key>Special Rules</key>
+								<string>Light Troops, Strider (Forest), Swiftstride</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 7” • Dis C • HP 4 • Def C • Res C • Arm C+2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Beast Chieftain </string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Pack Tactics, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 8 • HP 3 • Def 5 • Res 5 • Arm 0 • Att 3 • Off 5 • Str 4 • AP 1 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (on Foot Only)</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapon</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Wizard Apprentice </string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Druidism</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Evocation</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Shamanism</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Wizard Adept</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Druidism </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Evocation </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Shamanism</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Wizard Master</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Druidism </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Evocation </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Shamanism </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>225</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>200</integer>
+							<key>Name</key>
+							<string>Special Items (Wizard Master Only)</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Raiding Chariot</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Wildhorn Crew</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Primal Instinct, Light Lance</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>War Hog (2)</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Harnessed</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Chassis</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Impact Hits (D6), Inanimate</string>
+											<key>Stats</key>
+											<string>Str 5 • AP 2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Light Troops, Strider (Forest), Swiftstride</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 7” • Dis C • HP 4 • Def C • Res C • Arm C+2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Soothsayer</string>
+					<key>Points</key>
+					<real>155</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Blood Offering, Pack Tactics, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 8 • HP 3 • Def 4 • Res 5 • Arm 0 • Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beast Axe</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>200</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Minotaur Warlord</string>
+					<key>Points</key>
+					<real>490</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fearless, Frenzy, Strider (Forest), Battle Focus, Impact Hits (D3), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 9 • HP 5 • Def 5 • Res 5 • Arm 0 • Att 5 • Off 6 • Str 6 • AP 3 • Agi 5</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Stander Bearer </string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Greater Totem Bearer</string>
+								<key>Points</key>
+								<real>85</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beast Axe</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Minotaur Chieftain</string>
+					<key>Points</key>
+					<real>220</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fearless, Frenzy, Strider (Forest), Battle Focus, Impact Hits (D3), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 8 • HP 4 • Def 4 • Res 5 • Arm 0 • Att 4 • Off 5 • Str 5 • AP 2 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Greater Totem Bearer</string>
+								<key>Points</key>
+								<real>85</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Throwing Weapons (4+)</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beast Axe</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Centaur Chieftain</string>
+					<key>Points</key>
+					<real>220</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Drunkard, Looted Booze, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 8” • Mar 16” • Dis 8 • HP 3 • Def 5 • Res 5 • Arm 0 • Att 4 • Off 5 • Str 5 • AP 2 • Agi 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Core</string>
+			<key>Lower Limit</key>
+			<real>0.25</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion </string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Totem Bearer</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (0-25 Models/Unit)(0-2 Units/Army)</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Throwing Weapons (5+)</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons &amp; Throwing Weapons (5+)</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>50</integer>
+					<key>Minimum Size</key>
+					<integer>15</integer>
+					<key>Name</key>
+					<string>Wildhorn Herd</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Size</key>
+					<integer>15</integer>
+					<key>Special Rules</key>
+					<string>Pack Tactics, Scoring, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 7 • HP 1 • Def 4 • Res 4 • Arm 0 • Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>-20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion </string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>100</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (0-30 Models/Unit) (0-2 Units/Army)</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Spear</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>50</integer>
+					<key>Minimum Size</key>
+					<integer>20</integer>
+					<key>Name</key>
+					<string>Mongrel Herd</string>
+					<key>Points</key>
+					<real>8</real>
+					<key>Size</key>
+					<integer>20</integer>
+					<key>Special Rules</key>
+					<string>Pack Tactics, Scoring, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 6 • HP 1 • Def 3 • Res 3 • Arm 0 • Att 1 • Off 3 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush &amp; Scout</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Bow (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>20</integer>
+					<key>Minimum Size</key>
+					<integer>10</integer>
+					<key>Name</key>
+					<string>Mongrel Raiders (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Size</key>
+					<integer>10</integer>
+					<key>Special Rules</key>
+					<string>Light Troops, Pack Tactics, Skirmisher, Strider (Forest), Hard Target (1), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 6 • HP 1 • Def 3 • Res 3 • Arm 0 • Att 1 • Off 3 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Wildhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Light Lance</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3 </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Longhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Great Weapon</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 4 • AP 1 • Agi 3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>War Hog (2)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Harnessed</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Chassis</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Impact Hits (D6), Inanimate</string>
+								<key>Stats</key>
+								<string>Str 5 • AP 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Raiding Chariot (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Light Troops, Strider (Forest), Swiftstride</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 7” • Dis 8 • HP 4 • Def 4 • Res 4 • Arm 2</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Special</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>20</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Feral Hounds (0-5 Units/Army)</string>
+					<key>Points</key>
+					<real>8</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Ambush, Insignificant, Strider (Forest), Vanguard</string>
+					<key>Stats</key>
+					<string>Adv 8” • Mar 16” • Dis 5 • HP 1 • Def 4 • Res 3 • Arm 0 • Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>-75</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (0-20 Models/Unit) (0-2 Units/Army)</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Totem Bearer</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer </string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Halberd</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>40</integer>
+					<key>Minimum Size</key>
+					<integer>10</integer>
+					<key>Name</key>
+					<string>Longhorn Herd</string>
+					<key>Points</key>
+					<real>23</real>
+					<key>Size</key>
+					<integer>10</integer>
+					<key>Special Rules</key>
+					<string>Bodyguard (Beast Lord, Beast Chieftain), Pack Tactics, Scoring, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 8 • HP 1 • Def 4 • Res 4 • Arm 0 • Att 1 • Off 4 • Str 4 • AP 1 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Totem Bearer</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Minotaurs (0-5 Units/Army)</string>
+					<key>Points</key>
+					<real>78</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Fearless, Frenzy, Scoring, Strider (Forest), Battle Focus, Impact Hits (1), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 7 • HP 3 • Def 3 • Res 4 • Arm 0 • Att 3 • Off 4 • Str 5 • AP 2 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Totem Bearer</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ambush (0-8 Models/Units)</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Throwing Weapons (5+)</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour </string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapon</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>15</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Centaurs (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Drunkard, Scoring, Strider (Forest), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 8” • Mar 16 • Dis 7 • HP 1 • Def 4 • Res 4 • Arm 0 • Att 2 • Off 4 • Str 4 • AP 1 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>2</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Wildhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Light Lance</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Longhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Great Weapon</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 4 • AP 1 • Agi 3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>War Hog (2)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Harnessed</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Chassis</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Impact Hits (D6), Inanimate</string>
+								<key>Stats</key>
+								<string>Str 5 • AP 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Raiding Chariot (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Light Troops, Strider (Forest), Swiftstride</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 7” • Dis 8 • HP 4 • Def 4 • Res 4 • Arm 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost </string>
+								<key>Points</key>
+								<real>38</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Razortusk Herd (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>62</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Strider (Forest), Devastating Charge (+1 Str, +1 AP)</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 6 • HP 3 • Def 3 • Res 5 • Arm 0 • Att 4 • Off 3 • Str 5 • AP 2 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Heavy Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Wildhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Light Lance</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Longhorn Crew</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Primal Instinct, Great Weapon</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 4 • Str 4 • AP 1 • Agi 3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Razortusk</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Devastating Charge (+1 Str, +1 AP), Harnessed</string>
+								<key>Stats</key>
+								<string>Att 4 • Off 3 • Str 5 • AP 2 • Agi 2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Chassis</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Impact Hits (D6+1), Inanimate</string>
+								<key>Stats</key>
+								<string>Str 5 • AP 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Razortusk Chariot (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>230</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Hunting Horn, Light Troops, Strider (Forest), Swiftstride</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 7” • Dis 8 • HP 5 • Def 4 • Res 5 • Arm 1</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Briar Beast (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fear, Fearless, Random Movement (3D6”), Sleeper, Strider (Forest), Unbreakable</string>
+					<key>Stats</key>
+					<string>Adv 3D6” • Mar - • Dis 10 • HP 3 • Def 3 • Res 5 • Arm 0 • Att D6+1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Scout</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Gargoyles (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>17</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Fly (9”,18”), Light Troops, Skirmisher, Strider (Forest), Swiftstride, Hard Target (1), Devastating Charge (+1 Str, +1 AP), Primal Instinct</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 7 • HP 1 • Def 4 • Res 4 • Arm 0 • Att 2 • Off 4 • Str 3 • AP 0 • Agi 3</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Terrors of the Wild</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cyclops (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>355</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fearless, Magic Resistance (3), Strider (Forest), Aegis (5+), Divine Attacks, Hurl Attack (4+)</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 8 • HP 6 • Def 2 • Res 5 • Arm 0 • Att 5 • Off 2 • Str 6 • AP 3 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Gortach (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>475</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Fearless, Frenzy, Strider (Forest), Stubborn, Battle Focus, Impact Hits (D3), Lethal Strike, Primal Instinct, Strength from Flesh</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 9 • HP 6 • Def 3 • Res 6 • Arm 0 • Att 6 • Off 4 • Str 6 • AP 3 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Jabberwock (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>340</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Aura of Madness, Fearless, Fly (8”,16”), Light Troops, Strider (Forest),  Breath Attack (Str 3, AP 2), Poison Attacks</string>
+					<key>Stats</key>
+					<string>Adv 8” • Mar 16” • Dis 8 • HP 5 • Def 4 • Res 5 • Arm 3 • Att 4 • Off 4 • Str 5 • AP 2 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Big Brother</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Special Rules</key>
+								<string>Health Points are set to 8, Base Size changed to 75x100mm.  Stomp Attacks are subject to Maximized Roll.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Uprooted Tree</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Beer Barrel</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Giant Club</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Beast Giant (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>300</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Giant See, Giant Do; Rage</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 8 • HP 7 • Def 3 • Res 5 • Arm 1 • Att 5 • Off 3 • Str 5 • AP 2 • Agi 3</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Ambush Predators</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.60000002384185791</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dark Gods' Might</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Change</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Lust</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Pestilence</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Wrath</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Raiders</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Destroyers</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Menagerie</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Clans' Thunder</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Engines of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Sunna's Fury</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Imperial Armoury</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elder Service</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Peacekeepers</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Ancient Allies</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Hail of the Gods</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Barrage</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Bound and Binders</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Airborne Gallantry</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Powder Keg</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Chained Beasts</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Death from Above</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Big 'n Nasty</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Jungle Guerillas</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Thunder Lizards</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Unseen Arrows</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fleet of Foot</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.44999998807907104</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Forest Giants</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Tunnel Gunners</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Built and Bred</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Ancient Ordnance</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Mason's Menagerie</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Entombed</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Suffering</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Swift Death</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Empowered</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>9thAge</string>
+</dict>
+</plist>

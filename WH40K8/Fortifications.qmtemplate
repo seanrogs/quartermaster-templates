@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Fortifications</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dedicated Transport</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Flyer</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortification</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Weapon Emplacement</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>icarus lascannon</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>quad-gun</string>
+											<key>Points</key>
+											<real>30</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•WS-•BS5+•S-•T7•W3•A-•Ld-•Sv4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>8</integer>
+					<key>Minimum Size</key>
+					<integer>8</integer>
+					<key>Name</key>
+					<string>Aegis Defence Line</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>75</real>
+					<key>Size</key>
+					<integer>8</integer>
+					<key>Special Rules</key>
+					<string>Static Defence Network; Immobile; Automated Weapon; Defence Line; UNALIGNED; AEGIS DEFENCE LINE; VEHICLE; GUN EMPLACEMENT</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>4 heavy bolter</string>
+								<key>Points</key>
+								<real>32</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>icarus lascannon</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>quad-gun</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Bastion</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>160</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; BASTION</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T9•W20•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>icarus lascannon</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>quad-gun</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Bunker</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; WALL OF MARTYR; BUNKER</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T8•W12•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>6</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Defence Line</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>85</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Static Defence Network;Stalwart Defence; Defence Line; UNALIGNED; WALL OF MARTYRS; DEFENCE LINE</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>punisher gatling cannon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>battle cannon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>quad icarus lascannon</string>
+								<key>Points</key>
+								<real>70</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>2</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Vengeance Weapon Batteries</string>
+					<key>Per Unit</key>
+					<false/>
+					<key>Points</key>
+					<real>80</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Fully Automated Weapon; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; WALL OF MARTYR; VENGEANCE WEAPON BATTERIES</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T8•W10•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>quad icarus lascannon</string>
+								<key>Points</key>
+								<real>70</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>punisher gatling cannon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>battle cannon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>quad icarus lascannon</string>
+								<key>Points</key>
+								<real>70</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>punisher gatling cannon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>battle cannon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Firestorm Redoubt</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>160</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; WALL OF MARTYRS; FIRESTORM REDOUBT</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T8•W20•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>plasma obliterator</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Plasma Obliterator</string>
+					<key>Points</key>
+					<real>150</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Plasma Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; PLASMA OBLITERATOR</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T9•W20•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>macro-cannon</string>
+								<key>Points</key>
+								<real>80</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>heavy bolter</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Macro-cannon Strongpoint</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>330</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; WALL OF MARTYRS; STRONGPOINT; MACRO-CANNON</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T10•W30•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>vortex missile battery</string>
+								<key>Points</key>
+								<real>100</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>heavy bolter</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Vortex Missile Strongpoint</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>330</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Containment Failure; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; WALL OF MARTYRS; STRONGPOINT; VORTEX MISSILE</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T10•W30•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>10-18+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Sv4+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>5-9</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Sv5+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>1-4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Sv6+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Void Shield Generator</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>190</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Projected Void Shield; UNALIGNED; BUILDING; VEHICLE; VOID SHIELD GENERATOR</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS5+•S-•T8•W10•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Skyshield Landing Pad</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Landing Pad Configuration; UNALIGNED; BUILDING; VEHICLE; SKYSHIELD LANDING PAD</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS-•S-•T8•W30•A-•Ld-•Sv4+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>21-30+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•BS5+•A-</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>11-20</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•BS6+•A-</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>1-10</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•BS7+•A-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>twin icarus lascannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>missile silo</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>heavy bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Fortress</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>400</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Immobile; Automated Weapon; Fire Point; Magazine Explosion; UNALIGNED; BUILDING; VEHICLE; TRANSPORT; FORTRESS</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS*•S-•T10•W30•A-•Ld-•Sv3+</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lord of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K8</string>
+</dict>
+</plist>

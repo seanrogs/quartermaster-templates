@@ -1,0 +1,5396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Iron Sultanate</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Sublime Gate Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Sword of Allah</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Pick any skill from the Melee and Strength Skills list</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Exotic Wares</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>This model can buy any weapon or armor from the New Antioch armory</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Janissary Training</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>During any activation in which this model Charged, it gains +1D to Hit with melee attacks.  It also ignores penalties to Hit for offhand attacks</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Güreş</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>This model ignores penalties to Actions while Down.  This model also gains +1D tp Hit and Injury rolls to Downed enemy models with melee attacks</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Rightfully Guided</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>At the beginning of the battle, pick an Action that is not a melee attack, ranged attack, and charge.  This model cannot be target, affect, or be damaged by that Action</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sublime Gate Skills</string>
+					<key>Name</key>
+					<string>Sultan’s Favor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>You can increase the limit of a non-Elite model by one</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Elite</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alchemical armor</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model gets -2 to Injury rolls, -1D to Injury for Fire/Gas attacks, doesn’t suffer the additional Blood Marker from Fire/Gas attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Cloak of Alamut</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model in cover gets -2D to Hit instead of -1D</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>holy relic</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points, Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model begins the battle with one Blessing Marker</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>binoculars</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Enemy models with Infiltrator can’t deploy within 16” of this Model</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Mubarizun</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Immune to Fear, +1D to Injury against Tough enemies</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Yüzbaşı Captain</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Yüzbaşı Captain</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Singular Name</key>
+					<string>1 XP - Yüzbaşı Captain</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate, Elite, Tough</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+2D•Melee+2D•Armor-0•Base32mm</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>XP</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>incendiary grenade</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Fire</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alchemical armor</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit:	 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model gets -2 to Injury rolls, -1D to Injury for Fire/Gas attacks, doesn’t suffer the additional Blood Marker from Fire/Gas attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Cloak of Alamut</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model in cover gets -2D to Hit instead of -1D</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>holy relic</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points, Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model begins the battle with one Blessing Marker</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>binoculars</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Enemy models with Infiltrator can’t deploy within 16” of this Model</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Mastery of the Elements</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>At the beginning of the battle, choose Shrapnel, Gas or Fire. All weapons equipped by this model gets the chosen keyword.  You can change this keyword mid-battle by succeeding a Risky Action at +1D</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Jabirean Alchemist</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Jabirean Alchemist</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Singular Name</key>
+					<string>1 XP - Jabirean Alchemist</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate, Elite</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+2D•Melee+1D•Armor-0•Base32mm</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>XP</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>assassin’s dagger</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>If the wielder causes a Blood Marker with this weapon, they can move out of combat without provoking opportunity attacks using their normal Move action or Dash action</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier +1 to Injury•Keywords .Critical</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alchemical armor</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model gets -2 to Injury rolls, -1D to Injury for Fire/Gas attacks, doesn’t suffer the additional Blood Marker from Fire/Gas attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Cloak of Alamut</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model in cover gets -2D to Hit instead of -1D</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>holy relic</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points, Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model begins the battle with one Blessing Marker</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>binoculars</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Enemy models with Infiltrator can’t deploy within 16” of this Model</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Time Slip</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>If an enemy model misses an attack on the Assassin, the Assassin can move to an unoccupied space up to 6” away and outside of 1” of enemy models.  This move does not trigger opportunity attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Temporal Assassin</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>After the Assassin makes a Charge Roll, but before it moves toward its target, you may instead choose to have the Assassin split itself through time if it has not already ; taken a Melee Attack Action this Activation. Choose up to two enemy models within the charging distance of the Assassin. Then, place the Assassin into base contact with each enemy model, one after the other. It may make a Melee Attack against each one with a single melee weapon that it is equipped with. After the attacks (and any resulting effects) have been resolved, place the Assassin at either location. The Assassin cannot make any further melee attacks during this Activation</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Sultanate Assassin</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Sultanate Assassin </string>
+					<key>Points</key>
+					<real>85</real>
+					<key>Singular Name</key>
+					<string>1 XP - Sultanate Assassin </string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate, Elite, Infiltrator</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+1D•Melee+2D•Armor-0•Base32mm</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>XP</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Infantry</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Skirmishers</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Elite</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Azeb</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Azeb</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Singular Name</key>
+					<string>1 XP - Azeb</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+0D•Melee-1D•Armor-0•Base25mm</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alaybozan</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>9</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier -•Keywords .Shrapnel </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Mine-Setting</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>As an Action with +2D, the Sapper can mine a piece of terrain they alone are touching, no bigger than 8” x 8” (an 8” section of trench, a wall, a tree, a building etc). If successful, the terrain piece is now mined. Any model (except the Sapper who set the mine) who moves into contact with the terrain piece will trigger the mine. Roll on the Injury Chart to see what happens to the model. The mine has the Keyword Shrapnel. After this, the terrain piece is no longer mined</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Demine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>As a Risky Action, the Sapper can disable any mine (see Scenarios) they move in contact with. If they fail, the mine blows causing damage as per the rules</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Forward Positions</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>When the Sapper is set up during standard deployment, it can be placed up to 6” away from its player’s Deployment Zone. If deployed in this way, it must be in contact with a piece of scenery. This ability cannot be used if playing a scenario that does not allow the use of Infiltrators</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fortify</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>During their Activation, a Sapper can take a Risky Action with +1D. If successful, the Sapper is considered to be in Cover until the model moves. This Action cannot be used if the model is in melee combat</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Elite</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Sultanate Sapper</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Sultanate Sapper</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Singular Name</key>
+					<string>1 XP - Sultanate Sapper</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+1D•Melee+0D•Armor-0•Base25mm</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1D to Injury rolls</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fierce</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>This model is not affected by Fear</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Artificial Body</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>-1D to Injury rolls</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Mauling</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>A Downed enemy model on 32mm or smaller base in melee combat with a Lion cannot Stand up</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lion’s Grace</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Grants +1D for Dash, Jump, Climb and Diving Charge actions</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Lion of Jabir</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Lion of Jabir</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Singular Name</key>
+					<string>1 XP - Lion of Jabir</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate</string>
+					<key>Stats</key>
+					<string>Movement8”•Ranged.N/A•Melee+1D•Armor-0•Base30x60/50mm </string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>grenade</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not hit directly get -1D to Injury</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Blast 2”, Shrapnel </string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Counter-Charge</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>If the first Action a Janissary makes during their Activation is a Charge, they can add +1D to their subsequent Melee Attack Action during this Activation</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Elite</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Janissary</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Janissary</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Singular Name</key>
+					<string>1 XP - Janissary </string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate, Strong</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+1D•Melee+1D•Armor-0•Base32mm</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>XP</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>MURAD Bombard</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Specify a point on the battlefield within 36” (must be in line of sight) that you want to target. Next, take a Ranged Attack Action. If the roll fails, the bomb lands 1” away from its intended location, multiplied by the number representing the degree of failure. The direction is decided by your opponent. All models within 3” of the landing 1x1mm landing spot are hit as the bomb explodes – no roll to hit is needed. If the bomb lands directly on top of any model, roll with 3D6 on the Injury Chart and add the dice together to see what happens! Other models hit by the bombard suffer a Down result due the booming shockwave, but do not incur any Blood Markers or other effects from this attack</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 36”•Modifier -•Keywords .Heavy, Blast 3”</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flame cannon</string>
+								<key>Points</key>
+								<real>60</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>When shot in ranged combat, draw a straight 12” line that is 1mm wide from the Brazen Bull. All models along the path of the line are automatically hit – roll for their injuries immediately. Armour does not protect against the Flame Cannon. Due to the Keyword Fire, its hits cause an additional +1 Blood Marker. This is applied after ; rolling for injuries</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”•Modifier -•Keywords .Heavy, Fire</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>titan zulfiquar</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier +2 to Injury•Keywords .Heavy, Critical </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Marid shovel</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Trample</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Once during its Activation, the Brazen Bull may make an extra ; Melee Attack Action against a Downed enemy model on a 32mm or smaller base. ; Resolve the attack as if the Brazen Bull was armed with a Trench Club. This attack ; ignores armour</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Artificial Body</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>-1D to Injury rolls</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Elite</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Melee and Strength Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Ranged Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Stealth and Speed Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Wildcard Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Sublime Gate Skills</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Injuries</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Brazen Bull</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Plural Name</key>
+					<string>XP - Brazen Bull</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Singular Name</key>
+					<string>1 XP - Brazen Bull</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Sultanate, Fear, Tough, Strong</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+0D•Melee+2D•Armor-0•Base60mm</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>XP</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Mercenaries</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords .Assault</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>trench shield</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Grants -1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Grants -1D to Hit to charging enemy models for the first round of melee combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>sword</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>pistol</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Can be used as an offhand attack in melee combat</string>
+											<key>Stats</key>
+											<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords .Critical</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>great sword</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Critical </string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Martial Prowess</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>No negative modifiers for offhand attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sworn Sword</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can form a Fireteam with another Elite model</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Arabian Destrier</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Unless the scenario prohibits use of the special deployment of Infiltrators, you may deploy the Mamluk on any table edge as long as they are at least 8” away from any enemy model after Infiltrators are deployed. Mamluks can also be deployed in your own deployment zone as standard</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Malmuk Farris</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>4 Glory Points</string>
+					<key>Stats</key>
+					<string>Movement6”•Ranged+1D•Melee+1D•Armor-2•Base32mm</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Guard Dog</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>No Infiltrator can be deployed within 12”.  You can charge any enemy within 4” of this dog even if it is out of sight</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Mercy Dog</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>The dog is equipped with a Medi-kit.  They also drag Downed models at half speed, either while moving or dashing</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Four Paws</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Dogs can do any Dash, Jump, or Diving Charge action with +1D.  They cannot climb sheer surfaces without help from another not-Dog model within 1”</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Trench Dog</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1 Glory Point</string>
+					<key>Stats</key>
+					<string>Movement8”•Ranged+0D•Melee+0D•Armor-0•Base25mm</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Glory Points</string>
+					<key>Plural Name</key>
+					<string>Glory Points</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Singular Name</key>
+					<string>Glory Point</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Glory Points</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Ducats</string>
+					<key>Plural Name</key>
+					<string>Ducats</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Singular Name</key>
+					<string>Ducat</string>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ducats</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>siege jezzail</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 30”•Modifier +1D to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musket</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>bayonet</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Stats</key>
+											<string>Type 2-handed•Range .Melee•Modifier -•Keywords .Cumbersome</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 18”•Modifier -1D to Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pistol</string>
+								<key>Points</key>
+								<real>6</real>
+								<key>Special Rules</key>
+								<string>Can be used as an offhand attack in melee combat</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”/Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alaybozan</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Add +1D to Injury rolls</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>9</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier -•Keywords .Shrapnel </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-1D to Injury</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 12”•Modifier +1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sniper rifle</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite or Janissary</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor on Critical</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 48”•Modifier +1D to Hit•Keywords .Risky, Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamethrower</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor, hits automatically</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 8”•Modifier -1D to Injury•Keywords .Fire</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>machine gun</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Makes three ranged attacks to up to three models within 6” of each other. The equipped model’s activation ends after using this gun</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier -•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>MURAD Bombard</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Specify a point on the battlefield within 36” (must be in line of sight) that you want to target. Next, take a Ranged Attack Action. If the roll fails, the bomb lands 1” away from its intended location, multiplied by the number representing the degree of failure. The direction is decided by your opponent. All models within 3” of the landing 1x1mm landing spot are hit as the bomb explodes – no roll to hit is needed. If the bomb lands directly on top of any model, roll with 3D6 on the Injury Chart and add the dice together to see what happens! Other models hit by the bombard suffer a Down result due the booming shockwave, but do not incur any Blood Markers or other effects from this attack</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 36”•Modifier -•Keywords .Heavy, Blast 3”</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flame cannon</string>
+								<key>Points</key>
+								<real>60</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>When shot in ranged combat, draw a straight 12” line that is 1mm wide from the Brazen Bull. All models along the path of the line are automatically hit – roll for their injuries immediately. Armour does not protect against the Flame Cannon. Due to the Keyword Fire, its hits cause an additional +1 Blood Marker. This is applied after ; rolling for injuries</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 12”•Modifier -•Keywords .Heavy, Fire</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Unarmed</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Can never be used as an offhand attack</string>
+								<key>Stats</key>
+								<string>Type .Special•Range .Melee•Modifier -1D to Hit/Injury•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>knife/dagger</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>trench club</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sword/axe</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -1D to Hit•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>polearm</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shield Combo</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier -1D to Hit for Chargers•Keywords .Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great hammer/maul</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1 to Injury•Keywords .Heavy</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great sword/axe</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Type 2-handed•Range .Melee•Modifier +1D to Injury•Keywords .Heavy, Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>halberd-gun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>alchemical ammunition</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>Grants +1D to Injury</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Charging enemy models suffer -1D to Hit during the first round of combat</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 24”/Melee•Modifier -•Keywords .Assault, Cumbersome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>assassin’s dagger</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>If the wielder causes a Blood Marker with this weapon, they can move out of combat without provoking opportunity attacks using their normal Move action or Dash action</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier +1 to Injury•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>titan zulfiquar</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier +2 to Injury•Keywords .Heavy, Critical </string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>standard armor</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>trench shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>-1 to Injury rolls, always takes one hand to wield in melee/ranged combat unless weapon has "Shield Combo"</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>reinforced armor</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite and Janissairy</string>
+								</array>
+								<key>Special Rules</key>
+								<string>-2 to Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>alchemical armor</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model gets -2 to Injury rolls, -1D to Injury for Fire/Gas attacks, doesn’t suffer the additional Blood Marker from Fire/Gas attacks</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>grenades</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Special Rules</key>
+								<string>Models not directly hit by grenade roll Injuries with -1D</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier +1D to Hit•Keywords .Assault, Shrapnel, Blast 2”</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>incendiary grenade</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>Ignores armor on a Critical Hit</string>
+								<key>Stats</key>
+								<string>Type .Grenade•Range 8”•Modifier -•Keywords .Assault, Fire</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>combat helmet</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Shrapnel</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>gas mask</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Ignore the Blood Markers caused by Gas, Gas attacks suffer -1D for Injury rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shovel</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>troop flag</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 Glory Point</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Morale rolls while model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>musical instrument</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for all Dash rolls for models within 4" while equipped model is not Down or Out of Action. Takes one hand in melee/ranged combat</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>mountaineer kit</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Limit: 2</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Grants +1D for any climbing Action rolls</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>medi-kit</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>Equipped model can take a Risky Action to remove a Blood Marker from itself or a friendly model within 1” or get a model that is Down up</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Cloak of Alamut</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model in cover gets -2D to Hit instead of -1D</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>wind amulet</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Equipped model can use this at beginning of Activation to gain +3” to their Movement Characteristic</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>holy relic</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points, Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Equipped model begins the battle with one Blessing Marker</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>binoculars</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Elite</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Enemy models with Infiltrator can’t deploy within 16” of this Model</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Marid shovel</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>A model deployed with a shovel always counts as in terrain until they move the first time. If the model has two hands free, they can use it as a trench club</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier -•Keywords -</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>sniper scope</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>This piece of equipment can be used with any rifle. Ranged attacks with the weapon ignore the penalties for Long Range</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>kilij</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points</string>
+								</array>
+								<key>Stats</key>
+								<string>Type 1-handed•Range .Melee•Modifier +1D to Injury•Keywords .Critical</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>RPG</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>2 Glory Points, Limit: 3</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores armor. If this attack hits its target, but does not take it Out of Action, the target is pushed 1D6” directly away from the attacker, stopping if they hit another model or solid piece of terrain. An RPG does not count towards the number of ranged weapons that a model can carry, but a model can still only carry one RPG. When shot, the activation of the model using the RPG ends</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier +1D to Injury•Keywords .Consumable </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>masterworks jezzail</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>4 Glory Points, Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>You can shoot at opponents in melee without having to randomise between friendly and enemy models. A Masterwork Jezzail is loaded with Alchemical Ammunition, so it has +1 DICE on all to hit rolls. If you roll greater than the required 7 on the Action Success Chart to hit, you can also hit another enemy model with it in distance equal to the number you beat the 7 by. Roll injuries separately for both models</string>
+								<key>Stats</key>
+								<string>Type 2-handed•Range 36”•Modifier +1D to Hit•Keywords .Critical </string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Damascus armor</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>5 Glory Points, Elite, Limit: 1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>This armour confers a -2 modifier to any injury rolls. This modifier applies even against attacks that ignore armour. It adds +1 to the Scars of the model. Only one model can ever wear this armour and it cannot be swapped for another model. Even if this armour is captured by the enemy, it cannot be worn by a model that does not have the Keyword SULTANATE</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>knighthood</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>5 Glory Points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>At the end of each battle, your warband gains an additional Glory Point</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>field hospital</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>10 Glory Points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>When an ELITE in your warband would gain a Battle Scar, you may attempt to negate that Scar. Roll 2D6. On a 7+, the Battle Scar is negated. If you roll double 1’s, the model suffers an additional Scar. Once you attempt to negate a Battle Scar, you cannot use the Field Hospital again until you complete another battle. You can only use a Field Hospital if your warband includes a Combat Medic or an Alchemist</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Sultanate grand cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>12 Glory Points, Brazen Bull only</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Ignores all armour. If this attack hits its target, but does not take it Out of Action, the target is pushed 1D6” directly away from the attacker, stopping if they hit another model or solid piece of terrain</string>
+								<key>Stats</key>
+								<string>Type 1-handed•Range 48”•Modifier +2D to Injury•Keywords .Heavy</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Armory</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sublime Gate</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Patron</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Reroll</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Reroll any Exploration dice once</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Extra Dice</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Roll one extra Exploration dice</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Duplicate</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>After you roll, select any Exploration dice and add another die with an identical result, including any modifiers</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Split</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Divide the result by two Into two separate rolls rounded up</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Set Dice</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Select a die and set its value to any number you want</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seek</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Modify a single die by +1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Circle Back</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Modify one die by -1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Combine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>After you roll, choose two dice and add them.  Discard them and treat them as a single Exploration roll</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lucky</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Roll an additional die and pair it with another die.  After you roll, choose one of the pair of dice and discard the other</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Exploration Skills</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>TrenchCrusade</string>
+	<key>Version</key>
+	<integer>20250202</integer>
+</dict>
+</plist>

@@ -1,0 +1,4204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Rebel</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Elite</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Astromech</string>
+			<key>Icon</key>
+			<string>glyphicons_280_wizard_hut</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Torpedoes</string>
+			<key>Icon</key>
+			<string>glyphicons_068_bullets</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Torpedoes</string>
+					<key>Name</key>
+					<string>Bomb Loadout</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Y-Wing</string>
+						<string>Limited</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Your upgrade bar gains the Bomb icon.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Missiles</string>
+			<key>Icon</key>
+			<string>glyphicons_287_bow_and_arrow</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Missiles</string>
+					<key>Name</key>
+					<string>Chardaan Refit</string>
+					<key>Points</key>
+					<real>-2</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>A-Wing</string>
+					</array>
+					<key>Special Rules</key>
+					<string>This card has a negative squad point cost.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Cannon</string>
+			<key>Icon</key>
+			<string>glyphicons_021_snowflake</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Turret</string>
+			<key>Icon</key>
+			<string>glyphicons_218_asterisk</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Bomb</string>
+			<key>Icon</key>
+			<string>glyphicons_065_bomb</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Crew</string>
+			<key>Icon</key>
+			<string>glyphicons_012_heart</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Baze Malbus</string>
+					<key>Points</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>After you perform an attack that does not hit, you may immediately perform a primary weapon attack against a different ship. You cannot perform another attack this round.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Bistan</string>
+					<key>Points</key>
+					<integer>2</integer>
+					<key>Special Rules</key>
+					<string>When attacking at Range 1-2, you may change 1 of your hit results to a critical result.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Bodhi Rook (Crew)</string>
+					<key>Points</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>When you acquire a target lock, you can lock onto an enemy ship at Range 1-3 of any friendly ship.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•C3PO</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>Once per round, before you roll 1 or more defense dice, you may guess aloud a number of Evade results. If you roll that many Evade results (before modifying dice), add 1 Evade result.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Carlist Rieekan</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Huge Ship</string>
+					</array>
+					<key>Special Rules</key>
+					<string>At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as "12" until the end of the phase.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Cassian Andor (Crew)</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship's bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Chewbacca (Crew)</string>
+					<key>Points</key>
+					<real>4</real>
+					<key>Special Rules</key>
+					<string>When you are dealt a Damage card, you may immediately discard that card and recover 1 shield. Then, discard this Upgrade card.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•"Chopper"</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Special Rules</key>
+					<string>You may perform actions even while you are stressed. After you perform an action while you are stressed, suffer 1 damage.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Dash Rendar (Crew)</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>You may perform attacks while overlapping an obstacle. Your attacks cannot be obstructed.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Ezra Bridger</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>When attacking, if you are stressed, you may change 1 of your Focus results to a Critical result.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Han Solo (Crew)</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your Focus results to Hit results.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Hera Syndulla</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Special Rules</key>
+					<string>You can reveal and execute red maneuvers even while you are stressed.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Jan Dodonna</string>
+					<key>Points</key>
+					<real>6</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Huge Ship</string>
+					</array>
+					<key>Special Rules</key>
+					<string>When another friendly ship at Range 1 is attacking, it may change 1 of its Hit results to a Critical result.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Jan Ors (Crew)</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign that ship an evade token instead.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Jyn Erso</string>
+					<key>Points</key>
+					<integer>2</integer>
+					<key>Special Rules</key>
+					<string>Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Kanan Jarrus</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Kyle Katarn (Crew)</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>After you remove a stress token from your ship, you may assign a focus token to your ship.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Lando Calrission (Crew)</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>Action: Roll 2 defense dice. For each Focus result, assign 1 focus token to your ship. For each Evade result, assign 1 evade token to your ship.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•"Leebo" (Crew)</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>Action: Perform a free boost action. Then receive 1 ion token.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Leia Organa</string>
+					<key>Points</key>
+					<real>4</real>
+					<key>Special Rules</key>
+					<string>At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Luke Skywalker</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Special Rules</key>
+					<string>After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You may change 1 Focus result to a Hit result. You cannot perform another attack this round.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Nien Nunb</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Special Rules</key>
+					<string>You may treat all Straight maneuvers as green maneuvers.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•R2-D2 (Crew)</string>
+					<key>Points</key>
+					<real>4</real>
+					<key>Special Rules</key>
+					<string>At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack dice. On a Hit result, randomly flip 1 of your facedown Damage cards face up and resolve it.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Raymus Antilles</string>
+					<key>Points</key>
+					<real>6</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Huge Ship</string>
+					</array>
+					<key>Special Rules</key>
+					<string>At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship's chosen maneuver. If the maneuver is white, assign that ship 1 stress token.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Sabine Wren</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Special Rules</key>
+					<string>Your upgrade bar gains the Bomb upgrade icon. Once per round, before a friendly bomb token is removed, choose 1 enemy ship at Range 1 of that token. That ship suffers 1 damage.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•Torun Farr</string>
+					<key>Points</key>
+					<real>6</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Huge Ship</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Action: Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Crew</string>
+					<key>Name</key>
+					<string>•"Zeb" Orrelios</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Special Rules</key>
+					<string>Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Salvaged Astromech</string>
+			<key>Icon</key>
+			<string>glyphicons_280_wizard_hut</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>System</string>
+			<key>Icon</key>
+			<string>glyphicons_205_electricity</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Modification</string>
+			<key>Icon</key>
+			<string>glyphicons_285_swords</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Modification</string>
+					<key>Name</key>
+					<string>B-Wing/E2</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>B-Wing</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Your upgrade bar gains the Crew upgrade icon.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Modification</string>
+					<key>Name</key>
+					<string>Combat Retrofit</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>GR-75</string>
+						<string>Huge Ship</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Increase your hull value by 2 and your shield value by 1.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Illicit</string>
+			<key>Icon</key>
+			<string>glyphicons_009_magic</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Cargo</string>
+			<key>Icon</key>
+			<string>glyphicons_281_treasure</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Cargo</string>
+					<key>Name</key>
+					<string>Expanded Cargo Hold</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>GR-75</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Hardpoint</string>
+			<key>Icon</key>
+			<string>glyphicons_283_shield</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Team</string>
+			<key>Icon</key>
+			<string>glyphicons_291_flag</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Tech</string>
+			<key>Icon</key>
+			<string>glyphicons_019_cogwheel</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Small Ships</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Biggs Darklighter</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Luke Skywalker</string>
+								<key>Points</key>
+								<real>28</real>
+								<key>Special Rules</key>
+								<string>When defending, you may change 1 of your Focus results to a Evade result.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Red Squadron Pilot</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Rookie Pilot</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Wedge Antilles</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Special Rules</key>
+								<string>When attacking, reduce the defender's agility value by 1 (to a minimum of "0").</string>
+								<key>Stats</key>
+								<string>Pilot Skill 9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Garven Dreis</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it).</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•"Hobbie" Klivian</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>When you acquire or spend a target lock, you may remove 1 stress token from your ship.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Jek Porkins</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>When you receive a stress token, you may remove it and roll 1 attack die. On a Hit result, deal 1 facedown Damage card to this ship..</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Tarn Mison</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Special Rules</key>
+								<string>When an enemy ship declares you as the target of an attack, you may acquire a target lock on that ship.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Wes Janson</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Special Rules</key>
+								<string>After you perform an attack, you may remove 1 focus, evade, or blue target lock token from the defender.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>X-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲3•➠2•▩3•⊛2</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•"Dutch" Vander</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Special Rules</key>
+								<string>After acquiring a target lock, choose another friendly ship at Range 1-2. The chosen ship may immediately acquire a target lock.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Gold Squadron Pilot</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Gray Squadron Pilot</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Horton Salm</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>When attacking at Range 2-3, you may reroll any of your blank results.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>BTL-A4 Y-Wing</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a Turret secondary weapon.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Y-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲2•➠1•▩5•⊛3</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Arvel Crynyd</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Special Rules</key>
+								<string>You may declare an enemy ship inside your firing arc that you are touching as the target of your attack.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Green Squadron Pilot</string>
+								<key>Points</key>
+								<real>19</real>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Prototype Pilot</string>
+								<key>Points</key>
+								<real>17</real>
+								<key>Stats</key>
+								<string>Pilot Skill 1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Tycho Celchu</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>you may perform actions even while you have stress tokens.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Gemmer Sojan</string>
+								<key>Points</key>
+								<real>22</real>
+								<key>Special Rules</key>
+								<string>While you are at Range 1 of at least 1 enemy ship, increase your agility value by 1.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Jake Farrell</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Special Rules</key>
+								<string>After you perform a focus action or are assigned a focus token, you may perform a free boost or barrel roll action.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>A-Wing Test Pilot</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>Your upgrade bar gains 1 Elite upgrade icon. You cannot equip 2 of the same Elite upgrade cards. You cannot equip this card if your pilot skill is "1" or lower.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>A-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock, Boost, Evade</string>
+					<key>Stats</key>
+					<string>⇲2•➠3•▩2•⊛2</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Blue Squadron Pilot</string>
+								<key>Points</key>
+								<real>22</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Dagger Squadron Pilot</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Ibtisam</string>
+								<key>Points</key>
+								<real>28</real>
+								<key>Special Rules</key>
+								<string>When attacking or defending, if you have at least 1 stress token, you may reroll 1 of your dice.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Keyan Farlander</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Special Rules</key>
+								<string>When attacking, you may remove 1 stress token to change all of your Focus results to Hit results.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Nera Dantels</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>You can perform Torpedo secondary weapon attacks against enemy ships outside your firing arc.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Ten Numb</string>
+								<key>Points</key>
+								<real>31</real>
+								<key>Special Rules</key>
+								<string>When attacking, 1 of your Critical results cannot be canceled by defense dice.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>B-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock, Barrel Roll</string>
+					<key>Stats</key>
+					<string>⇲3•➠1•▩3•⊛5</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Jan Ors</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Kyle Katarn</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Special Rules</key>
+								<string>At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Rebel Operative</string>
+								<key>Points</key>
+								<real>16</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Roark Garnet</string>
+								<key>Points</key>
+								<real>19</real>
+								<key>Special Rules</key>
+								<string>At the start of the Combat phase, choose 1 other friendly ship at Range 1-3. Until the end of the phase, treat that ship's pilot skill value as "12".</string>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Moldy Crow</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Special Rules</key>
+								<string>During the End phase, do not remove unused focus tokens from your ship.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>HWK-290</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲1•➠2•▩4•⊛1</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Blackmoon Squadron</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Corran Horn</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Special Rules</key>
+								<string>At the start of the End phase, you may perform one attack. You cannot attack during the next round.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Etahn A'baht</string>
+								<key>Points</key>
+								<real>32</real>
+								<key>Special Rules</key>
+								<string>When an enemy ship inside your firing arc at Range 1-3 is defending, the attacker may change 1 of its Hit results to a Critical result.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Knave Squadron</string>
+								<key>Points</key>
+								<real>27</real>
+								<key>Stats</key>
+								<string>Pilot Skill 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>E-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Evade, Barrel Roll, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲3•➠3•▩2•⊛3</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Airen Cracken</string>
+								<key>Points</key>
+								<real>19</real>
+								<key>Special Rules</key>
+								<string>After you perform an attack, you may choose another friendly ship at Range 1. That ship may perform 1 free action.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Bandit Squadron</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Lieutenant Blount</string>
+								<key>Points</key>
+								<real>17</real>
+								<key>Special Rules</key>
+								<string>When attacking, the defender is hit by your attack, even if he does not suffer any damage.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Tala Squadron</string>
+								<key>Points</key>
+								<real>13</real>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Z-95 Headhunter</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲2•➠2•▩2•⊛2</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Bomb</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Miranda Doni</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Special Rules</key>
+								<string>Once per round when attacking, you may either spend 1 shield to roll 1 additional attack die or roll 1 fewer attack die to recover 1 shield.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Bomb</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Esege Tuketu</string>
+								<key>Points</key>
+								<real>28</real>
+								<key>Special Rules</key>
+								<string>When another friendly ship at Range 1-2 is attacking, it may treat your focus tokens as its own.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Bomb</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Guardian Squadron Pilot</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Bomb</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Warden Squadron Pilot</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>K-Wing</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock, SLAM</string>
+					<key>Stats</key>
+					<string>⇲3•➠1•▩5•⊛4</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Hera Syndulla</string>
+								<key>Points</key>
+								<real>22</real>
+								<key>Special Rules</key>
+								<string>When you reveal a green or red maneuver, you may rotate your dial to another maneuver of the same difficulty.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Sabine Wren</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Special Rules</key>
+								<string>Immediately before you reveal your maneuver, you may perform a free boost or barrel roll action.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Ezra Bridger</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>When defending, if you are stressed, you may change up to 2 of your Focus results to Evade results.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•"Zeb" Orrelios</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Special Rules</key>
+								<string>When defending, you may cancel Critical results before Hit results.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Phantom</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>While you are docked, the Ghost can perform primary weapon attacks from its special firing arc and, at the end of the Combat phase, it may perform an additional attack with an equipped Turret. If it performs this attack, it cannot attack again this round.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Attack Shuttle</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Barrel Roll, Evade</string>
+					<key>Stats</key>
+					<string>⇲3•➠2•▩2•⊛2</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Norra Wexley</string>
+								<key>Points</key>
+								<real>29</real>
+								<key>Special Rules</key>
+								<string>When attacking or defending, you may spend a target lock you have on the enemy ship to add 1 Focus result to your roll.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Shara Bey</string>
+								<key>Points</key>
+								<real>28</real>
+								<key>Special Rules</key>
+								<string>When another friendly ship at Range 1-2 is attacking, it may treat your blue target lock tokens as its own.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Thane Kyrell</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>After an enemy ship inside your firing arc at Range 1-3 attacks another friendly ship, you may perform a free action.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Astromech</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Braylen Stramm</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>After you execute a maneuver, you may roll an attack die. On a hit or critical result, remove 1 stress token from your ship.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<integer>1</integer>
+								<key>Name</key>
+								<string>Alliance Overhaul</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>When attacking with a primary weapon from your primary firing arc, you may roll 1 additional attack die. When attacking from your auxiliary firing arc, you may change 1 of your Focus results to a Critical result.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>ARC-170</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲2•➠1•▩6•⊛3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Cassian Andor</string>
+								<key>Points</key>
+								<integer>27</integer>
+								<key>Special Rules</key>
+								<string>At the start of the Activation phase you may remove 1 stress token from 1 other friendly ship at Range 1-2.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 6</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Bodhi Rook</string>
+								<key>Points</key>
+								<integer>25</integer>
+								<key>Special Rules</key>
+								<string>When a friendly ship acquires a target lock, that ship can lock onto an enemy ship at Range 1-3 of any friendly ship.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<integer>1</integer>
+								<key>Name</key>
+								<string>•Heff Tobber</string>
+								<key>Points</key>
+								<integer>24</integer>
+								<key>Special Rules</key>
+								<string>After an enemy ship executes a manoeuvre that causes it to overlap your ship, you may perform a free action.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<integer>1</integer>
+								<key>Name</key>
+								<string>Blue Squadron Pathfinder</string>
+								<key>Points</key>
+								<integer>25</integer>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<integer>1</integer>
+								<key>Name</key>
+								<string>Pivot Wing</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>Dual Card</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>U-Wing</string>
+					<key>Points</key>
+					<integer>0</integer>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲3•➠1•▩4•⊛4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Large Ships</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Chewbacca</string>
+								<key>Points</key>
+								<real>42</real>
+								<key>Special Rules</key>
+								<string>When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability).</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Han Solo</string>
+								<key>Points</key>
+								<real>46</real>
+								<key>Special Rules</key>
+								<string>When attacking, you may reroll all of your dice. If you choose to do so, you must reroll as many of your dice as possible.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Lando Calrissian</string>
+								<key>Points</key>
+								<real>44</real>
+								<key>Special Rules</key>
+								<string>After you execute a green maneuver, choose 1 other friendly ship at Range 1. That ship may perform 1 free action shown on its action bar.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Outer Rim Smuggler</string>
+								<key>Points</key>
+								<real>27</real>
+								<key>Stats</key>
+								<string>Pilot Skill 1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Millennium Falcon</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Special Rules</key>
+								<string>Your action bar gains the Evade action icon.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Millennium Falcon (Heroes of the Resistance)</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Special Rules</key>
+								<string>After you execute a 3-speed bank maneuver, if you are not touching another ship and you are not stressed, you may receive 1 stress token to rotate your ship 180 degrees.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>YT-1300</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock</string>
+					<key>Stats</key>
+					<string>⇲3•➠1•▩8•⊛5</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•"Leebo"</string>
+								<key>Points</key>
+								<real>34</real>
+								<key>Special Rules</key>
+								<string>When you are dealt a faceup Damage card, draw 1 additional Damage card, choose 1 to resolve, and discard the other.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Elite</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Dash Rendar</string>
+								<key>Points</key>
+								<real>36</real>
+								<key>Special Rules</key>
+								<string>you may ignore obstacles during the Activation phase and when performing actions.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 7</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>•Eaden Vrill</string>
+								<key>Points</key>
+								<real>32</real>
+								<key>Special Rules</key>
+								<string>When performing a primary weapon attack against a stressed ship, roll 1 additional attack die.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cannon</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Missiles</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Wild Space Fringer</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Pilot Skill 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Outrider</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>While you have a Cannon upgrade card equipped, you cannot perform primary weapon attacks and you may perform Cannon secondary weapon attacks against ships outside your firing arc.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>YT-2400</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock, Barrel Roll</string>
+					<key>Stats</key>
+					<string>⇲2•➠2•▩5•⊛5</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Hera Syndulla</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Special Rules</key>
+								<string>When you reveal a red or green maneuver, you may rotate your dial to another maneuver of the same difficulty.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Kanan Jarrus</string>
+								<key>Points</key>
+								<real>38</real>
+								<key>Special Rules</key>
+								<string>When an enemy ship at Range 1-2 is attacking, you may spend a focus token. If you do, the attacker rolls 1 fewer attack die.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 5</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•"Chopper"</string>
+								<key>Points</key>
+								<real>37</real>
+								<key>Special Rules</key>
+								<string>At the start of the Combat phase, each enemy ship you are touching receives 1 stress token.</string>
+								<key>Stats</key>
+								<string>Pilot Skill 4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>System</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Turret</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Torpedoes</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lothal Rebel</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Ghost</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>Equip the Phantom title card to a friendly Attack Shuttle and dock it to this ship. After you execute a maneuver, you may deploy it from your rear guides.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>VCX-100</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Focus, Target Lock, Evade</string>
+					<key>Stats</key>
+					<string>⇲4•➠0•▩10•⊛6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Huge Ships</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>3</integer>
+										<key>Name</key>
+										<string>Cargo</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>GR-75 Medium Transport</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Pilot Skill 3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Bright Hope</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>✾+2 • A reinforce token assigned to your fore section adds 2 Evade results (instead of 1).</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Dutyfree</string>
+								<key>Points</key>
+								<real>2</real>
+								<key>Special Rules</key>
+								<string>✾+0 • When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2).</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Quantum Storm</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>✾+1 • At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>GR-75 Medium Transport</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Recover, Reinforce, Coordinate, Jam</string>
+					<key>Stats</key>
+					<string>✾4•➠0•▩8•⊛4</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Hardpoint</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>2</integer>
+										<key>Name</key>
+										<string>Team</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cargo</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>CR90 Corvette (Fore)</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Special Rules</key>
+								<string>Coordinate, Target Lock; When attacking with your primary weapon, you may spend 1 energy to roll 1 additional attack die.</string>
+								<key>Stats</key>
+								<string>⇲4[3-5]•➠0•▩8•⊛5</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Crew</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Hardpoint</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Team</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>1</integer>
+										<key>Name</key>
+										<string>Cargo</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>CR90 Corvette (Aft)</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Special Rules</key>
+								<string>Recover, Reinforce</string>
+								<key>Stats</key>
+								<string>✾5•➠0•▩8•⊛3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Dodonna's Pride</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Jainas's Light</string>
+								<key>Points</key>
+								<real>2</real>
+								<key>Special Rules</key>
+								<string>When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Tantive IV</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>Your fore section upgrade bar gains 1 additional Crew and 1 additional Team upgrade icon.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0</real>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Modification</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Other</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>CR90 Corvette</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Pilot Skill 4</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>X-Wing</string>
+</dict>
+</plist>

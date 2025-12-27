@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Code</key>
+	<string>Necromunda</string>
+	<key>Condition Sets</key>
+	<array>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Dead</string>
+					<key>Shrouded</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Critical Injury</string>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Captured</string>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>In Recovery</string>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Convalescence</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Wrecked</string>
+					<key>Shrouded</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Write-off</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>In Crew</string>
+					<key>Show In Breakdown</key>
+					<true/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Agility</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Catfall</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Clamber</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Dodge</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Mighty Leap</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Spring Up</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Agility</string>
+					<key>Name</key>
+					<string>Sprint</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Brawn</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Bull Charge</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Bulging Biceps</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Crushing Blow</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Headbutt</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Hurl</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Brawn</string>
+					<key>Name</key>
+					<string>Iron Jaw</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Combat</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Combat Master</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Counter-attack</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Disarm</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Parry</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Step Aside</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Rain of Blows</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Cunning</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Backstab</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Escape Artist</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Evade</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Infiltrate</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Lie Low</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Cunning</string>
+					<key>Name</key>
+					<string>Overwatch</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Driving</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>Jink</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>Expert Driver</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>Heavy Foot</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>Slalom</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>T-bone</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Driving</string>
+					<key>Name</key>
+					<string>Running Repairs</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Ferocity</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>Berserker</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>Impetuous</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>Fearsome</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>Nerves of Steel</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>True Grit</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ferocity</string>
+					<key>Name</key>
+					<string>Unstoppable</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Leadership</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Commanding Presence</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Inspirational</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Iron Will</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Mentor</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Overseer</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leadership</string>
+					<key>Name</key>
+					<string>Regroup</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shooting</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Fast Shot</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Gunfighter</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Hip Shooting</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Marksman</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Precision Shot</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Shooting</string>
+					<key>Name</key>
+					<string>Trick Shot</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Savant</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Ballistics Expert</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Connected</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Fixer</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Medicae</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Munitioneer</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Savant</string>
+					<key>Name</key>
+					<string>Savvy Trader</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Wyrd Powers</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Arachnosis (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Chameleon (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Cause Pain (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Stop Bleeding (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Quickening (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Iron Arm (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Biomancy - Warp Strength (Simple), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Chaos Cult Wyrd Powers</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Freeze Time (Double)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Suppress Power (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Zen Shootist (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Walk Through Walls (Double)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Mirror Image (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Chronomancy - Lucky Aura (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Precognition (Special)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Foreboding (Double), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Misfortune (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Forewarning (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Warp Whispers (Special)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Divination - Visions (Double), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Body of Flame (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Stoke Flames (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Wall of Flames (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Flame Blast (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Molten Bolt (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Pyromancy - Scouring (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Weapon Jinx (Simple)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Overcharge (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Hardening (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Manipulate Door (Simple)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Manipulate Lumens (Double)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Technomancy - Crack Lock (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Assail (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Crush (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Force Field (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Hailstorm (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Force Blast (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telekinesis - Levitation (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Mind Control (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Terrify (Double)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Invisibility (Double), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Mental Assault (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Hallucinations (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Unbreakable Will (Basic), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Maddening Visions (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Chaos Cult Wyrd Powers</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Hypnosis (Basic)</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Genestealer Cults Wyrd Powers</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Wyrd Powers</string>
+					<key>Name</key>
+					<string>Telepathy - Zealot (Double), Continuous Effect</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Genestealer Cults Wyrd Powers</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Malstrain Wyrd Powers</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>Catalyst</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Basic), Continuous Effect</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>Hypnotic Gaze</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Double)</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>The Horror</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Basic)</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>Leech Essence</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Basic)</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>Paroxysm</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Basic), Continuous Effect</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Malstrain Wyrd Powers</string>
+					<key>Name</key>
+					<string>Aura of Despair</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>(Basic), Continuous Effect</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Lookup</key>
+	<dict>
+		<key>Search Pattern</key>
+		<string>https://necroraw.ru/search/?q=%@</string>
+	</dict>
+	<key>Name</key>
+	<string>Necromunda</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Leader</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Champion</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Prospect</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Ganger</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Juve</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Crew</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Hanger-on</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Brute</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Hired Gun</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>Profiles</key>
+	<array>
+		<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld7+•Cl7+•Wil7+•Int7+</string>
+		<string>RngS:8"•RngL:24"•AccS:+1•AccL:-•S3•AP-•D1•Am4+</string>
+		<string>RngS:-•RngL:E•AccS:-•AccL:-•S:S•AP-•D1•Am-</string>
+		<string>RngS:E•RngL:5"•AccS:-•AccL:-1•S+1•AP-•D2•Am-</string>
+		<string>RngS:-•RngL:S×3•AccS:-•AccL:-•S3•AP-•D1•Am4+</string>
+	</array>
+	<key>Version</key>
+	<integer>20250125</integer>
+</dict>
+</plist>

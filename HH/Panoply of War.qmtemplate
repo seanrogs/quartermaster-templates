@@ -1,0 +1,5626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Panoply of War</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Relics of the Dark Age of Technology</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>2</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>6</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>4</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lords of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Super-heavy Command Tank</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>turret-mounted Baneblade cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>co-axial autocannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted Demolisher cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>turret-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>turret-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted combi-weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>melta</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>plasma</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>grenade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>volkite</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>flamer with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-laser</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted autocannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-melta</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Baneblade Super-heavy Tank</string>
+					<key>Points</key>
+					<real>535</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Super-heavy Command Tank</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted Tremor cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Banehammer Super-heavy Tank</string>
+					<key>Points</key>
+					<real>410</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy, Transport)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Super-heavy Command Tank</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted Vulcan mega-bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted combi-weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>melta</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>plasma</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>grenade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>volkite</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>flamer with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-laser</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-melta</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Stormlord Super-heavy Assault Tank</string>
+					<key>Points</key>
+					<real>490</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy, Transport)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Super-heavy Command Tank</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted Volcano cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>targeters (+1 BS)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted combi-weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>melta</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>plasma</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>grenade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>volkite</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>flamer with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-laser</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-melta</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Shadowsword Super-heavy Tank</string>
+					<key>Points</key>
+					<real>455</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Super-heavy Command Tank</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted Stormsword siege cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>targeters (+1 BS)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pair of side sponsons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>2 lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>twin-linked heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy bolters with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>twin-linked heavy flamers</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted combi-weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>melta</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>plasma</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>grenade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>volkite</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>flamer with chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-laser</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted multi-melta</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Stormsword Super-heavy Siege Tank</string>
+					<key>Points</key>
+					<real>485</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>turret-mounted Macharius battle cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy stubber</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy stubbers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Macharius Heavy Tank</string>
+					<key>Points</key>
+					<real>325</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>turret-mounted twin-linked Macharius Vanquisher cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy stubber</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy stubbers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Macharius Vanquisher</string>
+					<key>Points</key>
+					<real>375</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>turret-mounted Vulcan mega-bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy stubber</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy stubbers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Macharius Vulcan</string>
+					<key>Points</key>
+					<real>405</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy); Vulcan mega-bolter</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Omega pattern plasma blastgun</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted autocannon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Macharius Omega</string>
+					<key>Points</key>
+					<real>355</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy, Open-topped)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>front sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted autocannon</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted lascannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>side sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>side sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>side sponson-mounted autocannon</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>side sponson-mounted lascannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>extra armour (Side Armour 14)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>side sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Crassus Armoured Assault Transport</string>
+					<key>Points</key>
+					<real>250</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy, Transport); Overdrive</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Praetor launcher</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>front sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted autocannon</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted lascannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Praetor Armoured Assault Launcher</string>
+					<key>Points</key>
+					<real>300</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Space Marine Legion Crew</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>BS4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>triple-barrelled Dominus bombard</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>front sponson-mounted heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted heavy flamers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted autocannon</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted lascannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>front sponson-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted heavy stubber</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Dominus Armoured Siege Bombard</string>
+					<key>Points</key>
+					<real>280</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA14•SA13•RA12•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>nose-mounted twin-linked lascannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamers</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>12 heavy bombs</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>2 Hellstorm bombs</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>chaff launcher</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured cockpit</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>infra-red targeting</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>illum flares</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>distinctive paint schemes or markings</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>battle servitor control</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Marauder Bomber</string>
+					<key>Points</key>
+					<real>400</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Flyer, Super-heavy)</string>
+					<key>Stats</key>
+					<string>BS3•FA11•SA11•RA10•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>3 nose-mounted twin-linked autocannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>hull-mounted twin-linked heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Salamanders</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hull-mounted twin-linked assault cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>6 heavy bombs</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>chaff launcher</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>armoured cockpit</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>infra-red targeting</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>illum flares</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>distinctive paint schemes or markings</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>8 wing-mounted Hellstrike missiles</string>
+								<key>Points</key>
+								<real>80</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>battle servitor control</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Marauder Destroyer</string>
+					<key>Points</key>
+					<real>425</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Flyer, Super-heavy); Strafing Run</string>
+					<key>Stats</key>
+					<string>BS3•FA11•SA11•RA10•HP9</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>2 hull-mounted twin-linked autocannon</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>hull-mounted twin-linked lascannon</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>armoured cockpit</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>chaff launcher</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>4 wing-mounted Kinetic piercer missiles</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>4 wing-mounted Hellstrike missiles</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>4 wing-mounted Sunfury heavy missiles</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>ground-tracking auguries</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>flare shield</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>battle servitor control</string>
+										<key>Points</key>
+										<real>15</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>blessed autosimulacra</string>
+										<key>Points</key>
+										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Iron Hands</string>
+										</array>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<real>0.0</real>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Thunderbolt Heavy Fighter</string>
+							<key>Points</key>
+							<real>200</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (Flyer); Simulacra Repair; Supersonic; Deep Strike; Combat Interdiction</string>
+							<key>Stats</key>
+							<string>BS4•FA11•SA11•RA10•HP3</string>
+							<key>Upper Limit</key>
+							<real>-1</real>
+						</dict>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>hull-mounted Avenger bolt cannon</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>2 wing-mounted lascannon</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>armoured cockpit</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>defensive heavy stubber</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>6 wing-mounted tactical bombs</string>
+										<key>Points</key>
+										<real>40</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>2 wing-mounted Kraken penetrator heavy missiles</string>
+										<key>Points</key>
+										<real>25</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>2 wing-mounted missile launchers</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Default</key>
+													<true/>
+													<key>Equipped</key>
+													<true/>
+													<key>Name</key>
+													<string>frag &amp; krak missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>2 wing-mounted autocannon</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>2 wing-mounted multilasers</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>chaff launcher</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>infra-red targeting</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>battle servitor control</string>
+										<key>Points</key>
+										<real>15</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>blessed autosimulacra</string>
+										<key>Points</key>
+										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Iron Hands</string>
+										</array>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<real>0.0</real>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Crusade Fleet Avenger Strike Fighter</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (Flyer); Strafing Run; Deep Strike; Supersonic</string>
+							<key>Stats</key>
+							<string>BS3•FA12•SA10•RA10•HP2</string>
+							<key>Upper Limit</key>
+							<real>-1</real>
+						</dict>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Sub-orbital Strike Wing</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dual Earthshaker cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>searchlight</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>smoke launchers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>rear-facing flare shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>extra armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>anbaric claw</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>auxiliary drive</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>armoured ceramite</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy bolter</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted phased plasma-fusil</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>pintle-mounted Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Minotaur</string>
+					<key>Points</key>
+					<real>205</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Tank, Heavy); Indirect Fire; Special Configuration</string>
+					<key>Stats</key>
+					<string>BS4•FA13•SA12•RA13•HP5</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Questoris battlecannon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>heavy stubber</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>heavy stubber with bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>rapid-fire battlecannon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>heavy stubber</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>heavy stubber with bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy stubber</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted twin Icarus autocannon</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>carapace-mounted Stormspear rocket pod</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Paladin</string>
+					<key>Points</key>
+					<real>375</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>thermal cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy stubber</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted twin Icarus autocannon</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>carapace-mounted Stormspear rocket pod</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Errant</string>
+					<key>Points</key>
+					<real>370</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>lightning cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Hekaton siege claw</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>twin-linked rad cleanser</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>phased plasma-fusil</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ionic flare shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Magaera</string>
+					<key>Points</key>
+					<real>395</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker); Overtaxed Reactor</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I2•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Questoris-Avenger gatling cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy stubber</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>meltagun</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Thunderstrike gauntlet</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted twin Icarus autocannon</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>carapace-mounted Stormspear rocket pod</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Warden</string>
+					<key>Points</key>
+					<real>385</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Thunderstrike gauntlet</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy stubber</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>meltagun</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted twin Icarus autocannon</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>carapace-mounted Stormspear rocket pod</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Gallant</string>
+					<key>Points</key>
+					<real>335</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Questoris-Avenger gatling cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Questoris battlecannon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>heavy stubber</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>heavy stubber with bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>rapid-fire battlecannon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>heavy stubber</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>heavy stubber with bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>thermal cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>heavy flamer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>chem-munitions</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Death Guard</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Iliastus assault cannon</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Blood Angels</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy stubber</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bio-corrosive rounds</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>meltagun</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace-mounted twin Icarus autocannon</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>carapace-mounted Stormspear rocket pod</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Crusader</string>
+					<key>Points</key>
+					<real>435</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>volkite chieorovile</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Hekaton siege claw</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>twin-linked rad cleanser</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>graviton gun</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ionic flare shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Styrix</string>
+					<key>Points</key>
+					<real>405</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker); Overtaxed Reactor</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I2•A3•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>twin-linked siegebreaker cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>2 shieldbreaker missiles</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>volcano lance</string>
+								<key>Points</key>
+								<real>45</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>plasma decimator</string>
+								<key>Points</key>
+								<real>55</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>conflagration cannon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>thundercoil harpoon</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knight Dominus</string>
+					<key>Points</key>
+					<real>360</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA13•RA12•I3•A3•HP7</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Cerastus shock lance</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion gauntlet shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knight-Lancer</string>
+					<key>Points</key>
+					<real>400</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker); Flank Speed</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A4•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>twin-linked Castigator pattern bolt cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Tempest warblade</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knight-Castigator</string>
+					<key>Points</key>
+					<real>380</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker); Flank Speed</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A4•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Acheron pattern flame cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Reaper chainfist</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>twin-linked heavy bolter</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>twin-linked heavy bolter with shrapnel bolts</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Iron Warriors</string>
+											</array>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>twin-linked heavy flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Salamanders</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knight-Acheron</string>
+					<key>Points</key>
+					<real>415</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker); Flank Speed</string>
+					<key>Stats</key>
+					<string>WS4•BS4•S10•FA13•SA12•RA12•I4•A4•HP6</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>2 twin-linked magna lascannons</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>autocannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>irad-cleanser</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>lascannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Ironstorm missile pod</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Helios Defence missiles</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>ion shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>occular augmetics</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>blessed autosimulacra</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<real>0.0</real>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Acastus Knight-Porphyrion</string>
+					<key>Points</key>
+					<real>560</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (Super-heavy Walker)</string>
+					<key>Stats</key>
+					<string>WS4•BS5•S10•FA14•SA13•RA12•I3•A3•HP8</string>
+					<key>Upper Limit</key>
+					<real>-1</real>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortifications</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>HH</string>
+</dict>
+</plist>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Custodians</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>2</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>2</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>6</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<false/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shield-Captain</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Guardian Spear</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Sentinel Blade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Storm Shiels</string>
+											<key>Points</key>
+											<real>10</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Requires No Spear</string>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>60</real>
+								<key>Stats</key>
+								<string>WS5•BS5•S5•T5•W2•I5•A4•Ld10•Sv2+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Power knife</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>Guardian Spear</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>Sentinel Blade</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Custodes Vexilla </string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>Storm Shield</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Requires No Spear</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Custodians</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Adamantium Will; Bulky; Deep Strike; Fearless; Eternal Warrior</string>
+					<key>Stats</key>
+					<string>WS5•BS5•S5•T5•W2•I4•A3•Ld10•Sv2+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortifications</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lords of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Core Formations</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Auxiliary Formations</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Command Formations</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K7</string>
+</dict>
+</plist>

@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Code</key>
+	<string>Kill Team</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Leader</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Resourceful</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Bold</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Inspiring</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Paragon</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Bold</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Tyrant</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Bold</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Tactician</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Inspiring</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Leader</string>
+					<key>Name</key>
+					<string>Mentor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Inspiring</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Combat</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Expert Fighter</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Warrior Adept</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Deadly Counter</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Deathblow</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Warrior Adept</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Combat Master</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Warrior Adept</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Killer Instinct</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Deadly Counter</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Combat</string>
+					<key>Name</key>
+					<string>Bloodlust</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Deadly Counter</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Comms</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Scanner</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Expert</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Static Screech</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Vox Ghost</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Expert</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Command Relay</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Expert</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Triangulator</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Static Screech</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Comms</string>
+					<key>Name</key>
+					<string>Vox Hacker</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Static Screech</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Demolitions</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Breacher</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Pyromaniac</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Grenadier</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Saboteur</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Pyromaniac</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Sapper</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Pyromaniac</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Siege Master</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Grenadier</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Demolitions</string>
+					<key>Name</key>
+					<string>Ammo Hound</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Grenadier</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Heavy</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Relentless</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Suppressor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Extra Armour</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Devastator</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Suppressor</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Rigorous</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Suppressor</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Indomitable</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Extra Armour</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Heavy</string>
+					<key>Name</key>
+					<string>Heavily Muscled</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Extra Armour</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Medic</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Reassuring</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Field Medic</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Anatomist</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Trauma Specialist</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Field Medic</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Triage Expert</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Field Medic</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Interrogator</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Anatomist</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Medic</string>
+					<key>Name</key>
+					<string>Toxin Synthesiser</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Anatomist</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Scout</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Swift</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Forward Scout</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Pathfinder</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Skirmisher</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Forward Scout</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Vanguard</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Forward Scout</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Observer</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Pathfinder</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Scout</string>
+					<key>Name</key>
+					<string>Explorer</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Pathfinder</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Sniper</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Marksman</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Assassin</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Sharpshooter</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Deadeye</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Assassin</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Armour Piercing</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Assassin</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Mobile</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Sharpshooter</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Sniper</string>
+					<key>Name</key>
+					<string>Eagle-eye</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Sharpshooter</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Veteran</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Grizzled</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Practised</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Seen It All</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Survivor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Practised</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>One-man Army</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Practised</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Battle Scarred</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Seen It All</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Veteran</string>
+					<key>Name</key>
+					<string>Nerves of Steel</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Seen It All</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Zealot</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Frenzied</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Exultant</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Flagellant</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Puritan</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Exultant</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Rousing</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Exultant</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Fanatical</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Flagellant</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Zealot</string>
+					<key>Name</key>
+					<string>Strength of Spirit</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3, Flagellant</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Name</key>
+	<string>Warhammer 40,000: Kill Team</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Commander</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Leader</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Specialists</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>2</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troopers</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>Profiles</key>
+	<array>
+		<string>M6"•WS3+•BS3+•S4•T4•W1•A1•Ld7•Sv3+</string>
+		<string>Rng24"•S4•AP0•D1</string>
+		<string>Rng[Melee]•Str[User]•AP0•D1</string>
+	</array>
+</dict>
+</plist>

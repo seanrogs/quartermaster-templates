@@ -1,0 +1,5243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Legiones Astartes</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Formations</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Compulsory Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>HQ</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Legion Tactical Detachment</string>
+											</array>
+											<key>Special Rules</key>
+											<string>Legion Tactical Detachment</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Optional Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Bastion</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Transport</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Vanguard</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Light Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Air Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Artillery</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Battle Tank</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Heavy Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Legion Demi-Company</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Dedicated Transports; Heart of the Legion</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Compulsory Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>HQ</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Bastion</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Optional Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Bastion</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Air Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Artillery</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Heavy Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Artillery</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Legion Garrison Force</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Compulsory Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>2</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Battle Tank</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Heavy Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Optional Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Light Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Heavy Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Battle Tank</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Air Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Heavy Armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Legion Armoured Company</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Compulsory Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>HQ</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Legion Tactical Detachment</string>
+											</array>
+											<key>Special Rules</key>
+											<string>Legion Tactical Detachment</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Vanguard</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Optional Detachments</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Core</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>2</real>
+											<key>Name</key>
+											<string>Air Support</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Legion Aerial Assault</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Dedicated Transports; Aerial Assault</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Demi-company</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command Squad</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion combi-bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Commander, Inspire (8"), Invulnerable Save (6+), Master Tactician, Medicae</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+4•Mrl2+•W1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Legion Command</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>25</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Transport</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pintle-mounted twin-linked bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted havoc launcher</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pintle-mounted multi-melta</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Rhino Detachment</string>
+					<key>Plural Name</key>
+					<string>Rhinos </string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Singular Name</key>
+					<string>Rhino</string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Transport (2)</string>
+					<key>Stats</key>
+					<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Core</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Demi-company</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Tactical Legionaries</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv5"•Sv5+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>Tactical Legionaries upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>12</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Plasma Tactical Support Legionaries upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>plasma guns</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Mv5"•Sv5+•CAF+2•Mrl3+•W1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Missile Launcher Heavy Support Legionaries upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>missile launchers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Mv5"•Sv5+•CAF+2•Mrl3+•W1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Legion Terminators upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion combi-bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>Bulky, Deep Strike, Implacable, Invulnerable Save (6+), Steadfast</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+4•Mrl3+•W1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Assault Marines upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion bolt pistols</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>12</real>
+								<key>Special Rules</key>
+								<string>Independent, Jump Packs</string>
+								<key>Stats</key>
+								<string>Mv7"•Sv5+•CAF+3•Mrl3+•W1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Tactical Detachment</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Support Legionaries</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>plasma guns</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv5"•Sv5+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Plasma Gun Support Detachment</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Demi-company</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Support Legionaries</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>missile launchers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv5"•Sv5+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Missile Launcher Support Detachment</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Demi-company</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Assault Marines</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion bolt pistols</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Jump Packs</string>
+								<key>Stats</key>
+								<string>Mv7"•Sv5+•CAF+3•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Assault Detachment</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>-1</real>
+										<key>Name</key>
+										<string>pintle-mounted twin-linked bolter</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted havoc launcher</string>
+										<key>Points</key>
+										<real>2</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>pintle-mounted multi-melta</string>
+										<key>Points</key>
+										<real>4</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>-1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Rhino Detachment</string>
+							<key>Plural Name</key>
+							<string>Rhinos </string>
+							<key>Points</key>
+							<real>10</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Demi-company</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Rhino</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Transport (2)</string>
+							<key>Stats</key>
+							<string>Mv9"•Sv4+•CAF+0•Mrl3+•W1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Storm Eagle</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Storm Eagle heavy bolter</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Vengeance launcher</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Tempest rockets</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Wing Mounted lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>100</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>190</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Storm Eagle Squadron</string>
+							<key>Points</key>
+							<real>100</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Terminators</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Legion combi-bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Bulky, Deep Strike, Implacable, Invulnerable Save (6+), Steadfast</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+4•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Terminator Detachment</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Rapiers</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>laser destroyer array</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>quad launcher</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Bulky</string>
+								<key>Stats</key>
+								<string>Mv4"•Sv5+•CAF+1•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>60</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 6)</string>
+								<key>Points</key>
+								<real>90</real>
+								<key>Stats</key>
+								<string>Size: +6</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Rapier Battery Detachment</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 2</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Leviathan Dreadnoughts</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>Leviathan storm cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>cyclonic melta lance</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>twin-linked volkite calivers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Leviathan siege claws</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Armoured, Invulnerable Save (5+)</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+5•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>70</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Leviathan Siege Dreadnought Detachment</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Walker (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Thunderhawk Gunship</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>turbo-laser destructor</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk heavy bolters</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Thunderhawk lascannon</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Hellstrike missiles</string>
+													<key>Points</key>
+													<real>0.0</real>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+										<key>Stats</key>
+										<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 1)</string>
+										<key>Points</key>
+										<real>150</real>
+										<key>Stats</key>
+										<string>Size: +1</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>(Size increased by 2)</string>
+										<key>Points</key>
+										<real>280</real>
+										<key>Stats</key>
+										<string>Size: +2</string>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Legion Thunderhawk Gunship</string>
+							<key>Points</key>
+							<real>150</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Legion Aerial Assault</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Vehicle (2)</string>
+							<key>Stats</key>
+							<string>Size: 1</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Contemptor Dreadnoughts</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>Kheres assault cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>cyclonic melta lance</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>twin-linked volkite calivers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Leviathan siege claws</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Armoured, Invulnerable Save (6+)</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+5•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Contemptor Dreadnought upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Leviathan Dreadnought upgrade</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Size increase</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Size: +2</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>Leviathan storm cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>cyclonic melta lance</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>twin-linked volkite calivers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Leviathan siege claws</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>35</real>
+								<key>Special Rules</key>
+								<string>Armoured, Invulnerable Save (5+)</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+5•Mrl3+•W1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Dreadnought Talon</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Walker (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Bastion</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Tarantulas</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>Tarantula lascannon battery</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Hyperios air-defence missile launcher</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Automated Sentry</string>
+								<key>Stats</key>
+								<string>Mv-•Sv5+•CAF-3•Mrl-•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Tarantula Battery</string>
+					<key>Points</key>
+					<real>36</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Infantry (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Deredeo Dreadnoughts</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>8</real>
+											<key>Name</key>
+											<string>Hellfire plasma cannonade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Anvilus autocannon battery</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Aiolos missile launchers</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Sarcophagus Mounted weapons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Armoured, Invulnerable Save (5+), Tracking Array</string>
+								<key>Stats</key>
+								<string>Mv5"•Sv4+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>80</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Deredeo Dreadnought Detachment</string>
+					<key>Points</key>
+					<real>85</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Walker (1)</string>
+					<key>Stats</key>
+					<string>Size: 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Vanguard</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Artillery</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Battle Tank</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Predators</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>9</real>
+											<key>Name</key>
+											<string>Predator cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Predator lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>9</real>
+											<key>Name</key>
+											<string>Sponson Mounted heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sponson Mounted lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv9"•Sv3+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 3)</string>
+								<key>Points</key>
+								<real>95</real>
+								<key>Stats</key>
+								<string>Size: +3</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 6)</string>
+								<key>Points</key>
+								<real>185</real>
+								<key>Stats</key>
+								<string>Size: +6</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Predator Squadron</string>
+					<key>Points</key>
+					<real>115</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Sicarans</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Hull Mounted heavy bolter</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>6</real>
+											<key>Name</key>
+											<string>twin-linked accelerator autocannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Omega plasma array</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>6</real>
+											<key>Name</key>
+											<string>Sponson Mounted heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sponson Mounted lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv10"•Sv3+•CAF+2•Mrl3+•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>70</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>140</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Sicaran Squadron</string>
+					<key>Points</key>
+					<real>105</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 2</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Light Armour</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Armour</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Legion Kratos</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>6</real>
+											<key>Name</key>
+											<string>Kratos battlecannon with co-axial autocannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>melta blastgun with co-axial autocannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>6</real>
+											<key>Name</key>
+											<string>two Hull Mounted heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>two kratos lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>two kratos autocannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>6</real>
+											<key>Name</key>
+											<string>Sponson Mounted heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sponson Mounted lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Mv8"•Sv2+•CAF+3•Mrl3+•W2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>60</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>110</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 4)</string>
+								<key>Points</key>
+								<real>200</real>
+								<key>Stats</key>
+								<string>Size: +4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Kratos Squadron</string>
+					<key>Points</key>
+					<real>150</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 2</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Air Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Xiphon Interceptor</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Xiphon lascannon array</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Xiphon rotary missile launcher</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Flyer, Interceptor, Jink</string>
+								<key>Stats</key>
+								<string>Mv30"•Sv3+•CAF+0•Mrl-•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>85</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>160</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 3)</string>
+								<key>Points</key>
+								<real>215</real>
+								<key>Stats</key>
+								<string>Size: +3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Xiphon Interceptor Squadron</string>
+					<key>Points</key>
+					<real>95</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 1</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Storm Eagle</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Storm Eagle heavy bolter</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Vengeance launcher</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Tempest rockets</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Wing Mounted lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Assault Transport (5), Flyer, Hover, Jink (5+)</string>
+								<key>Stats</key>
+								<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>190</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Storm Eagle Squadron</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 1</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fire Raptor</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Avenger bolt cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Tempest rockets</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>quad heavy bolter batteries</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>lascannon batteries</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Gravis autocannon batteries</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Flyer, Hover, Jink (5+)</string>
+								<key>Stats</key>
+								<string>Mv25"•Sv3+•CAF+0•Mrl-•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>190</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Fire Raptor Squadron</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 1</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Thunderhawk Gunship</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>turbo-laser destructor</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Thunderhawk heavy bolters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Thunderhawk lascannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Hellstrike missiles</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Flyer, Hover, Jink (5+), Large Assault Transport (8)</string>
+								<key>Stats</key>
+								<string>Mv25"•Sv2+•CAF+0•Mrl-•W1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 1)</string>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Size: +1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>(Size increased by 2)</string>
+								<key>Points</key>
+								<real>280</real>
+								<key>Stats</key>
+								<string>Size: +2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Legion Thunderhawk Gunship</string>
+					<key>Points</key>
+					<real>150</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Vehicle (2)</string>
+					<key>Stats</key>
+					<string>Size: 1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Knight</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Titan</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>LI</string>
+</dict>
+</plist>

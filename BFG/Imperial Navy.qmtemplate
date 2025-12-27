@@ -1,0 +1,4353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Imperial Navy</string>
+	<key>Items</key>
+	<array/>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Capital Ships</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str6•Left, 60cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Furies</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Starhawks</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>20cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Sharks</string>
+											<key>Points</key>
+											<real>5</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>80</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>4 Squadrons, 4 Squadrons</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str5•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str5•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Emperor Class Battleship</string>
+					<key>Plural Name</key>
+					<string>Emperor Class Battleships</string>
+					<key>Points</key>
+					<real>365</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cannot Come to New Heading; +1 Leadership rating</string>
+					<key>Stats</key>
+					<string>Battleship/12•15cm•45°•Sh4•5+•Trt5</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str12•Left, 60cm•Str12•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str3•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str9•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Retribution Class Battleship</string>
+					<key>Plural Name</key>
+					<string>Retribution Class Battleship</string>
+					<key>Points</key>
+					<real>345</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cannot Come to New Heading</string>
+					<key>Stats</key>
+					<string>Battleship/12•20cm•45°•Sh4•6+Front/5+•Trt4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Left, 30cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow nova cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30-150cm•Str1•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str6•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Apocalypse Class Battleship</string>
+					<key>Plural Name</key>
+					<string>Apocalypse Class Battleships</string>
+					<key>Points</key>
+					<real>365</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cannot Come to New Heading; Lock On increases range of lances to 60cm but suffers Thrusters critical hit</string>
+					<key>Stats</key>
+					<string>Battleship/12•15cm•45°•Sh4•6+Front/5+•Trt4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Furies</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Starhawks</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>20cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Shark assault boats</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>2 Squadrons, 2 Squadrons</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str6•Left, 60cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str2•Left, 60cm•Str2•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str5•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str5•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Oberon Class Battleship</string>
+					<key>Plural Name</key>
+					<string>Oberon Class Battleships</string>
+					<key>Points</key>
+					<real>335</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cannot Come to New Heading; +1 Leadership rating</string>
+					<key>Stats</key>
+					<string>Battleship/12•15cm•45°•Sh4•5+•Trt5</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str2•Left, 45cm•Str2•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str10•Left, 60cm•Str10•Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Vengeance Class Grand Cruiser</string>
+					<key>Plural Name</key>
+					<string>Vengeance Class Grand Cruiser</string>
+					<key>Points</key>
+					<real>230</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Grand Cruiser/10•20cm•45°•Sh3•5+•Trt3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str16•Left, 30cm•Str16•Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Avenger Class Grand Cruiser</string>
+					<key>Plural Name</key>
+					<string>Avenger Class Grand Cruisers</string>
+					<key>Points</key>
+					<real>220</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Grand Cruiser/10•20cm•45°•Sh3•5+•Trt3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str8•Left, 45cm•Str8•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Furies</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Starhawks</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>20cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>2 Squadrons, 2 Squadrons</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Exorcist Class Grand Cruiser</string>
+					<key>Plural Name</key>
+					<string>Exorcist Class Grand Cruisers</string>
+					<key>Points</key>
+					<real>230</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Grand Cruiser/10•20cm•45°•Sh3•5+•Trt3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>targetting matrix</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Furies</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Starhawks</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>20cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>2 Squadrons, 2 Squadrons</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>port orbital mine bays, starboard orbital mine bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Orbital mines</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str6•Left, 45cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow nova cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30-150cm•Str1•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Mars Class Battlecruiser</string>
+					<key>Plural Name</key>
+					<string>Mars Class Battlecruisers</string>
+					<key>Points</key>
+					<real>270</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>turret array upgrade</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>Trt3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str8•Left, 60cm•Str8•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Overlord Class Battlecruiser</string>
+					<key>Plural Name</key>
+					<string>Overlord Class Battlecruisers</string>
+					<key>Points</key>
+					<real>235</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str2•Left, 45cm•Str2•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str6•Left, 45cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>dorsal lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>60cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Armageddon Class Battlecruiser</string>
+					<key>Plural Name</key>
+					<string>Armageddon Class Battlecruisers</string>
+					<key>Points</key>
+					<real>245</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left, 30cm•Str2•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Left, 30cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>prow nova cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Stats</key>
+								<string>30-150cm•Str1•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Lunar Class Cruiser</string>
+					<key>Plural Name</key>
+					<string>Lunar Class Cruiser</string>
+					<key>Points</key>
+					<real>180</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>45cm•Str4•Left, 45cm•Str4•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Left, 30cm•Str6•Right</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>(45cm) port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>45cm•Str6•Left, 45cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>prow nova cannon</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Stats</key>
+								<string>30-150cm•Str1•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Tyrant Class Cruiser</string>
+					<key>Plural Name</key>
+					<string>Tyrant Class Cruisers</string>
+					<key>Points</key>
+					<real>185</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str12•Left, 30cm•Str12•Right</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>(reduced) port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>-5</real>
+								<key>Stats</key>
+								<string>45cm•Str6•Left, 45cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow nova cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30-150cm•Str1•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Dominator Class Cruiser</string>
+					<key>Plural Name</key>
+					<string>Dominator Class Cruisers</string>
+					<key>Points</key>
+					<real>190</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str4•Left, 30cm•Str4•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Gothic Class Cruiser</string>
+					<key>Plural Name</key>
+					<string>Gothic Class Cruisers</string>
+					<key>Points</key>
+					<real>180</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Furies</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>30cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Starhawks</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>20cm</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>2 Squadrons, 2 Squadrons</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>port orbital mine bays, starboard orbital mine bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Orbital mines</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Left, 30cm•Str6•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Dictator Class Cruiser</string>
+					<key>Plural Name</key>
+					<string>Dictator Class Cruisers</string>
+					<key>Points</key>
+					<real>220</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cruiser/8•20cm•45°•Sh2•6+Front/5+•Trt3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str4•Left, 30cm•Str4•Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>prow lances</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str3•Front</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Dauntless Class Light Cruiser</string>
+					<key>Plural Name</key>
+					<string>Dauntless Class Light Cruisers</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Improved thrusters</string>
+					<key>Stats</key>
+					<string>Cruiser/6•25cm•90°•Sh1•5+•Trt1</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port weapons battery, starboard weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str6•Left, 30cm•Str6•Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Endeavour Class Light Cruiser</string>
+					<key>Plural Name</key>
+					<string>Endeavour Class Light Cruisers</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>+1 to defend against boarding actions</string>
+					<key>Stats</key>
+					<string>Cruiser/6•20cm•90°•Sh1•5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port lance battery, starboard lance battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left, 30cm•Str2•Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Endurance Class Light Cruiser</string>
+					<key>Plural Name</key>
+					<string>Endurance Class Light Cruisers</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>+1 to defend against boarding actions</string>
+					<key>Stats</key>
+					<string>Cruiser/6•20cm•90°•Sh1•5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedoes</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>special torpedoes</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>port launch bays, starboard launch bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Torpedo bombers</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•1 Squadron, 30cm•1 Squadron</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>port orbital mine bays, starboard orbital mine bays</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Orbital mines</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Defiant Class Light Cruiser</string>
+					<key>Plural Name</key>
+					<string>Defiant Class Light Cruisers</string>
+					<key>Points</key>
+					<real>130</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>+1 to defend against boarding actions</string>
+					<key>Stats</key>
+					<string>Cruiser/6•20cm•90°•Sh1•5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Escorts</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str4•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Sword Class Frigate</string>
+					<key>Plural Name</key>
+					<string>Sword Class Frigates</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Escort/1•25cm•90°•Sh1•5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow lance</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str1•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Left/Front/Right</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Firestorm Class Frigate</string>
+					<key>Plural Name</key>
+					<string>Firestorm Class Frigates</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Escort/1•25cm•90°•Sh1•5+•Trt2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedos</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str2•Front</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str1•Left/Front/Right</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>long-range detection gear</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Cobra Class Destroyer</string>
+					<key>Plural Name</key>
+					<string>Cobra Class Destroyers</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Escort/1•30cm•90°•Sh1•4+•Trt1</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Fleet-Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>Ld8</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>100</real>
+								<key>Stats</key>
+								<string>Ld9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Solar Admiral</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>one extra re-roll</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>two extra re-roll</string>
+											<key>Points</key>
+											<real>75</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>three extra re-roll</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>150</real>
+								<key>Stats</key>
+								<string>Ld10</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow weapons battery</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str3•Left/Front/Right</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>prow torpedos</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>30cm•Str1•Front</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Falchion Class Escort</string>
+					<key>Plural Name</key>
+					<string>Falchion Class Escorts</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Escort/1•25cm•90°•Sh1•5+•Trt1</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>BFG</string>
+	<key>Version</key>
+	<date>2015-10-20T10:17:23Z</date>
+</dict>
+</plist>

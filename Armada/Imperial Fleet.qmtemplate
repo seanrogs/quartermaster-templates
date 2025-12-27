@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Imperial Fleet</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Commander</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Commander</string>
+					<key>Name</key>
+					<string>•Grand Moff Tarkin</string>
+					<key>Points</key>
+					<real>38</real>
+					<key>Special Rules</key>
+					<string>At the start of each Ship Phase, you may choose 1 command. Each friendly ship gains a command token matching that command.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Commander</string>
+					<key>Name</key>
+					<string>•Admiral Motti</string>
+					<key>Points</key>
+					<real>24</real>
+					<key>Special Rules</key>
+					<string>The hull value of each friendly ship is increased according to its size class: Small ship: 1; Medium ship: 2; Large ship: 3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Commander</string>
+					<key>Name</key>
+					<string>•Darth Vader</string>
+					<key>Points</key>
+					<real>36</real>
+					<key>Special Rules</key>
+					<string>While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Commander</string>
+					<key>Name</key>
+					<string>•Admiral Ozzel</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>When a friendly ship resolves a [Navigate] command, it may change its speed by an additional 1.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Officer</string>
+			<key>Icon</key>
+			<string>glyphicons_218_asterisk</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Officer</string>
+					<key>Name</key>
+					<string>•Wulff Yularen</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Special Rules</key>
+					<string>When you spend a command token, you may exhaust this card to gain 1 command token of the same type.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Officer</string>
+					<key>Name</key>
+					<string>•Director Isard</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Special Rules</key>
+					<string>When you reveal a command, you may look at all command dials assigned to 1 enemy ship.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Officer</string>
+					<key>Name</key>
+					<string>•Admiral Montferrat</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>While defending against a ship, if your speed is 3 or higher, the attack is treated as obstructed. After you execute a maneuver, if you overlapped a ship, discard this card.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Weapons Team</string>
+			<key>Icon</key>
+			<string>glyphicons_285_swords</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Support Team</string>
+			<key>Icon</key>
+			<string>glyphicons_291_flag</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Offensive Retrofit</string>
+			<key>Icon</key>
+			<string>glyphicons_068_bullets</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Defensive Retrofit</string>
+			<key>Icon</key>
+			<string>glyphicons_283_shield</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Turbolasers</string>
+			<key>Icon</key>
+			<string>glyphicons_009_magic</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Ion Cannons</string>
+			<key>Icon</key>
+			<string>glyphicons_205_electricity</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Ordnance</string>
+			<key>Icon</key>
+			<string>glyphicons_065_bomb</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Large Ships</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Avenger</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>While attacking, the defender cannot spend exhausted defense tokens.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Devastator</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Relentless</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Special Rules</key>
+								<string>The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇◇Blue◇◇Black◇◇◇•⊛4</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Black◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇Blue◇◇•⊛2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ion Cannons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Turbolasers</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Imperial I-class Star Destroyer</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Brace, Redirect, Redirect, Contain</string>
+					<key>Stats</key>
+					<string>▩11•✹Black◇Blue◇•COM3•SQU4•ENG4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Avenger</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>While attacking, the defender cannot spend exhausted defense tokens.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Devastator</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Relentless</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Special Rules</key>
+								<string>The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇◇◇Blue◇◇◇◇•⊛4</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Blue◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇Blue◇◇•⊛2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Defensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ion Cannons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Turbolasers</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Imperial II-class Star Destroyer</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Brace, Redirect, Redirect, Contain</string>
+					<key>Stats</key>
+					<string>▩11•✹Blue◇◇•COM3•SQU4•ENG4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Medium Ships</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Dominator</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Special Rules</key>
+								<string>While attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add the same number of blue dice to your attack pool.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Corrupter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>[Squadron]: The speed of each squadron with Bomber you activate is increased by 1 until the end of its activation.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Warlord</string>
+								<key>Points</key>
+								<real>8</real>
+								<key>Special Rules</key>
+								<string>While attacking you may rotate 1 die face with an [Accuracy] icon to a face with a [Hit] icon.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇◇Black◇◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Black◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇•⊛1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ordnance</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Turbolasers</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Victory I-class Star Destroyer</string>
+					<key>Points</key>
+					<real>73</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Brace, Redirect, Redirect</string>
+					<key>Stats</key>
+					<string>▩8•✹Blue◇•COM3•SQU3•ENG4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Dominator</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Special Rules</key>
+								<string>While attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add the same number of blue dice to your attack pool.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Corrupter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Special Rules</key>
+								<string>[Squadron]: The speed of each squadron with Bomber you activate is increased by 1 until the end of its activation.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Warlord</string>
+								<key>Points</key>
+								<real>8</real>
+								<key>Special Rules</key>
+								<string>While attacking you may rotate 1 die face with an [Accuracy] icon to a face with a [Hit] icon.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇◇Blue◇◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Blue◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇•⊛1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ion Cannons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Turbolasers</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Victory II-class Star Destroyer</string>
+					<key>Points</key>
+					<real>85</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Brace, Redirect, Redirect</string>
+					<key>Stats</key>
+					<string>▩8•✹Blue◇•COM3•SQU3•ENG4</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Small Ships</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Demolisher</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>During your activation, you can perform 1 of your attacks after you execute a maneuver.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Insidious</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Special Rules</key>
+								<string>The black dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Black◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Black◇◇◇◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇Black◇•⊛1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Support Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ordnance</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Gladiator I-class Star Destroyer</string>
+					<key>Points</key>
+					<real>56</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Evade, Brace, Redirect</string>
+					<key>Stats</key>
+					<string>▩5•✹Blue◇•COM2•SQU2•ENG3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Demolisher</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>During your activation, you can perform 1 of your attacks after you execute a maneuver.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Insidious</string>
+								<key>Points</key>
+								<real>3</real>
+								<key>Special Rules</key>
+								<string>The black dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇◇Black◇◇•⊛3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇Black◇◇◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Red◇Black◇•⊛1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Support Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ordnance</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Gladiator II-class Star Destroyer</string>
+					<key>Points</key>
+					<real>56</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Evade, Brace, Redirect</string>
+					<key>Stats</key>
+					<string>▩5•✹Blue◇◇•COM2•SQU2•ENG3</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Impetuous</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>At the end of your Attack Step, choose 1 of your hull zones. You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Instigator</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇◇Black◇◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇Black◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇•⊛2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ordnance</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Raider I-class Corvette</string>
+					<key>Points</key>
+					<real>44</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Evade, Evade, Brace</string>
+					<key>Stats</key>
+					<string>▩4•✹Black◇◇•COM1•SQU1•ENG2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Commander</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flagship</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>•Impetuous</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>At the end of your Attack Step, choose 1 of your hull zones. You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round.</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Instigator</string>
+								<key>Points</key>
+								<real>4</real>
+								<key>Special Rules</key>
+								<string>Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Front</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇◇◇Black◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Left/Right</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇Black◇•⊛2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rear</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Blue◇•⊛2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Officer</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Weapons Team</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Offensive Retrofit</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Ion Cannons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Raider II-class Corvette</string>
+					<key>Points</key>
+					<real>48</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Evade, Evade, Brace</string>
+					<key>Stats</key>
+					<string>▩4•✹Blue◇Black◇•COM1•SQU1•ENG2</string>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Squadrons</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>TIE Fighter Squadron</string>
+								<key>Points</key>
+								<real>8</real>
+								<key>Special Rules</key>
+								<string>Swarm</string>
+								<key>Stats</key>
+								<string>➠4•▩3•✹Blue◇◇◇•✼Blue◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•"Howlrunner"</string>
+								<key>Points</key>
+								<real>16</real>
+								<key>Special Rules</key>
+								<string>Swarm; Brace, Scatter; While another friendly squadron with Swarm at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.</string>
+								<key>Stats</key>
+								<string>➠4•▩3•✹Blue◇◇◇•✼Blue◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•"Mauler" Mithel</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>Swarm; Brace, Scatter; After you move, each squadron engaged with you suffers 1 damage.</string>
+								<key>Stats</key>
+								<string>➠4•▩3•✹Blue◇◇◇•✼Blue◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>TIE Fighter Squadron</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>TIE Advanced Squadron</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Special Rules</key>
+								<string>Escort</string>
+								<key>Stats</key>
+								<string>➠4•▩5•✹Blue◇◇◇•✼Black◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Darth Vader</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Special Rules</key>
+								<string>Escort; Brace, Brace; While attacking, each of your [Critical] icons adds 1 damage to the damage total.</string>
+								<key>Stats</key>
+								<string>➠4•▩5•✹Blue◇◇◇Black◇•✼Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>TIE Advanced Squadron</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>TIE Interceptor Squadron</string>
+								<key>Points</key>
+								<real>11</real>
+								<key>Special Rules</key>
+								<string>Counter 2, Swarm</string>
+								<key>Stats</key>
+								<string>➠5•▩3•✹Blue◇◇◇◇•✼Blue◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Soontir Fel</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Special Rules</key>
+								<string>Counter 2, Swarm; Brace, Scatter; After a squadron you are engaged with performs a non-Counter attack, it suffers 1 damage if it did not attack you.</string>
+								<key>Stats</key>
+								<string>➠5•▩3•✹Blue◇◇◇◇•✼Blue◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>TIE Interceptor Squadron</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>TIE Bomber Squadron</string>
+								<key>Points</key>
+								<real>9</real>
+								<key>Special Rules</key>
+								<string>Bomber, Heavy</string>
+								<key>Stats</key>
+								<string>➠4•▩5•✹Black◇•✼Black◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Major Rhymer</string>
+								<key>Points</key>
+								<real>16</real>
+								<key>Special Rules</key>
+								<string>Bomber, Heavy; Brace, Brace; Friendly squadrons at distance 1 can attack enemy ships at close-medium range using all dice in their battery armament.</string>
+								<key>Stats</key>
+								<string>➠4•▩5•✹Blue◇Black◇•✼Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>TIE Bomber Squadron</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Firespray-31</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Special Rules</key>
+								<string>Bomber, Rogue</string>
+								<key>Stats</key>
+								<string>➠3•▩6•✹Blue◇◇◇•✼Blue◇◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Boba Fett, Slave I</string>
+								<key>Points</key>
+								<real>26</real>
+								<key>Special Rules</key>
+								<string>Bomber, Rogue; Brace, Brace; When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.</string>
+								<key>Stats</key>
+								<string>➠3•▩6•✹Blue◇◇◇◇•✼Blue◇Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Firespray-31</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>YV-666</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Special Rules</key>
+								<string>Grit, Heavy, Rogue</string>
+								<key>Stats</key>
+								<string>➠2•▩7•✹Blue◇◇Black◇◇•✼Blue◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Bossk, Hound's Tooth</string>
+								<key>Points</key>
+								<real>23</real>
+								<key>Special Rules</key>
+								<string>Grit, Rogue; Brace; While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the [Accuracy] icon to your attack pool.</string>
+								<key>Stats</key>
+								<string>➠3•▩7•✹Black◇◇◇◇•✼Blue◇Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>YV-666</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Aggressor</string>
+								<key>Points</key>
+								<real>16</real>
+								<key>Special Rules</key>
+								<string>Counter 1, Rogue</string>
+								<key>Stats</key>
+								<string>➠3•▩5•✹Blue◇◇◇◇•✼Black◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•IG-88, IG-2000</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Special Rules</key>
+								<string>Counter 2, Rogue; Scatter; You ignore the Escort and Counter keywords on enemy squadrons.</string>
+								<key>Stats</key>
+								<string>➠5•▩5•✹Blue◇◇◇◇•✼Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Aggressor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>1</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>JumpMaster 5000</string>
+								<key>Points</key>
+								<real>12</real>
+								<key>Special Rules</key>
+								<string>Intel, Swarm</string>
+								<key>Stats</key>
+								<string>➠4•▩4•✹Blue◇◇•✼Blue◇</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>•Dengar, Punishing One</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Special Rules</key>
+								<string>Intel, Swarm; Brace, Scatter; While another friendly squadron is at distance 1–2, it has Counter 1 or increases its Counter value by 1.</string>
+								<key>Stats</key>
+								<string>➠4•▩4•✹Blue◇◇◇•✼Black◇</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>JumpMaster 5000</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>33</integer>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>Armada</string>
+	<key>Version</key>
+	<date>2015-12-13T01:34:44Z</date>
+</dict>
+</plist>

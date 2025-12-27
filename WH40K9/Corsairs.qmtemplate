@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Corsairs</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Battle Size</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Combat Patrol</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Up to 50 PL / Up to 500 points / 1 Detachment</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Incursion</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>51-100 PL / 501-1000 points / 1-2 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Strike Force</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>101-200 PL / 1001-2000 points / 1-3 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>12</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Onslaught</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>201-300 PL / 2001-3000 points / 1-4 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>18</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Detachments</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Corsair Patrol Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>AELDARI Warlord</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1-3 Troops, 0-2 Fast Attack, 0-2 Heavy Support, 0-1 Dedicated Transport for each INFANTRY unit</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-2</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Corsair Battalion Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>AELDARI Warlord</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>3-6 Troops, 0-3 Fast Attack, 0-3 Heavy Support, 0-1 Dedicated Transport for each INFANTRY unit</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Corsair Outrider Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>AELDARI Warlord</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>0-3 Troops, 3-6 Fast Attack, 0-2 Heavy Support, 0-1 Dedicated Transport for each INFANTRY unit</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Auxiliary Support Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1 HQ or 1 Troops or 1 Elites or 1 Fast Attack or 1 Heavy Support or 1 Flyer or 1 Dedicated Transport</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-2</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Corsair Reaver Felarch</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>void sabre</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>dissonance pistol</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M8"•WS3+•BS3+•S3•T3•W1•A2•Ld7•Sv5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>5</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>lasblaster</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shuriken catapult</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shardcarbine</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>spar-glaive</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>special weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>shredder</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>blaster</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>fusion gun</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Aeldari missile launcher</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>shuriken cannon</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>dark lance</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>splinter cannon</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 in every 5 models</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>brace of pistols</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>sunburst grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>15</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Corsair Reaver Band</string>
+					<key>Plural Name</key>
+					<string>Corsair Reavers</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Corsairs; Reckless Abandon; Dancing on the Blade’s Edge; AELDARI, ANHRATHE, &lt;COTERIE&gt;; INFANTRY, CORSAIR REAVER BAND</string>
+					<key>Stats</key>
+					<string>M8"•WS3+•BS3+•S3•T3•W1•A1•Ld6•Sv5+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>6</integer>
+								<key>Upper</key>
+								<integer>10</integer>
+							</dict>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>8</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>11</integer>
+								<key>Upper</key>
+								<integer>15</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Corsair Skyreaver Felarch</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>void sabre</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>dissonance pistol</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M16"•WS3+•BS3+•S3•T3•W1•A2•Ld7•Sv5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>5</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>lasblaster</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shuriken catapult</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shardcarbine</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>spar-glaive</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>special weapon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>shredder</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>blaster</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>fusion gun</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Aeldari missile launcher</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>shuriken cannon</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>dark lance</string>
+											<key>Points</key>
+											<real>15</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>splinter cannon</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>1 in every 5 models</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>brace of pistols</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>sunburst grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Corsair Skyreaver Band</string>
+					<key>Plural Name</key>
+					<string>Corsair Skyreavers</string>
+					<key>Points</key>
+					<real>13</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Corsairs; Reckless Abandon; Dancing on the Blade’s Edge; AELDARI, ANHRATHE, &lt;COTERIE&gt;; INFANTRY, JET PACK, FLY, CORSAIR SKYREAVER BAND</string>
+					<key>Stats</key>
+					<string>M16"•WS3+•BS3+•S3•T3•W1•A1•Ld6•Sv5+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>6</integer>
+								<key>Upper</key>
+								<integer>10</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Corsair Cloud Dancer Felarch</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>void sabre</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>dissonance pistol</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M18"•WS3+•BS3+•S3•T4•W2•A2•Ld7•Sv4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>twin shuriken catapult</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shuriken cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>scatter laser</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>dark lance</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>splinter cannon</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>dissonance cannon</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>brace of pistols</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Corsair Cloud Dancer Band</string>
+					<key>Plural Name</key>
+					<string>Corsair Cloud Dancers</string>
+					<key>Points</key>
+					<real>23</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Corsairs; Reckless Abandon; Dancing on the Blade’s Edge; AELDARI, ANHRATHE, &lt;COTERIE&gt;; BIKER, FLY, CORSAIR CLOUD DANCER BAND</string>
+					<key>Stats</key>
+					<string>M18"•WS3+•BS3+•S3•T4•W2•A1•Ld6•Sv4+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>4</integer>
+								<key>Upper</key>
+								<integer>6</integer>
+							</dict>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>12</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>7</integer>
+								<key>Upper</key>
+								<integer>9</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 7-12+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M16"•BS3+•A3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 4-6</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M12"•BS4+•AD3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 1-3</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M8"•BS5+•A1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pulse laser</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>shuriken cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Aeldari missile launcher</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>bright lance</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>scatter laser</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>starcannon</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>twin shuriken catapult</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shuriken cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>crystal targeting matrix</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>spirit stones</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>star engines</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>vectored engines</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Corsair Falcon</string>
+					<key>Points</key>
+					<real>115</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Explodes; Hover Tank; AELDARI, ANHRATHE, WARHOST, &lt;COTERIE&gt;; VEHICLE, TRANSPORT, FLY, FALCON</string>
+					<key>Stats</key>
+					<string>M*•WS6+•BS*•S6•T7•W12•A*•Ld8•Sv3+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>8</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dedicated Transport</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>twin splinter rifle</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>splinter cannon</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>splinter cannon</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bladevanes</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>chain snares</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>grisly trophies</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Corsair Venom</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Open-topped; Flickerfield; Explodes; Night Shield; AELDARI, ANHRATHE, &lt;COTERIE&gt;; VEHICLE, TRANSPORT, FLY, VENOM</string>
+					<key>Stats</key>
+					<string>M16”•WS4+•BS3+•S5•T5•W6•A2•Ld7•Sv4+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Flyer</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortification</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lord of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Reinforcement Points</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Singular Name</key>
+					<string>Reinforcement Point</string>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K9</string>
+</dict>
+</plist>

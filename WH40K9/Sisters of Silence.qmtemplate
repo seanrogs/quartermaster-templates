@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Sisters of Silence</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Battle Size</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Combat Patrol</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Up to 50 PL / Up to 500 points / 1 Detachment</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Incursion</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>51-100 PL / 501-1000 points / 1-2 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Strike Force</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>101-200 PL / 1001-2000 points / 1-3 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>12</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Onslaught</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>201-300 PL / 2001-3000 points / 1-4 Detachments</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>18</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Detachments</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Null Maidens Vanguard Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>3-6 Elites, 0-1 Dedicated Transport for each INFANTRY unit</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Auxiliary Support Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1 HQ or 1 Troops or 1 Elites or 1 Fast Attack or 1 Heavy Support or 1 Flyer or 1 Dedicated Transport</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-2</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sister Superior</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>boltgun</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>psyk-out grenades</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>12</real>
+								<key>Stats</key>
+								<string>M7"•WS3+•BS3+•S3•T3•W1•A3•Ld9•Sv3+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>boltguns</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>psyk-out grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Prosecutors</string>
+					<key>Points</key>
+					<real>12</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Psychic Abomination; Witch Hunters; Prosecution Protocols; IMPERIUM, ASTRA TELEPATHICA, SISTERS OF SILENCE; INFANTRY, PROSECUTORS</string>
+					<key>Stats</key>
+					<string>M7"•WS3+•BS3+•S3•T3•W1•A2•Ld8•Sv3+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>6</integer>
+								<key>Upper</key>
+								<integer>10</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sister Superior</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>executioner greatblade</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>psyk-out grenades</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>17</real>
+								<key>Stats</key>
+								<string>M7"•WS3+•BS3+•S3•T3•W1•A3•Ld9•Sv3+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>executioner greatblades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>psyk-out grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Vigilators</string>
+					<key>Points</key>
+					<real>17</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Psychic Abomination; Witch Hunters; IMPERIUM, ASTRA TELEPATHICA, SISTERS OF SILENCE; INFANTRY, VIGILATORS</string>
+					<key>Stats</key>
+					<string>M7"•WS3+•BS3+•S3•T3•W1•A2•Ld8•Sv3+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>6</integer>
+								<key>Upper</key>
+								<integer>10</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sister Superior</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>psyk-out grenades</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>18</real>
+								<key>Stats</key>
+								<string>M7"•WS3+•BS3+•S3•T3•W1•A3•Ld9•Sv3+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>flamers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>psyk-out grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Witchseekers</string>
+					<key>Points</key>
+					<real>18</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Psychic Abomination; Witch Hunters; IMPERIUM, ASTRA TELEPATHICA, SISTERS OF SILENCE; INFANTRY, WITCHSEEKERS</string>
+					<key>Stats</key>
+					<string>M7"•WS3+•BS3+•S3•T3•W1•A2•Ld8•Sv3+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+							<key>Size Band</key>
+							<dict>
+								<key>Lower</key>
+								<integer>6</integer>
+								<key>Upper</key>
+								<integer>10</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dedicated Transport</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 6+</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M12"•BS3+•A3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 3-5</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M6"•BS4+•AD3</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Remaining W 1-2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M3"•BS5+•A1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>storm bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>hunter-killer missile</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Null-maiden Rhino</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Explodes; Self-Repair; Smoke Launchers; IMPERIUM, ASTRA TELEPATHICA, SISTERS OF SILENCE; VEHICLE, TRANSPORT, RHINO, NULL-MAIDEN RHINO</string>
+					<key>Stats</key>
+					<string>M*•WS6+•BS*•S6•T7•W10•A*•Ld8•Sv3+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>4</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Flyer</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortification</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lord of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Reinforcement Points</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Singular Name</key>
+					<string>Reinforcement Point</string>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K9</string>
+</dict>
+</plist>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Elucidian Starstriders</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Battle Size</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Combat Patrol</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Up to 50 PL / Up to 500 points / 1 Detachment</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Detachments</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Patrol Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1-2 HQ, 1-3 Troops, 0-2 Elites, 0-2 Fast Attack, 0-2 Heavy Support, 0-2 Flyers, 0-1 Dedicated Transport for each INFANTRY unit</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-2</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Patrol Detachment with Warlord</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1-2 HQ, 1-3 Troops, 0-2 Elites, 0-2 Fast Attack, 0-2 Heavy Support, 0-2 Flyers, 0-1 Dedicated Transport for each INFANTRY unit</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Auxiliary Support Detachment</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>1 HQ or 1 Troops or 1 Elites or 1 Fast Attack or 1 Heavy Support or 1 Flyer or 1 Dedicated Transport</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>-2</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>scalpel claw</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>laspistol</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>concussion grenades</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>1</integer>
+									<key>Name</key>
+									<string>Warlord Traits</string>
+								</dict>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Sanistasia Minst</string>
+							<key>Points</key>
+							<real>20</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>One</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Constant Companion; Rogue Trader Retinue; Warrant of Trade; IMPERIUM, ELUCIDIAN STARSTRIDERS; CHARACTER, INFANTRY, REJUVENAT ADEPT, SANISTASIA MINST</string>
+							<key>Stats</key>
+							<string>M6"•WS4+•BS4+•S3•T3•W2•A2•Ld7•Sv5+</string>
+							<key>Tallies</key>
+							<array>
+								<dict>
+									<key>Count</key>
+									<real>1</real>
+									<key>Name</key>
+									<string>Power Rating</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Explorator Fleetmaster</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Warlord</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>monomolecular cane-rapier</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heirloom pistol</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>concussion grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Elucia Vhane</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Concealed Archeotech Weapon; Disruption Field Generator; Multi-Spectral Auspicator; Warrant of Trade; IMPERIUM, ASTRA CARTOGRAPHICA, ELUCIDIAN STARSTRIDERS; CHARACTER, INFANTRY, ROGUE TRADER, ELUCIA VHANE</string>
+					<key>Stats</key>
+					<string>M6"•WS3+•BS3+•S3•T3•W4•A3•Ld9•Sv4+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Command Points</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Voidmaster Nitsch</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>artificer shotgun</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>laspistol</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>concussion grenades</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>M6"•WS4+•BS3+•S3•T3•W2•A2•Ld8•Sv5+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Aximillion</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>M8"•WS3+•BS-•S3•T3•W1•A2•Ld5•Sv6+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>lasguns</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>laspistols</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>concussion grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>rotor cannon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>4</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Nitsch’s Squad</string>
+					<key>Plural Name</key>
+					<string>Voidsmen</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One</string>
+					</array>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Aximillion; Loyal Retainers; Rogue Trader Retinue; Warrant of Trade; IMPERIUM, ELUCIDIAN STARSTRIDERS; INFANTRY, VOIDSMEN-AT-ARMS, NITSCH’S SQUAD</string>
+					<key>Stats</key>
+					<string>M6"•WS4+•BS3+•S3•T3•W1•A1•Ld7•Sv5+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>voltaic pistol</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>concussion grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Warlord Traits</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Larsen van der Grauss</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Rogue Trader Retinue; Voltgheist Array; Warrant of Trade; IMPERIUM, ELUCIDIAN STARSTRIDERS; CHARACTER, ADEPTUS MECHANICUS, MARS, INFANTRY, TECH-PRIEST, LECTRO-MASTER, LARSEN VAN DER GRAUSS</string>
+					<key>Stats</key>
+					<string>M6"•WS4+•BS4+•S3•T3•W2•A2•Ld8•Sv4+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Death Cult power blade</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>dartmask</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>concussion grenades</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Warlord Traits</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Knosso Prond</string>
+					<key>Points</key>
+					<real>28</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>One</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Warrant of Trade; Rogue Trader Retinue; Uncanny Reflexes; Zealot; IMPERIUM, ELUCIDIAN STARSTRIDERS; CHARACTER, ADEPTUS MINISTORUM, INFANTRY, DEATH CULT EXECUTIONER, KNOSSO PROND</string>
+					<key>Stats</key>
+					<string>M7"•WS3+•BS4+•S4•T3•W2•A4•Ld8•Sv5+</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Power Rating</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dedicated Transport</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Flyer</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fortification</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lord of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Reinforcement Points</string>
+					<key>Points</key>
+					<real>1</real>
+					<key>Singular Name</key>
+					<string>Reinforcement Point</string>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K9</string>
+</dict>
+</plist>

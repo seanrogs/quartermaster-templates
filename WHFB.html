@@ -1,0 +1,474 @@
+<!--
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+
+-->
+
+<html>
+    <head>
+        <title>Quartermaster Templates</title>
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
+
+            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
+
+        <link rel="stylesheet" href="observer.css">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+
+
+
+
+
+    <!-- Media resizing -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});
+
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px');
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+
+	</script>
+
+
+<!-- Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25987979-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End header -->
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
+
+<meta charset="utf-8" />
+</head>
+
+	<body>
+
+		<div id="page">
+
+			<div id="header">
+
+
+				<div class="links">
+					<ul>
+					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
+						<li><a href="http://www.quartermaster.app/">Home</a></li>
+
+
+						<li><a href="http://www.quartermaster.app/about">About</a></li>
+
+						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
+
+						<li>Templates</li>
+
+						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
+
+						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
+
+					</ul>
+				</div>
+
+
+				<div class="blog-title">
+
+                    <h1><a href="/">Quartermaster Templates</a></h1>
+
+				</div>
+
+				<div class="contents" style="margin-top: 50px;">
+					<ul>
+					    <li><a href="#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a></li>
+					    <li><a href="#WHFB">Warhammer&nbsp;Fantasy&nbsp;Battles</a></li>
+                        <li><a href="#Mordheim">Mordheim</a></li>
+					    <li><a href="#Warmaster">Warmaster</a></li>
+					</ul>
+					<ul>
+						<li><a href="/">More Game Systems</a></li>
+					</ul>
+				</div>
+
+
+
+			</div> <!-- header end -->
+
+			<div id="content">
+				<div class="column">
+					<h2 id="TOW">Warhammer: The Old World</h2>
+					<ul>
+						<li id="TOW-system"><a href="TOW/TOW.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'TOW']);">TOW game system</a></li>
+							<ul class="note">
+								<li>Install the TOW game system to use any of the following factions. The TOW game system also contains common Magic Items.</li>
+							</ul>
+                            <ul class="supplements">
+                                <li>June 2025 Errata</li>
+                                <li>Artefacts of the Shadowlands</li>
+                            </ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="TOW-Grand_Cathay"><a href="TOW/Grand_Cathay.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Grand Cathay']);">Grand Cathay</a>
+							<ul class="supplements">
+								<li id="TOW-Jade_Fleet"><a href="TOW/Jade_Fleet.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Jade Fleet']);">Jade Fleet</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="TOW-Dwarfen_Mountain_Holds"><a href="TOW/Dwarfen_Mountain_Holds.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Dwarfen Mountain Holds']);">Dwarfen Mountain Holds</a>
+							<ul class="supplements">
+								<li id="TOW-Royal_Clan"><a href="TOW/Royal_Clan.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Royal Clan']);">Royal Clan</a></li>
+								<li id="TOW-Expeditionary_Force"><a href="TOW/Expeditionary_Force.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Expeditionary Force']);">Expeditionary Force</a></li>
+								<li id="TOW-Slayer_Host"><a href="TOW/Slayer_Host.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Slayer Host']);">Slayer Host</a></li>
+							</ul>
+						</li>
+						<li id="TOW-The_Empire_of_Man"><a href="TOW/The_Empire_of_Man.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'The Empire of Man']);">The Empire of Man</a>
+							<ul class="supplements">
+								<li id="TOW-City-state_of_Nuln"><a href="TOW/City-state_of_Nuln.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'City-state of Nuln']);">City-state of Nuln</a></li>
+								<li id="TOW-Knightly_Order"><a href="TOW/Knightly_Order.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Knightly Order']);">Knightly Order</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Kingdom_of_Bretonnia"><a href="TOW/Kingdom_of_Bretonnia.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Kingdom of Bretonnia']);">Kingdom of Bretonnia</a>
+							<ul class="supplements">
+								<li id="TOW-Bretonnian_Exiles"><a href="TOW/Bretonnian_Exiles.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Bretonnian Exiles']);">Bretonnian Exiles</a></li>
+								<li id="TOW-Errantry_Crusade"><a href="TOW/Errantry_Crusade.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Errantry Crusade']);">Errantry Crusade</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Wood_Elf_Realms"><a href="TOW/Wood_Elf_Realms.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Wood Elf Realms']);">Wood Elf Realms</a>
+							<ul class="supplements">
+								<li id="TOW-Host_of_Talsyn"><a href="TOW/Host_of_Talsyn.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Host of Talsyn']);">Host of Talsyn</a></li>
+								<li id="TOW-Orions_Wild_Hunt"><a href="TOW/Orions_Wild_Hunt.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Orion’s Wild Hunt']);">Orion’s Wild Hunt</a></li>
+							</ul>
+						</li>
+						<li id="TOW-High_Elf_Realms"><a href="TOW/High_Elf_Realms.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'High Elf Realms']);">High Elf Realms</a>
+							<ul class="supplements">
+								<li id="TOW-The_Chracian_Warhost"><a href="TOW/The_Chracian_Warhost.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'The Chracian Warhost']);">The Chracian Warhost</a></li>
+								<li id="TOW-Sea_Guard_Garrison"><a href="TOW/Sea_Guard_Garrison.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Sea Guard Garrison']);">Sea Guard Garrison</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="TOW-Orc_Goblin_Tribes"><a href="TOW/Orc_Goblin_Tribes.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Orc Goblin Tribes']);">Orc &amp; Goblin Tribes</a>
+							<ul class="supplements">
+								<li id="TOW-Nomadic_Waaagh"><a href="TOW/Nomadic_Waaagh.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Nomadic Waaagh!']);">Nomadic Waaagh!</a></li>
+								<li id="TOW-Troll_Horde"><a href="TOW/Troll_Horde.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Troll Horde']);">Troll Horde</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Warriors_of_Chaos"><a href="TOW/Warriors_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Warriors of Chaos']);">Warriors of Chaos</a>
+							<ul class="supplements">
+								<li id="TOW-Heralds_of_Darkness"><a href="TOW/Heralds_of_Darkness.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Heralds of Darkness']);">Heralds of Darkness</a></li>
+								<li id="TOW-Wolves_of_the_Sea"><a href="TOW/Wolves_of_the_Sea.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Wolves of the Sea']);">Wolves of the Sea</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Beastmen_Brayherds"><a href="TOW/Beastmen_Brayherds.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Beastmen Brayherds']);">Beastmen Brayherds</a>
+							<ul class="supplements">
+								<li id="TOW-Minotaur_Blood_Herd"><a href="TOW/Minotaur_Blood_Herd.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Minotaur Blood Herd']);">Minotaur Blood Herd</a></li>
+								<li id="TOW-Wild_Herd"><a href="TOW/Wild_Herd.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Wild Herd']);">Wild Herd</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Tomb_Kings_of_Khemri"><a href="TOW/Tomb_Kings_of_Khemri.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Tomb Kings of Khemri']);">Tomb Kings of Khemri</a>
+							<ul class="supplements">
+								<li id="TOW-Nehekharan_Royal_Host"><a href="TOW/Nehekharan_Royal_Host.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Nehekharan Royal Host']);">Nehekharan Royal Host</a></li>
+								<li id="TOW-Mortuary_Cult"><a href="TOW/Mortuary_Cult.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Mortuary Cult']);">Mortuary Cult</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="TOW-Renegade_Crowns"><a href="TOW/Renegade_Crowns.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Renegade Crowns']);">Renegade Crowns</a></li>
+					</ul>
+					<ul>
+						<li id="TOW-Chaos_Dwarfs"><a href="TOW/Chaos_Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Chaos Dwarfs']);">Chaos Dwarfs</a></li>
+						<li id="TOW-Daemons_of_Chaos"><a href="TOW/Daemons_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Daemons of Chaos']);">Daemons of Chaos</a></li>
+						<li id="TOW-Dark_Elves"><a href="TOW/Dark_Elves.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Dark Elves']);">Dark Elves</a></li>
+						<li id="TOW-Lizardmen"><a href="TOW/Lizardmen.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Lizardmen']);">Lizardmen</a></li>
+						<li id="TOW-Ogre_Kingdoms"><a href="TOW/Ogre_Kingdoms.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Ogre Kingdoms']);">Ogre Kingdoms</a></li>
+						<li id="TOW-Skaven"><a href="TOW/Skaven.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Skaven']);">Skaven</a></li>
+						<li id="TOW-Vampire_Counts"><a href="TOW/Vampire_Counts.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Vampire Counts']);">Vampire Counts</a></li>
+						<ul class="supplements">
+                            <li>All Legacy Factions include Square Based Renegades updates</li>
+                        </ul>
+					</ul>
+					<h3>Unofficial</h3>
+					<ul>
+						<li>International Condottiere of <a href="https://www.facebook.com/groups/DogsofwarWarhammer/">Middlehammer Dogs of War</a>
+							<ul>
+								<li id="TOW-Middlehammer_Dogs_of_War"><a href="TOW/Dogs_of_War.php">Dogs of War</a></li>
+							</ul>
+						</li>
+						<li id="TOW-Always_Strikes_First"><a href="https://oldworld.alwaysstrikesfirst.com">Always Strikes First</a>
+							<ul>
+								<li id="TOW-Vampire_Counts_(Always_Strikes_First)"><a href="TOW/Vampire_Counts_(Always_Strikes_First).php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Vampire Counts (Always Strikes First)']);">Vampire Counts (Always Strikes First)</a></li>
+								<ul class="supplements">
+									<li id="TOW-Bloodline_Entourage"><a href="TOW/Bloodline_Entourage.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Bloodline Entourage']);">Bloodline Entourage</a></li>
+									<li id="TOW-Pirates_of_the_Vampire_Coast"><a href="TOW/Pirates_of_the_Vampire_Coast.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Pirates of the Vampire Coast']);">Pirates of the Vampire Coast</a></li>
+								</ul>
+							</ul>
+							<ul>
+								<li id="TOW-Skaven_(Always_Strikes_First)"><a href="TOW/Skaven_(Always_Strikes_First).php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Skaven (Always Strikes First)']);">Skaven (Always Strikes First)</a></li>
+								<ul class="supplements">
+									<li id="TOW-Infestation_Swarm"><a href="TOW/Infestation_Swarm.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Infestation Swarm']);">Infestation Swarm</a></li>
+									<li id="TOW-Under-city_Infiltration"><a href="TOW/Under-city_Infiltration.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Under-city Infiltration']);">Under-city Infiltration</a></li>
+								</ul>
+							</ul>
+							<ul>
+								<li id="TOW-Lizardmen_(Always_Strikes_First)"><a href="TOW/Lizardmen_(Always_Strikes_First).php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Lizardmen (Always Strikes First)']);">Lizardmen (Always Strikes First)</a></li>
+								<ul class="supplements">
+									<li id="TOW-Lost_Cities_of_the_Southlands"><a href="TOW/Lost_Cities_of_the_Southlands.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Lost Cities of the Southlands']);">Lost Cities of the Southlands</a></li>
+									<li id="TOW-Red_Host_of_Sotek"><a href="TOW/Red_Host_of_Sotek.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Red Host of Sotek']);">Red Host of Sotek</a></li>
+								</ul>
+							</ul>
+							<ul>
+								<li id="TOW-Dark_Elves_(Always_Strikes_First)"><a href="TOW/Dark_Elves_(Always_Strikes_First).php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Dark Elves (Always Strikes First)']);">Dark Elves (Always Strikes First)</a></li>
+								<ul class="supplements">
+									<li id="TOW-Black_Ark_Raiders"><a href="TOW/Black_Ark_Raiders.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Black Ark Raiders']);">Black Ark Raiders</a></li>
+									<li id="TOW-Cult_of_Pleasure"><a href="TOW/Cult_of_Pleasure.php" onClick="_gaq.push(['_trackEvent', 'TOW', 'Download', 'Cult of Pleasure']);">Cult of Pleasure</a></li>
+								</ul>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="WHFB">Warhammer Fantasy Battles (8th Edition)</h2>
+					<ul>
+						<li id="WHFB-system"><a href="WHFB/WHFB.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'WHFB']);">WHFB game system</a>
+							<ul class="note">
+								<li>Install the WHFB game system to use any of the following factions. The TOW game system also contains common Magic Items.</li>
+							</ul>
+                            <ul class="supplements">
+                                <li>Conditions for Quartermaster 6.4</li>
+                            </ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="WHFB/Beastmen.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Beastmen']);">Beastmen</a></li>
+						<li><a href="WHFB/Bretonnia.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Bretonnia']);">Bretonnia</a></li>
+						<li><a href="WHFB/Daemons_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Daemons of Chaos']);">Daemons of Chaos</a>
+							<ul class="supplements">
+								<li>Battlescroll: Be'lakor</li>
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Dark_Elves.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Dark Elves']);">Dark Elves</a></li>
+						<li><a href="WHFB/Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Dwarfs']);">Dwarfs</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/High_Elves.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'High Elves']);">High Elves</a></li>
+						<li><a href="WHFB/Lizardmen.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Lizardmen']);">Lizardmen</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Ogre_Kingdoms.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Ogre Kingdoms']);">Ogre Kingdoms</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Orcs_and_Goblins.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Orcs and Goblins']);">Orcs and Goblins</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Skaven.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Skaven']);">Skaven</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/The_Empire.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'The Empire']);">The Empire</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Tomb_Kings.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Tomb Kings']);">Tomb Kings</a></li>
+						<li><a href="WHFB/Vampire_Counts.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Vampire Counts']);">Vampire Counts</a>
+							<ul class="supplements">
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Warriors_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Warriors of Chaos']);">Warriors of Chaos</a>
+							<ul class="supplements">
+								<li>Battlescroll: Be'lakor</li>
+								<li>The End Times characters and formations</li>
+							</ul>
+						</li>
+						<li><a href="WHFB/Wood_Elves.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Wood Elves.php']);">Wood Elves</a></li>
+					</ul>
+					<h3>Expansions</h3>
+					<ul>
+						<li><a href="WHFB/Storm_of_Magic.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Storm of Magic']);">Storm of Magic</a></li>
+					</ul>
+					<h3>Forge World</h3>
+					<ul>
+						<li><a href="WHFB/Chaos_Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Chaos Dwarfs']);">Chaos Dwarfs</a></li>
+						<li id="WHFB-Monstrous_Arcanum"><a href="WHFB/Monstrous_Arcanum.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Monstrous Arcanum']);">Monstrous Arcanum</a></li>
+					</ul>
+					<h3 id="EndTimes">Warhammer: The End Times</h3>
+					<ul>
+						<li><a href="WHFB/Grand_Legion_of_the_Everchosen.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Grand Legion of the Everchosen']);">Grand Legion of the Everchosen</a></li>
+						<li><a href="WHFB/Host_of_the_Aestyrion.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Host of the Aestyrion']);">Host of the Aestyrion</a></li>
+						<li><a href="WHFB/Host_of_the_Eternity_King.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Host of the Eternity King']);">Host of the Eternity King</a></li>
+						<li><a href="WHFB/Host_of_the_Phoenix_King.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Host of the Phoenix King']);">Host of the Phoenix King</a></li>
+						<li><a href="WHFB/Legions_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Legions of Chaos']);">Legions of Chaos</a></li>
+						<li><a href="WHFB/Undead_Legions.php" onClick="_gaq.push(['_trackEvent', 'WHFB', 'Download', 'Undead Legions']);">Undead Legions</a></li>
+					</ul>
+				</div>
+                
+                <div class="column">
+                    <h2 id="Mordheim">Mordheim</h2>
+                    <ul>
+                        <li><a href="Mordheim/Mordheim.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Mordheim']);">Mordheim</a>
+                            <ul class="note">
+                                <li>Install the Mordheim game system to use any of the following templates.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul id="Mordheim-Mercenaries">
+                        <li id="Mordheim-Mercenaries_-_Reikland"><a href="Mordheim/Mercenaries_-_Reikland.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Mercenaries - Reikland']);">Mercenaries - Reikland</a></li>
+                        <li id="Mordheim-Mercenaries_-_Middenheim"><a href="Mordheim/Mercenaries_-_Middenheim.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Mercenaries - Middenheim']);">Mercenaries - Middenheim</a></li>
+                        <li id="Mordheim-Mercenaries_-_Marienburg"><a href="Mordheim/Mercenaries_-_Marienburg.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Mercenaries - Marienburg']);">Mercenaries - Marienburg</a></li>
+                    </ul>
+                    <ul>
+                        <li id="Mordheim-Witch_Hunters"><a href="Mordheim/Witch_Hunters.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Witch Hunters']);">Witch Hunters</a></li>
+                        <li id="Mordheim-Sisters_of_Sigmar"><a href="Mordheim/Sisters_of_Sigmar.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Sisters of Sigmar']);">Sisters of Sigmar</a></li>
+                        <li id="Mordheim-Cult_of_the_Possessed"><a href="Mordheim/Cult_of_the_Possessed.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Cult of the Possessed']);">Cult of the Possessed</a></li>
+                        <li id="Mordheim-Skaven"><a href="Mordheim/Skaven.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Skaven']);">Skaven</a></li>
+                        <li id="Mordheim-Undead"><a href="Mordheim/Undead.php" onClick="_gaq.push(['_trackEvent', 'Mordheim', 'Download', 'Undead']);">Undead</a></li>
+                    </ul>
+                </div>
+
+				<div class="column">
+					<h2 id="Warmaster">Warmaster</h2>
+					<ul>
+						<li id="Warmaster-system"><a href="Warmaster/Warmaster.php" onClick="_gaq.push(['_trackEvent', 'Warmaster', 'Download', 'Warmaster']);">Warmaster game system</a></li>
+					</ul>
+					<ul>
+						<li id="Warmaster-Araby"><a href="Warmaster/Araby.php" onClick="_gaq.push(['_trackEvent', 'Warmaster', 'Download', 'Araby']);">Araby</a></li>
+						<li id="Warmaster-Dwarfs"><a href="Warmaster/Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'Warmaster', 'Download', 'Dwarfs']);">Dwarfs</a></li>
+						<li id="Warmaster-High_Elves"><a href="Warmaster/High_Elves.php" onClick="_gaq.push(['_trackEvent', 'Warmaster', 'Download', 'High Elves']);">High Elves</a></li>
+						<li id="Warmaster-Vampire_Counts"><a href="Warmaster/Vampire_Counts.php" onClick="_gaq.push(['_trackEvent', 'Warmaster', 'Download', 'Vampire Counts']);">Vampire Counts</a></li>
+					</ul>
+				</div>
+
+			</div><!-- content end -->
+
+			<div id="footer">
+
+					<div id="footer-links">
+
+						<ul>
+							<li><a href="/">Home</a></li>
+
+
+    					    <li><a href="/about">About</a></li>
+
+    					    <li><a href="/userguide">User Guide</a></li>
+
+    					    <li><a href="/templates">Templates</a></li>
+
+    					    <li><a href="/contact">Contact</a></li>
+
+    					    <li><a href="/support">Donate</a></li>
+
+
+
+
+                            <li><a href="/legal">Legal</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/archive">Archive</a></li>
+						</ul>
+					</div>
+
+					<div class="colophon">
+
+
+						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
+
+
+	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+
+					</div>
+
+				</div>
+
+		</div> <!-- page end -->
+</body>
+
+</html>

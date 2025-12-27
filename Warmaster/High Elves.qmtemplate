@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>High Elves</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Magic Standards</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magic Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Devices of Power</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Characters</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Devices of Power</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Giant Eagle</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Giant Eagle Mount</string>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+2•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Dragon</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+3•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chariot</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Chariot Mount</string>
+								<key>Stats</key>
+								<string>Chariot Mount•Atk:+1•Size:1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>General</string>
+					<key>Points</key>
+					<real>180</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>General•Atk:+2•Cmd:10•Size:1</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Devices of Power</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Giant Eagle</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Giant Eagle Mount</string>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+2•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Dragon</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+3•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chariot</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Chariot Mount</string>
+								<key>Stats</key>
+								<string>Chariot Mount•Atk:+1•Size:1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Hero</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Hero•Atk:+1•Cmd:8•Size:1</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Devices of Power</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Giant Eagle</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Giant Eagle Mount</string>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+2•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Dragon</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Stats</key>
+								<string>Monstrous Mount•Atk:+3•Size:1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chariot</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>-/1</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Chariot Mount</string>
+								<key>Stats</key>
+								<string>Chariot Mount•Atk:+1•Size:1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Wizard</string>
+					<key>Points</key>
+					<real>90</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Wizard</string>
+					<key>Stats</key>
+					<string>Wizard•Atk:+0•Cmd:8•Size:1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Standards</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Spearmen</string>
+					<key>Plural Name</key>
+					<string>× Spearmen</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>2/-</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Infantry•Atk:3•Hits:3•Arm:5+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Standards</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Archers</string>
+					<key>Plural Name</key>
+					<string>× Archers</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>1/-</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Archers</string>
+					<key>Stats</key>
+					<string>Infantry•Atk:3/1•Hits:3•Arm:6+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Standards</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Silver Helms</string>
+					<key>Plural Name</key>
+					<string>× Silver Helms</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cavalry•Atk:3•Hits:3•Arm:4+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Standards</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Reavers</string>
+					<key>Plural Name</key>
+					<string>× Reavers</string>
+					<key>Points</key>
+					<real>90</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/3</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Cavalry•Atk:3/1•Hits:3•Arm:6+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Standards</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magic Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Chariots</string>
+					<key>Plural Name</key>
+					<string>× Chariots</string>
+					<key>Points</key>
+					<real>95</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/3</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Stats</key>
+					<string>Chariot•Atk:3•Hits:3•Arm:5+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Giant Eagles</string>
+					<key>Plural Name</key>
+					<string>× Giant Eagles</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Giant Eagles</string>
+					<key>Stats</key>
+					<string>Monster•Atk:2•Hits:3•Arm:6+•Size:3</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Dragon Rider</string>
+					<key>Plural Name</key>
+					<string>× Dragon Rider</string>
+					<key>Points</key>
+					<real>300</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Dragons</string>
+					<key>Stats</key>
+					<string>Monster•Atk:6/3•Hits:6•Arm:4+•Size:1</string>
+				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Elven Bolt Thrower</string>
+					<key>Plural Name</key>
+					<string>× Elven Bolt Thrower</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>-/1</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Elven Bolt Thrower</string>
+					<key>Stats</key>
+					<string>Artillery•Atk:1/3•Hits:2•Arm:0•Size:2</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Support</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>Warmaster</string>
+</dict>
+</plist>

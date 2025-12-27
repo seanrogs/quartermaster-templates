@@ -1,0 +1,2819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Saurian Ancients</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Weapon Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_285_swords</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Glory of the Dawn Age (Spear Enchantment)</string>
+					<key>Points</key>
+					<real>90</real>
+					<key>Special Rules</key>
+					<string>Attacks made with this weapon gain +1 Strength, and Multiple Wounds (2), and become Magical Attacks.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Enchantment</string>
+					<key>Name</key>
+					<string>Wildfire Burst (Bow Enchantment)</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>This weapon has Shots 4, Str 4, AP 1, and ALWAYS hits on 3+.  Attacks made with this weapon become Flaming Attacks and Magical Attacks.  A unit that is hit by these attacks loses Soft Cover until the end of the Player Turn (if it had it).  If the enemy unit was in Hard Cover, it is now considered to be in Soft Cover until the end of the Player Turn.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Armour Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_283_shield</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Taurosaur’s Vigour (Suit of Armour Enchantment)</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>The wearer gains +1 Armour and +1 Health Point</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour Enchantment</string>
+					<key>Name</key>
+					<string>Serrate Scales (Shield Enchantment)</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>While using this Shield, the bearer gains Grind Attacks (2) that are ALWAYS resolved with Strength 5 and Armour Penetration 2.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Banner Enchantment</string>
+			<key>Icon</key>
+			<string>glyphicons_291_flag</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Banner Enchantment</string>
+					<key>Name</key>
+					<string>Totem of Mixoatl (Non-Core Only)</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>The bearer’s unit gains Hard Target (1).  One use only.  May be activated at the start of a Round of Combat.  Until the end of the Round of Combat, units in base contact with the bearer’s unit suffer -3 Offensive Skill.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Banner Enchantment</string>
+					<key>Name</key>
+					<string>Tree Frog Banner</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Close Combat Attacks from Skink model parts in the unit become Poisoned Attacks.</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Artefact</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Sphere of Shielding (Models on Palanquin)</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>The bearer gains Aegis (2+, against Ranged Attack).  The bearer automatically fails all saves against Melee Attacks.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Ancient Plaque (Dominant)</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Once per Magic Phase, the bearer may reroll a single Magic Dice when making a casting roll, provided the spell was NOT Miscast.  This ability cannot be used when the bearer is casting with only one Magic Dice.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Raptor Spirit (Models on Foot Only)</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>The bearer gains +4” Advance Rate, +4” March Rate, and Swiftstride.  This Artefact cannot be taken by a model with Ranger’s Boots.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Starfall Shard</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>The bearer’s model gains Aegis (2+, against Flaming Attacks) and Hard Target (1), and automatically fails all Fortitude Saves.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Spirit of the Stampede </string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>The bearer’s mount gains Impact Hits (D6).  If it already had Impact Hits, increase the number of Impact Hits by D6.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Jade Staff</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>The bearer can cast “Healing Waters” from Druidism as a Bound Spell with Power Level (4/8).</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Egg of the Quetzal</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>The bearer gains Breath Attack (Str D3+2, AP 1, Magical Attacks).</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Sun Tablet</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>The bearer selects its spells from all the Learned Spells of its chosen Path and the Hereditary Spell of its Army.  This overrides the normal Spell Selection rules connected to being a Wizard Apprentice/Adept.  This Artefact cannot be combined with Protean Potentate.</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Artefact</string>
+					<key>Name</key>
+					<string>Obsidian Tesseract</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>One use only.  May be activated in the opponent’s Magic Phase after Siphon the Veil.  When activated, remove 1 Magic Dice from the Opponent’s Magic Dice pool.</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Characters</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour (Only if on Foot)</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Halberd</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Spear</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>200</integer>
+							<key>Name</key>
+							<string>Special Items </string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Raptor</string>
+								<key>Points</key>
+								<real>120</real>
+								<key>Special Rules</key>
+								<string>Harnessed</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 14” • Dis C • HP C • Def C • Res C • Arm C+2 • Att 2 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Carnosaur*</string>
+								<key>Points</key>
+								<real>260</real>
+								<key>Special Rules</key>
+								<string>Frenzy, Fearless, Fear, Towering Presence, Harnessed, Born Predator, Battle Focus, Multiple Wounds (2, against Large)</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 14” • Dis C • HP 4 • Def C • Res 5 • Arm C • Att 4 • Off 3 • Str 6 • AP 3 • Agi 2</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Alpha Carnosaur*</string>
+								<key>Points</key>
+								<real>490</real>
+								<key>Special Rules</key>
+								<string>Apex Predator, Harnessed, Born Predator, Multiple Wounds (D3)</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 14” • Dis C • HP 6 • Def 4 • Res 6 • Arm 4 • Att 5 • Off 4 • Str 7 • AP 4 • Agi 3</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Saurian Warlord</string>
+					<key>Points</key>
+					<real>260</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold Blooded, Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 4” • Mar 8” • Dis 8 • HP 3 • Def 6 • Res 5 • Arm 2 • Att 5 • Off 6 • Str 5 • AP 2 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Heavy Armour (Only if on Foot)</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Halberd</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons </string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Spear</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Raptor</string>
+								<key>Points</key>
+								<real>120</real>
+								<key>Special Rules</key>
+								<string>Harnessed</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 14” • Dis C • HP C • Def C • Res C • Arm C+2 • Att 2 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Carnosaur</string>
+								<key>Points</key>
+								<real>270</real>
+								<key>Special Rules</key>
+								<string>Frenzy, Fearless, Fear, Towering Presence, Harnessed, Born Predator, Battle Focus, Multiple Wounds (2, against Large)</string>
+								<key>Stats</key>
+								<string>Adv 7” • Mar 14” • Dis C • HP 4 • Def C • Res 5 • Arm C • Att 4 • Off 3 • Str 6 • AP 3 • Agi 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Saurian Veteran</string>
+					<key>Points</key>
+					<real>180</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 4” • Mar 8” • Dis 8 • HP 3 • Def 5 • Res 5 • Arm 2 • Att 4 • Off 5 • Str 5 • AP 2 • Agi 3</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>100</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Cuatl Lord Disciplines (Up To 200 Points)</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Master of Reality</string>
+											<key>Points</key>
+											<real>135</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Grasp of Immortality </string>
+											<key>Points</key>
+											<real>120</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Ancient Knowledge</string>
+											<key>Points</key>
+											<real>95</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Breaker of Spells</string>
+											<key>Points</key>
+											<real>70</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Protean Potentate</string>
+											<key>Points</key>
+											<real>70</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Soulfire Weaver</string>
+											<key>Points</key>
+											<real>150</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Symbiosis</string>
+											<key>Points</key>
+											<real>50</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Trained from Birth</string>
+											<key>Points</key>
+											<real>50</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Name</key>
+								<string>Wizard Master</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Alchemy</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Divination</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Evocation</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Pyromancy</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>200</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cuatl Lord</string>
+					<key>Points</key>
+					<real>470</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Tall, Palanquin, Aegis (4+)</string>
+					<key>Stats</key>
+					<string>Adv 4” • Mar 8” • Dis 8 • HP 4 • Def 2 • Res 4 • Arm 0 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Blowpipe (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Poisoned Javelin (3+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Bow (3+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Paired Weapons</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Light Lance</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Alpha Pteradon*</string>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Fly (9”,18”), Light Troops, Feigned Flight, Strider (Forest), Vanguard, Hard Target (1), Harnessed, Release Rocks</string>
+								<key>Stats</key>
+								<string>Adv 2” • Mar 4” • Dis C • HP 3 • Def C • Res 3 • Arm C+1 • Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Alpha Rhampbodon*</string>
+								<key>Points</key>
+								<real>85</real>
+								<key>Special Rules</key>
+								<string>Fly (8”,16”), Light Troops, Frenzy, Fearless, Strider (Forest), Vanguard, Hard Target, Harnessed, Battle Focus, Lethal Strike, Prey Scent</string>
+								<key>Stats</key>
+								<string>Adv 2” • Mar 4” • Dis C • HP 3 • Def C • Res 3 • Arm C+1 • Att 2 • Off 3 • Str 4 • AP 2 • Agi 4</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Taurosaur** (0-1 Mounts/Army)</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Giant Blowpipe (3+)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Engine of the Ancients</string>
+											<key>Points</key>
+											<real>90</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Great Bow (3+)</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Skink Crew (4)</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Poisoned Javelin (4+)</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 2 • Str 3 • AP 0 • Agi 4 </string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>435</real>
+								<key>Special Rules</key>
+								<string>Fearless, Harnessed, Impact Hits (D6+1), Devastating Charge (+1 Att), Sharp Horns</string>
+								<key>Stats</key>
+								<string>Adv 6” • Mar 10” • Dis C • HP 6 • Def 3 • Res 6 • Arm 4 • Att 4 • Off 3 • Str 6 • AP 3 • Agi 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Skink Captain (0-5 Units/Army)</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Strider (Water Terrain)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 6 • HP 2 • Def 4 • Res 3 • Arm 1 • Att 3 • Off 4 • Str 4 • AP 1 • Agi 6</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Wizard Apprentice</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Druidism</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Shamanism </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Wizard Adept</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Druidism </string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Shamanism</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Skink Palanquin</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Plaque of the Snaked God</string>
+											<key>Points</key>
+											<real>45</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>60</real>
+								<key>Special Rules</key>
+								<string>Skink Palanquin, Tall, Harnassed</string>
+								<key>Stats</key>
+								<string>Adv 6” • Mar 12” • Dis C • HP 3 • Def C • Res 3 • Arm C+1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Taurosaur* (0-1 Mounts/Army)</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Giant Blowpipes (3+)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Engine of the Ancients</string>
+											<key>Points</key>
+											<real>90</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Great Bow (3+)</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Skink Crew (4)</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Poisoned Javelins (4+)</string>
+											<key>Stats</key>
+											<string>Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>435</real>
+								<key>Special Rules</key>
+								<string>Fearless, Harnessed, Impact Hits (D6+1), Devastating Charge (+1 Att), Sharp Horns</string>
+								<key>Stats</key>
+								<string>Adv 6” • Mar 10” • Dis C • HP 6 • Def 3 • Res 6 • Arm 4 • Att 4 • Off 3 • Str 6 • AP 3 • Agi 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Skink Priest (0-5 Units/Army)</string>
+					<key>Points</key>
+					<real>115</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Telepathic Link, Strider (Water Terrain)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 5 • HP 2 • Def 2 • Res 2 • Arm 1 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Battle Standard Bearer</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Halberd</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>100</integer>
+							<key>Name</key>
+							<string>Special Items</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Caiman Ancient</string>
+					<key>Points</key>
+					<real>210</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold Blooded, Fear, Strider (Water Terrain), Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 7 • HP 4 • Def 5 • Res 5 • Arm 3 • Att 4 • Off 5 • Str 5 • AP 2 • Agi 3</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Core</string>
+			<key>Lower Limit</key>
+			<real>0.25</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>-60</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion </string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Spear</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Totem Animal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Piranha</string>
+											<key>Points</key>
+											<real>1</real>
+											<key>Special Rules</key>
+											<string>The Saurian Warriors gain Fear</string>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Serpent</string>
+											<key>Points</key>
+											<real>3</real>
+											<key>Special Rules</key>
+											<string>The Saurian Warriors gain +1 Agility and Fight in Extra Rank.</string>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Jaguar</string>
+											<key>Points</key>
+											<real>2</real>
+											<key>Special Rules</key>
+											<string>The Saurian Warrior gains +1” Advance Rate and +2” March Rate.</string>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Crocodile</string>
+											<key>Points</key>
+											<real>5</real>
+											<key>Special Rules</key>
+											<string>The Saurian Warriors gain +1 Armour against Close Combat Attacks.</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>35</integer>
+					<key>Minimum Size</key>
+					<integer>15</integer>
+					<key>Name</key>
+					<string>Saurian Warriors </string>
+					<key>Points</key>
+					<real>21</real>
+					<key>Size</key>
+					<integer>15</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Scoring, Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 4” • Mar 8” • Dis 8 • HP 1 • Def 3 • Res 4 • Arm 2 • Att 2 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Caiman (One per every 10 Skinks</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Caiman x1</string>
+											<key>Points</key>
+											<real>90</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Caiman x2</string>
+											<key>Points</key>
+											<real>180</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Caiman x3</string>
+											<key>Points</key>
+											<real>270</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Caiman x4</string>
+											<key>Points</key>
+											<real>360</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Halberd</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Cold-Blooded, Scoring, Strider (Water Terrain), Combined Strength, Born Predator</string>
+								<key>Stats</key>
+								<string>Adv 6” • Mar 12” • Dis 7 • HP 3 • Def 3 • Res 4 • Arm 3 • Att 3 • Off 3 • Str 5 • AP 2 • Agi 2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Shield &amp; Poisoned Javelin (4+)*</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Bow (4+)** (0-40 Models/Army)</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string></string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>40</integer>
+					<key>Minimum Size</key>
+					<integer>15</integer>
+					<key>Name</key>
+					<string>Skink Braves (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>8</real>
+					<key>Size</key>
+					<integer>15</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Scoring, Strider (Water Terrain)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 5 • HP 1 • Def 2 • Res 2 • Arm 1 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Special</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost </string>
+								<key>Points</key>
+								<real>-115</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Cobalt Club</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Attacks made with this weapon gain +2 Strength</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>30</integer>
+					<key>Minimum Size</key>
+					<integer>15</integer>
+					<key>Name</key>
+					<string>Temple Guard</string>
+					<key>Points</key>
+					<real>32</real>
+					<key>Size</key>
+					<integer>15</integer>
+					<key>Special Rules</key>
+					<string>Bodyguard (General), Cold-Blooded, Fearless, Scoring, Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 4” • Mar 8” • Dis 8 • HP 1 • Def 4 • Res 4 • Arm 2 • Att 2 • Off 4 • Str 4 • AP 1 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Banner Enchantment</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Lance</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Raptor </string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Harnessed</string>
+								<key>Stats</key>
+								<string>Att 2 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>12</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Raptor Riders (0-4 Units/Army)</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Scoring, Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 8 • HP 1 • Def 4 • Res 4 • Arm 4 • Att 2 • Off 4 • Str 4 • AP 1 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>-30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Musician</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Standard Bearer</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Halberd</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Weapon</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1080</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Caimans (0-5 Units/Army)</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Scoring, Strider (Water Terrain), Born Predator</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 7 • HP 3 • Def 3 • Res 4 • Arm 3 • Att 3 • Off 3 • Str 5 • AP 2 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Scout</string>
+								<key>Points</key>
+								<real>12</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>4</integer>
+					<key>Minimum Size</key>
+					<integer>2</integer>
+					<key>Name</key>
+					<string>Snake Swarms (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Size</key>
+					<integer>2</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Fearless, Skirmisher, Light Troops, Unstable, Venomous Tide, Hard Target (1), Poison Attacks</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 7 • HP 5 • Def 3 • Res 2 • Arm 0 • Att 5 • Off 3 • Str 2 • AP 0 • Agi 1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Terrors of the Wild</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Ambush Predators</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.60000002384185791</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Dark Gods' Might</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Change</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Lust</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Pestilence</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Minions of Wrath</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Raiders</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Destroyers</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Menagerie</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Clans' Thunder</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Engines of War</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Sunna's Fury</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Imperial Armoury</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elder Service</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Peacekeepers</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Ancient Allies</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Hail of the Gods</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Barrage</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Bound and Binders</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Airborne Gallantry</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Powder Keg</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Chained Beasts</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Death from Above</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.15000000596046448</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Big 'n Nasty</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Jungle Guerillas</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>40</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Vanguard</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Poisoned Javelin (3+) &amp; Shield</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Blowpipe (4+)</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>15</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Skink Hunters (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>14</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Skirmisher, Light Troops, Strider (Water Terrain), Hard Target (1)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 6 • HP 1 • Def 2 • Res 2 • Arm 1 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Blowpipe (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>15</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Chameleons (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Scout, Skirmisher, Light Troops, Strider (Water Terrain), Hard Target (2)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 6 • HP 1 • Def 2 • Res 2 • Arm 1 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Spearback (0-2 Units/Army)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Shoot Spikes (4+); Shooting Weapon:  Range 18”, Shots 2D6, Str 4, AP 2, Quick to Fire.  Must declare Stand &amp; Shoot Charge Reaction if possible, but they do NOT suffer -1 to Hit.</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Salmander (0-2 Units/Army)</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Special Rules</key>
+								<string>Spout Flames, Flamethrower Artillery Weapon:  Range 8”, Shots 1, Str 4, AP 1, Flaming Attacks.  If a Misfire is rolled, the Salamander always counts as rolling the 5+ Malfunction result.</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>2</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Weapon Beasts (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>130</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Light Troops, Strider (Water Terrain)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 12” • Dis 6 • HP 3 • Def 3 • Res 4 • Arm 3 • Att 3 • Off 3 • Str 4 • AP 1 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>85</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion </string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Lance</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Poisoned Javelin (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Fire Bola (4+)</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Special Rules</key>
+								<string>Range 8”, Shots 1, Str 4, AP 1, Flaming Attacks, Quick to Fire</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>5</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Pteradon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Harnessed, Release Rocks</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 3 • Str 4 • AP 1 • Agi 2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Pteradon Sentries (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Fly (9”,18”), Feigned Flight, Skirmisher, Light Troops, Strider (Forest), Vanguard, Hard Target (1)</string>
+					<key>Stats</key>
+					<string>Adv 2” • Mar 4” • Dis 5 • HP 2 • Def 2 • Res 3 • Arm 2 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Starting Unit Cost</string>
+								<key>Points</key>
+								<real>29</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Champion</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Light Lance</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Poisoned Javelin (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Shield</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>5</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Rhamphodon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Lethal Strike, Prey Scent, Harnessed, Battle Focus</string>
+								<key>Stats</key>
+								<string>Att 2 • Off 3 • Str 4 • AP 2 • Agi 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Rhamphodon Riders (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>62</real>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Fly (8”,16”), Light Troops, Frenzy, Fearless, Strider (Forest), Vanguard, Hard Target (1)</string>
+					<key>Stats</key>
+					<string>Adv 2” • Mar 4• Dis 6 • HP 2 • Def 1 • Res 3 • Arm 2 • Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Thunder Lizards</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Skink Crew (5)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Poisoned Javelin (4+)</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Giant Blowpipes (4+)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Engine of the Gods</string>
+								<key>Points</key>
+								<real>90</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Great Bow (4+)</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Taurosaur (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>450</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Fearless, Giant Blowpipes (4+), Harnessed, Sharp Horns, Impact Hits (D6+1), Devastating Charge (+1 Att)</string>
+					<key>Stats</key>
+					<string>Adv 6” • Mar 10” • Dis 7 • HP 6 • Def 3 • Res 6 • Arm 4 • Att 4 • Off 3 • Str 6 • AP 3 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Skink Rider</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Mystic Traveller</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Swarm of Insects (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Savage Fury (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Awaken the Beast (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Spark of Creation (Hereditary)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Swarm of Insects (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Savage Fury (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Awaken the Beast (Shamanism)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Spark of Creation (Hereditary)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>110</real>
+								<key>Special Rules</key>
+								<string>Wizard Adept Level 2, and gains Telepathic Link</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Stygiosaur (0-3 Units/Army)</string>
+					<key>Points</key>
+					<real>305</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Cold-Blooded, Fear, Terror, Towering Presence, Born Predator, Poison Attacks, Harnessed, Breath Attack (Toxic Attacks), Stomp Attacks (D3)</string>
+					<key>Stats</key>
+					<string>Adv 7” • Mar 14” • Dis 6 • HP 5 • Def 4 • Res 5 • Arm 4 • Att 4 • Off 4 • Str 5 • AP 2 • Agi 2</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Skink Crew (4)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Poisoned Javelin (4+)</string>
+								<key>Stats</key>
+								<string>Att 1 • Off 2 • Str 3 • AP 0 • Agi 4</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Altar of the Snake-God (Must Choose One)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>The model gains an additional model part - Snakes: Poison Attacks</string>
+								<key>Stats</key>
+								<string>Att 2D6 • Off 2 • Str 2 • AP 0 • Agi 1</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Sun Engine (Must Choose One)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>The model gains Channel (1)</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Thyroscutus (0-2 Units/Army)</string>
+					<key>Points</key>
+					<real>320</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Harnessed, Crush Attack</string>
+					<key>Stats</key>
+					<string>Adv 5” • Mar 10” • Dis 6 • HP 5 • Def 4 • Res 5 • Def 4 • Res 5 • Arm 6 • Att 3 • Off 2 • Str 4 • AP 1 • Agi 1</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Unseen Arrows</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fleet of Foot</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.44999998807907104</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Forest Giants</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Tunnel Gunners</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Built and Bred</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Ancient Ordnance</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Mason's Menagerie</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.30000001192092896</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Entombed</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>The Suffering</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.20000000298023224</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Swift Death</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Empowered</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.34999999403953552</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Other</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>9thAge</string>
+</dict>
+</plist>

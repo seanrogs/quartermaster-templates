@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Code</key>
+	<string>TOW</string>
+	<key>Condition Sets</key>
+	<array>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Dead</string>
+					<key>Shrouded</key>
+					<true/>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Percentage</key>
+						<real>1</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Fleeing</string>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Percentage</key>
+						<real>0.5</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>25% or less</string>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Percentage</key>
+						<real>0.5</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Banner Claimed</string>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>50</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Magic Weapon</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Ogre Blade</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks, Multiple Wounds (D3)</string>
+					<key>Stats</key>
+					<string>R:Combat•S+2•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Sword of Battle</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Extra Attacks (+1), Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Duellist’s Blades</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Special Rules</key>
+					<string>Extra Attacks (+2), Magical Attacks, Requires Two Hands</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Dragon Slaying Sword</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Monster Slayer</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Headsman’s Axe</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Killing Blow, Magical Attacks, Requires Two Hands</string>
+					<key>Stats</key>
+					<string>R:Combat•S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Spelleater Axe</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Magic Resistance (-2)</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Giant Blade</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (2), Magical Attacks, Multiple Wounds (2)</string>
+					<key>Stats</key>
+					<string>R:Combat•S+1•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Sword of Swiftness</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Strike First</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Berserker Blade</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Extra Attacks (+1), Impetuous, Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S+1•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Sword of Might*</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Biting Blade</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Sword of Striking*</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Burning Blade*</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>Flaming Attacks, Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Cackling Blade</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Extra Attacks (+D6), Magical Attacks, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Meteor Hammer</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Requires Two Hands, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Hell-Forged Axe</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (3), Flaming Attacks, Magical Attacks</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Sword of Sorrow</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (2), Magical Attacks, Multiple Wounds (2), Notes</string>
+					<key>Stats</key>
+					<string>R30"•S5•AP-1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magic Armour</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Destiny</string>
+					<key>Points</key>
+					<real>70</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Bedazzling Helm</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry/cavalry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Silvered Steel</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Glittering Scales</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Shield of the Warrior True</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Spellshield*</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Meteoric Iron</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Enchanted Shield*</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Charmed Shield*</string>
+					<key>Points</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Levitating Shield</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Trailblazer’s Hauberk</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Move through Cover, Scouts</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Talisman</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Dawnstone</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Talisman of Protection</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Paymaster’s Coin*</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Obsidian Lodestone*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Luckstone*</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Icon of Fortitude</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry/cavalry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Ironhide Talisman</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Magic Standard</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Banner of Iron Resolve</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Razor Standard</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Rampaging Banner</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>The Blazing Banner</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>War Banner</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Banner of the Steadfast</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Totem of Wrath</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Banner of Swirling Wind</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Monster Hunter’s Tapestry</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Enchanted Item</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Wizarding Hat</string>
+					<key>Points</key>
+					<real>45</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Flying Carpet</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Healing Potion*</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Ruby Ring of Ruin</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Potion of Strength*</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Potion of Toughness*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Potion of Speed*</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Potion of Foolhardiness*</string>
+					<key>Points</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Arch-Lightning Rod</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Potion of Fervour</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Becalming Orb</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Arcane Item</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Feedback Scroll</string>
+					<key>Points</key>
+					<real>60</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Scroll of Transmogrification*</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Wand of Jet</string>
+					<key>Points</key>
+					<real>45</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Lore Familiar</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Power Scroll*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Dispel Scroll*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Arcane Familiar</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Earthing Rod</string>
+					<key>Points</key>
+					<real>5</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Staff of Quietude</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Staff of Disruption</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Tome of Spellcraft</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Lookup</key>
+	<dict>
+		<key>Search Pattern</key>
+		<string>https://tow.whfb.app/search/?q=%@</string>
+	</dict>
+	<key>Name</key>
+	<string>Warhammer: The Old World</string>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Characters</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Core</string>
+			<key>Lower Limit</key>
+			<real>0.25</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>-1</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Special</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Rare</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Mercenaries</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.2</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Allies</string>
+			<key>Lower Limit</key>
+			<real>0.0</real>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<real>0.25</real>
+		</dict>
+	</array>
+	<key>Profiles</key>
+	<array>
+		<string>M4•WS3•BS3•S3•T3•W1•I3•A1•Ld7</string>
+		<string>M8•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
+		<string>M7•WS5•BS-•S5•T(+1)•W(+1)•I5•A4•Ld-</string>
+		<string>M-•WS-•BS-•S-•T7•W3•I-•A-•Ld-</string>
+		<string>M-•WS-•BS-•S4•T4•W3•I-•A-•Ld-</string>
+		<string>R:Combat•S:S+2•AP-2</string>
+		<string>R30"•S3•AP-</string>
+	</array>
+	<key>Version</key>
+	<integer>20251214</integer>
+</dict>
+</plist>

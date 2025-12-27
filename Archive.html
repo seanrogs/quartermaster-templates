@@ -1,0 +1,1035 @@
+<!--
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+
+-->
+
+<html>
+    <head>
+        <title>Quartermaster Templates</title>
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
+
+            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
+
+        <link rel="stylesheet" href="observer.css">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="UTF-8">
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+
+
+
+
+
+    <!-- Media resizing -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});
+
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px');
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+
+	</script>
+
+
+<!-- Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25987979-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- End header -->
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
+
+<meta charset="utf-8" />
+</head>
+
+	<body>
+
+		<div id="page">
+
+			<div id="header">
+
+
+				<div class="links">
+					<ul>
+					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
+						<li><a href="http://www.quartermaster.app/">Home</a></li>
+
+
+						<li><a href="http://www.quartermaster.app/about">About</a></li>
+
+						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
+
+						<li>Templates</li>
+
+						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
+
+						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
+
+					</ul>
+				</div>
+
+
+				<div class="blog-title">
+
+                    <h1><a href="/">Quartermaster Templates</a></h1>
+
+				</div>
+
+				<div class="banner">
+					<p>The Game Systems and Factions listed here have not been maintained and may be out of date. Please help out with maintenance and confirm if these files are still relevant.</p>
+				</div>
+
+				<div class="contents" style="margin-top: 50px;">
+					<ul>
+						<li><a href="#WH40K10">Warhammer&nbsp;40,000&nbsp;10th&nbsp;Edition</a></li>
+						<li><a href="#WH40K9">Warhammer&nbsp;40,000&nbsp;9th&nbsp;Edition</a></li>
+						<li><a href="#WH40K7">Warhammer&nbsp;40,000&nbsp;7th&nbsp;Edition</a></li>
+					</ul>
+					<ul>
+						<li><a href="#KillTeam">Warhammer&nbsp;40,000: Kill Team</a></li>
+						<li><a href="#ShadowWar">Shadow&nbsp;War:&nbsp;Armageddon</a></li>
+					</ul>
+					<ul>
+						<li><a href="#X-Wing">X-Wing&nbsp;Miniatures&nbsp;Game</a></li>
+                        <li><a href="#Armada">Star&nbsp;Wars:&nbsp;Armada</a></li>
+					</ul>
+					<ul>
+					    <li><a href="#AoS">Warhammer&nbsp;Age&nbsp;of&nbsp;Sigmar</a></li>
+					</ul>
+					<ul>
+            			<li><a href="#9thAge">Fantasy&nbsp;Battles:&nbsp;The&nbsp;9th&nbsp;Age</a></li>
+						<li><a href="#KoW">Kings&nbsp;of&nbsp;War</a></li>
+						<li><a href="#LOTR">Lord&nbsp;of&nbsp;the&nbsp;Rings</a></li>
+					</ul>
+					<ul>
+  						<li><a href="#Yankee">Team&nbsp;Yankee</a></li>
+						<li><a href="#Bolt_Action">Bolt&nbsp;Action</a></li>
+  						<li><a href="#KoW-Historical">Kings of War Historical</a></li>
+					</ul>
+					<ul>
+						<li><a href="/">More Game Systems</a></li>
+					</ul>
+				</div>
+
+
+
+			</div> <!-- header end -->
+
+			<div id="content">
+
+				<div class="column">
+					<h2 id="WH40K10">Warhammer 40,000 10th Edition (WIP)</h2>
+					<ul>
+						<li id="WH40K10-WH40K10"><a href="WH40K10/WH40K10.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'WH40K10']);">WH40K 10th Edition game system</a>
+							<ul class="note">
+								<li>Use this game system to begin creating faction templates for Warhammer 40,000 10th Edition.</li>
+							</ul>
+						</li>
+					</ul>
+					<h4>Example</h4>
+					<ul>
+						<li id="WH40K10-Orks"><a href="WH40K10/Orks.php" onClick="_gaq.push(['_trackEvent', 'WH40K10', 'Download', 'Orks']);">Orks</a>
+                            <ul class="note">
+                                <li>This is an example template showing how 10th Edition units can be constructed. Follow this example to create your own templates.</li>
+                            </ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="WH40K9">Warhammer 40,000 (9th Edition)</h2>
+					<ul>
+						<li id="WH40K9-WH40K9"><a href="WH40K9/WH40K9.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'WH40K9']);">WH40K 9th Edition game system</a>
+							<ul class="note">
+								<li>Install the WH40K 9th Edition game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="note">
+						<li>All factions include:
+							<ul class="supplements">
+								<li>Power Rating update 2020</li>
+								<li>Munitorum Field Manual 2020</li>
+							</ul>
+						</li>
+					</ul>
+					<h4>Imperium</h4>
+					<ul>
+						<li id="WH40K9-Space_Marines"><a href="WH40K9/Space_Marines.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Space Marines']);">Space Marines</a>
+							<ul class="supplements">
+								<li>Blood Angels</li>
+								<li>Raven Guard</li>
+								<li>Space Wolves</li>
+							</ul>
+						</li>
+						<!-- <li id="WH40K9-Blood_Angels"><a href="WH40K9/Blood_Angels.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Blood Angels']);">Blood Angels</a></li>
+						<li id="WH40K9-Dark_Angels"><a href="WH40K9/Dark_Angels.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Dark Angels']);">Dark Angels</a></li>
+						<li id="WH40K9-Raven_Guard"><a href="WH40K9/Raven_Guard.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Raven Guard']);">Raven Guard</a></li> -->
+						<li id="WH40K9-Space_Wolves"><a href="WH40K9/Space_Wolves.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Space Wolves']);">Space Wolves</a></li>
+						<!-- <li id="WH40K9-Deathwatch"><a href="WH40K9/Deathwatch.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Deathwatch']);">Deathwatch</a></li>
+							-->
+						<li id="WH40K9-Grey_Knights"><a href="WH40K9/Grey_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Grey Knights']);">Grey Knights</a></li>
+					</ul>
+					<ul>
+						<li id="WH40K9-Space_Marines_INDOMITUS"><a href="WH40K9/Space_Marines_INDOMITUS.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Space Marines INDOMITUS']);">Space Marines INDOMITUS</a></li>
+					</ul>
+					<ul>
+						<li id="WH40K9-Adepta_Sororitas"><a href="WH40K9/Adepta_Sororitas.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Adepta Sororitas']);">Adepta Sororitas</a></li>
+						<li id="WH40K9-Adeptus_Custodes"><a href="WH40K9/Adeptus_Custodes.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Adeptus Custodes']);">Adeptus Custodes</a></li>
+						<li id="WH40K9-Adeptus_Mechanicus"><a href="WH40K9/Adeptus_Mechanicus.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Adeptus Mechanicus']);">Adeptus Mechanicus</a></li>
+						<li id="WH40K9-Agents_of_the_Imperium"><a href="WH40K9/Agents_of_the_Imperium.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Agents of the Imperium']);">Agents of the Imperium</a></li>
+						<li id="WH40K9-Astra_Militarum"><a href="WH40K9/Astra_Militarum.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Astra Militarum']);">Astra Militarum</a></li>
+						<li id="WH40K9-Elucidian_Starstriders"><a href="WH40K9/Elucidian_Starstriders.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Elucidian Starstriders']);">Elucidian Starstriders</a></li>
+						<li id="WH40K9-Imperial_Knights"><a href="WH40K9/Imperial_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Imperial Knights']);">Imperial Knights</a></li>
+						<li id="WH40K9-Inquisition"><a href="WH40K9/Inquisition.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Inquisition']);">Inquisition</a></li>
+						<li id="WH40K9-Militarum_Tempestus"><a href="WH40K9/Militarum_Tempestus.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Militarum Tempestus']);">Militarum Tempestus</a></li>
+						<li id="WH40K9-Officio_Assassinorum"><a href="WH40K9/Officio_Assassinorum.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Officio Assassinorum']);">Officio Assassinorum</li>
+						<li id="WH40K9-Sisters_of_Silence"><a href="WH40K9/Sisters_of_Silence.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Sisters of Silence']);">Sisters of Silence</a></li>
+					</ul>
+					<ul>
+						<li id="WH40K9-Fortifications"><a href="WH40K9/Fortifications.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Fortifications']);">Fortifications</a></li>
+					</ul>
+					<h5>Forge World</h5>
+					<ul>
+						<li id="WH40K9-Titan_Legions"><a href="WH40K9/Titan_Legions.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Titan Legions']);">Titan Legions</a></li>
+						<li id="WH40K9-Death_Korps_of_Krieg"><a href="WH40K9/Death_Korps_of_Krieg.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Death Korps of Krieg']);">Death Korps of Krieg</a></li>
+					</ul>
+					<h4>Chaos</h4>
+					<ul>
+						<li id="WH40K9-Chaos_Space_Marines"><a href="WH40K9/Chaos_Space_Marines.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Chaos Space Marines']);">Chaos Space Marines</a></li>
+						<li id="WH40K9-Death_Guard"><a href="WH40K9/Death_Guard.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Death Guard']);">Death Guard</a></li>
+						<li id="WH40K9-Thousand_Sons"><a href="WH40K9/Thousand_Sons.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Thousand Sons']);">Thousand Sons</a></li>
+						<li id="WH40K9-Chaos_Daemons"><a href="WH40K9/Chaos_Daemons.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Chaos Daemons']);">Chaos Daemons</a></li>
+						<li id="WH40K9-Chaos_Knights"><a href="WH40K9/Chaos_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Chaos Knights']);">Chaos Knights</a></li>
+						<li id="WH40K9-Gellerpox_Infected"><a href="WH40K9/Gellerpox_Infected.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Gellerpox Infected']);">Gellerpox Infected</a></li>
+						<li id="WH40K9-Servants_of_the_Abyss"><a href="WH40K9/Servants_of_the_Abyss.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Servants of the Abyss']);">Servants of the Abyss</a></li>
+					</ul>
+					<h5>Forge World</h5>
+					<ul>
+						<li id="WH40K9-Heretic_Titan_Legions"><a href="WH40K9/Heretic_Titan_Legions.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Heretic Titan Legions']);">Heretic Titan Legions</a></li>
+					</ul>
+					<h4>Xenos</h4>
+					<ul>
+						<li id="WH40K9-Corsairs"><a href="WH40K9/Corsairs.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Corsairs']);">Corsairs</a></li>
+						<li id="WH40K9-Craftworlds"><a href="WH40K9/Craftworlds.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Craftworlds']);">Craftworlds</a></li>
+						<li id="WH40K9-Drukhari"><a href="WH40K9/Drukhari.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Drukhari']);">Drukhari</a></li>
+						<li id="WH40K9-Harlequins"><a href="WH40K9/Harlequins.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Harlequins']);">Harlequins</a></li>
+						<li id="WH40K9-Ynnari"><a href="WH40K9/Ynnari.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Ynnari']);">Ynnari</a></li>
+					</ul>
+					<ul>
+						<li id="WH40K9-Genestealer_Cults"><a href="WH40K9/Genestealer_Cults.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Genestealer Cults']);">Genestealer Cults</a></li>
+						<li id="WH40K9-Necrons"><a href="WH40K9/Necrons.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Necrons']);">Necrons</a></li>
+						<li id="WH40K9-Orks"><a href="WH40K9/Orks.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Orks']);">Orks</a>
+						<li id="WH40K9-Tau_Empire"><a href="WH40K9/Tau_Empire.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Tau Empire']);">T'au Empire</a></li>
+						<li id="WH40K9-Tyranids"><a href="WH40K9/Tyranids.php" onClick="_gaq.push(['_trackEvent', 'WH40K9', 'Download', 'Tyranids']);">Tyranids</a></li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="WH40K7">Warhammer 40,000 7th Edition</h2>
+					<ul>
+						<li id="WH40K7-WH40K7"><a href="WH40K7/WH40K7.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'WH40K7']);">WH40K 7th Edition game system</a>
+							<ul class="note">
+								<li>Install the WH40K 7th Edition game system to use any of the following templates.</li>
+								<li>If you're using Quartermaster 4, install this game system to access Fortifications, Lords of War, and Formations.</li>
+							</ul>
+						</li>
+					</ul>
+					<h5>Adeptus Astartes</h5>
+					<ul>
+						<li><a href="WH40K7/Blood_Angels.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Blood Angels']);">Blood Angels</a>
+							<ul class="supplements">
+								<li>Archangels (Shield of Baal)</li>
+								<li>Flesh Tearers (Shield of Baal)</li>
+								<li>The Angel's Blade</li>
+							</ul>
+						</li>
+						<li id="WH40K7-Dark_Angels"><a href="WH40K7/Dark_Angels.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Dark Angels']);">Dark Angels</a>
+						</li>
+						<li><a href="WH40K7/Grey_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Grey Knights']);">Grey Knights</a>
+						</li>
+						<li id="WH40K7-Space_Marines"><a href="WH40K7/Space_Marines.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Space Marines']);">Space Marines</a>
+							<ul class="supplements">
+								<li>Iron Hands (Clan Raukaan)</li>
+								<li>Imperial Fists (Sentinels of Terra)</li>
+								<li>White Scars (Warzone Damocles: Kauyon)</li>
+								<li>Raven Guard (Warzone Damocles: Kauyon)</li>
+								<li>Stormhawk Interceptor (Death from the Skies)</li>
+							</ul>
+						</li>
+						<li id="WH40K7-Space_Wolves"><a href="WH40K7/Space_Wolves.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Space Wolves']);">Space Wolves</a>
+							<ul class="supplements">
+								<li>Wulfen Edition</li>
+								<li>Champions of Fenris</li>
+								<li>Sanctus Reach</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="WH40K7-Deathwatch"><a href="WH40K7/Deathwatch.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Deathwatch']);">Deathwatch</a>
+						</li>
+  						<li id="WH40K7-Deathwatch_Overkill"><a href="WH40K7/Deathwatch_Overkill.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Deathwatch Overkill']);">Deathwatch Overkill</a>
+  					</li>
+					</ul>
+					<h5>Imperium</h5>
+					<ul>
+						<li><a href="WH40K7/Adepta_Sororitas.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Adepta Sororitas']);">Adepta Sororitas</a></li>
+						<li><a href="WH40K7/Astra_Militarum.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Astra Militarum']);">Astra Militarum</a>
+							<ul class="supplements">
+								<li>Militarum Tempestus</li>
+								<li>Cadia</li>
+							</ul>
+						</li>
+						<li><a href="WH40K7/Custodians.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Custodians']);">Custodians</a></li>
+						<li id="WH40K7-Imperial_Knights"><a href="WH40K7/Imperial_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Imperial Knights']);">Imperial Knights</a>
+							<ul class="supplements">
+								<li>Cerastus Knight variants</li>
+							</ul>
+						</li>
+						<li><a href="WH40K7/Inquisition.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Inquisition']);">Inquisition</a></li>
+						<li><a href="WH40K7/Officio_Assassinorum.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Officio Assassinorum']);">Officio Assassinorum</a>
+						</li>
+						<li><a href="WH40K7/Sisters_of_Silence.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Sisters of Silence']);">Sisters of Silence</a></li>
+					</ul>
+					<h5>Adeptus Mechanicus</h5>
+					<ul>
+						<li id="WH40K7-Cult_Mechanicus"><a href="WH40K7/Cult_Mechanicus.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Cult Mechanicus']);">Cult Mechanicus</a>
+						</li>
+						<li id="WH40K7-Skitarii"><a href="WH40K7/Skitarii.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Skitarii']);">Skitarii</a>
+						</li>
+					</ul>
+					<h5>Chaos</h5>
+					<ul>
+						<li id="WH40K7-Chaos_Daemons"><a href="WH40K7/Chaos_Daemons.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Chaos Daemons']);">Chaos Daemons</a>
+							<ul class="supplements">
+								<li>Dataslate: Be'lakor</li>
+								<li>Wulfen Edition</li>
+							</ul>
+						</li>
+						<li><a href="WH40K7/Chaos_Space_Marines.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Chaos Space Marines']);">Chaos Space Marines</a>
+							<ul class="supplements">
+								<li>Black Legion</li>
+								<li>Crimson Slaughter</li>
+								<li>Black Crusade Detachment</li>
+								<li>Dataslate: Be'lakor</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="WH40K7/Cypher.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Cypher']);">Cypher</a></li>
+						<li id="WH40K7-Khorne_Daemonkin"><a href="WH40K7/Khorne_Daemonkin.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Khorne Daemonkin']);">Khorne Daemonkin</a>
+						</li>
+						<li><a href="WH40K7/Renegade_Knights.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Renegade Knights']);">Renegade Knights</a></li>
+						<li id="WH40K7-Thousand_Sons"><a href="WH40K7/Thousand_Sons.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Thousand Sons']);">Thousand Sons</a>
+						</li>
+					</ul>
+					<h5>Eldar</h5>
+					<ul>
+						<li id="WH40K7-Craftworlds"><a href="WH40K7/Craftworlds.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Craftworlds']);">Craftworlds</a>
+							<ul class="supplements">
+								<li>Doom of Mymeara</li>
+								<li>Imperial Armour</li>
+							</ul>
+						</li>
+						<li><a href="WH40K7/Dark_Eldar.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Dark Eldar']);">Dark Eldar</a>
+							<ul class="supplements">
+								<li>Haemonculus Covens</li>
+							</ul>
+						</li>
+						<li id="WH40K7-Harlequins"><a href="WH40K7/Harlequins.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Harlequins']);">Harlequins</a>
+							<ul class="supplements">
+								<li>Death Masque</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="WH40K7-Ynnari"><a href="WH40K7/Ynnari.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Ynnari']);">Ynnari</a></li>
+						<li id="WH40K7-Ulthwe"><a href="WH40K7/Ulthwe_Strike_Force.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Ulthwé Strike Force']);">Ulthwé Strike Force</a></li>
+					</ul>
+					<h5>Xenos</h5>
+					<ul>
+						<li><a href="WH40K7/Necrons.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Necrons']);">Necrons</a>
+						</li>
+						<li><a href="WH40K7/Orks.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Orks']);">Orks</a>
+							<ul class="supplements">
+								<li>Waaagh! Ghazghkull</li>
+								<li>Datasheet: Looted Wagon</li>
+								<li>Sanctus Reach</li>
+								<li>Wazbom Blastajet (Death from the Skies)</li>
+							</ul>
+						</li>
+						<li id="WH40K7-Tau_Empire"><a href="WH40K7/Tau_Empire.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Tau Empire']);">Tau Empire</a>
+							<ul class="supplements">
+								<li>Farsight Enclaves</li>
+							</ul>
+						</li>
+						<li><a href="WH40K7/Tyranids.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Tyranids']);">Tyranids</a>
+							<ul class="supplements">
+								<li>Dataslates: Tyranid Invasion, Tyranid Vanguard</li>
+							</ul>
+						</li>
+						<li id="WH40K7-Genestealer_Cults"><a href="WH40K7/Genestealer_Cults.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Genestealer Cults']);">Genestealer Cults</a>
+						</li>
+					</ul>
+					<h3>Expansions</h3>
+					<ul>
+						<li><a href="WH40K7/Fortifications.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Fortifications']);">Fortifications</a></li>
+						<li><a href="WH40K7/Lords_of_War.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Lords of War']);">Lords of War</a></li>
+					</ul>
+					<h3 id="WH40K7-ForgeWorld">Forge World</h3>
+					<ul class="note">
+						<li>Most of the following templates have not been maintained and as such may be outdated.</li>
+					</ul>
+					<ul>
+						<li><a href="WH40K7/Astra_Militarum_(Imperial_Armor_1_+_Aeronautica).php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Astra Militarum (Imperial Armor 1 + Aeronautica)']);">Astra Militarum (Imperial Armour 1 + Aeronautica)</p>
+						<li><a href="WH40K7/Badab_Wars.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Badab Wars']);">Badab Wars</a></li>
+						<li><a href="WH40K7/Death_Korps_of_Krieg.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Death Korps of Krieg']);">Death Korps of Krieg</a>
+						</li>
+						<li><a href="WH40K7/Death_Korps_of_Krieg_Siege_Regiment.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Death Korps of Krieg Siege Regiment']);">Death Korps of Krieg Siege Regiment</a>
+						</li>
+						<li id="WH40K7-Eldar_Corsairs"><a href="WH40K7/Eldar_Corsairs.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Eldar Corsairs']);">Eldar Corsairs</a></li>
+						<li><a href="WH40K7/Elysian_Drop_Troops.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Elysian Drop Troops']);">Elysian Drop Troops</a></li>
+						<li><a href="WH40K7/Elysian_D-99.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Elysian D-99']);">Elysian D-99</a></li>
+						<li><a href="WH40K7/Imperial_Armour_2.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Imperial Armour 2']);">Imperial Armour 2</a></li>
+						<li><a href="WH40K7/Imperial_Guard_Armoured_Battlegroup.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Imperial Guard Armoured Battlegroup']);">Imperial Guard Armoured Battlegroup</a></li>
+						<li><a href="WH40K7/Imperial_Guard_Lords_of_War_(Forge_World).php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Imperial Guard Lords of War (Forge World)']);">Imperial Guard Lords of War (Forge World)</a></li>
+						<li><a href="WH40K7/Necrons_IA12.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Necrons IA12']);">Necrons IA12: Fall of Orpheus</a>
+						</li>
+						<li><a href="WH40K7/Renegades_and_Heretics.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Renegades and Heretics']);">Renegades and Heretics</a></li>
+						<li><a href="WH40K7/Renegades_-_Defenders_of_Vraks.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Renegades - Defenders of Vraks']);">Renegades - Defenders of Vraks</a></li>
+						<li><a href="WH40K7/Renegades_-_Servants_of_Decay.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Renegades - Servants of Decay']);">Renegades - Servants of Decay</a></li>
+						<li><a href="WH40K7/Renegades_-_Servants_of_Slaughter.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Renegades - Servants of Slaughter']);">Renegades - Servants of Slaughter</a></li>
+						<li><a href="WH40K7/Tau_Empire_Taros_Campaign.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Tau Empire Taros Campaign']);">Tau Empire Taros Campaign</a></li>
+						<li><a href="WH40K7/The_Tyrant's_Legion.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'The Tyrant's Legion']);">The Tyrant's Legion</a></li>
+						<li><a href="WH40K7/Tyranids_Anphellion_Project.php" onClick="_gaq.push(['_trackEvent', 'WH40K7', 'Download', 'Tyranids Anphellion Project']);">Tyranids Anphellion Project</a></li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="KillTeam">Warhammer 40,000: Kill Team</h2>
+					<ul>
+						<li id="KillTeam-system"><a href="Kill-Team/Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Kill Team']);">Kill Team game system</a>
+							<ul class="note">
+								<li>Install the Kill Team game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="note">
+						<li>All factions include:
+							<ul class="supplements">
+								<li>Commander, Elites</li>
+								<li>Blackstone Fortress (if relevant)</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="Kill-Team-Adepta_Sororitas_Kill_Team"><a href="Kill-Team/Adepta_Sororitas_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Adepta Sororitas Kill Team']);">Adepta Sororitas Kill Team</a></li>
+						<li id="KillTeam-Adeptus_Astartes_Kill_Team"><a href="Kill-Team/Adeptus_Astartes_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill Team', 'Download', 'Adeptus Astartes Kill Team']);">Adeptus Astartes Kill Team</a></li>
+						<li id="KillTeam-Adeptus_Custodes_Kill_Team"><a href="Kill-Team/Adeptus_Custodes_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill Team', 'Download', 'Adeptus Custodes Kill Team']);">Adeptus Custodes Kill Team</a></li>
+						<li id="Kill-Team-Deathwatch_Kill_Team"><a href="Kill-Team/Deathwatch_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Deathwatch Kill Team']);">Deathwatch Kill Team</a></li>
+						<li id="Kill-Team-Grey_Knights_Kill_Team"><a href="Kill-Team/Grey_Knights_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Grey Knights Kill Team']);">Grey Knights Kill Team</a></li>
+						<li id="Kill-Team-Astra_Militarum_Kill_Team"><a href="Kill-Team/Astra_Militarum_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Astra Militarum Kill Team']);">Astra Militarum Kill Team</a></li>
+						<li id="Kill-Team-Adeptus_Mechanicus_Kill_Team"><a href="Kill-Team/Adeptus_Mechanicus_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Adeptus Mechanicus Kill Team']);">Adeptus Mechanicus Kill Team</a></li>
+						<li id="Kill-Team-Elucidian_Starstriders_Kill_Team"><a href="Kill-Team/Elucidian_Starstriders_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Elucidian Starstriders Kill Team']);">Elucidian Starstriders Kill Team</a></li>
+						<li id="Kill-Team-Inquisition_Kill_Team"><a href="Kill-Team/Inquisition_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Inquisition Kill Team']);">Inquisition Kill Team</a></li>
+					</ul>
+					<ul>
+						<li id="Kill-Team-Heretic_Astartes_Kill_Team"><a href="Kill-Team/Heretic_Astartes_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Heretic Astartes Kill Team']);">Heretic Astartes Kill Team</a></li>
+						<li id="Kill-Team-Chaos_Daemons_Kill_Team"><a href="Kill-Team/Chaos_Daemons_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Chaos Daemons Kill Team']);">Chaos Daemons Kill Team</a></li>
+						<li id="Kill-Team-Death_Guard_Kill_Team"><a href="Kill-Team/Death_Guard_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Death Guard Kill Team']);">Death Guard Kill Team</a></li>
+						<li id="Kill-Team-Thousand_Sons_Kill_Team"><a href="Kill-Team/Thousand_Sons_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Thousand Sons Kill Team']);">Thousand Sons Kill Team</a></li>
+						<li id="Kill-Team-Gellerpox_Infected_Kill_Team"><a href="Kill-Team/Gellerpox_Infected_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Gellerpox Infected Kill Team']);">Gellerpox Infected Kill Team</a></li>
+						<li id="Kill-Team-Servants_of_the_Abyss_Kill_Team"><a href="Kill-Team/Servants_of_the_Abyss_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Servants of the Abyss Kill Team']);">Servants of the Abyss Kill Team</a></li>
+					</ul>
+					<ul>
+						<li id="Kill-Team-Asuryani_Kill_Team"><a href="Kill-Team/Asuryani_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Asuryani Kill Team']);">Asuryani Kill Team</a></li>
+						<li id="Kill-Team-Drukhari_Kill_Team"><a href="Kill-Team/Drukhari_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Drukhari Kill Team']);">Drukhari Kill Team</a></li>
+						<li id="Kill-Team-Harlequins_Kill_Team"><a href="Kill-Team/Harlequins_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Harlequins Kill Team']);">Harlequins Kill Team</a></li>
+					</ul>
+					<ul>
+						<li id="Kill-Team-Necrons_Kill_Team"><a href="Kill-Team/Necrons_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Necrons Kill Team']);">Necrons Kill Team</a></li>
+						<li id="KillTeam-Orks_Kill_Team"><a href="Kill-Team/Orks_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill Team', 'Download', 'Orks Kill Team']);">Orks Kill Team</a></li>
+						<li id="Kill-Team-Tau_Empire_Kill_Team"><a href="Kill-Team/Tau_Empire_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Tau Empire Kill Team']);">T’au Empire Kill Team</a></li>
+					</ul>
+					<ul>
+						<li id="Kill-Team-Tyranids_Kill_Team"><a href="Kill-Team/Tyranids_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Tyranids Kill Team']);">Tyranids Kill Team</a></li>
+						<li id="Kill-Team-Genestealer_Cults_Kill_Team"><a href="Kill-Team/Genestealer_Cults_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Genestealer Cults Kill Team']);">Genestealer Cults Kill Team</a></li>
+						<li id="Kill-Team-Kroot_Mercenaries"><a href="Kill-Team/Kroot_Mercenaries.php" onClick="_gaq.push(['_trackEvent', 'Kill-Team', 'Download', 'Kroot Mercenaries']);">Kroot Mercenaries</a>
+							<ul class="supplements">
+								<li>Annual 2019</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="column">
+					<h2 id="ShadowWar">Shadow War: Armageddon</h2>
+					<ul>
+						<li id="ShadowWar-system"><a href="ShadowWar/ShadowWar.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'ShadowWar']);">Shadow War game system</a>
+							<ul class="note">
+								<li>Install the Shadow War game system to use any of the following templates.</li>
+								<li>Please help out by contributing faction templates for the other Shadow War factions! Refer to <a href="http://quartermaster.app/post/159768673154/shadow-war-armageddon-faction-templates">Shadow War: Armageddon faction templates</a> for details.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="ShadowWar-Kill_Team_Starter"><a href="ShadowWar/Kill_Team_Starter.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Kill Team Starter']);">Kill Team Starter</a>
+							<ul class="note">
+								<li>Use this Starter template to easily create new factions. Refer to <a href="http://quartermaster.app/post/159768673154/shadow-war-armageddon-faction-templates">Shadow War: Armageddon faction templates</a> for details.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="ShadowWar-Astra_Militarum_Veteran_Kill_Team"><a href="ShadowWar/Astra_Militarum_Veteran_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Astra Militarum Veteran Kill Team']);">Astra Militarum Veteran Kill Team</a></li>
+						<li id="ShadowWar-Ork_Boyz_Kill_Team"><a href="ShadowWar/Ork_Boyz_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Ork Boyz Kill Team']);">Ork Boyz Kill Team</a></li>
+						<li id="ShadowWar-Space_Marine_Scout_Kill_Team"><a href="ShadowWar/Space_Marine_Scout_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Space Marine Scout Kill Team']);">Space Marine Scout Kill Team</a></li>
+					</ul>
+					<ul>
+						<li id="ShadowWar-Chaos_Space_Marine_Kill_Team"><a href="ShadowWar/Chaos_Space_Marine_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Chaos Space Marine Kill Team']);">Chaos Space Marine Kill Team</a></li>
+						<li id="ShadowWar-Dark_Eldar_Wych_Cult_Kill_Team"><a href="ShadowWar/Dark_Eldar_Wych_Cult_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Dark Eldar Wych Cult Kill Team']);">Dark Eldar Wych Cult Kill Team</a></li>
+						<li id="ShadowWar-Craftworld_Eldar_Kill_Team"><a href="ShadowWar/Craftworld_Eldar_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Craftworld Eldar Kill Team']);">Craftworld Eldar Kill Team</a></li>
+						<li id="ShadowWar-Genestealer_Cult_Kill_Team"><a href="ShadowWar/Genestealer_Cult_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Genestealer Cult Kill Team']);">Genestealer Cult Kill Team</a></li>
+						<li id="ShadowWar-Grey_Knights_Kill_Team"><a href="ShadowWar/Grey_Knights_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Grey Knights Kill Team']);">Grey Knights Kill Team</a></li>
+						<li id="ShadowWar-Harlequin_Troupe_Kill_Team"><a href="ShadowWar/Harlequin_Troupe_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Harlequin Troupe Kill Team']);">Harlequin Troupe Kill Team</a></li>
+						<li id="ShadowWar-Inquisition_Kill_Team"><a href="ShadowWar/Inquisition_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Inquisition Kill Team']);">Inquisition Kill Team</a></li>
+						<li id="ShadowWar-Necron_Kill_Team"><a href="ShadowWar/Necron_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Necron Kill Team']);">Necron Kill Team</a></li>
+						<li id="ShadowWar-Skitarii_Ranger_Kill_Team"><a href="ShadowWar/Skitarii_Ranger_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Skitarii Ranger Kill Team']);">Skitarii Ranger Kill Team</a></li>
+						<li id="ShadowWar-Tau_Pathfinder_Kill_Team"><a href="ShadowWar/Tau_Pathfinder_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Tau Pathfinder Kill Team']);">Tau Pathfinder Kill Team</a></li>
+						<li id="ShadowWar-Tyranid_Warrior_Kill_Team"><a href="ShadowWar/Tyranid_Warrior_Kill_Team.php" onClick="_gaq.push(['_trackEvent', 'ShadowWar', 'Download', 'Tyranid Warrior Kill Team']);">Tyranid Warrior Kill Team</a></li>
+					</ul>
+				</div>
+				
+				<div class="column">
+					<h2 id="X-Wing">X-Wing Miniatures Game</h2>
+					<ul>
+						<li><a href="X-Wing/X-Wing.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'X-Wing']);">X-Wing game system</a>
+                            <ul class="supplements">
+                                <li>Up to all Wave 9 expansions</li>
+                                <li>Wave 10 <i>Rogue One</i> expansions</li>
+                            </ul>
+							<ul class="note">
+								<li>Install the X-Wing game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="X-Wing/Empire.php" onClick="_gaq.push(['_trackEvent', 'X-Wing', 'Download', 'Empire']);">Empire</a></li>
+                        <li><a href="X-Wing/First_Order.php" onClick="_gaq.push(['_trackEvent', 'X-Wing', 'Download', 'First Order']);">First Order</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="X-Wing/Rebel.php" onClick="_gaq.push(['_trackEvent', 'X-Wing', 'Download', 'Rebel']);">Rebel</a></li>
+						<li><a href="X-Wing/Resistance.php" onClick="_gaq.push(['_trackEvent', 'X-Wing', 'Download', 'Resistance']);">Resistance</a></li>
+                    </ul>
+                    <ul>
+						<li><a href="X-Wing/Scum.php" onClick="_gaq.push(['_trackEvent', 'X-Wing', 'Download', 'Scum']);">Scum</a></li>
+					</ul>
+				</div>
+
+                <div class="column">
+                    <h2 id="Armada">Star Wars: Armada</h2>
+                    <ul>
+                        <li><a href="Armada/Armada.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Armada']);">Armada game system</a>
+                            <ul class="note">
+                                <li>Install the Armada game system to use any of the following templates.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="Armada/Imperial_Fleet.php" onClick="_gaq.push(['_trackEvent', 'Armada', 'Download', 'Imperial_Fleet']);">Imperial Fleet</a></li>
+                        <li><a href="Armada/Rebel_Fleet.php" onClick="_gaq.push(['_trackEvent', 'Armada', 'Download', 'Rebel_Fleet']);">Rebel Fleet</a></li>
+                    </ul>
+                </div>
+
+				<div class="column">
+					<h2 id="AoS">Warhammer Age of Sigmar</h2>
+					<ul>
+						<li><a href="AoS/AoS.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'AoS']);">AoS game system</a>
+							<ul class="note">
+								<li>Install the AoS game system to begin creating Warhammer Age of Sigmar templates for use with Matched Play.</li>
+								<li>Refer to <a href="http://quartermaster.app/post/123943387159/warhammer-age-of-sigmar-in-quartermaster">Warhammer Age of Sigmar in Quartermaster</a> for guidelines on creating Warhammer Age of Sigmar templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="AoS-Endless_Spells"><a href="AoS/Endless_Spells.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Endless Spells']);">Endless Spells</a></li>
+					</ul>
+					<h3>Chaos</h3>
+					<ul>
+						<li id="AoS-Chaos_Grand_Alliance"><a href="AoS/Chaos_Grand_Alliance.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos Grand Alliance']);">Chaos Grand Alliance</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Chaos_-_Blades_of_Khorne"><a href="AoS/Chaos_-_Blades_of_Khorne.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Blades of Khorne']);">Blades of Khorne</a></li>
+						<li id="AoS-Chaos_-_Brayherds"><a href="AoS/Chaos_-_Brayherds.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Brayherds']);">Brayherds</a></li>
+						<li id="AoS-Chaos_-_Chaos_Gargants"><a href="AoS/Chaos_-_Chaos_Gargants.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Chaos Gargants']);">Chaos Gargants</a></li>
+						<li id="AoS-Chaos_-_Clans_Eshin"><a href="AoS/Chaos_-_Clans_Eshin.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Clans Eshin']);">Clans Eshin</a></li>
+						<li id="AoS-Chaos_-_Clans_Moulder"><a href="AoS/Chaos_-_Clans_Moulder.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Clans Moulder']);">Clans Moulder</a></li>
+						<li id="AoS-Chaos_-_Clans_Pestilens"><a href="AoS/Chaos_-_Clans_Pestilens.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Clans Pestilens']);">Clans Pestilens</a></li>
+						<li id="AoS-Chaos_-_Clans_Skryre"><a href="AoS/Chaos_-_Clans_Skryre.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Clans Skryre']);">Clans Skryre</a></li>
+						<li id="AoS-Chaos_-_Clans_Verminus"><a href="AoS/Chaos_-_Clans_Verminus.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Clans Verminus']);">Clans Verminus</a></li>
+						<li id="AoS-Chaos_-_Disciples_of_Tzeentch"><a href="AoS/Chaos_-_Disciples_of_Tzeentch.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Disciples of Tzeentch']);">Disciples of Tzeentch</a></li>
+						<li id="AoS-Chaos_-_Everchosen"><a href="AoS/Chaos_-_Everchosen.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Everchosen']);">Everchosen</a></li>
+						<li id="AoS-Chaos_-_Fist_of_the_Everchosen"><a href="AoS/Chaos_-_Fist_of_the_Everchosen.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Fist of the Everchosen']);">Fist of the Everchosen</a></li>
+						<li id="AoS-Chaos_-_Hosts_of_Slaanesh"><a href="AoS/Chaos_-_Hosts_of_Slaanesh.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Hosts of Slaanesh']);">Hosts of Slaanesh</a></li>
+						<li id="AoS-Chaos_-_Maggotkin_of_Nurgle"><a href="AoS/Chaos_-_Maggotkin_of_Nurgle.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Maggotkin of Nurgle']);">Maggotkin of Nurgle</a></li>
+						<li id="AoS-Chaos_-_Masterclan"><a href="AoS/Chaos_-_Masterclan.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Masterclan']);">Masterclan</a></li>
+						<li id="AoS-Chaos_-_Monsters_of_Chaos"><a href="AoS/Chaos_-_Monsters_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Monsters of Chaos']);">Monsters of Chaos</a></li>
+						<li id="AoS-Chaos_-_Slaves_to_Darkness"><a href="AoS/Chaos_-_Slaves_to_Darkness.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Slaves to Darkness']);">Slaves to Darkness</a></li>
+						<li id="AoS-Chaos_-_Thunderscorn"><a href="AoS/Chaos_-_Thunderscorn.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Thunderscorn']);">Thunderscorn</a></li>
+						<li id="AoS-Chaos_-_Warherds"><a href="AoS/Chaos_-_Warherds.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Warherds']);">Warherds</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Chaos_-_Beastmen"><a href="AoS/Chaos_-_Beastmen.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Beastmen']);">Beastmen</a></li>
+						<li id="AoS-Chaos_-_Daemons_of_Chaos"><a href="AoS/Chaos_-_Daemons_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Daemons of Chaos']);">Daemons of Chaos</a></li>
+						<li id="AoS-Chaos_-_Skaven"><a href="AoS/Chaos_-_Skaven.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Skaven']);">Skaven</a></li>
+						<li id="AoS-Chaos_-_Warriors_of_Chaos"><a href="AoS/Chaos_-_Warriors_of_Chaos.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Warriors of Chaos']);">Warriors of Chaos</a></li>
+					</ul>
+					<h3>Death</h3>
+					<ul>
+						<li id="AoS-Death_Grand_Alliance"><a href="AoS/Death_Grand_Alliance.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death Grand Alliance']);">Death Grand Alliance</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Death_-_Deadwalkers"><a href="AoS/Death_-_Deadwalkers.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Deadwalkers']);">Deadwalkers</a></li>
+						<li id="AoS-Death_-_Deathlords"><a href="AoS/Death_-_Deathlords.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Deathlords']);">Deathlords</a></li>
+						<li id="AoS-Death_-_Deathmages"><a href="AoS/Death_-_Deathmages.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Deathmages']);">Deathmages</a></li>
+						<li id="AoS-Death_-_Deathrattle"><a href="AoS/Death_-_Deathrattle.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Deathrattle']);">Deathrattle</a></li>
+						<li id="AoS-Death_-_Flesh-eater_Courts"><a href="AoS/Death_-_Flesh-eater_Courts.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Flesh-eater Courts']);">Flesh-eater Courts</a></li>
+						<li id="AoS-Death_-_Grand_Host_of_Nagash"><a href="AoS/Death_-_Grand_Host_of_Nagash.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Grand Host of Nagash']);">Grand Host of Nagash</a></li>
+						<li id="AoS-Death_-_Legion_of_Blood"><a href="AoS/Death_-_Legion_of_Blood.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Legion of Blood']);">Legion of Blood</a></li>
+						<li id="AoS-Death_-_Legion_of_Night"><a href="AoS/Death_-_Legion_of_Night.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Legion of Night']);">Legion of Night</a></li>
+						<li id="AoS-Death_-_Legion_of_Sacrament"><a href="AoS/Death_-_Legion_of_Sacrament.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Legion of Sacrament']);">Legion of Sacrament</a></li>
+						<li id="AoS-Death_-_Nighthaunt"><a href="AoS/Death_-_Nighthaunt.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Nighthaunt']);">Nighthaunt</a></li>
+						<li id="AoS-Death_-_Soulblight"><a href="AoS/Death_-_Soulblight.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Soulblight']);">Soulblight</a></li>
+						<li id="AoS-Death_-_The_Wraith_Fleet"><a href="AoS/Death_-_The_Wraith_Fleet.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - The Wraith Fleet']);">The Wraith Fleet</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Death_-_Tomb_Kings"><a href="AoS/Death_-_Tomb_Kings.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Tomb Kings']);">Tomb Kings</a></li>
+						<li id="AoS-Death_-_Vampire_Counts"><a href="AoS/Death_-_Vampire_Counts.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Death - Vampire Counts']);">Vampire Counts</a></li>
+					</ul>
+					<h3>Destruction</h3>
+					<ul>
+						<li id="AoS-Destruction_Grand_Alliance"><a href="AoS/Destruction_Grand_Alliance.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction Grand Alliance']);">Destruction Grand Alliance</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Destruction_-_Aleguzzler_Gargants"><a href="AoS/Destruction_-_Aleguzzler_Gargants.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Aleguzzler Gargants']);">Aleguzzler Gargants</a></li>
+						<li id="AoS-Destruction_-_Beastclaw_Raiders"><a href="AoS/Destruction_-_Beastclaw_Raiders.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Beastclaw Raiders']);">Beastclaw Raiders</a></li>
+						<li id="AoS-Destruction_-_Bonesplitterz"><a href="AoS/Destruction_-_Bonesplitterz.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Bonesplitterz']);">Bonesplitterz</a></li>
+						<li id="AoS-Destruction_-_Firebellies"><a href="AoS/Destruction_-_Firebellies.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Firebellies']);">Firebellies</a></li>
+						<li id="AoS-Destruction_-_Gitmob_Grots"><a href="AoS/Destruction_-_Gitmob_Grots.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Gitmob Grots']);">Gitmob Grots</a></li>
+						<li id="AoS-Destruction_-_Greenskinz"><a href="AoS/Destruction_-_Greenskinz.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Greenskinz']);">Greenskinz</a></li>
+						<li id="AoS-Destruction_-_Gutbusters"><a href="AoS/Destruction_-_Gutbusters.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Gutbusters']);">Gutbusters</a></li>
+						<li id="AoS-Destruction_-_Ironjawz"><a href="AoS/Destruction_-_Ironjawz.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Ironjawz']);">Ironjawz</a></li>
+						<li id="AoS-Destruction_-_Maneaters"><a href="AoS/Destruction_-_Maneaters.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Maneaters']);">Maneaters</a></li>
+						<li id="AoS-Destruction_-_Monsters_of_Destruction"><a href="AoS/Destruction_-_Monsters_of_Destruction.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Monsters of Destruction']);">Monsters of Destruction</a></li>
+						<li id="AoS-Destruction_-_Moonclan_Grots"><a href="AoS/Destruction_-_Moonclan_Grots.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Moonclan Grots']);">Moonclan Grots</a></li>
+						<li id="AoS-Destruction_-_Spiderfang_Grots"><a href="AoS/Destruction_-_Spiderfang_Grots.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Spiderfang Grots']);">Spiderfang Grots</a></li>
+						<li id="AoS-Destruction_-_Stoneklaws_Gutstompas"><a href="AoS/Destruction_-_Stoneklaws_Gutstompas.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Stoneklaws Gutstompas']);">Stoneklaws Gutstompas</a></li>
+						<li id="AoS-Destruction_-_Troggoths"><a href="AoS/Destruction_-_Troggoths.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Troggoths']);">Troggoths</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Destruction_-_Ogre_Kingdoms"><a href="AoS/Destruction_-_Ogre_Kingdoms.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Ogre Kingdoms']);">Ogre Kingdoms</a></li>
+						<li id="AoS-Destruction_-_Orcs_&_Goblins"><a href="AoS/Destruction_-_Orcs_&_Goblins.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Destruction - Orcs & Goblins']);">Orcs & Goblins</a></li>
+					</ul>
+					<h3>Order</h3>
+					<ul>
+						<li id="AoS-Order_Grand_Alliance"><a href="AoS/Order_Grand_Alliance.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order Grand Alliance']);">Order Grand Alliance</a></li>
+					</ul>
+					<ul>
+						<li id="AoS-Order_-_Anvilgard"><a href="AoS/Order_-_Anvilgard.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Anvilgard']);">Anvilgard</a></li>
+						<li id="AoS-Order_-_Collegiate_Arcane"><a href="AoS/Order_-_Collegiate_Arcane.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Collegiate Arcane']);">Collegiate Arcane</a></li>
+						<li id="AoS-Order_-_Darkling_Covens"><a href="AoS/Order_-_Darkling_Covens.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Darkling Covens']);">Darkling Covens</a></li>
+						<li id="AoS-Order_-_Daughters_of_Khaine"><a href="AoS/Order_-_Daughters_of_Khaine.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Daughters of Khaine']);">Daughters of Khaine</a></li>
+						<li id="AoS-Order_-_Devoted_of_Sigmar"><a href="AoS/Order_-_Devoted_of_Sigmar.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Devoted of Sigmar']);">Devoted of Sigmar</a></li>
+						<li id="AoS-Order_-_Dispossessed"><a href="AoS/Order_-_Dispossessed.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Dispossessed']);">Dispossessed</a></li>
+						<li id="AoS-Order_-_Eldritch_Council"><a href="AoS/Order_-_Eldritch_Council.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Eldritch Council']);">Eldritch Council</a></li>
+						<li id="AoS-Order_-_Free_Peoples"><a href="AoS/Order_-_Free_Peoples.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Free Peoples']);">Free Peoples</a></li>
+						<li id="AoS-Order_-_Fyreslayers"><a href="AoS/Order_-_Fyreslayers.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Fyreslayers']);">Fyreslayers</a></li>
+						<li id="AoS-Order_-_Greywater_Fastness"><a href="AoS/Order_-_Greywater_Fastness.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Greywater Fastness']);">Greywater Fastness</a></li>
+						<li id="AoS-Order_-_Hallowheart"><a href="AoS/Order_-_Hallowheart.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Hallowheart']);">Hallowheart</a></li>
+						<li id="AoS-Order_-_Hammerhal"><a href="AoS/Order_-_Hammerhal.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Hammerhal']);">Hammerhal</a></li>
+						<li id="AoS-Order_-_Idoneth_Deepkin"><a href="AoS/Order_-_Idoneth_Deepkin.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Idoneth Deepkin']);">Idoneth Deepkin</a></li>
+						<li id="AoS-Order_-_Ironweld_Arsenal"><a href="AoS/Order_-_Ironweld_Arsenal.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Ironweld Arsenal']);">Ironweld Arsenal</a></li>
+						<li id="AoS-Order_-_Kharadron_Overlords"><a href="AoS/Order_-_Kharadron_Overlords.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Kharadron Overlords']);">Kharadron Overlords</a></li>
+						<li id="AoS-Order_-_Lion_Rangers"><a href="AoS/Order_-_Lion_Rangers.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Lion Rangers']);">Lion Rangers</a></li>
+						<li id="AoS-Order_-_Order_Draconis"><a href="AoS/Order_-_Order_Draconis.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Order Draconis']);">Order Draconis</a></li>
+						<li id="AoS-Order_-_Order_Serpentis"><a href="AoS/Order_-_Order_Serpentis.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Order Serpentis']);">Order Serpentis</a></li>
+						<li id="AoS-Order_-_Phoenix_Temple"><a href="AoS/Order_-_Phoenix_Temple.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Phoenix Temple']);">Phoenix Temple</a></li>
+						<li id="AoS-Order_-_Scourge_Privateers"><a href="AoS/Order_-_Scourge_Privateers.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Scourge Privateers']);">Scourge Privateers</a></li>
+						<li id="AoS-Order_-_Seraphon"><a href="AoS/Order_-_Seraphon.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Seraphon']);">Seraphon</a></li>
+						<li id="AoS-Order_-_Shadowblades"><a href="AoS/Order_-_Shadowblades.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Shadowblades']);">Shadowblades</a></li>
+						<li id="AoS-Order_-_Stormcast_Eternals"><a href="AoS/Order_-_Stormcast_Eternals.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Stormcast Eternals']);">Stormcast Eternals</a></li>
+						<li id="AoS-Order_-_Swifthawk_Agents"><a href="AoS/Order_-_Swifthawk_Agents.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Swifthawk Agents']);">Swifthawk Agents</a></li>
+						<li id="AoS-Order_-_Sylvaneth"><a href="AoS/Order_-_Sylvaneth.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Sylvaneth']);">Sylvaneth</a></li>
+						<li id="AoS-Order_-_Tempests_Eye"><a href="AoS/Order_-_Tempests_Eye.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Tempests Eye']);">Tempests Eye</a></li>
+						<li id="AoS-Order_-_The_Living_City"><a href="AoS/Order_-_The_Living_City.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - The Living City']);">The Living City</a></li>
+						<li id="AoS-Order_-_The_Phoenicium"><a href="AoS/Order_-_The_Phoenicium.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - The Phoenicium']);">The Phoenicium</a></li>
+						<li id="AoS-Order_-_Wanderers"><a href="AoS/Order_-_Wanderers.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Order - Wanderers']);">Wanderers</a></li>
+					</ul>
+					<h3>Forge World</h3>
+					<ul>
+						<li id="AoS-Chaos_-_Legion_of_Azgorh"><a href="AoS/Chaos_-_Legion_of_Azgorh.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Chaos - Legion of Azgorh']);">Legion of Azgorh</a></li>
+						<li id="AoS-Monstrous_Arcanum"><a href="AoS/Monstrous_Arcanum.php" onClick="_gaq.push(['_trackEvent', 'AoS', 'Download', 'Monstrous Arcanum']);">Monstrous Arcanum</a></li>
+					</ul>
+				</div>
+				<div class="column">
+        <h2 id="9thAge">Fantasy Battles: The 9th Age</h2>
+        <ul>
+          <li><a href="9thAge/2/9thAge.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', '9thAge2']);">9th Age game system</a><sup>2.0</sup>
+            <ul class="note">
+              <li>Install The 9th Age 2.0 game system to use any of the following templates, or to start creating 2.0 faction templates.</li>
+              <li>Please submit any updated faction templates to <a href="mailto:contribute@quartermaster.app">contribute@quartermaster.app</a>.</li>
+            </ul>
+          </li>
+    		</ul>
+    		<ul>
+          <li id="9thAge-Beast_Herds"><a href="9thAge/2/Beast_Herds.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Beast Herds']);">Beast Herds</a><sup>2.0</sup></li>
+          <li id="9thAge-Daemon_Legions"><a href="9thAge/2/Daemon_Legions.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Daemon Legions']);">Daemon Legions</a><sup>2.0</sup></li>
+          <li id="9thAge-Dread_Elves"><a href="9thAge/2/Dread_Elves.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Dread Elves']);">Dread Elves</a><sup>2.0</sup></li>
+          <li id="9thAge-Dwarven_Holds"><a href="9thAge/2/Dwarven_Holds.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Dwarven Holds']);">Dwarven Holds</a><sup>2.0</sup></li>
+    			<li id="9thAge-Empire_of_Sonnstahl"><a href="9thAge/2/Empire_of_Sonnstahl.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Empire of Sonnstahl']);">Empire of Sonnstahl</a><sup>2.0</sup></li>
+          <li id="9thAge-Highborn_Elves"><a href="9thAge/2/Highborn_Elves.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Highborn Elves']);">Highborn Elves</a><sup>2.0</sup></li>
+          <li id="9thAge-Infernal_Dwarves"><a href="9thAge/2/Infernal_Dwarves.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Infernal Dwarves']);">Infernal Dwarves</a><sup>2.0</sup></li>
+          <li id="9thAge-Kingdom_of_Equitaine"><a href="9thAge/2/Kingdom_of_Equitaine.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Kingdom of Equitaine']);">Kingdom of Equitaine</a><sup>2.0</sup></li>
+          <li id="9thAge-Ogre_Khans"><a href="9thAge/2/Ogre_Khans.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Ogre Khans']);">Ogre Khans</a><sup>2.0</sup></li>
+          <li id="9thAge-Orcs_&_Goblins"><a href="9thAge/2/Orcs_&_Goblins.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Orcs & Goblins']);">Orcs &amp; Goblins</a><sup>2.0</sup></li>
+          <li id="9thAge-Saurian_Ancients"><a href="9thAge/2/Saurian_Ancients.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Saurian Ancients']);">Saurian Ancients</a><sup>2.0</sup></li>
+          <li id="9thAge-Sylvan_Elves"><a href="9thAge/2/Sylvan_Elves.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Sylvan Elves']);">Sylvan Elves</a><sup>2.0</sup></li>
+    			<li id="9thAge-Undying_Dynasties"><a href="9thAge/2/Undying_Dynasties.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Undying Dynasties']);">Undying Dynasties</a><sup>2.0</sup></li>
+    			<li id="9thAge-Vampire_Covenant"><a href="9thAge/2/Vampire_Covenant.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Vampire Covenant']);">Vampire Covenant</a><sup>2.0</sup></li>
+          <li id="9thAge-Vermin_Swarms"><a href="9thAge/2/Vermin_Swarms.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Vermin Swarms']);">Vermin Swarms</a><sup>2.0</sup></li>
+    		</ul>
+        <h4 id="9thAge-1_3">1.3</h4>
+		    <ul>
+          <li><a href="9thAge/1_3/9thAge.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', '9thAge']);">9th Age game system</a><sup>1.3</sup>
+            <ul class="note">
+              <li>Install The 9th Age 1.3 game system to use any of the following legacy templates.</li>
+              <li>Note the version numbers for each faction. If you update a faction for 2.0, please submit the completed faction template to <a href="mailto:contribute@quartermaster.app">contribute@quartermaster.app</a>.</li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li id="9thAge-Warriors_of_the_Dark_Gods"><a href="9thAge/1_3/Warriors_of_the_Dark_Gods.php" onClick="_gaq.push(['_trackEvent', '9thAge', 'Download', 'Warriors of the Dark Gods']);">Warriors of the Dark Gods</a><sup>1.3</sup></li>
+        </ul>
+        <h4>In Development</h4>
+        <ul class="note">
+          <li>All faction templates below have only been partially migrated to the new system. Units need to be recategorized and updated with the new rules. For more details, refer to <a href="https://quartermaster.app/post/152397901249/fantasy-battles-the-9th-age-version-12-changes">Fantasy Battles: The 9th Age 1.2 changes</a>.</li>
+          <li>Please help out by updating and submitting the completed faction template to <a href="mailto:contribute@quartermaster.app">contribute@quartermaster.app</a>.</li>
+        </ul>
+        <ul>
+        </ul>
+      </div>
+				<div class="column">
+					<h2 id="KoW">Kings of War</h2>
+					<ul>
+						<li><a href="KoW/KoW.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'KoW']);">KoW game system</a>
+							<ul class="note">
+								<li>Install the KoW game system to use any of the following templates.</li>
+								<li>Refer to <a href="http://quartermaster.app/post/125226941419/kings-of-war-and-warthrone">Kings of War and Warthrone in Quartermaster</a> for guidelines on creating Kings of War templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="KoW-Abyssal_Dwarfs"><a href="KoW/Abyssal_Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Abyssal Dwarfs']);">Abyssal Dwarfs</a></li>
+						<li id="KoW-Dwarfs"><a href="KoW/Dwarfs.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Dwarfs']);">Dwarfs</a></li>
+						<li id="KoW-Basilea"><a href="KoW/Basilea.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Basilea']);">Basilea</a></li>
+						<li id="KoW-Elves"><a href="KoW/Elves.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Elves']);">Elves</a></li>
+            <li id="KoW-Empire_of_Dust"><a href="KoW/Empire_of_Dust.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Empire of Dust']);">Empire of Dust</a></li>
+						<li id="KoW-Forces_of_Nature"><a href="KoW/Forces_of_Nature.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Forces of Nature']);">Forces of Nature</a></li>
+						<li id="KoW-Forces_of_the_Abyss"><a href="KoW/Forces_of_the_Abyss.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Forces of the Abyss']);">Forces of the Abyss</a></li>
+						<li id="KoW-Goblins"><a href="KoW/Goblins.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Goblins']);">Goblins</a></li>
+						<li id="KoW-Kingdoms_of_Men"><a href="KoW/Kingdoms_of_Men.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Kingdoms of Men']);">Kingdoms of Men</a></li>
+						<li id="KoW-League_of_Rhordia"><a href="KoW/League_of_Rhordia.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'League of Rhordia']);">League of Rhordia</a></li>
+						<li id="KoW-Ogres"><a href="KoW/Ogres.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Ogres']);">Ogres</a></li>
+						<li id="KoW-Orcs"><a href="KoW/Orcs.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Orcs']);">Orcs</a></li>
+						<li id="KoW-Ratkin"><a href="KoW/Ratkin.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Ratkin']);">Ratkin</a></li>
+						<li id="KoW-Salamanders"><a href="KoW/Salamanders.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Salamanders']);">Salamanders</a>
+						<li id="KoW-The_Herd"><a href="KoW/The_Herd.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'The Herd']);">The Herd</a></li></li>
+						<li id="KoW-Twilight_Kin"><a href="KoW/Twilight_Kin.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Twilight Kin']);">Twilight Kin</a></li>
+						<li id="KoW-Undead"><a href="KoW/Undead.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Undead']);">Undead</a></li>
+						<li id="KoW-Varangur"><a href="KoW/Varangur.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Varangur']);">Varangur</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h2 id="LOTR">Lord of the Rings Strategy Battle Game</h2>
+					<ul>
+						<li><a href="LOTR/LOTR.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'LOTR']);">Lord of the Rings game system</a>
+							<ul class="note">
+								<li>Install the Lord of the Rings game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="LOTR-Fallen_Realms"><a href="LOTR/Fallen_Realms.php" onClick="_gaq.push(['_trackEvent', 'LOTR', 'Download', 'Fallen Realms']);">Fallen Realms</a></li>
+						<li id="LOTR-Minis_Tirith"><a href="LOTR/Minas_Tirith.php" onClick="_gaq.push(['_trackEvent', 'LOTR', 'Download', 'Minas Tirith']);">Minas Tirith</a></li>
+						<li id="LOTR-Rohan"><a href="LOTR/Rohan.php" onClick="_gaq.push(['_trackEvent', 'LOTR', 'Download', 'Rohan']);">Rohan</a></li>
+					</ul>
+				</div><div id="content">
+				<div class="column">
+					<h2 id="Yankee">Team Yankee</h2>
+					<ul>
+						<li><a href="Yankee/Yankee.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Team Yankee']);">Team Yankee game system</a>
+							<ul class="note">
+								<li>Install the Team Yankee game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<h5 id="Yankee-Australia_New_Zealand">Australia &amp; New Zealand</h5>
+					<ul>
+						<li id="Yankee-Australia_New_Zealand_-_Allied_UK_Support"><a href="Yankee/Australia_New_Zealand_-_Allied_UK_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Australia &amp; New Zealand - Allied UK Support']);">Australia &amp; New Zealand - Allied UK Support</a></li>
+						<li id="Yankee-Australia_New_Zealand_-_ANZAC_Brigade_Support"><a href="Yankee/Australia_New_Zealand_-_ANZAC_Brigade_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Australia &amp; New Zealand - ANZAC Brigade Support']);">Australia &amp; New Zealand - ANZAC Brigade Support</a></li>
+						<li id="Yankee-Australia_New_Zealand_-_Leopard_AS1_Armoured_Squadron"><a href="Yankee/Australia_New_Zealand_-_Leopard_AS1_Armoured_Squadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Australia &amp; New Zealand - Leopard AS1 Armoured Squadron']);">Australia &amp; New Zealand - Leopard AS1 Armoured Squadron</a></li>
+						<li id="Yankee-Australia_New_Zealand_-_M113_Mechanised_Company"><a href="Yankee/Australia_New_Zealand_-_M113_Mechanised_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Australia &amp; New Zealand - M113 Mechanised Company']);">Australia &amp; New Zealand - M113 Mechanised Company</a></li>
+					</ul>
+					<h5 id="Yankee-Canada">Canada</h5>
+					<ul>
+						<li id="Yankee-Canada_-_4_Canadian_Mechanised_Brigade_Group_Support"><a href="Yankee/Canada_-_4_Canadian_Mechanised_Brigade_Group_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Canada - 4 Canadian Mechanised Brigade Group Support']);">Canada - 4 Canadian Mechanised Brigade Group Support</a></li>
+						<li id="Yankee-Canada_-_Allied_US_Support"><a href="Yankee/Canada_-_Allied_US_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Canada - Allied US Support']);">Canada - Allied US Support</a></li>
+						<li id="Yankee-Canada_-_Allied_West_German_Support"><a href="Yankee/Canada_-_Allied_West_German_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Canada - Allied West German Support']);">Canada - Allied West German Support</a></li>
+						<li id="Yankee-Canada_-_Leopard_C1_Armoured_Squadron"><a href="Yankee/Canada_-_Leopard_C1_Armoured_Squadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Canada - Leopard C1 Armoured Squadron']);">Canada - Leopard C1 Armoured Squadron</a></li>
+						<li id="Yankee-Canada_-_M113_Mchanised_Company"><a href="Yankee/Canada_-_M113_Mchanised_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Canada - M113 Mchanised Company']);">Canada - M113 Mchanised Company</a></li>
+					</ul>
+					<h5 id="Yankee-East_German">East German</h5>
+					<ul>
+						<li id="Yankee-East_Germany_-_9._Panzer_Division_Support"><a href="Yankee/East_Germany_-_9._Panzer_Division_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'East Germany - 9. Panzer Division Support']);">East Germany - 9. Panzer Division Support</a></li>
+						<li id="Yankee-East_Germany_-_BMP_Mot-Schutzen_Battalion"><a href="Yankee/East_Germany_-_BMP_Mot-Schutzen_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'East Germany - BMP Mot-Schutzen Battalion']);">East Germany - BMP Mot-Schützen Battalion</a></li>
+						<li id="Yankee-East_Germany_-_BTR-60_Mot-Schutzen_Battalion"><a href="Yankee/East_Germany_-_BTR-60_Mot-Schutzen_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'East Germany - BTR-60 Mot-Schutzen Battalion']);">East Germany - BTR-60 Mot-Schützen Battalion</a></li>
+						<li id="Yankee-East_Germany_-_T-55AM2_Panzer_Battalion"><a href="Yankee/East_Germany_-_T-55AM2_Panzer_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'East Germany - T-55AM2 Panzer Battalion']);">East Germany - T-55AM2 Panzer Battalion</a></li>
+						<li id="Yankee-East_Germany_-_T-72M_Panzer_Battalion"><a href="Yankee/East_Germany_-_T-72M_Panzer_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'East Germany - T-72M Panzer Battalion']);">East Germany - T-72M Panzer Battalion</a></li>
+					</ul>
+					<h5 id="Yankee-France">France</h5>
+					<ul>
+						<li id="Yankee-France_-_3eme_Division_Blindee_Support"><a href="Yankee/France_-_3eme_Division_Blindee_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'France - 3eme Division Blindee Support']);">France - 3eme Division Blindée Support</a></li>
+						<li id="Yankee-France_-_AMX-10P_Compagnie_De_Chasseurs"><a href="Yankee/France_-_AMX-10P_Compagnie_De_Chasseurs.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'France - AMX-10P Compagnie De Chasseurs']);">France - AMX-10P Compagnie De Chasseurs</a></li>
+						<li id="Yankee-France_-_AMX-30_Escadron_Blinde"><a href="Yankee/France_-_AMX-30_Escadron_Blinde.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'France - AMX-30 Escadron Blinde']);">France - AMX-30 Escadron Blindé</a></li>
+						<li id="Yankee-France_-_Escadron_De_Cavalerie"><a href="Yankee/France_-_Escadron_De_Cavalerie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'France - Escadron De Cavalerie']);">France - Escadron De Cavalerie</a></li>
+						<li id="Yankee-France_-_VAB_Compagnie_D'Infanterie"><a href="Yankee/France_-_VAB_Compagnie_D'Infanterie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'France - VAB Compagnie DInfanterie']);">France - VAB Compagnie D'Infanterie</a></li>
+					</ul>
+					<h5 id="Yankee-Netherlands">Netherlands</h5>
+					<ul>
+						<li id="Yankee-Netherlands_-_4_Divisie_Support"><a href="Yankee/Netherlands_-_4_Divisie_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - 4 Divisie Support']);">Netherlands - 4 Divisie Support</a></li>
+						<li id="Yankee-Netherlands_-_Allied_West_German_Support"><a href="Yankee/Netherlands_-_Allied_West_German_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - Allied West German Support']);">Netherlands - Allied West German Support</a></li>
+						<li id="Yankee-Netherlands_-_Leopard_1_Tank_Eskadron"><a href="Yankee/Netherlands_-_Leopard_1_Tank_Eskadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - Leopard 1 Tank Eskadron']);">Netherlands - Leopard 1 Tank Eskadron</a></li>
+						<li id="Yankee-Netherlands_-_Leopard_2_Tank_Eskadron"><a href="Yankee/Netherlands_-_Leopard_2_Tank_Eskadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - Leopard 2 Tank Eskadron']);">Netherlands - Leopard 2 Tank Eskadron</a></li>
+						<li id="Yankee-Netherlands_-_Verkennings_Eskadron"><a href="Yankee/Netherlands_-_Verkennings_Eskadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - Verkennings Eskadron']);">Netherlands - Verkennings Eskadron</a></li>
+						<li id="Yankee-Netherlands_-_YPR-765_Pantserinfanterie_Compagnie"><a href="Yankee/Netherlands_-_YPR-765_Pantserinfanterie_Compagnie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Netherlands - YPR-765 Pantserinfanterie Compagnie']);">Netherlands - YPR-765 Pantserinfanterie Compagnie</a></li>
+					</ul>
+					<h5 id="Yankee-Soviet">Soviet</h5>
+					<ul>
+						<li id="Yankee-Soviet_Union_-_94th_Guards_'Zvenigorod-Berlin'_'Order_of_Suvorov'_Motor_Rifle_Division_Support"><a href="Yankee/Soviet_Union_-_94th_Guards_'Zvenigorod-Berlin'_'Order_of_Suvorov'_Motor_Rifle_Division_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - 94th Guards Zvenigorod-Berlin Order of Suvorov Motor Rifle Division Support']);">Soviet Union - 94th Guards 'Zvenigorod-Berlin' 'Order of Suvorov' Motor Rifle Division Support</a></li>
+						<li id="Yankee-Soviet_Union_-_Air_Assault_Battalion"><a href="Yankee/Soviet_Union_-_Air_Assault_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - Air Assault Battalion']);">Soviet Union - Air Assault Battalion</a></li>
+						<li id="Yankee-Soviet_Union_-_BMP_Motor_Rifle_Battalion"><a href="Yankee/Soviet_Union_-_BMP_Motor_Rifle_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - BMP Motor Rifle Battalion']);">Soviet Union - BMP Motor Rifle Battalion</a></li>
+						<li id="Yankee-Soviet_Union_-_BTR-60_Motor_Rifle_Battalion"><a href="Yankee/Soviet_Union_-_BTR-60_Motor_Rifle_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - BTR-60 Motor Rifle Battalion']);">Soviet Union - BTR-60 Motor Rifle Battalion</a></li>
+						<li id="Yankee-Soviet_Union_-_T-64_Tank_Battalion"><a href="Yankee/Soviet_Union_-_T-64_Tank_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - T-64 Tank Battalion']);">Soviet Union - T-64 Tank Battalion</a></li>
+						<li id="Yankee-Soviet_Union_-_T-72_Tank_Battalion"><a href="Yankee/Soviet_Union_-_T-72_Tank_Battalion.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'Soviet Union - T-72 Tank Battalion']);">Soviet Union - T-72 Tank Battalion</a></li>
+					</ul>
+					<h5 id="Yankee-United_Kingdom">United Kingdom</h5>
+					<ul>
+						<li id="Yankee-United_Kingdom_-_3rd_Armoured_Iron_Division_Support"><a href="Yankee/United_Kingdom_-_3rd_Armoured_Iron_Division_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United Kingdom - 3rd Armoured Iron Division Support']);">United Kingdom - 3rd Armoured Iron Division Support</a></li>
+						<li id="Yankee-United_Kingdom_-_Chieftain_Armoured_Squadron"><a href="Yankee/United_Kingdom_-_Chieftain_Armoured_Squadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United Kingdom - Chieftain Armoured Squadron']);">United Kingdom - Chieftain Armoured Squadron</a></li>
+						<li id="Yankee-United_Kingdom_-_FV432_Mechanised_Company"><a href="Yankee/United_Kingdom_-_FV432_Mechanised_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United Kingdom - FV432 Mechanised Company']);">United Kingdom - FV432 Mechanised Company</a></li>
+						<li id="Yankee-United_Kingdom_-_Lynx_Airmobile_Company"><a href="Yankee/United_Kingdom_-_Lynx_Airmobile_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United Kingdom - Lynx Airmobile Company']);">United Kingdom - Lynx Airmobile Company</a></li>
+						<li id="Yankee-United_Kingdom_-_Medium_Recce_Squadron"><a href="Yankee/United_Kingdom_-_Medium_Recce_Squadron.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United Kingdom - Medium Recce Squadron']);">United Kingdom - Medium Recce Squadron</a></li>
+					</ul>
+					<h5 id="Yankee-United_States">Unites States</h5>
+					<ul>
+						<li id="Yankee-United_States_-_1st_Old_Ironsides_Armoured_Division_2nd_Marine_Division_Support"><a href="Yankee/United_States_-_1st_Old_Ironsides_Armoured_Division_2nd_Marine_Division_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - 1st Old Ironsides Armoured Division 2nd Marine Division Support']);">United States - 1st Old Ironsides Armoured Division &amp; 2nd Marine Division Support</a></li>
+						<li id="Yankee-United_States_-_Armoured_Cavalry_Troop"><a href="Yankee/United_States_-_Armoured_Cavalry_Troop.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - Armoured Cavalry Troop']);">United States - Armoured Cavalry Troop</a></li>
+						<li id="Yankee-United_States_-_HMMWV_Cavalry_Troop"><a href="Yankee/United_States_-_HMMWV_Cavalry_Troop.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - HMMWV Cavalry Troop']);">United States - HMMWV Cavalry Troop</a></li>
+						<li id="Yankee-United_States_-_M1_Abrams_Armoured_Combat_Team"><a href="Yankee/United_States_-_M1_Abrams_Armoured_Combat_Team.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - M1 Abrams Armoured Combat Team']);">United States - M1 Abrams Armoured Combat Team</a></li>
+						<li id="Yankee-United_States_-_M60_Patton_Armoured_Combat_Team"><a href="Yankee/United_States_-_M60_Patton_Armoured_Combat_Team.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - M60 Patton Armoured Combat Team']);">United States - M60 Patton Armoured Combat Team</a></li>
+						<li id="Yankee-United_States_-_M113_Mech_Combat_Team"><a href="Yankee/United_States_-_M113_Mech_Combat_Team.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - M113 Mech Combat Team']);">United States - M113 Mech Combat Team</a></li>
+						<li id="Yankee-United_States_-_Marine_LAV_Company"><a href="Yankee/United_States_-_Marine_LAV_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - Marine LAV Company']);">United States - Marine LAV Company</a></li>
+						<li id="Yankee-United_States_-_Marine_M60_Patton_Tank_Company"><a href="Yankee/United_States_-_Marine_M60_Patton_Tank_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - Marine M60 Patton Tank Company']);">United States - Marine M60 Patton Tank Company</a></li>
+						<li id="Yankee-United_States_-_Marine_Rifle_Company"><a href="Yankee/United_States_-_Marine_Rifle_Company.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - Marine Rifle Company']);">United States - Marine Rifle Company</a></li>
+						<li id="Yankee-United_States_-_UH-1_Huey_Infantry_Combat_Team"><a href="Yankee/United_States_-_UH-1_Huey_Infantry_Combat_Team.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'United States - UH-1 Huey Infantry Combat Team']);">United States - UH-1 Huey Infantry Combat Team</a></li>
+					</ul>
+					<h5 id="Yankee-West_German">West German</h5>
+					<ul>
+						<li id="Yankee-West_Germany_-_Leopard_1_Panzerkompanie"><a href="Yankee/West_Germany_-_Leopard_1_Panzerkompanie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - Leopard 1 Panzerkompanie']);">West Germany - Leopard 1 Panzerkompanie</a></li>
+						<li id="Yankee-West_Germany_-_Leopard_2_Panzerkompanie"><a href="Yankee/West_Germany_-_Leopard_2_Panzerkompanie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - Leopard 2 Panzerkompanie']);">West Germany - Leopard 2 Panzerkompanie</a></li>
+						<li id="Yankee-West_Germany_-_M113_Panzergrenadierkompanie"><a href="Yankee/West_Germany_-_M113_Panzergrenadierkompanie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - M113 Panzergrenadierkompanie']);">West Germany - M113 Panzergrenadierkompanie</a></li>
+						<li id="Yankee-West_Germany_-_Marder_Panzergrenadierkompanie"><a href="Yankee/West_Germany_-_Marder_Panzergrenadierkompanie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - Marder Panzergrenadierkompanie']);">West Germany - Marder Panzergrenadierkompanie</a></li>
+						<li id="Yankee-West_Germany_-_Panzer_Division_1_Support"><a href="Yankee/West_Germany_-_Panzer_Division_1_Support.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - Panzer Division 1 Support']);">West Germany - Panzer Division 1 Support</a></li>
+						<li id="Yankee-West_Germany_-_Panzeraufklarungskompanie"><a href="Yankee/West_Germany_-_Panzeraufklarungskompanie.php" onClick="_gaq.push(['_trackEvent', 'Yankee', 'Download', 'West Germany - Panzeraufklarungskompanie']);">West Germany - Panzeraufklärungskompanie</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h2 id="Bolt_Action">Bolt Action</h2>
+					<ul>
+						<li><a href="Bolt_Action/Bolt_Action.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'Bolt Action']);">Bolt Action game system</a>
+							<ul class="note">
+								<li>Install the Bolt Action game system to use any of the following templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="Bolt_Action/Belgium.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Belgium']);">Belgium</a></li>
+						<li><a href="Bolt_Action/Bulgaria.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Bulgaria']);">Bulgaria</a></li>
+						<li><a href="Bolt_Action/China.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'China']);">China</a></li>
+						<li><a href="Bolt_Action/Finland.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Finland']);">Finland</a></li>
+						<li><a href="Bolt_Action/France.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'France']);">France</a></li>
+						<li><a href="Bolt_Action/Germany.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Germany']);">Germany</a></li>
+						<li><a href="Bolt_Action/Great_Britain.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Great Britain']);">Great Britain</a></li>
+						<li><a href="Bolt_Action/Greece.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Greece']);">Greece</a></li>
+						<li><a href="Bolt_Action/Hungary.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Hungary']);">Hungary</a></li>
+						<li><a href="Bolt_Action/Imperial_Japan.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Imperial Japan']);">Imperial Japan</a></li>
+						<li><a href="Bolt_Action/Italy.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Italy']);">Italy</a></li>
+						<li><a href="Bolt_Action/Netherlands.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Netherlands']);">Netherlands</a></li>
+						<li><a href="Bolt_Action/Norway.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Norway']);">Norway</a></li>
+						<li><a href="Bolt_Action/Partisans.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Partisans']);">Partisans</a></li>
+						<li><a href="Bolt_Action/Poland.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Poland']);">Poland</a></li>
+						<li><a href="Bolt_Action/Soviet_Union.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Soviet Union']);">Soviet Union</a></li>
+						<li><a href="Bolt_Action/United_States.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'United States']);">United States</a></li>
+					</ul>
+					<ul>
+						<li><a href="Bolt_Action/1st_Free_French_Unofficial.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', '1st Free French Unofficial']);">1st Free French Unofficial</a></li>
+					</ul>
+					<h5 id="Bolt_Action-Konflikt_47">Konflikt '47</h5>
+					<ul>
+						<li><a href="Bolt_Action/Great_Britain_Konflikt_'47.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Great Britain Konflikt 47']);">Great Britain Konflikt '47</a></li>
+						<li><a href="Bolt_Action/Soviet_Union_Konflikt_'47.php" onClick="_gaq.push(['_trackEvent', 'Bolt Action', 'Download', 'Soviet Union Konflikt 47']);">Soviet Union Konflikt '47</a></li>
+					</ul>
+				</div>
+				<div class="column">
+		        	<h2 id="KoW-Historical">Kings of War Historical</h3>
+					<ul>
+						<li><a href="KoW/KoW.php" onClick="_gaq.push(['_trackEvent', 'Systems', 'Download', 'KoW']);">KoW game system</a>
+							<ul class="note">
+								<li>Install the KoW game system to use any of the following templates.</li>
+								<li>Refer to <a href="http://quartermaster.app/post/125226941419/kings-of-war-and-warthrone">Kings of War and Warthrone in Quartermaster</a> for guidelines on creating Kings of War templates.</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="KoW-Master_List"><a href="KoW/Master_List.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Master List']);">Master List</a></li>
+		        		<li id="KoW-Mythical_Units"><a href="KoW/Mythical_Units.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Mythical Units']);">Mythical Units</a></li>
+					</ul>
+		        	<ul>
+		        		<li id="KoW-Anglo_Saxons"><a href="KoW/Anglo_Saxons.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Anglo Saxons']);">Anglo Saxons</a></li>
+		        		<li id="KoW-Normans"><a href="KoW/Normans.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Normans']);">Normans</a></li>
+		            	<li id="KoW-Romans"><a href="KoW/Romans.php" onClick="_gaq.push(['_trackEvent', 'KoW', 'Download', 'Romans']);">Romans</a></li>
+		        	</ul>
+				</div>
+
+			</div><!-- content end -->
+
+			<div id="footer">
+
+					<div id="footer-links">
+
+						<ul>
+							<li><a href="/">Home</a></li>
+
+
+    					    <li><a href="/about">About</a></li>
+
+    					    <li><a href="/userguide">User Guide</a></li>
+
+    					    <li><a href="/templates">Templates</a></li>
+
+    					    <li><a href="/contact">Contact</a></li>
+
+    					    <li><a href="/support">Donate</a></li>
+
+
+
+
+                            <li><a href="/legal">Legal</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/archive">Archive</a></li>
+						</ul>
+					</div>
+
+					<div class="colophon">
+
+
+						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
+
+
+	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+
+					</div>
+
+				</div>
+
+		</div> <!-- page end -->
+</body>
+
+</html>
