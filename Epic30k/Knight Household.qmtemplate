@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Knight Household</string>
+	<key>Items</key>
+	<array/>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>Line Formations</string>
+			<key>Lower Limit</key>
+			<integer>1</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Aspirants</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>-50</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>-1 To Advance, Overwatch, March, Marshall and Sustained Fire Actions</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Scions of Uhlan</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Formation Loses "Reinforced Armour" and Gains "Scout"</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Errant</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Thermal Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Macro Weapon</string>
+											<key>Stats</key>
+											<string>R30•MW4+ AND R(15)•(Small Arms)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Reaper Chainsword</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP25•AR5+•CC4+•FF5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Errant</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>300</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Scions of Uhlan</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Formation Loses "Reinforced Armour" and Gains "Scout"</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Gallant</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Thunderstrike Gauntlet</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Titan Killer (1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Reaper Chainsword</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Stormspear Rocket Pod</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R45•2x AT5+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP25•AR5+•CC4+•FF5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Gallant</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>300</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Magaera</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Lightning Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Macro Weapon</string>
+											<key>Stats</key>
+											<string>R45•MW5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Twin Linked Rad Cleanser</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Ignore Cover</string>
+											<key>Stats</key>
+											<string>R15•AP3+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Hekaton Siege Claw</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon; OR Extra Attack (+2) Macro Weapon Vs Immobile Targets</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker; Cortex Controller</string>
+								<key>Stats</key>
+								<string>WE•SP20•AR4+•CC5+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Magaera</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>325</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Aspirants</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>-50</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>-1 To Advance, Overwatch, March, Marshall and Sustained Fire Actions</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Paladin</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Questoris Battle Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R75•AP3+/AT5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Reaper Chainsword</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP25•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Paladin</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>300</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Styrix</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Volkite Chieorovile</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Disrupt</string>
+											<key>Stats</key>
+											<string>R45•2x AP3+/AT6+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Twin Linked Rad Cleanser</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Ignore Cover</string>
+											<key>Stats</key>
+											<string>R15•AP3+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Hekaton Siege Claw</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon; OR Extra Attack (+2) Macro Weapon Vs Immobile Targets</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker; Cortex Controller</string>
+								<key>Stats</key>
+								<string>WE•SP20•AR4+•CC5+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Styrix</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>325</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Support Formations</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Cerastus Knight-Acheron</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Acheron Pattern Flame Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Ignore Cover</string>
+											<key>Stats</key>
+											<string>R30•2x AP3+/AT6+ AND R(15)•(Small Arms)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Heavy Bolter</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R30•AP5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Destroyer Chainfist</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Titan Killer (1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP30•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knights Acheron</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Cerastus Knight-Atrapos</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Atrapos Lascutter</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Macro Weapon</string>
+											<key>Stats</key>
+											<string>R(15)•(Small Arms) AND R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Graviton Singularity Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Lance; Singularity</string>
+											<key>Stats</key>
+											<string>R30•2x AP4+/AT5+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP30•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knights Atrapos</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Scions of Uhlan</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Formation Loses "Reinforced Armour" and Gains "Scout"</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Cerastus Knight-Castigator</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Castigator Pattern Bolt Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R46•2x AP3+/AT5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Tempest Warblade</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+2); Macro Weapon</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP30•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knights Castigator</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Scions of Uhlan</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Formation Loses "Reinforced Armour" and Gains "Scout"</string>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Cerastus Knight-Lancer</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Cerastus Shock Lance</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); First Strike; Titan Killer (1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Shock Blast</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Disrupt</string>
+											<key>Stats</key>
+											<string>R15•AP4+/AT5+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Gauntlet Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP30•AR5+•CC4+•FF5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Cerastus Knights Lancer</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Crusader</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Rapid Firing Battle Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R75•AP3+/AT3+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Avenger Gattling Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R30•AP3+/AT5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Twin Icarus Autocannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R45•AP4+/AT5+/AA5+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP20•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Crusader</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>375</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Noble Upgrade</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>0</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Unlock Seneschal</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Upper Limit</key>
+							<integer>-1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Lord Scion</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Leader</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Preceptor</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Commander, Leader</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seneschal</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Master Knight Commander</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Invulnerable Save; Supreme Commander</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<real>3</real>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Questoris Knight-Warden</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Avenger Gattling Cannon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>R30•AP3+/AT5+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Thunderstrike Gauntlet</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Extra Attack (+1); Titan Killer (1)</string>
+											<key>Stats</key>
+											<string>R(bc)•(Assault Weapon)</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>Ironstorm Missile Pod</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Indirect Fire</string>
+											<key>Stats</key>
+											<string>R60•1BP</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Damage Capacity 2; Ion Shield; Reinforced Armour; Walker</string>
+								<key>Stats</key>
+								<string>WE•SP20•AR5+•CC4+•FF4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>0</integer>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Questoris Knights Warden</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Upper Limit</key>
+					<integer>-1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Lords of War Formations</string>
+			<key>Lower Limit</key>
+			<integer>0</integer>
+			<key>Units</key>
+			<array/>
+			<key>Upper Limit</key>
+			<integer>-1</integer>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>Epic30k</string>
+	<key>Version</key>
+	<date>2016-05-10T02:46:20Z</date>
+</dict>
+</plist>
