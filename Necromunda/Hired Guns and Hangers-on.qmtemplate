@@ -7731,6 +7731,398 @@
 					<string>M5"•WS5+•BS4+•S3•T3•W1•I4+•A1•Ld9+•Cl7+•Wil8+•Int5+</string>
 				</dict>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Relicmonger</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Fearsome</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Beastwrangler</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Overseer</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Gun-smyth</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Marksman</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Connected Trader</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Savvy Trader</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>maul (club)</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Relicmonger</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Melee</string>
+								<key>Stats</key>
+								<string>RngS:-•RngL:E•AccS:-•AccL:-•S:S•AP+1•D2•Am-</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>laspistol</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Beastwrangler</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Plentiful; Sidearm</string>
+								<key>Stats</key>
+								<string>RngS:8"•RngL:12"•AccS:+1•AccL:-•S3•AP-•D1•Am2+</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>bolt pistol</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Gun-smyth</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Sidearm</string>
+								<key>Stats</key>
+								<string>RngS:6"•RngL:12"•AccS:+1•AccL:-•S4•AP-1•D2•Am6+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>stub gun</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Gun-smyth</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Plentiful; Sidearm</string>
+								<key>Stats</key>
+								<string>RngS:6"•RngL:12"•AccS:+2•AccL:-•S3•AP-•D1•Am4+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>shotgun scatter shell</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Scattershot</string>
+											<key>Stats</key>
+											<string>RngS:4"•RngL:8"•AccS:+2•AccL:-•S2•AP-•D1•Am4+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>shotgun solid slug</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Knockback</string>
+											<key>Stats</key>
+											<string>RngS:8"•RngL:16"•AccS:+1•AccL:-•S4•AP-•D2•Am4+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Gun-smyth</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>master-crafted lasgun</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Connected Trader</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Master-crafted; Plentiful</string>
+								<key>Stats</key>
+								<string>RngS:18"•RngL:24"•AccS:+1•AccL:-•S3•AP-•D1•Am2+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Underhive Trader</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>The Finest Merchandise; Specialist Product</string>
+					<key>Stats</key>
+					<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld8+•Cl7+•Wil7+•Int7+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>stub gun</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Plentiful; Sidearm</string>
+								<key>Stats</key>
+								<string>RngS:6"•RngL:12"•AccS:+2•AccL:-•S3•AP-•D1•Am4+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>fighting knife</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Melee; Backstab</string>
+								<key>Stats</key>
+								<string>RngS:-•RngL:E•AccS:-•AccL:-•S:S•AP-1•D1•Am-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sanctioned Psyker</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Non-sanctioned Psyker</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Telekinesis - Assail (Basic)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Pyromancy - Flame Blast (Basic), Continuous Effect</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Chronomancy - Freeze Time (Double)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Technomancy - Weapon Jinx (Simple)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Telepathy - Terrify (Double)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Biomancy - Quickening (Basic), Continuous Effect</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Indentured Psyker</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Dead Wyrd, Archetype, Part of the Crew</string>
+					<key>Stats</key>
+					<string>M5"•WS5+•BS5+•S3•T3•W1•I4+•A1•Ld8+•Cl8+•Wil5+•Int6+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>laspistol</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Plentiful; Sidearm</string>
+								<key>Stats</key>
+								<string>RngS:8"•RngL:12"•AccS:+1•AccL:-•S3•AP-•D1•Am2+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>flak armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Hive Watcher</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Eyes on the Hive, Outlaw; Catfall, Clamber</string>
+					<key>Stats</key>
+					<string>M4"•WS5+•BS5+•S3•T3•W1•I4+•A1•Ld8+•Cl7+•Wil7+•Int6+</string>
+				</dict>
+				<dict>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -8042,225 +8434,6 @@
 					<string>Ammo-jack; Gang Fighter; Surplus Ammo; Munitioneer</string>
 					<key>Stats</key>
 					<string>M3"•WS4+•BS3+•S3•T4•W1•I5+•A1•Ld9+•Cl7+•Wil6+•Int7+</string>
-				</dict>
-				<dict>
-					<key>Command</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Relicmonger</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Fearsome</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Beastwrangler</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Overseer</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Gun-smyth</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Marksman</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Connected Trader</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Savvy Trader</string>
-							</dict>
-						</array>
-					</array>
-					<key>Equipment</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>maul (club)</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Relicmonger</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Melee</string>
-								<key>Stats</key>
-								<string>RngS:-•RngL:E•AccS:-•AccL:-•S:S•AP+1•D2•Am-</string>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>laspistol</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Beastwrangler</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Plentiful; Sidearm</string>
-								<key>Stats</key>
-								<string>RngS:8"•RngL:12"•AccS:+1•AccL:-•S3•AP-•D1•Am2+</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>bolt pistol</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Gun-smyth</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Sidearm</string>
-								<key>Stats</key>
-								<string>RngS:6"•RngL:12"•AccS:+1•AccL:-•S4•AP-1•D2•Am6+</string>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>stub gun</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Gun-smyth</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Plentiful; Sidearm</string>
-								<key>Stats</key>
-								<string>RngS:6"•RngL:12"•AccS:+2•AccL:-•S3•AP-•D1•Am4+</string>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>shotgun</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>shotgun scatter shell</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Scattershot</string>
-											<key>Stats</key>
-											<string>RngS:4"•RngL:8"•AccS:+2•AccL:-•S2•AP-•D1•Am4+</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>shotgun solid slug</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Knockback</string>
-											<key>Stats</key>
-											<string>RngS:8"•RngL:16"•AccS:+1•AccL:-•S4•AP-•D2•Am4+</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Gun-smyth</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>master-crafted lasgun</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Connected Trader</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Master-crafted; Plentiful</string>
-								<key>Stats</key>
-								<string>RngS:18"•RngL:24"•AccS:+1•AccL:-•S3•AP-•D1•Am2+</string>
-							</dict>
-						</array>
-					</array>
-					<key>Maximum Size</key>
-					<integer>1</integer>
-					<key>Minimum Size</key>
-					<integer>1</integer>
-					<key>Name</key>
-					<string>Underhive Trader</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Size</key>
-					<integer>1</integer>
-					<key>Special Rules</key>
-					<string>The Finest Merchandise; Specialist Product</string>
-					<key>Stats</key>
-					<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld8+•Cl7+•Wil7+•Int7+</string>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -28468,18 +28641,6 @@
 											<array>
 												<dict>
 													<key>Name</key>
-													<string>cult icon</string>
-													<key>Points</key>
-													<real>40</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>Rare (8)</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Name</key>
 													<string>data-thief</string>
 													<key>Points</key>
 													<real>35</real>
@@ -34647,6 +34808,145 @@
 					<key>Stats</key>
 					<string>M5"•WS2+•BS3+•S4•T3•W3•I2+•A4•Ld7+•Cl6+•Wil6+•Int6+</string>
 				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Lower Limit</key>
+							<integer>1</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Caryatid-servitor</string>
+							<key>Per Unit</key>
+							<true/>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Omen of Fortune; Dire Precognition; Flight; Unnatural Corpus; Aranthian-attuned</string>
+							<key>Stats</key>
+							<string>M6"•WS5+•BS-•S2•T2•W1•I2+•A1•Ld7+•Cl7+•Wil8+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Bifurcated Blade</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Melee; Parry; Power; Sever; Versatile</string>
+								<key>Stats</key>
+								<string>RngS:-•RngL:E•AccS:-•AccL:-•S+1•AP-2•D1•Am-</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Aranthian beauty plating</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Archaic Displacer</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Assail (Basic)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Divine Scorch (Basic)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Flame Blast (Basic)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Ozostium Aranthus</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian-aligned</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Combat Master, Crushing Blow, Unstoppable; Petition, Mental Bolstering, Mastery of the Immaterium</string>
+					<key>Stats</key>
+					<string>M6"•WS2+•BS3+•S4•T4•W3•I2+•A4•Ld5+•Cl5+•Wil5+•Int6+</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -34727,6 +35027,6 @@
 	<key>System</key>
 	<string>Necromunda</string>
 	<key>Version</key>
-	<integer>20251227</integer>
+	<integer>20250125</integer>
 </dict>
 </plist>

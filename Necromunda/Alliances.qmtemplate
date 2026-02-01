@@ -235,6 +235,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -249,6 +251,8 @@
 							<string>Guild Procurator; Step Aside; Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS4+•S3•T3•W2•I4+•A1•Ld7+•Cl7+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -310,6 +314,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -324,6 +330,8 @@
 							<string>Guild Factotum; Dodge</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS4+•S2•T3•W1•I4+•A1•Ld8+•Cl8+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -369,6 +377,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -383,6 +393,8 @@
 							<string>Bodyguard; Berserker</string>
 							<key>Stats</key>
 							<string>M4"•WS3+•BS5+•S5•T5•W3•I4+•A2•Ld8+•Cl6+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -484,6 +496,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -498,6 +512,8 @@
 							<string>Pyromantic Conclave Hierarchy (Leader); Group Activation (2); Evade, Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS3+•BS4+•S3•T3•W2•I4+•A1•Ld7+•Cl7+•Wil7+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -590,6 +606,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -604,16 +622,20 @@
 							<string>Pyromantic Conclave Hierarchy (Champion); Group Activation (1); Nerves of Steel</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS5+•S3•T3•W1•I4+•A1•Ld7+•Cl8+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
 							<array>
 								<array>
 									<dict>
+										<key>Count</key>
+										<integer>1</integer>
 										<key>Default</key>
 										<true/>
-										<key>Equipped</key>
-										<true/>
+										<key>Maximum</key>
+										<real>1</real>
 										<key>Name</key>
 										<string>laspistol</string>
 										<key>Points</key>
@@ -626,6 +648,10 @@
 								</array>
 								<array>
 									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
 										<key>Name</key>
 										<string>axe</string>
 										<key>Points</key>
@@ -636,6 +662,8 @@
 										<string>RngS:-•RngL:E•AccS:-•AccL:-•S+1•AP-•D1•Am-</string>
 									</dict>
 									<dict>
+										<key>Count</key>
+										<integer>0</integer>
 										<key>Name</key>
 										<string>maul (club)</string>
 										<key>Points</key>
@@ -648,10 +676,12 @@
 								</array>
 								<array>
 									<dict>
+										<key>Count</key>
+										<integer>1</integer>
 										<key>Default</key>
 										<true/>
-										<key>Equipped</key>
-										<true/>
+										<key>Maximum</key>
+										<real>1</real>
 										<key>Name</key>
 										<string>grenades</string>
 										<key>Options</key>
@@ -678,22 +708,24 @@
 									</dict>
 								</array>
 							</array>
-							<key>Maximum Size</key>
-							<integer>5</integer>
-							<key>Minimum Size</key>
+							<key>Lower Limit</key>
 							<integer>2</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
 							<key>Name</key>
-							<string>Cynders</string>
-							<key>Plural Name</key>
-							<string>Cynders</string>
+							<string>Cynder</string>
 							<key>Points</key>
 							<real>0.0</real>
 							<key>Size</key>
-							<integer>2</integer>
+							<integer>1</integer>
 							<key>Special Rules</key>
 							<string>Bodyguard; Indentured Fighters; Spring Up</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS5+•S3•T3•W1•I4+•A1•Ld8+•Cl8+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>5</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -793,6 +825,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -807,6 +841,8 @@
 							<string>Corpse Harvesting Party Hierarchy (Leader); Group Activation (2); Fearsome; Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS4+•S3•T3•W1•I4+•A1•Ld7+•Cl8+•Wil7+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -869,6 +905,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -883,6 +921,8 @@
 							<string>Corpse Harvesting Party Hierarchy (Leader); Group Activation (2); Fearsome</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS4+•S3•T3•W1•I5+•A1•Ld7+•Cl8+•Wil8+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -916,6 +956,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -930,6 +972,8 @@
 							<string>Bodyguard; Indentured Fighters; Crushing Blow</string>
 							<key>Stats</key>
 							<string>M4"•WS3+•BS5+•S4•T3•W2•I4+•A2•Ld8+•Cl7+•Wil8+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1030,6 +1074,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1044,6 +1090,8 @@
 							<string>Guild Procurator; Hurl; Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS3+•BS6+•S4•T4•W2•I4+•A2•Ld7+•Cl6+•Wil7+•Int9+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1105,6 +1153,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1119,6 +1169,8 @@
 							<string>Guild Factotum; Disarm</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS5+•S3•T3•W2•I4+•A1•Ld8+•Cl7+•Wil7+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1164,6 +1216,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1178,6 +1232,8 @@
 							<string>Bodyguard; Rain of Blows</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS6+•S3•T3•W1•I4+•A2•Ld8+•Cl7+•Wil8+•Int10+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1265,6 +1321,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1279,6 +1337,8 @@
 							<string>Toll Collectors Hierarchy; Group Activation (2); Escape Artist; Overseer</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS4+•S3•T3•W2•I3+•A1•Ld6+•Cl5+•Wil7+•Int5+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1371,6 +1431,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1385,6 +1447,8 @@
 							<string>Toll Collectors Hierarchy (Champion); Group Activation (1); Lie Low</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld7+•Cl6+•Wil7+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1463,6 +1527,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1477,6 +1543,8 @@
 							<string>Lie Low</string>
 							<key>Stats</key>
 							<string>M5"•WS5+•BS4+•S3•T3•W1•I4+•A1•Ld8+•Cl6+•Wil8+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1559,6 +1627,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1573,6 +1643,8 @@
 							<string>Step Aside; Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS3+•S3•T3•W2•I4+•A2•Ld7+•Cl6+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1661,6 +1733,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1675,6 +1749,8 @@
 							<string>Dodge</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS4+•S2•T3•W1•I4+•A1•Ld8+•Cl7+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -1734,6 +1810,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1746,6 +1824,8 @@
 							<integer>1</integer>
 							<key>Stats</key>
 							<string>M4"•WS3+•BS4+•S5•T5•W3•I4+•A2•Ld8+•Cl7+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1972,6 +2052,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -1986,6 +2068,8 @@
 							<string>Factoria Work Gang Hierarchy (Leader); Group Activation (2); Overseer</string>
 							<key>Stats</key>
 							<string>M4"•WS4+•BS3+•S3•T3•W2•I4+•A2•Ld8+•Cl7+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2035,6 +2119,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2049,6 +2135,8 @@
 							<string>Factoria Work Gang Hierarchy (Champion); Group Activation (1); Iron Will</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS4+•S2•T3•W1•I4+•A1•Ld7+•Cl6+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2092,6 +2180,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>3</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2106,6 +2196,8 @@
 							<string>Bodyguard; Indentured Fighters</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS5+•S3•T3•W1•I4+•A1•Ld8+•Cl8+•Wil8+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>3</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2400,6 +2492,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2414,6 +2508,8 @@
 							<string>Military Attaché Hierarchy (Leader); An Eye for War; Overseer</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS4+•S3•T3•W2•I4+•A1•Ld6+•Cl6+•Wil7+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2482,6 +2578,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2496,6 +2594,8 @@
 							<string>A Jagerkin’s Duty; Bodyguard</string>
 							<key>Stats</key>
 							<string>M4"•WS5+•BS4+•S2•T3•W1•I4+•A1•Ld7+•Cl6+•Wil6+•Int6+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2566,6 +2666,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2580,6 +2682,8 @@
 							<string>House Ulanti Court Advisor Hierarchy (Leader); Duellist; Counter-attack; Step Aside</string>
 							<key>Stats</key>
 							<string>M5"•WS3+•BS4+•S3•T3•W2•I3+•A2•Ld6+•Cl6+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2629,6 +2733,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2643,6 +2749,8 @@
 							<string>Many Faces; Nerves of Steel</string>
 							<key>Stats</key>
 							<string>M5"•WS3+•BS4+•S3•T3•W2•I3+•A2•Ld8+•Cl6+•Wil8+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2713,6 +2821,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2727,6 +2837,8 @@
 							<string>House Ran Lo Hierarchy (Leader); Group Activation (1); Fearsome</string>
 							<key>Stats</key>
 							<string>M5"•WS5+•BS5+•S3•T3•W2•I4+•A1•Ld5+•Cl7+•Wil7+•Int5+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2795,6 +2907,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2809,6 +2923,8 @@
 							<string>Bodyguard; Indentured Fighters; Trick Shot</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS3+•S3•T3•W1•I4+•A2•Ld8+•Cl6+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2939,6 +3055,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2953,6 +3071,8 @@
 							<string>Catallus Carnival Hierarchy (Leader); Artistry of Murder; Dodge</string>
 							<key>Stats</key>
 							<string>M6"•WS3+•BS3+•S3•T3•W2•I2+•A3•Ld7+•Cl5+•Wil6+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -2974,6 +3094,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -2988,6 +3110,8 @@
 							<string>Indentured Fighter; Infectious Terror; Berserker</string>
 							<key>Stats</key>
 							<string>M6"•WS4+•BS5+•S3•T3•W1•I4+•A2•Ld9+•Cl10+•Wil5+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3081,6 +3205,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -3095,6 +3221,8 @@
 							<string>House Ko’iron Ministorum Delegation Hierarchy (Leader); Group Activation (2); Inspirational Leader; Devotional Frenzy; Overseer</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS3+•S3•T3•W2•I4+•A2•Ld5+•Cl6+•Wil6+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -3160,6 +3288,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -3174,6 +3304,8 @@
 							<string>Bodyguard</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld6+•Cl7+•Wil6+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3228,6 +3360,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Magic</key>
 							<array>
 								<array>
@@ -3297,6 +3431,8 @@
 							<string>House Ty Onmyodo Coven Hierarchy (Leader); Group Activation (1); Inspirational Leader; Control Collar; Sanctioned Psyker; Overseer</string>
 							<key>Stats</key>
 							<string>M5"•WS5+•BS5+•S3•T3•W1•I4+•A1•Ld8+•Cl7+•Wil5+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -3358,6 +3494,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -3372,6 +3510,8 @@
 							<string>Control Collar; Psychic Null; True Grit</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS4+•S3•T3•W1•I4+•A1•Ld8+•Cl5+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3476,6 +3616,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Lower Limit</key>
+							<integer>2</integer>
 							<key>Maximum Size</key>
 							<integer>1</integer>
 							<key>Minimum Size</key>
@@ -3490,6 +3632,8 @@
 							<string>Peerless Bodyguards; Overwatch; Fearsome</string>
 							<key>Stats</key>
 							<string>M5"•WS4+•BS3+•S3•T3•W2•I4+•A1•Ld5+•Cl6+•Wil6+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>2</integer>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3504,6 +3648,433 @@
 					<integer>0</integer>
 					<key>Special Rules</key>
 					<string>Helmawr’s Protectors; A Band Apart; “Here to Help”</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>bolt pistol</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Sidearm</string>
+										<key>Stats</key>
+										<string>RngS:6"•RngL:12"•AccS:+1•AccL:-•S4•AP-1•D2•Am6+</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>gavel</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Concussion, Melee, Power</string>
+										<key>Stats</key>
+										<string>RngS-•RngL:E•AccS-•AccL-•S:S•AP-1•D2•Am-</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>mesh armour</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>armoured undersuit</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>magnacles</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>slaved sensor skulls</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Magistrate</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Justicar Court Hierarchy (Leader), Group Activation (2); Crushing Blow, Nerves of Steel</string>
+							<key>Stats</key>
+							<string>M4"•WS3+•BS3+•S3•T3•W2•I4+•A1•Ld7+•Cl7+•Wil6+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>executioner’s axe</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Melee, Sever, Unwieldy, Versatile</string>
+										<key>Stats</key>
+										<string>RngS:E•RngL2"•AccS-•AccL-•S+2•AP-3•D2•Am-</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>stub gun</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Plentiful; Sidearm</string>
+										<key>Stats</key>
+										<string>RngS:6"•RngL:12"•AccS:+2•AccL:-•S3•AP-•D1•Am4+</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>mesh armour</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>armoured undersuit</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>magnacles</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Executioner</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Justicar Court Hierarchy (Champion), Group Activation (1); Fearsome, Unstoppable</string>
+							<key>Stats</key>
+							<string>M4"•WS3+•BS4+•S3•T3•W1•I4+•A1•Ld7+•Cl7+•Wil7+•Int7+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>shock pistol</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>heavy club</string>
+													<key>Points</key>
+													<real>0.0</real>
+													<key>Special Rules</key>
+													<string>Concussion, Melee</string>
+													<key>Stats</key>
+													<string>RngS-•RngL:E•AccS-•AccL-•S:S•AP-•D2•Am-</string>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Incapacitate, Shock, Sidearm</string>
+										<key>Stats</key>
+										<string>RngS4"•RngL8"•AccS+1•AccL-•S3•AP-1•D1•Am5+</string>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>shotgun</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>0</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>-1</real>
+													<key>Name</key>
+													<string>shotgun scatter ammo</string>
+													<key>Points</key>
+													<real>0.0</real>
+													<key>Special Rules</key>
+													<string>Scattershot</string>
+													<key>Stats</key>
+													<string>RngS:4"•RngL:8"•AccS:+2•AccL:-•S2•AP-•D1•Am4+</string>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>0</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>-1</real>
+													<key>Name</key>
+													<string>shotgun solid ammo</string>
+													<key>Points</key>
+													<real>0.0</real>
+													<key>Prerequisite</key>
+													<array>
+														<string>shotgun scatter ammo</string>
+													</array>
+													<key>Special Rules</key>
+													<string>Knockback</string>
+													<key>Stats</key>
+													<string>RngS:8"•RngL:16"•AccS:+1•AccL:-•S4•AP-•D2•Am4+</string>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>fulmen pattern man-catcher</string>
+										<key>Points</key>
+										<real>0.0</real>
+										<key>Special Rules</key>
+										<string>Incapacitate, Melee, Shock, Versatile</string>
+										<key>Stats</key>
+										<string>RngS:E•RngL2"•AccS-•AccL-•S:S•AP-1•D1•Am-</string>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>flak armour</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>armoured undersuit</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>magnacles</string>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>grenades</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Default</key>
+													<true/>
+													<key>Equipped</key>
+													<true/>
+													<key>Name</key>
+													<string>photon flash grenades</string>
+													<key>Points</key>
+													<real>0.0</real>
+													<key>Special Rules</key>
+													<string>Blast (5"); Flash; Grenade</string>
+													<key>Stats</key>
+													<string>RngS:-•RngL:S×3•AccS:-•AccL:-•S-•AP-•D-•Am5+</string>
+												</dict>
+											</array>
+										</array>
+										<key>Points</key>
+										<real>0.0</real>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<integer>3</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Bailiff</string>
+							<key>Points</key>
+							<real>0.0</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Bodyguard, Indentured Fighters; Disarm</string>
+							<key>Stats</key>
+							<string>M5"•WS4+•BS5+•S3•T3•W1•I3+•A1•Ld8+•Cl7+•Wil7+•Int8+</string>
+							<key>Upper Limit</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Palanite Justicar Delegation</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Summary Judgement; A Band Apart; “Here to Help”</string>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -3797,6 +4368,20 @@
 					<key>Special Rules</key>
 					<string>Law Abiding Allies; Strong Alliance (Palanite Enforcers); Imperial Appointment; Enforcer Bodyguards; Imperial Tax</string>
 				</dict>
+				<dict>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Justicar Courts</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Law Abiding Allies; Strong Alliance (Palanite Enforcers); Cut off the Head; Justicar Court; The Enemy Within; Judgement of the Justicars</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -3805,6 +4390,6 @@
 	<key>System</key>
 	<string>Necromunda</string>
 	<key>Version</key>
-	<integer>20251227</integer>
+	<integer>20250125</integer>
 </dict>
 </plist>
