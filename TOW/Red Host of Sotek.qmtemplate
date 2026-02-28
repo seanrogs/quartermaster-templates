@@ -122,7 +122,7 @@
 					<key>Name</key>
 					<string>Sacred Stegadon Helm</string>
 					<key>Points</key>
-					<real>55</real>
+					<real>50</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>infantry/cavalry</string>
@@ -167,7 +167,7 @@
 					<key>Name</key>
 					<string>Blessed Mark of the Old Ones</string>
 					<key>Points</key>
-					<real>25</real>
+					<real>20</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Saurus Hero / Skink Hero</string>
@@ -230,7 +230,7 @@
 					<key>Name</key>
 					<string>Plaque of Dominion</string>
 					<key>Points</key>
-					<real>75</real>
+					<real>45</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Slann Mage-priest</string>
@@ -242,7 +242,7 @@
 					<key>Name</key>
 					<string>Huanchi’s Blessed Totem</string>
 					<key>Points</key>
-					<real>50</real>
+					<real>35</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -250,7 +250,7 @@
 					<key>Name</key>
 					<string>Sign of Sotek</string>
 					<key>Points</key>
-					<real>45</real>
+					<real>30</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -364,7 +364,7 @@
 					<key>Name</key>
 					<string>Plaque of Tepok</string>
 					<key>Points</key>
-					<real>30</real>
+					<real>40</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Slann Mage-priest</string>
@@ -529,7 +529,7 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<real>50</real>
+							<real>75</real>
 							<key>Name</key>
 							<string>Magic Items</string>
 						</dict>
@@ -814,6 +814,20 @@
 								<string>Furious Charge</string>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Red Crested Skink</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS+1•Ld+1</string>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -821,7 +835,7 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<real>50</real>
+							<real>75</real>
 							<key>Name</key>
 							<string>Magic Items</string>
 						</dict>
@@ -1879,6 +1893,37 @@
 								<key>Stats</key>
 								<string>M6•WS2•BS3•S3•T2•W1•I4•A2•Ld5</string>
 							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Red Crested Skink Brave</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>great weapon</string>
+											<key>Points</key>
+											<real>2</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Red Crested Skinks</string>
+								</array>
+								<key>Stats</key>
+								<string>M6•WS3•BS3•S3•T2•W1•I4•A2•Ld6</string>
+							</dict>
 						</array>
 						<array>
 							<dict>
@@ -2014,6 +2059,16 @@
 								</array>
 								<key>Special Rules</key>
 								<string>Furious Charge</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Red Crested Skinks</string>
+								<key>Points</key>
+								<real>2</real>
+								<key>Stats</key>
+								<string>WS+1•Ld+1</string>
 							</dict>
 						</array>
 					</array>
@@ -4690,6 +4745,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20250929</integer>
+	<integer>20260114</integer>
 </dict>
 </plist>

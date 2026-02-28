@@ -10,11 +10,139 @@
 			<key>Class</key>
 			<string>Leader</string>
 			<key>Lower Limit</key>
-			<real>1</real>
+			<real>-1</real>
 			<key>Units</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Araneus-pattern plasma pistol</string>
+								<key>Points</key>
+								<real>70</real>
+								<key>Special Rules</key>
+								<string>Sidearm</string>
+								<key>Stats</key>
+								<string>RngS6"•RngL12"•AccS+1•AccL-•S7•AP-2•D3•Am5+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Araneus-pattern meltagun</string>
+								<key>Points</key>
+								<real>115</real>
+								<key>Special Rules</key>
+								<string>Melta</string>
+								<key>Stats</key>
+								<string>RngS:6"•RngL:12"•AccS:+1•AccL:-•S8•AP-4•D3•Am4+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Araneus-pattern power fist</string>
+								<key>Points</key>
+								<real>115</real>
+								<key>Special Rules</key>
+								<string>Melee, Power, Pulverise</string>
+								<key>Stats</key>
+								<string>RngS:-•RngL:E•AccS:-•AccL:-•S+3•AP-3•D3•Am-</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>power greatsword</string>
+								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Melee, Power, Unwieldy, Versatile</string>
+								<key>Stats</key>
+								<string>RngS:E•RngL2"•AccS-•AccL+1•S+2•AP-2•D1•Am-</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seven-pointed breastplate</string>
+								<key>Points</key>
+								<real>90</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Conduit of Ozostium</string>
+								<key>Points</key>
+								<real>35</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Gloves of Ozostium</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Seven-pointed talisman</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Aranthian Armoury</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian-aligned</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+			</array>
 			<key>Upper Limit</key>
-			<real>1</real>
+			<real>-1</real>
 		</dict>
 		<dict>
 			<key>Class</key>
@@ -6522,6 +6650,18 @@
 											<array>
 												<dict>
 													<key>Name</key>
+													<string>cult icon</string>
+													<key>Points</key>
+													<real>40</real>
+													<key>Prerequisite</key>
+													<array>
+														<string>Rare (8)</string>
+													</array>
+												</dict>
+											</array>
+											<array>
+												<dict>
+													<key>Name</key>
 													<string>isotropic fuel rod</string>
 													<key>Points</key>
 													<real>60</real>
@@ -6596,18 +6736,6 @@
 													<string>cred sniffer</string>
 													<key>Points</key>
 													<real>35</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>Rare (8)</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Name</key>
-													<string>cult icon</string>
-													<key>Points</key>
-													<real>40</real>
 													<key>Prerequisite</key>
 													<array>
 														<string>Rare (8)</string>
@@ -21892,6 +22020,726 @@
 					<key>Size</key>
 					<integer>1</integer>
 				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Clan Embassy</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Rejuve Centre</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Spyrer Factoria</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>3</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Silvered Pavilion</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>3</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Limb Farms</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Psykanarium</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Imperial Hangar</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ulanti Grand Banquet Hall</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Jagerkin Forest Domes</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Haus De Catallus</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Onmyodo Temple</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Grand Cathedral Imperialis</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Cawdor</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Vaults of Primus</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>3</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Imperial Stair</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Xenos Archives</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Xenos Menageries</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Cinderak Cleansing Hub</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>3</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Shrine of Ancestors</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Imperial Observatorium</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Helmawr Grand Armoury</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Fountain of Night</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>3</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Chymist Cult Toxin Gardens</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Escher</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Phyrr Lounge</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Gris Circenses</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Goliath</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Mercury Palace</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Orlock</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Stellar Dome</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Delaque</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Aurum Valley Tech Tower</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>enhanced boon</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Prerequisite</key>
+											<array>
+												<string>Van Saar</string>
+											</array>
+											<key>Tallies</key>
+											<array>
+												<dict>
+													<key>Count</key>
+													<real>2</real>
+													<key>Name</key>
+													<string>D6×10 Income</string>
+												</dict>
+											</array>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>D6×10 Income</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Spire Districts</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Reconquest of Primus</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -21900,6 +22748,6 @@
 	<key>System</key>
 	<string>Necromunda</string>
 	<key>Version</key>
-	<integer>20251227</integer>
+	<integer>20260125</integer>
 </dict>
 </plist>
