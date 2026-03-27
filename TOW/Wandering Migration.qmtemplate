@@ -980,7 +980,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>Rhinox</string>
+								<string>Grimhorn Rhinox</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -999,11 +999,11 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>30</real>
+								<real>65</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (2), Impact Hits (2), Impetuous, Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (2), Armoured Hide (1), Furious Charge, Impact Hits (D3+1), Impetuous, Rhinox Charge, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS3•BS-•S5•T-•W-•I2•A3•Ld-</string>
+								<string>M7•WS3•BS-•S5•T(+1)•W(+1)•I2•A3•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -1862,10 +1862,8 @@
 								<string>M8•WS3•BS-•S5•T-•W(+1)•I2•A3•Ld-</string>
 							</dict>
 							<dict>
-								<key>Count</key>
-								<integer>0</integer>
 								<key>Name</key>
-								<string>Rhinox</string>
+								<string>Grimhorn Rhinox</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -1884,11 +1882,11 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>30</real>
+								<real>65</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (2), Impact Hits (2), Impetuous, Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (2), Armoured Hide (1), Furious Charge, Impact Hits (D3+1), Impetuous, Rhinox Charge, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS3•BS-•S5•T-•W-•I2•A3•Ld-</string>
+								<string>M7•WS3•BS-•S5•T(+1)•W(+1)•I2•A3•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -2917,10 +2915,8 @@
 								<string>M8•WS3•BS-•S5•T-•W(+1)•I2•A3•Ld-</string>
 							</dict>
 							<dict>
-								<key>Count</key>
-								<integer>0</integer>
 								<key>Name</key>
-								<string>Rhinox</string>
+								<string>Grimhorn Rhinox</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -2939,11 +2935,11 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>30</real>
+								<real>65</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (2), Impact Hits (2), Impetuous, Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (2), Armoured Hide (1), Furious Charge, Impact Hits (D3+1), Impetuous, Rhinox Charge, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS3•BS-•S5•T-•W-•I2•A3•Ld-</string>
+								<string>M7•WS3•BS-•S5•T(+1)•W(+1)•I2•A3•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -3289,7 +3285,7 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Honcho Rhinox</string>
+								<string>Juvenile Rhinox</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -3310,7 +3306,7 @@
 								<key>Points</key>
 								<real>55</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (2), Armoured Hide (1), Impact Hits (2), Impetuous, Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (2), Armoured Hide (2), Impact Hits (2), Impetuous, Rhinox Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S5•T(+2)•W(+1)•I2•A3•Ld-</string>
 							</dict>
@@ -3928,7 +3924,7 @@
 								<key>Points</key>
 								<real>7</real>
 								<key>Stats</key>
-								<string>M6•WS3•BS2•S4•T4•W3•I2•A4•Ld7</string>
+								<string>M-•WS3•BS2•S4•T5•W4•I2•A4•Ld7</string>
 							</dict>
 						</array>
 						<array>
@@ -3985,6 +3981,34 @@
 						</array>
 						<array>
 							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>additional hand weapon</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>ironfist</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great weapon</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
 								<key>Default</key>
 								<true/>
 								<key>Equipped</key>
@@ -3999,14 +4023,6 @@
 								<string>heavy armour</string>
 								<key>Points</key>
 								<real>3</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>ironfists</string>
-								<key>Points</key>
-								<real>4</real>
 							</dict>
 						</array>
 					</array>
@@ -4046,7 +4062,7 @@
 								<key>Points</key>
 								<real>0.0</real>
 								<key>Special Rules</key>
-								<string>Armour Bane (2)</string>
+								<string>Armour Bane (2), Furious Charge</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S5•T-•W-•I2•A3•Ld-</string>
 							</dict>
@@ -4055,15 +4071,15 @@
 					<key>Name</key>
 					<string>Rhinox Riders</string>
 					<key>Points</key>
-					<real>45</real>
+					<real>90</real>
 					<key>Singular Name</key>
 					<string>Rhinox Rider</string>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Monstrous cavalry; Armoured Hide (1), Close Order, Fear, Impact Hits (2), Impetuous, Rhinox Charge, Swiftstride</string>
+					<string>Monstrous cavalry; Armoured Hide (1), Close Order, Fear, Impact Hits (D3+1), Impetuous, Rhinox Charge, Swiftstride</string>
 					<key>Stats</key>
-					<string>M-•WS3•BS2•S4•T4•W3•I2•A3•Ld7</string>
+					<string>M-•WS3•BS2•S4•T5•W4•I2•A3•Ld7</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4382,7 +4398,7 @@
 								<key>Points</key>
 								<real>7</real>
 								<key>Stats</key>
-								<string>M6•WS3•BS2•S4•T4•W3•I2•A4•Ld7</string>
+								<string>M-•WS3•BS2•S4•T5•W4•I2•A4•Ld7</string>
 							</dict>
 						</array>
 						<array>
@@ -4439,6 +4455,34 @@
 						</array>
 						<array>
 							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>additional hand weapon</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>ironfist</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>great weapon</string>
+								<key>Points</key>
+								<real>4</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
 								<key>Default</key>
 								<true/>
 								<key>Equipped</key>
@@ -4453,14 +4497,6 @@
 								<string>heavy armour</string>
 								<key>Points</key>
 								<real>3</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>ironfists</string>
-								<key>Points</key>
-								<real>4</real>
 							</dict>
 						</array>
 					</array>
@@ -4500,7 +4536,7 @@
 								<key>Points</key>
 								<real>0.0</real>
 								<key>Special Rules</key>
-								<string>Armour Bane (2)</string>
+								<string>Armour Bane (2), Furious Charge</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S5•T-•W-•I2•A3•Ld-</string>
 							</dict>
@@ -4509,15 +4545,15 @@
 					<key>Name</key>
 					<string>Rhinox Riders</string>
 					<key>Points</key>
-					<real>45</real>
+					<real>90</real>
 					<key>Singular Name</key>
 					<string>Rhinox Rider</string>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Monstrous cavalry; Armoured Hide (1), Close Order, Fear, Impact Hits (2), Impetuous, Rhinox Charge, Swiftstride</string>
+					<string>Monstrous cavalry; Armoured Hide (1), Close Order, Fear, Impact Hits (D3+1), Impetuous, Rhinox Charge, Swiftstride</string>
 					<key>Stats</key>
-					<string>M-•WS3•BS2•S4•T4•W3•I2•A3•Ld7</string>
+					<string>M-•WS3•BS2•S4•T5•W4•I2•A3•Ld7</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -6023,6 +6059,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260326</integer>
+	<integer>20260327</integer>
 </dict>
 </plist>
