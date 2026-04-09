@@ -17221,7 +17221,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>Mortalis Moritat</string>
+								<string>Moritat Mortalis</string>
 								<key>Points</key>
 								<real>-10</real>
 								<key>Special Rules</key>
@@ -24840,7 +24840,7 @@
 					<key>Minimum Size</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Mortifactor</string>
+					<string>Mortificator</string>
 					<key>Points</key>
 					<real>100</real>
 					<key>Size</key>
@@ -25110,7 +25110,7 @@
 					<key>Minimum Size</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Mortifactor in Terminator Armour</string>
+					<string>Mortificator in Terminator Armour</string>
 					<key>Points</key>
 					<real>120</real>
 					<key>Size</key>
@@ -28464,7 +28464,7 @@
 						</array>
 					</array>
 					<key>Name</key>
-					<string>Storm Seer</string>
+					<string>Stormseer</string>
 					<key>Points</key>
 					<real>95</real>
 					<key>Prerequisite</key>
@@ -28779,7 +28779,7 @@
 					<key>Minimum Size</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Storm Seer in Terminator Armour</string>
+					<string>Stormseer in Terminator Armour</string>
 					<key>Points</key>
 					<real>115</real>
 					<key>Prerequisite</key>
@@ -41239,6 +41239,183 @@
 									</array>
 								</array>
 								<key>Points</key>
+								<real>75</real>
+								<key>Special Rules</key>
+								<string>Infantry (Sergeant, Heavy)</string>
+								<key>Stats</key>
+								<string>M6•WS6•BS4•S4•T5•W2•I4•A3•LD9•CL8•WP7•IN7•SAV2+•INV4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>Terranic greatsword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>thunder hammer</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>plasma casters</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Orders of the Hekatonystika</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Name</key>
+											<string>Augurs of Weakness</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Icons of Resolve</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Slayers of Kings</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Hunters of Beasts</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Reapers of Hosts</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Name</key>
+											<string>Breakers of Witches</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Inner Circle Knights Cenobium</string>
+					<key>Plural Name</key>
+					<string>Order Cenobites</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Dark Angels</string>
+					</array>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>[Allegiance], Dark Angels; Bulky (2), Implacable Advance, Slow and Purposeful, Order Exemplars; Infantry (Heavy)</string>
+					<key>Stats</key>
+					<string>M6•WS5•BS4•S4•T5•W2•I4•A3•LD8•CL8•WP7•IN7•SAV2+•INV4+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Order Preceptor</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Terranic greatsword</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>thunder hammer</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>grenade harness</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
 								<real>65</real>
 								<key>Special Rules</key>
 								<string>Infantry (Sergeant, Heavy)</string>
@@ -48492,183 +48669,6 @@
 					<string>[Allegiance], [Legiones Astartes]; Bulky (2), Firestorm, Deep Strike, Vanguard (2), Bitter Duty; Infantry (Antigrav)</string>
 					<key>Stats</key>
 					<string>M12•WS4•BS4•S4•T4•W1•I4•A2•LD7•CL8•WP7•IN7•SAV3+•INV-</string>
-				</dict>
-				<dict>
-					<key>Command</key>
-					<array>
-						<array>
-							<dict>
-								<key>Additional</key>
-								<true/>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Order Preceptor</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Terranic greatsword</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>thunder hammer</string>
-											<key>Points</key>
-											<real>10</real>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>grenade harness</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>75</real>
-								<key>Special Rules</key>
-								<string>Infantry (Sergeant, Heavy)</string>
-								<key>Stats</key>
-								<string>M6•WS6•BS4•S4•T5•W2•I4•A3•LD9•CL8•WP7•IN7•SAV2+•INV4+</string>
-							</dict>
-						</array>
-					</array>
-					<key>Equipment</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>4</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>-1</real>
-								<key>Name</key>
-								<string>Terranic greatsword</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>thunder hammer</string>
-								<key>Points</key>
-								<real>10</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Default</key>
-								<true/>
-								<key>Equipped</key>
-								<true/>
-								<key>Name</key>
-								<string>plasma casters</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Default</key>
-								<true/>
-								<key>Equipped</key>
-								<true/>
-								<key>Name</key>
-								<string>Orders of the Hekatonystika</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Name</key>
-											<string>Augurs of Weakness</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Name</key>
-											<string>Icons of Resolve</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Name</key>
-											<string>Slayers of Kings</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Name</key>
-											<string>Hunters of Beasts</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Name</key>
-											<string>Reapers of Hosts</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Name</key>
-											<string>Breakers of Witches</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
-					<key>Maximum Size</key>
-					<integer>9</integer>
-					<key>Minimum Size</key>
-					<integer>4</integer>
-					<key>Name</key>
-					<string>Inner Circle Knights Cenobium</string>
-					<key>Plural Name</key>
-					<string>Order Cenobites</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>Dark Angels</string>
-					</array>
-					<key>Size</key>
-					<integer>4</integer>
-					<key>Special Rules</key>
-					<string>[Allegiance], Dark Angels; Bulky (2), Implacable Advance, Slow and Purposeful, Order Exemplars; Infantry (Heavy)</string>
-					<key>Stats</key>
-					<string>M6•WS5•BS4•S4•T5•W2•I4•A3•LD8•CL8•WP7•IN7•SAV2+•INV4+</string>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -66587,6 +66587,153 @@
 					<key>Stats</key>
 					<string>M10•BS4•AF12•AS12•AR10•HP4•TC-</string>
 				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Turret Mounted Whirlwind missile launcher</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Pyrax missiles</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Pintle Mounted bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Legion Pintle Weapons</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Legion Pintle Weapons</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Pintle Mounted bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hull (Front) Mounted hunter-killer missile</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>searchlights</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Armatus Nekrotechnika</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Iron Hands</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Whirlwind Missile Tank</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>[Allegiance], [Legiones Astartes]; Vehicle</string>
+					<key>Stats</key>
+					<string>M10•BS4•AF12•AS11•AR10•HP5•TC-</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -67716,6 +67863,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20251107</integer>
+	<integer>20260409</integer>
 </dict>
 </plist>

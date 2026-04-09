@@ -13263,7 +13263,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>Mortalis Moritat</string>
+								<string>Moritat Mortalis</string>
 								<key>Points</key>
 								<real>-10</real>
 								<key>Special Rules</key>
@@ -20671,7 +20671,7 @@
 					<key>Minimum Size</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Mortifactor</string>
+					<string>Mortificator</string>
 					<key>Points</key>
 					<real>100</real>
 					<key>Size</key>
@@ -20916,7 +20916,7 @@
 					<key>Minimum Size</key>
 					<integer>1</integer>
 					<key>Name</key>
-					<string>Mortifactor in Terminator Armour</string>
+					<string>Mortificator in Terminator Armour</string>
 					<key>Points</key>
 					<real>120</real>
 					<key>Size</key>
@@ -44237,6 +44237,137 @@
 					<key>Stats</key>
 					<string>M10•BS4•AF12•AS12•AR10•HP4•TC-</string>
 				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Turret Mounted Whirlwind missile launcher</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Pyrax missiles</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Pintle Mounted bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Legion Pintle Weapons</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Legion Pintle Weapons</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Pintle Mounted bolter</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hull (Front) Mounted hunter-killer missile</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>searchlights</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>dozer blade</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Whirlwind Missile Tank</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>[Allegiance], [Legiones Astartes]; Vehicle</string>
+					<key>Stats</key>
+					<string>M10•BS4•AF12•AS11•AR10•HP5•TC-</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -45271,6 +45402,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20251107</integer>
+	<integer>20260409</integer>
 </dict>
 </plist>
