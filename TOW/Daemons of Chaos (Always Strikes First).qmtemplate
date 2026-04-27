@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Army List Name</key>
-	<string>Daemons of Chaos</string>
+	<string>Daemons of Chaos (Always Strikes First)</string>
 	<key>Items</key>
 	<array>
 		<dict>
@@ -511,6 +511,38 @@
 			<key>Units</key>
 			<array>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Bloodthirster</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>3,000+ points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Infernal Favour (3), Aura of Fury</string>
+								<key>Stats</key>
+								<string>S+1•W+1•A+1•Ld+1</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -610,6 +642,112 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Baneaxe</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ironlash</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Armour of Khorne</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Ka’Bandha, The Huntsmaster</string>
+					<key>Points</key>
+					<real>480</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 Greater Daemon (Renegades: 0-1 Greater Daemon per 1,000 points and per unit with the same Daemonic Alignment)</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Behemoth (named character); Close Order, Daemonic, Daemonic Charge (see Bloodthirster), Daemon of Khorne, Fly (10), Furious Charge, Hatred (all enemies), Impact Hits (D3), Huntsmaster, Impetuous, Infernal Favour (3), Insensate Rage, Large Target, Magic Resistance (-2), Stomp (D3), Terror</string>
+					<key>Stats</key>
+					<string>M8•WS10•BS5•S6•T6•W6•I7•A6•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Great Unclean One</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>3,000+ points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Infernal Favour (3), Extreme Contagion</string>
+								<key>Stats</key>
+								<string>S+1•T+1•W+1•Ld+1</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -775,6 +913,143 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
+								<string>Staff of Nurgle</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Stream of Corruption</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Level 3 Wizard</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Daemonology</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Dark Magic</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elementalism</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Ischbak Gatrog, The Grand Festerer</string>
+					<key>Points</key>
+					<real>450</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 Greater Daemon (Renegades: 0-1 Greater Daemon per 1,000 points and per unit with the same Daemonic Alignment)</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Behemoth (named character); Carnival of Chaos, Close Order, Daemonic, Daemon of Nurgle, Dance of Death, Infernal Favour (2), Large Target, Lore of Daemons, Poisoned Attacks, Regeneration (5+), Stomp Attacks (D3+1), Tainted Ones, Terror</string>
+					<key>Stats</key>
+					<string>M3•WS6•BS3•S6•T7•W7•I4•A5•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>7</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Keeper of Secrets</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>3,000+ points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Infernal Favour (3), Sensual Onslaught</string>
+								<key>Stats</key>
+								<string>S+1•W+1•I+1•Ld+1</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
 								<string>impaling claws</string>
 								<key>Points</key>
 								<real>0.0</real>
@@ -890,6 +1165,157 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>impaling claws</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Witstealer Sword</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Enrapturing Gaze</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Level 4 Wizard</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Daemonology</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Dark Magic</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Illusion</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>N’Kari, The Arch-Tempter</string>
+					<key>Points</key>
+					<real>490</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 Greater Daemon (Renegades: 0-1 Greater Daemon per 1,000 points and per unit with the same Daemonic Alignment)</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Behemoth (named character); Close Order, Daemonic, Daemon of Slaanesh, Harvester of Souls, Hatred (High Elves), Infernal Favour (2), Large Target, Lore of Daemons, Stomp Attacks (D3), Swiftstride, Terror, Willing Prey</string>
+					<key>Stats</key>
+					<string>M8•WS7•BS6•S6•T6•W6•I7•A6•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Lord of Change</string>
+								<key>Points</key>
+								<real>100</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>3,000+ points</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Barrage of Knowledge</string>
+								<key>Stats</key>
+								<string>S+1•W+1•Ld+1</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -1050,6 +1476,139 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>hand weapon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Tzeentchian wand</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Sword of Change</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Level 4 Wizard</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>Battle Magic</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Daemonology</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Dark Magic</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elementalism</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Illusion</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Amon ‘Chakai, The All-Seeing</string>
+					<key>Points</key>
+					<real>490</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 Greater Daemon (Renegades: 0-1 Greater Daemon per 1,000 points and per unit with the same Daemonic Alignment)</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Behemoth (named character); Close Order, Daemonic, Daemon of Tzeentch, Flaming Attacks, Fly (9), Hand of Destiny, Infernal Favour (3), Large Target, Lore of Daemons, Master of Sorcery, Stomp Attacks (D3), Swiftstride, Strikes First, Terror</string>
+					<key>Stats</key>
+					<string>M6•WS6•BS6•S6•T6•W7•I6•A4•Ld10</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>7</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
 					<key>Command</key>
 					<array>
 						<array>
@@ -1073,6 +1632,61 @@
 								<string>Daemonic Locus</string>
 								<key>Points</key>
 								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Herald</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Abjuration</string>
+											<key>Points</key>
+											<real>30</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Fury</string>
+											<key>Points</key>
+											<real>35</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Wrath</string>
+											<key>Points</key>
+											<real>50</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -1297,6 +1911,61 @@
 								<real>25</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Herald</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Virulence</string>
+											<key>Points</key>
+											<real>30</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Fecundity</string>
+											<key>Points</key>
+											<real>35</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Contagion</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
+							</dict>
+						</array>
 					</array>
 					<key>Equipment</key>
 					<array>
@@ -1486,6 +2155,61 @@
 								<string>Daemonic Locus</string>
 								<key>Points</key>
 								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Herald</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Grace</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Swiftness</string>
+											<key>Points</key>
+											<real>40</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Beguilement</string>
+											<key>Points</key>
+											<real>45</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -1801,6 +2525,61 @@
 								<string>Daemonic Locus</string>
 								<key>Points</key>
 								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Exalted Herald</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Transmogrification</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Change</string>
+											<key>Points</key>
+											<real>25</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Herald of Conjuration</string>
+											<key>Points</key>
+											<real>30</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -3296,6 +4075,52 @@
 					<string>Regular infantry; Daemonic, Fly (8), Furious Charge, Skirmishers, Swiftstride, Vanguard</string>
 					<key>Stats</key>
 					<string>M4•WS3•BS0•S4•T3•W1•I4•A1•Ld5</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>tainted horns and vile tongues</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>Plague Toads</string>
+					<key>Points</key>
+					<real>21</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Daemon of Nurgle General, 0-1 per 1,000 points</string>
+					</array>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>War beasts; Close Order, Daemonic, Daemons of Nurgle, Fly (4), Poisoned Attacks, Regeneration (6+)</string>
+					<key>Stats</key>
+					<string>M6•WS3•BS0•S4•T4•W2•I1•A2•Ld5</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4938,6 +5763,136 @@
 						<dict>
 							<key>Count</key>
 							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Plagueleaper</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>M-•WS3•BS3•S4•T4•W2•I2•A2•Ld7</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Daemonic Icon</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>standard bearer</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>musician</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>plagueswords</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Plague Toads</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>tainted horns and vile tongues</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M6•WS3•BS-•S4•T-•W-•I1•A2•Ld-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Pox Riders</string>
+					<key>Points</key>
+					<real>32</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Daemon of Nurgle General, 0-1 per 1,000 points</string>
+					</array>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Monstrous cavalry; Close Order, Daemonic, Daemons of Nurgle, Fly (4), Poisoned Attacks, Regeneration (6+)</string>
+					<key>Stats</key>
+					<string>M-•WS3•BS3•S4•T4•W2•I2•A1•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
 							<key>Name</key>
 							<string>Unit Strength</string>
 							<key>Use Size</key>

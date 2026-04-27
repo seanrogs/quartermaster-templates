@@ -5682,6 +5682,17 @@
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>25</real>
+										<key>Name</key>
+										<string>Magic Items</string>
+									</dict>
+								</array>
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
@@ -5696,6 +5707,19 @@
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Magic Standard</string>
+										<key>Prerequisite</key>
+										<string>0-1 per 1,000 points</string>
+									</dict>
+								</array>
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
@@ -5745,6 +5769,18 @@
 						</array>
 						<array>
 							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>shields</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
 								<key>Name</key>
 								<string>cavalry spears</string>
 								<key>Points</key>
@@ -5770,61 +5806,47 @@
 								<key>Points</key>
 								<real>1</real>
 							</dict>
-							<dict>
-								<key>Name</key>
-								<string>javelins</string>
-								<key>Points</key>
-								<real>1</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>shields</string>
-								<key>Points</key>
-								<real>1</real>
-							</dict>
 						</array>
 					</array>
 					<key>Magic</key>
 					<array>
 						<array>
 							<dict>
-								<key>Default</key>
-								<true/>
-								<key>Equipped</key>
-								<true/>
 								<key>Name</key>
-								<string>Mark of Chaos Undivided</string>
+								<string>The Cult of the Bloodied Hound</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>1</real>
 							</dict>
 							<dict>
 								<key>Name</key>
-								<string>Mark of Khorne</string>
+								<string>The Cult of the Carrion Crow</string>
 								<key>Points</key>
-								<real>2</real>
+								<real>1</real>
 							</dict>
 							<dict>
 								<key>Name</key>
-								<string>Mark of Nurgle</string>
+								<string>The Cult of the Slithering Serpent</string>
 								<key>Points</key>
-								<real>2</real>
+								<real>1</real>
 							</dict>
 							<dict>
 								<key>Name</key>
-								<string>Mark of Slaanesh</string>
+								<string>The Cult of the Fell Raptor</string>
 								<key>Points</key>
-								<real>2</real>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Mark of Tzeentch</string>
-								<key>Points</key>
-								<real>2</real>
+								<real>1</real>
 							</dict>
 						</array>
 						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ambushers</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
+							</dict>
 							<dict>
 								<key>Name</key>
 								<string>Ambushers</string>
@@ -5834,6 +5856,108 @@
 								<array>
 									<string>Frydaal the Chainmaker, 0-1</string>
 								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Open Order</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Skirmishers</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Chaotic Trait: Unnatural Fortitude</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Unnatural Fortitude</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>T+1</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chaotic Trait: Dark Hearts</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chaotic Trait: Longstriders</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chaotic Trait: Enhanced Reflexes</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Chaotic Trait</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Brazen Will</string>
+											<key>Points</key>
+											<real>15</real>
+											<key>Special Rules</key>
+											<string>Magic Resistance (-1)</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Prophetic Foresight</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
 							</dict>
 						</array>
 					</array>
@@ -5880,20 +6004,9 @@
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
-					<string>Light cavalry; Fast Cavalry, Fire &amp; Flee, Open Order, Skirmishers, Swiftstride, Warband</string>
+					<string>Light cavalry; Fast Cavalry, Fire &amp; Flee, Open Order, Mark of Chaos Undivided, Swiftstride, Warband</string>
 					<key>Stats</key>
 					<string>M-•WS4•BS3•S3•T3•W1•I3•A1•Ld6</string>
-					<key>Tallies</key>
-					<array>
-						<dict>
-							<key>Count</key>
-							<real>2</real>
-							<key>Name</key>
-							<string>Unit Strength</string>
-							<key>Use Size</key>
-							<true/>
-						</dict>
-					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8586,6 +8699,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260129</integer>
+	<integer>20260424</integer>
 </dict>
 </plist>

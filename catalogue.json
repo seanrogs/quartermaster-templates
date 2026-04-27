@@ -1,124 +1,6 @@
 {
     "gameSystems": [
         {
-            "id": "HH3",
-            "gameSystemVersion": 20251101,
-            "name": "Horus Heresy 3rd Edition",
-            "notes": "Updated with Skitarii Conclaves",
-            "templateGroups": [
-                {
-                    "name": "Legiones Astartes",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Loyalist_Legiones_Astartes",
-                            "version": 20260409,
-                            "name": "Loyalist Legiones Astartes"
-                        },
-                        {
-                            "id": "HH3-Traitor_Legiones_Astartes",
-                            "version": 20260409,
-                            "name": "Traitor Legiones Astartes"
-                        },
-                        {
-                            "id": "HH3-Blackshields",
-                            "version": 20260409,
-                            "name": "Blackshields"
-                        },
-                        {
-                            "id": "HH3-Shattered_Legions",
-                            "version": 20260409,
-                            "name": "Shattered Legions"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Mechanicum",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Mechanicum_Taghmata",
-                            "version": 20260115,
-                            "name": "Mechanicum Taghmata"
-                        },
-                        {
-                            "id": "HH3-Skitarii_Conclaves",
-                            "version": 20260227,
-                            "name": "Skitarii Conclaves"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Emperor",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Solar_Auxilia",
-                            "version": 20251012,
-                            "name": "Solar Auxilia"
-                        },
-                        {
-                            "id": "HH3-Legio_Custodes",
-                            "version": 20251107,
-                            "name": "Legio Custodes"
-                        },
-                        {
-                            "id": "HH3-Anathema_Psykarna",
-                            "version": 20251012,
-                            "name": "Anathema Psykarna"
-                        },
-                        {
-                            "id": "HH3-Divisio_Assassinorum",
-                            "version": 20251107,
-                            "name": "Divisio Assassinorum"
-                        }
-                    ]
-                },
-                {
-                    "name": "Knights and Titans",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Questoris_Familia",
-                            "version": 20250908,
-                            "name": "Questoris Familia"
-                        },
-                        {
-                            "id": "HH3-Legio_Titanicus",
-                            "version": 20250908,
-                            "name": "Legio Titanicus"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Warmaster",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Daemons_of_the_Ruinstorm",
-                            "version": 20250913,
-                            "name": "Daemons of the Ruinstorm"
-                        },
-                        {
-                            "id": "HH3-Cults_Abominatio",
-                            "version": 20250905,
-                            "name": "Cults Abominatio"
-                        }
-                    ]
-                },
-                {
-                    "name": "Militia and Fortifications",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Imperialis_Militia",
-                            "version": 20251107,
-                            "name": "Imperialis Militia"
-                        },
-                        {
-                            "id": "HH3-Battlefield_Fortifications",
-                            "version": 20251101,
-                            "name": "Battlefield Fortifications"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "TOW",
             "gameSystemVersion": 20251214,
             "name": "Warhammer: The Old World",
@@ -129,13 +11,13 @@
                     "factionTemplates": [
                         {
                             "id": "TOW-Grand_Cathay",
-                            "version": 20260314,
+                            "version": 20260426,
                             "name": "Grand Cathay Grand Army",
                             "filename": "Grand Cathay"
                         },
                         {
                             "id": "TOW-Jade_Fleet",
-                            "version": 20260317,
+                            "version": 20260426,
                             "name": "Jade Fleet"
                         },
                         {
@@ -150,18 +32,18 @@
                     "factionTemplates": [
                         {
                             "id": "TOW-Warriors_of_Chaos",
-                            "version": 20260129,
+                            "version": 20260424,
                             "name": "Warriors of Chaos Grand Army",
                             "filename": "Warriors of Chaos"
                         },
                         {
                             "id": "TOW-Heralds_of_Darkness",
-                            "version": 20260129,
+                            "version": 20260424,
                             "name": "Heralds of Darkness"
                         },
                         {
                             "id": "TOW-Wolves_of_the_Sea",
-                            "version": 20260129,
+                            "version": 20260424,
                             "name": "Wolves of the Sea"
                         }
                     ]
@@ -359,7 +241,7 @@
                         },
                         {
                             "id": "TOW-Daemons_of_Chaos",
-                            "version": 20251023,
+                            "version": 20260424,
                             "name": "Daemons of Chaos"
                         },
                         {
@@ -386,6 +268,124 @@
                             "id": "TOW-Vampire_Counts",
                             "version": 20251023,
                             "name": "Vampire Counts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "HH3",
+            "gameSystemVersion": 20251101,
+            "name": "Horus Heresy 3rd Edition",
+            "notes": "Updated with Skitarii Conclaves",
+            "templateGroups": [
+                {
+                    "name": "Legiones Astartes",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Loyalist_Legiones_Astartes",
+                            "version": 20260409,
+                            "name": "Loyalist Legiones Astartes"
+                        },
+                        {
+                            "id": "HH3-Traitor_Legiones_Astartes",
+                            "version": 20260409,
+                            "name": "Traitor Legiones Astartes"
+                        },
+                        {
+                            "id": "HH3-Blackshields",
+                            "version": 20260409,
+                            "name": "Blackshields"
+                        },
+                        {
+                            "id": "HH3-Shattered_Legions",
+                            "version": 20260409,
+                            "name": "Shattered Legions"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Mechanicum",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Mechanicum_Taghmata",
+                            "version": 20260115,
+                            "name": "Mechanicum Taghmata"
+                        },
+                        {
+                            "id": "HH3-Skitarii_Conclaves",
+                            "version": 20260227,
+                            "name": "Skitarii Conclaves"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Emperor",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Solar_Auxilia",
+                            "version": 20251012,
+                            "name": "Solar Auxilia"
+                        },
+                        {
+                            "id": "HH3-Legio_Custodes",
+                            "version": 20251107,
+                            "name": "Legio Custodes"
+                        },
+                        {
+                            "id": "HH3-Anathema_Psykarna",
+                            "version": 20251012,
+                            "name": "Anathema Psykarna"
+                        },
+                        {
+                            "id": "HH3-Divisio_Assassinorum",
+                            "version": 20251107,
+                            "name": "Divisio Assassinorum"
+                        }
+                    ]
+                },
+                {
+                    "name": "Knights and Titans",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Questoris_Familia",
+                            "version": 20250908,
+                            "name": "Questoris Familia"
+                        },
+                        {
+                            "id": "HH3-Legio_Titanicus",
+                            "version": 20250908,
+                            "name": "Legio Titanicus"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Warmaster",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Daemons_of_the_Ruinstorm",
+                            "version": 20250913,
+                            "name": "Daemons of the Ruinstorm"
+                        },
+                        {
+                            "id": "HH3-Cults_Abominatio",
+                            "version": 20250905,
+                            "name": "Cults Abominatio"
+                        }
+                    ]
+                },
+                {
+                    "name": "Militia and Fortifications",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Imperialis_Militia",
+                            "version": 20251107,
+                            "name": "Imperialis Militia"
+                        },
+                        {
+                            "id": "HH3-Battlefield_Fortifications",
+                            "version": 20251101,
+                            "name": "Battlefield Fortifications"
                         }
                     ]
                 }
