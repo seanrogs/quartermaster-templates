@@ -1,6 +1,150 @@
 {
     "gameSystems": [
         {
+            "id": "Necromunda",
+            "gameSystemVersion": 20260620,
+            "name": "Necromunda",
+            "notes": "Updated with Spire of Primus",
+            "templateGroups": [
+                {
+                    "name": "Clan Houses",
+                    "factionTemplates": [
+                        {
+                            "id": "Necromunda-House_Cawdor",
+                            "version": 20251227,
+                            "name": "House Cawdor"
+                        },
+                        {
+                            "id": "Necromunda-House_Delaque",
+                            "version": 20251227,
+                            "name": "House Delaque"
+                        },
+                        {
+                            "id": "Necromunda-House_Escher",
+                            "version": 20251227,
+                            "name": "House Escher"
+                        },
+                        {
+                            "id": "Necromunda-House_Goliath",
+                            "version": 20251227,
+                            "name": "House Goliath"
+                        },
+                        {
+                            "id": "Necromunda-House_Orlock",
+                            "version": 20251227,
+                            "name": "House Orlock"
+                        },
+                        {
+                            "id": "Necromunda-House_Van_Saar",
+                            "version": 20251227,
+                            "name": "House Van Saar"
+                        }
+                    ]
+                },
+                {
+                    "name": "Outlaws & Xenos",
+                    "factionTemplates": [
+                        {
+                            "id": "Necromunda-Chaos_Cult",
+                            "version": 20251227,
+                            "name": "Chaos Cult"
+                        },
+                        {
+                            "id": "Necromunda-Corpse_Grinder_Cult",
+                            "version": 20251227,
+                            "name": "Corpse Grinder Cult"
+                        },
+                        {
+                            "id": "Necromunda-Genestealer_Cult",
+                            "version": 20251227,
+                            "name": "Genestealer Cult"
+                        },
+                        {
+                            "id": "Necromunda-Malstrain",
+                            "version": 20251227,
+                            "name": "Malstrain"
+                        }
+                    ]
+                },
+                {
+                    "name": "Spyrers, Enforcers & Venators",
+                    "factionTemplates": [
+                        {
+                            "id": "Necromunda-Badzone_Enforcers",
+                            "version": 20251227,
+                            "name": "Badzone Enforcers"
+                        },
+                        {
+                            "id": "Necromunda-Palanite_Enforcers",
+                            "version": 20251227,
+                            "name": "Palanite Enforcers"
+                        },
+                        {
+                            "id": "Necromunda-Spyrer_Hunting_Party",
+                            "version": 20260125,
+                            "name": "Spyrer Hunting Party"
+                        },
+                        {
+                            "id": "Necromunda-Venators",
+                            "version": 20251228,
+                            "name": "Venators"
+                        }
+                    ]
+                },
+                {
+                    "name": "Outcasts & Outlands",
+                    "factionTemplates": [
+                        {
+                            "id": "Necromunda-Ash_Waste_Nomads",
+                            "version": 20251228,
+                            "name": "Ash Waste Nomads"
+                        },
+                        {
+                            "id": "Necromunda-Ironhead_Squat_Prospectors",
+                            "version": 20251227,
+                            "name": "Ironhead Squat Prospectors"
+                        },
+                        {
+                            "id": "Necromunda-Slave_Ogryn_Gang",
+                            "version": 20251227,
+                            "name": "Slave Ogryn Gang"
+                        },
+                        {
+                            "id": "Necromunda-Underhive_Outcasts",
+                            "version": 20251227,
+                            "name": "Underhive Outcasts"
+                        }
+                    ]
+                },
+                {
+                    "name": "Extras",
+                    "factionTemplates": [
+                        {
+                            "id": "Necromunda-Campaigns",
+                            "version": 20260125,
+                            "name": "Campaign Tracking Tools",
+                            "filename": "Campaigns"
+                        },
+                        {
+                            "id": "Necromunda-Hired_Guns_and_Hangers-on",
+                            "version": 20260125,
+                            "name": "Hired Guns and Hangers-on"
+                        },
+                        {
+                            "id": "Necromunda-Vehicles",
+                            "version": 20251227,
+                            "name": "Vehicles"
+                        },
+                        {
+                            "id": "Necromunda-Alliances",
+                            "version": 20260125,
+                            "name": "Alliances"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "HH3",
             "gameSystemVersion": 20251101,
             "name": "Horus Heresy 3rd Edition",
@@ -376,150 +520,6 @@
                             "id": "TOW-Vampire_Counts",
                             "version": 20251023,
                             "name": "Vampire Counts"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "Necromunda",
-            "gameSystemVersion": 20250124,
-            "name": "Necromunda",
-            "notes": "Updated with Spire of Primus",
-            "templateGroups": [
-                {
-                    "name": "Clan Houses",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-House_Cawdor",
-                            "version": 20251227,
-                            "name": "House Cawdor"
-                        },
-                        {
-                            "id": "Necromunda-House_Delaque",
-                            "version": 20251227,
-                            "name": "House Delaque"
-                        },
-                        {
-                            "id": "Necromunda-House_Escher",
-                            "version": 20251227,
-                            "name": "House Escher"
-                        },
-                        {
-                            "id": "Necromunda-House_Goliath",
-                            "version": 20251227,
-                            "name": "House Goliath"
-                        },
-                        {
-                            "id": "Necromunda-House_Orlock",
-                            "version": 20251227,
-                            "name": "House Orlock"
-                        },
-                        {
-                            "id": "Necromunda-House_Van_Saar",
-                            "version": 20251227,
-                            "name": "House Van Saar"
-                        }
-                    ]
-                },
-                {
-                    "name": "Outlaws & Xenos",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Chaos_Cult",
-                            "version": 20251227,
-                            "name": "Chaos Cult"
-                        },
-                        {
-                            "id": "Necromunda-Corpse_Grinder_Cult",
-                            "version": 20251227,
-                            "name": "Corpse Grinder Cult"
-                        },
-                        {
-                            "id": "Necromunda-Genestealer_Cult",
-                            "version": 20251227,
-                            "name": "Genestealer Cult"
-                        },
-                        {
-                            "id": "Necromunda-Malstrain",
-                            "version": 20251227,
-                            "name": "Malstrain"
-                        }
-                    ]
-                },
-                {
-                    "name": "Spyrers, Enforcers & Venators",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Badzone_Enforcers",
-                            "version": 20251227,
-                            "name": "Badzone Enforcers"
-                        },
-                        {
-                            "id": "Necromunda-Palanite_Enforcers",
-                            "version": 20251227,
-                            "name": "Palanite Enforcers"
-                        },
-                        {
-                            "id": "Necromunda-Spyrer_Hunting_Party",
-                            "version": 20260125,
-                            "name": "Spyrer Hunting Party"
-                        },
-                        {
-                            "id": "Necromunda-Venators",
-                            "version": 20251228,
-                            "name": "Venators"
-                        }
-                    ]
-                },
-                {
-                    "name": "Outcasts & Outlands",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Ash_Waste_Nomads",
-                            "version": 20251228,
-                            "name": "Ash Waste Nomads"
-                        },
-                        {
-                            "id": "Necromunda-Ironhead_Squat_Prospectors",
-                            "version": 20251227,
-                            "name": "Ironhead Squat Prospectors"
-                        },
-                        {
-                            "id": "Necromunda-Slave_Ogryn_Gang",
-                            "version": 20251227,
-                            "name": "Slave Ogryn Gang"
-                        },
-                        {
-                            "id": "Necromunda-Underhive_Outcasts",
-                            "version": 20251227,
-                            "name": "Underhive Outcasts"
-                        }
-                    ]
-                },
-                {
-                    "name": "Extras",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Campaigns",
-                            "version": 20260125,
-                            "name": "Campaign Tracking Tools",
-                            "filename": "Campaigns"
-                        },
-                        {
-                            "id": "Necromunda-Hired_Guns_and_Hangers-on",
-                            "version": 20260125,
-                            "name": "Hired Guns and Hangers-on"
-                        },
-                        {
-                            "id": "Necromunda-Vehicles",
-                            "version": 20251227,
-                            "name": "Vehicles"
-                        },
-                        {
-                            "id": "Necromunda-Alliances",
-                            "version": 20260125,
-                            "name": "Alliances"
                         }
                     ]
                 }
