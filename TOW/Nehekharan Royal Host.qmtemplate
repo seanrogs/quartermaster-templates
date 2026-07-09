@@ -694,7 +694,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1339,7 +1339,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1668,7 +1668,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1922,7 +1922,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -3900,7 +3900,7 @@
 					<key>Special Rules</key>
 					<string>Monstrous infantry; Arrows of Asaph, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+)</string>
 					<key>Stats</key>
-					<string>M5•WS4•BS3•S4•T4•W3•I2•A3•Ld8</string>
+					<string>M5•WS4•BS2•S4•T4•W3•I2•A3•Ld8</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4426,6 +4426,8 @@
 										<dict>
 											<key>Default</key>
 											<true/>
+											<key>Equipped</key>
+											<true/>
 											<key>Name</key>
 											<string>hand weapons</string>
 											<key>Points</key>
@@ -4436,6 +4438,8 @@
 										<dict>
 											<key>Default</key>
 											<true/>
+											<key>Equipped</key>
+											<true/>
 											<key>Name</key>
 											<string>cavalry spears</string>
 											<key>Points</key>
@@ -4445,6 +4449,8 @@
 									<array>
 										<dict>
 											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
 											<string>light armour</string>
@@ -4651,6 +4657,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260129</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>
