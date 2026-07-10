@@ -998,6 +998,15 @@
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S4•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1020,13 +1029,36 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Counter Charge, Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS4•BS-•S5•T-•W(+1)•I3•A2•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1156,6 +1188,15 @@
 								<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1287,6 +1328,15 @@
 								<string>Heavy chariot; Armour Value 3+; Armour Bane (1, Gorebeast only), Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+2), Killing Blow (Gorebeast only)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1346,6 +1396,15 @@
 								<string>Monstrous creature; Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror, Wilful Beast</string>
 								<key>Stats</key>
 								<string>M6•WS5•BS-•S5•T-•W(+4)•I5•A4•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>7</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1423,6 +1482,15 @@
 								<string>Behemoth; Close Order, Fly (10), Impetuous, Large Target, Stomp Attacks (D6), Swiftstride, Terror, Two-headed Dragon</string>
 								<key>Stats</key>
 								<string>M6•WS6•BS-•S7•T(+1)•W(+6)•I4•A6•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>9</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -1440,6 +1508,15 @@
 					<string>Heavy infantry (character); Chaos Armour (5+), Ensorcelled Weapons, Gaze of the Gods, Rallying Cry</string>
 					<key>Stats</key>
 					<string>M4•WS7•BS3•S5•T5•W4•I6•A5•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Equipment</key>
@@ -1657,9 +1734,18 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Monstrous infantry (character); Chaos Armour (4+), Ensorcelled Weapons, Fear, Gaze of the Gods, Immune to Psychology, Lore of Chaos, Regeneration (5+), Unbreakable, Unstable, Warp-spawned</string>
+					<string>Monstrous creature (character); Chaos Armour (4+), Ensorcelled Weapons, Fear, Gaze of the Gods, Immune to Psychology, Lore of Chaos, Regeneration (5+), Unbreakable, Unstable, Warp-spawned</string>
 					<key>Stats</key>
-					<string>M6•WS7•BS5•S6•T5•W4•I7•A5•Ld9</string>
+					<string>M6•WS7•BS5•S6•T5•W5•I7•A5•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -2087,6 +2173,15 @@
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S4•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2109,13 +2204,36 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Counter Charge, Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS4•BS-•S5•T-•W(+1)•I3•A2•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2245,6 +2363,15 @@
 								<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2304,6 +2431,15 @@
 								<string>Monstrous creature; Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror, Wilful Beast</string>
 								<key>Stats</key>
 								<string>M6•WS5•BS-•S5•T-•W(+4)•I5•A4•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>7</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2381,6 +2517,15 @@
 								<string>Behemoth; Close Order, Fly (10), Impetuous, Large Target, Stomp Attacks (D6), Swiftstride, Terror, Two-headed Dragon</string>
 								<key>Stats</key>
 								<string>M6•WS6•BS-•S7•T(+1)•W(+6)•I4•A6•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>9</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -2398,6 +2543,15 @@
 					<string>Heavy infantry (character); Chaos Armour (5+), Ensorcelled Weapons, Gaze of the Gods, Lore of Chaos</string>
 					<key>Stats</key>
 					<string>M4•WS5•BS3•S4•T4•W3•I4•A3•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -2777,6 +2931,15 @@
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S4•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2799,13 +2962,36 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Counter Charge, Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS4•BS-•S5•T-•W(+1)•I3•A2•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2935,6 +3121,15 @@
 								<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3066,6 +3261,15 @@
 								<string>Heavy chariot; Armour Value 3+; Armour Bane (1, Gorebeast only), Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+2), Killing Blow (Gorebeast only)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3125,6 +3329,15 @@
 								<string>Monstrous creature; Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror, Wilful Beast</string>
 								<key>Stats</key>
 								<string>M6•WS5•BS-•S5•T-•W(+4)•I5•A4•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>7</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3202,6 +3415,15 @@
 								<string>Behemoth; Close Order, Fly (10), Impetuous, Large Target, Stomp Attacks (D6), Swiftstride, Terror, Two-headed Dragon</string>
 								<key>Stats</key>
 								<string>M6•WS6•BS-•S7•T(+1)•W(+6)•I4•A6•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>9</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -3219,6 +3441,15 @@
 					<string>Heavy infantry (character); Chaos Armour (5+), Ensorcelled Weapons, Gaze of the Gods, Rallying Cry</string>
 					<key>Stats</key>
 					<string>M4•WS6•BS3•S5•T4•W3•I5•A4•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -3392,6 +3623,15 @@
 					<string>Heavy infantry (named character); Ambushers, Chainmaker, Chaos Armour (5+), Commander &amp; Captain, Ensorcelled Weapons, Gaze of the Gods, Impact Hits (1), Mark of Chaos Undivided, Peerless Raider, Rallying Cry</string>
 					<key>Stats</key>
 					<string>M4•WS6•BS3•S5•T4•W3•I5•A4•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 					<key>Upper Limit</key>
 					<integer>1</integer>
 				</dict>
@@ -3781,6 +4021,15 @@
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S4•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3803,13 +4052,36 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Counter Charge, Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS4•BS-•S5•T-•W(+1)•I3•A2•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3939,6 +4211,15 @@
 								<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -3956,6 +4237,15 @@
 					<string>Heavy infantry (character); Chaos Armour (5+), Ensorcelled Weapons, Gaze of the Gods, Lore of Chaos</string>
 					<key>Stats</key>
 					<string>M4•WS4•BS3•S4•T4•W2•I3•A2•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -4374,6 +4664,15 @@
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S4•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4396,13 +4695,36 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
+								<string>Monstrous cavalry; Armour Bane (1, Daemonic Mount only), Counter Charge, Fear, Magical Attacks, Mark of Chaos (as rider), Stomp Attacks (1), Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS4•BS-•S5•T-•W(+1)•I3•A2•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4532,6 +4854,15 @@
 								<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4663,6 +4994,15 @@
 								<string>Heavy chariot; Armour Value 3+; Armour Bane (1, Gorebeast only), Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+2), Killing Blow (Gorebeast only)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+4)•I-•A-•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -4676,6 +5016,15 @@
 					<string>Heavy infantry (character); Chaos Armour (5+), Ensorcelled Weapons, Gaze of the Gods, Rallying Cry</string>
 					<key>Stats</key>
 					<string>M4•WS5•BS3•S4•T4•W2•I4•A3•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -5078,6 +5427,15 @@
 								<string>Light cavalry; Counter Charge, Fast Cavalry, Swiftstride</string>
 								<key>Stats</key>
 								<string>M8•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Unit Strength</string>
+									</dict>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -5091,6 +5449,15 @@
 					<string>Regular infantry (character); Ambushers, Chaos Armour (6+), Gaze of the Gods, Rallying Cry, Warband</string>
 					<key>Stats</key>
 					<string>M4•WS5•BS3•S4•T4•W2•I4•A3•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Equipment</key>
@@ -5222,6 +5589,15 @@
 					<string>Behemoth (named character); Armoured Hide (1), Breath of Change, Close Order, Fly (10), Large Target, Mark of Tzeentch, Regeneration (5+), Spirit of Galrauch, Stomp Attacks (D6), Swiftstride, Terror, Two-headed Dragon</string>
 					<key>Stats</key>
 					<string>M6•WS6•BS3•S6•T6•W6•I4•A6•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 					<key>Upper Limit</key>
 					<integer>1</integer>
 				</dict>
@@ -5522,6 +5898,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5536,6 +5925,17 @@
 					<string>Regular infantry; Horde, Mark of Chaos Undivided, Shieldwall, Warband</string>
 					<key>Stats</key>
 					<string>M4•WS4•BS3•S3•T3•W1•I3•A1•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -5823,6 +6223,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5869,6 +6282,17 @@
 					<string>Light cavalry; Fast Cavalry, Fire &amp; Flee, Mark of Chaos Undivided, Open Order, Swiftstride, Warband</string>
 					<key>Stats</key>
 					<string>M-•WS4•BS3•S3•T3•W1•I3•A1•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -6185,6 +6609,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -6199,6 +6636,17 @@
 					<string>Regular infantry; Frenzy, Mark of Chaos Undivided, Move Through Cover, Open Order, Relentless Warriors, Skirmishers, Warband</string>
 					<key>Stats</key>
 					<string>M5•WS4•BS3•S3•T4•W1•I3•A1•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -6424,6 +6872,17 @@
 					<string>War beasts; Loner, Move through Cover, Open Order, Swiftstride</string>
 					<key>Stats</key>
 					<string>M7•WS4•BS0•S3•T3•W1•I3•A1•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -6740,6 +7199,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -6751,9 +7223,20 @@
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
-					<string>Heavy infantry; Close Order, Ensorcelled Weapons</string>
+					<string>Heavy infantry; Chaos Armour (6+), Close Order, Ensorcelled Weapons, Furious Charge</string>
 					<key>Stats</key>
 					<string>M4•WS5•BS3•S4•T4•W1•I4•A1•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -6994,6 +7477,15 @@
 					<string>Heavy chariot; Armour Value 3+; Close Order, Ensorcelled Weapons, First Charge, Impact Hits (D6+1)</string>
 					<key>Stats</key>
 					<string>M-•WS-•BS-•S5•T5•W4•I-•A-•Ld-</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -7121,6 +7613,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -7135,6 +7640,17 @@
 					<string>Monstrous infantry; Blood Rage, Fear, Mark of Chaos Undivided, Open Order, Primal Fury, Regeneration (5+), Skirmishers, Swiftstride, Warped Form</string>
 					<key>Stats</key>
 					<string>M7•WS5•BS-•S4•T4•W3•I4•A3•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -7589,6 +8105,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -7635,6 +8164,17 @@
 					<string>Light cavalry; Close Order, Counter Charge, Furious Charge, Mark of Chaos Undivided, Swiftstride, Warband</string>
 					<key>Stats</key>
 					<string>M-•WS4•BS3•S3•T4•W1•I3•A1•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -7786,6 +8326,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>4</integer>
 					<key>Minimum Size</key>
@@ -7800,6 +8353,17 @@
 					<string>Monstrous infantry; Armour Bane (2), Fear, Immune to Psychology, Open Order, Random Attacks, Random Movement, Stomp Attacks (1), Unbreakable</string>
 					<key>Stats</key>
 					<string>M2D6+1•WS3•BS0•S4•T5•W3•I3•AD6•Ld10</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -8027,6 +8591,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>15</integer>
 					<key>Minimum Size</key>
@@ -8034,13 +8611,24 @@
 					<key>Name</key>
 					<string>Chaos Ogres</string>
 					<key>Points</key>
-					<real>33</real>
+					<real>31</real>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
 					<string>Monstrous infantry; Armour Bane (1), Close Order, Fear, Impact Hits (1), Ogre Charge</string>
 					<key>Stats</key>
 					<string>M6•WS3•BS2•S4•T4•W3•I2•A3•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8198,6 +8786,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
 					<key>Minimum Size</key>
@@ -8207,7 +8808,7 @@
 					<key>Plural Name</key>
 					<string>Chaos Trolls</string>
 					<key>Points</key>
-					<real>41</real>
+					<real>39</real>
 					<key>Singular Name</key>
 					<string>Chaos Troll</string>
 					<key>Size</key>
@@ -8215,7 +8816,18 @@
 					<key>Special Rules</key>
 					<string>Monstrous infantry; Armour Bane (1), Close Order, Fear, Flammable, Motley Crew, Regeneration (5+), Stupidity</string>
 					<key>Stats</key>
-					<string>M6•WS3•BS1•S5•T4•W3•I2•A3•Ld4</string>
+					<string>M6•WS3•BS1•S5•T4•W3•I2•A3•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8400,24 +9012,46 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
 					<key>Minimum Size</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>Dragon Ogres</string>
 					<key>Plural Name</key>
 					<string>Dragon Ogres</string>
 					<key>Points</key>
 					<real>59</real>
-					<key>Singular Name</key>
-					<string>Dragon Ogre</string>
 					<key>Size</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Special Rules</key>
 					<string>Monstrous cavalry; Armour Bane (1), Armoured Hide (2), Close Order, Fear, Ensorcelled Weapons, Immune to Psychology, Stomp Attacks (2), The Quickening Storm</string>
 					<key>Stats</key>
 					<string>M7•WS4•BS2•S5•T4•W4•I2•A3•Ld8</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8615,6 +9249,15 @@
 					<string>Behemoth; Armour Bane (2), Close Order, First Charge, Immune to Psychology, Large Target, Random Attacks, Random Movement, Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable</string>
 					<key>Stats</key>
 					<string>M3D6•WS3•BS0•S6•T6•W6•I3•AD6+1•Ld10</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8809,6 +9452,15 @@
 					<string>Monstrous creature; Armour Bane (2), Armoured Hide (2), Close Order, Ensorcelled Weapons, Immune to Psychology, Large Target, Stomp Attacks (D3+1), Storm Call, Terror, The Quickening Storm</string>
 					<key>Stats</key>
 					<string>M7•WS6•BS2•S6•T5•W6•I4•A5•Ld9</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8979,7 +9631,16 @@
 					<key>Special Rules</key>
 					<string>Behemoth; Close Order, *Giant Attacks, Immune to Psychology, Large Target,; *Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable</string>
 					<key>Stats</key>
-					<string>M6•WS3•BS1•S6•T6•W6•I2•A*•Ld10</string>
+					<string>M6•WS3•BS1•S6•T7•W6•I2•A*•Ld10</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>6</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -9208,6 +9869,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -9221,9 +9895,20 @@
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry; Bestial Charge, Blood Rage, Horde, Mark of Chaos Undivided, Move through Cover, Open Order, Primal Fury, Skirmishers, Warband</string>
+					<string>Regular infantry; Bestial Charge, Blood Rage, Furious Charge, Horde, Mark of Chaos Undivided, Move through Cover, Open Order, Primal Fury, Skirmishers, Warband</string>
 					<key>Stats</key>
 					<string>M5•WS4•BS2•S3•T4•W1•I3•A1•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -9420,6 +10105,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -9436,6 +10134,17 @@
 					<string>Regular infantry; Chariot Runners, Horde, Mark of Chaos Undivided, Move through Cover, Open Order, Primal Fury, Skirmishers, Warband</string>
 					<key>Stats</key>
 					<string>M5•WS3•BS3•S3•T3•W1•I3•A1•Ld5</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -9445,6 +10154,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260424</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>

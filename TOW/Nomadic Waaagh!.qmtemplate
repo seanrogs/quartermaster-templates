@@ -135,10 +135,8 @@
 				<dict>
 					<key>Category</key>
 					<string>Magic Armour</string>
-					<key>Multiple</key>
-					<true/>
 					<key>Name</key>
-					<string>Trollhide Trousers*</string>
+					<string>Trollhide Trousers</string>
 					<key>Points</key>
 					<real>40</real>
 				</dict>
@@ -776,6 +774,8 @@
 									<array>
 										<dict>
 											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
 											<string>hand weapons</string>
@@ -4089,6 +4089,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -4448,6 +4461,19 @@
 								</array>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -4836,6 +4862,19 @@
 								</array>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -5328,7 +5367,7 @@
 					<key>Special Rules</key>
 					<string>Behemoth; Close Order, *Giant Attacks, Immune to Psychology, Large Target,; *Pick Up And..., Stomp Attacks (D6), Terror, Timmm-berrr!, Unbreakable</string>
 					<key>Stats</key>
-					<string>M6•WS3•BS1•S6•T6•W6•I2•A*•Ld10</string>
+					<string>M6•WS3•BS1•S6•T7•W6•I2•A*•Ld10</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -5475,6 +5514,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5546,7 +5598,7 @@
 					<key>Special Rules</key>
 					<string>Behemoth; Bonegrinder Giant Attacks, Close Order, Immune to Psychology, Large Target, Mercenaries, Stomp Attacks (D6+1), Terror, Timmm-berrr!, Unbreakable</string>
 					<key>Stats</key>
-					<string>M6•WS3•BS1•S7•T6•W8•I3•A*•Ld10</string>
+					<string>M6•WS3•BS1•S7•T7•W8•I3•A*•Ld10</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -5565,6 +5617,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260130</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>
