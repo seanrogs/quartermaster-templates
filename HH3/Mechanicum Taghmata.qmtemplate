@@ -4,6 +4,120 @@
 <dict>
 	<key>Army List Name</key>
 	<string>Mechanicum Taghmata</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Prime Advantage</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Paragon of Metal</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Automata, Cybernetica</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Prime Specimens</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Infantry, Lacrymaerta</string>
+					</array>
+					<key>Stats</key>
+					<string>S+2•W+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Prime Conveyor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Vehicle, Macrotek</string>
+					</array>
+					<key>Stats</key>
+					<string>AF+1•AS+1•HP+2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Prime Conveyor</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Vehicle (Transport), Macrotek</string>
+					</array>
+					<key>Stats</key>
+					<string>AF+1•AS+1•HP+2•TC+2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Vagus Prime Advantage: Battlefield Orphans</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Vagus</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Cortex Corruption, Expendable (1)</string>
+					<key>Stats</key>
+					<string>WS+1•BS+1•W-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Vagus Prime Advantage: Misplaced Reinforcements</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
+					<key>Stats</key>
+					<string>WS=2•BS=2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Vagus Prime Advantage: Corrupted Programming</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>Cortex Corruption, Expendable (1), Fear (1)</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Vagus Prime Advantage: Malign Influence</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>Cortex Corruption, Expendable (1), Hatred (All Models that do not have the Automata Type)</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Organisation</key>
 	<array>
 		<dict>
@@ -296,6 +410,730 @@
 					<true/>
 					<key>Points</key>
 					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Strike Force Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Bulwark Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Linebreaker Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -4603,95 +5441,19 @@
 								</array>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Battle</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>WS+1•BS+1•A+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Clade Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Loyalist</string>
-											</array>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Cult Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Traitor</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -5293,95 +6055,19 @@
 								</array>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Battle</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>WS+1•BS+1•A+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Clade Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Loyalist</string>
-											</array>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Cult Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Traitor</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -5804,81 +6490,19 @@
 								<real>0.0</real>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Battle</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>WS+1•BS+1•A+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Clade Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Loyalist</string>
-											</array>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Cult Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Traitor</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -6537,24 +7161,7 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Special Assignment</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
+								<string>Prime Advantage: Special Assignment</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -7212,24 +7819,7 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Special Assignment</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
+								<string>Prime Advantage: Special Assignment</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -7328,61 +7918,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>16</integer>
@@ -7452,61 +7999,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>12</integer>
@@ -7617,124 +8121,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Sergeant</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>4</integer>
@@ -7869,49 +8267,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
@@ -8060,49 +8427,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
@@ -8178,65 +8514,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Sergeant</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -8272,7 +8561,7 @@
 								<real>0.0</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Prime Advantage: Paragon of Metal; single Domitar</string>
+									<string>Prime Advantage: Paragon of Metal; single Arlatax</string>
 								</array>
 								<key>Special Rules</key>
 								<string>Automata (Sergeant)</string>
@@ -8349,65 +8638,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Sergeant</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>4</integer>
@@ -8540,124 +8782,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Sergeant</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>WS+1•BS+1•T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>6</integer>
@@ -8793,71 +8929,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Master Sergeant</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
@@ -8927,65 +9010,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Sergeant</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>4</integer>
@@ -9515,97 +9551,19 @@
 								</array>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Master Sergeant</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Infantry (Sergeant, Specialist, Champion)</string>
-											<key>Stats</key>
-											<string>WS+1•A+1•LD+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Clade Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Loyalist</string>
-											</array>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Cult Operative</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Traitor</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -9649,63 +9607,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>40</integer>
@@ -9868,71 +9781,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Master Sergeant</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Thallaxi Principe</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Reductor</string>
-											</array>
-											<key>Stats</key>
-											<string>LD+1•INV+1</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
@@ -10036,120 +9896,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>WS+1•BS+1•T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>10</integer>
@@ -10184,63 +9942,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Specimens</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Lacrymaerta</string>
-											</array>
-											<key>Stats</key>
-											<string>S+2•W+1</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>40</integer>
@@ -10259,6 +9972,99 @@
 					<key>Stats</key>
 					<string>M5•WS2•BS2•S3•T5•W1•I2•A1•LD4•CL12•WP4•IN4•SAV6+•INV-</string>
 				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Paragon of Metal</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Prime Advantage: Paragon of Metal</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Automata (Sergeant)</string>
+								<key>Stats</key>
+								<string>M6•WS4•BS3•S6•T6•W4•I4•A2•LD11•CL12•WP8•IN8•SAV3+•INV6+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>purge incinerators</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>two flamers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>pairs of power blades</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>10</integer>
+					<key>Minimum Size</key>
+					<integer>2</integer>
+					<key>Name</key>
+					<string>Castellax Infernus Maniple</string>
+					<key>Plural Name</key>
+					<string>Infernus Castellax</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Size</key>
+					<integer>2</integer>
+					<key>Special Rules</key>
+					<string>[Allegiance], Cybernetica; Bulky (4), Implacable Advance, Explodes (6+), Firing Protocols (3), Vanguard (3), Phased Refractor Shields; Automata</string>
+					<key>Stats</key>
+					<string>M6•WS3•BS3•S6•T6•W4•I3•A2•LD7•CL12•WP4•IN4•SAV3+•INV6+</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -10271,6 +10077,29 @@
 			<key>Units</key>
 			<array>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Paragon of Metal</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Prime Advantage: Paragon of Metal</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Automata (Sergeant)</string>
+								<key>Stats</key>
+								<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -10370,124 +10199,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Paragon of Metal</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Cybernetica</string>
-											</array>
-											<key>Special Rules</key>
-											<string>Automata (Heavy, Sergeant)</string>
-											<key>Stats</key>
-											<string>WS+1•I+1•LD+4•WP+4•IN+4</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>WS+1•T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -10597,49 +10320,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Combat Veterans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Stats</key>
-											<string>LD+1•CL+1•WP+1•IN+1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -10714,6 +10406,19 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -10813,53 +10518,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Conveyor</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Macrotek</string>
-											</array>
-											<key>Stats</key>
-											<string>AF+1•AS+1•HP+2•TC+2</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -10960,53 +10630,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Conveyor</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Macrotek</string>
-											</array>
-											<key>Stats</key>
-											<string>AF+1•AS+1•HP+2•TC+2</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -11035,6 +10670,29 @@
 			<key>Units</key>
 			<array>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Paragon of Metal</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Prime Advantage: Paragon of Metal</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Automata (Sergeant)</string>
+								<key>Stats</key>
+								<string>M6•WS4•BS3•S6•T6•W4•I4•A2•LD11•CL12•WP8•IN8•SAV3+•INV6+</string>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -11086,73 +10744,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>WS+1•BS+1•T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>8</integer>
@@ -11227,6 +10830,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>2</integer>
 					<key>Minimum Size</key>
@@ -11258,6 +10874,29 @@
 			<key>Units</key>
 			<array>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Paragon of Metal</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Prime Advantage: Paragon of Metal</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Automata (Sergeant)</string>
+								<key>Stats</key>
+								<string>M12•WS4•BS3•S5•T6•W6•I5•A3•LD11•CL12•WP8•IN8•SAV3+•INV5+</string>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -11303,73 +10942,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Vagus Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Battlefield Orphans</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1)</string>
-											<key>Stats</key>
-											<string>WS+1•BS+1•T-1</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Misplaced Reinforcements</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Infiltrate (9)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Corrupted Programming</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Fear (1), Explodes (4+)</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Malign Influence</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Special Rules</key>
-											<string>Cortex Corruption, Expendable (1), Hatred (All models that do not have the Automata Type)</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Vagus Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -11469,53 +11053,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Conveyor</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Macrotek</string>
-											</array>
-											<key>Stats</key>
-											<string>AF+1•AS+1•HP+2</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -11582,53 +11131,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Conveyor</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Macrotek</string>
-											</array>
-											<key>Stats</key>
-											<string>AF+1•AS+1•HP+2</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -11687,53 +11201,18 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
+					<key>Magic Items</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Prime Advantage</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Logistical Benefit</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Prime Conveyor</string>
-											<key>Points</key>
-											<real>0.0</real>
-											<key>Prerequisite</key>
-											<array>
-												<string>Macrotek</string>
-											</array>
-											<key>Stats</key>
-											<string>AF+1•AS+1•HP+2</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Prime Slot</string>
-								</array>
-							</dict>
-						</array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Prime Advantage</string>
+							<key>Prerequisite</key>
+							<string>Prime Slot</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -12176,6 +11655,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20260622</integer>
+	<integer>20260802</integer>
 </dict>
 </plist>
