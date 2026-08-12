@@ -1959,7 +1959,68 @@
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>carapace armour light</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>carapace armour heavy</string>
+					<key>Points</key>
+					<real>140</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 3</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>hazard suit</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>mesh armour</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>reflec shroud</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1</string>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1967,7 +2028,20 @@
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Field Armour</string>
+					<key>Name</key>
+					<string>refractor field</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 2</string>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1975,7 +2049,140 @@
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>bio-booster</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>drop rig</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>grapnel launcher</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>grav chute</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>medicae kit</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>photo-goggles</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>photo-lumens</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>respirator</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>servo-harness partial</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 2</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>servo-harness full</string>
+					<key>Points</key>
+					<real>130</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 3</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>stimm-slug stash</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1991,7 +2198,92 @@
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>focusing crystal</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1, las weapons only</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>hotshot las pack</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1, las weapons only</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>infra-sight</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>las-projector</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>mono-sight</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>suspensors</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0, weapons marked with * only</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>telescopic sight</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 1</string>
+					</array>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -2007,6 +2299,10 @@
 					<string>dirt bike</string>
 					<key>Points</key>
 					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>TP 0</string>
+					</array>
 				</dict>
 			</array>
 		</dict>
