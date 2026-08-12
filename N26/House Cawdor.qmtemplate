@@ -111,7 +111,7 @@
 					<key>Name</key>
 					<string>combi-autogun flamer</string>
 					<key>Points</key>
-					<real>0</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>combi-autogun, Cawdor</string>
@@ -183,7 +183,7 @@
 					<key>Name</key>
 					<string>cawdor heavy crossbow* krak shells</string>
 					<key>Points</key>
-					<real>0</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>cawdor heavy crossbow*, Cawdor</string>
@@ -219,7 +219,7 @@
 					<key>Name</key>
 					<string>sawn-off shotgun solid shot</string>
 					<key>Points</key>
-					<real>0</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>sawn-off shotgun, Cawdor</string>
@@ -233,12 +233,12 @@
 					<key>Category</key>
 					<string>Ranged Weapons</string>
 					<key>Name</key>
-					<string>exterminator (autogun, shotgun, chainaxe and eviscerator only)</string>
+					<string>exterminator</string>
 					<key>Points</key>
 					<real>35</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Redemptionist</string>
+						<string>autogun/shotgun/chainaxe/eviscerator, Redemptionist</string>
 					</array>
 					<key>Special Rules</key>
 					<string>Auxiliary, Blaze (5+), Single Shot, Template</string>
@@ -287,7 +287,7 @@
 					<key>Name</key>
 					<string>grenade launcher krak grenades</string>
 					<key>Points</key>
-					<real>0</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>grenade launcher, Redemptionist</string>
@@ -341,7 +341,7 @@
 					<key>Name</key>
 					<string>shotgun solid ammo</string>
 					<key>Points</key>
-					<real>0</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>shotgun, Redemptionist</string>
@@ -354,13 +354,15 @@
 				<dict>
 					<key>Category</key>
 					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
 					<key>Name</key>
 					<string>shotgun executioner ammo</string>
 					<key>Points</key>
 					<real>45</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Redemptionist</string>
+						<string>shotgun, Redemptionist</string>
 					</array>
 					<key>Special Rules</key>
 					<string>Ammo (5+), Knockback (5+)</string>
@@ -370,13 +372,15 @@
 				<dict>
 					<key>Category</key>
 					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
 					<key>Name</key>
 					<string>shotgun retributor ammo</string>
 					<key>Points</key>
 					<real>25</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Redemptionist</string>
+						<string>shotgun, Redemptionist</string>
 					</array>
 					<key>Special Rules</key>
 					<string>Blaze (5+), Rapid Fire (2)</string>
@@ -403,7 +407,27 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
 				</dict>
+					<dict>
+						<key>Category</key>
+						<string>Close Combat Weapons</string>
+						<key>Name</key>
+						<string>cawdor polearm/autogun* autogun</string>
+						<key>Points</key>
+						<real>0.0</real>
+						<key>Prerequisite</key>
+						<array>
+							<string>cawdor polearm/autogun*, Cawdor</string>
+						</array>
+						<key>Special Rules</key>
+						<string>Rapid Fire (1)</string>
+						<key>Stats</key>
+						<string>SR8"•LR24"•Str3•AP-•L1</string>
+					</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
@@ -415,7 +439,43 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
 				</dict>
+					<dict>
+						<key>Category</key>
+						<string>Close Combat Weapons</string>
+						<key>Name</key>
+						<string>cawdor polearm/blunderbuss* grape rounds</string>
+						<key>Points</key>
+						<real>0.0</real>
+						<key>Prerequisite</key>
+						<array>
+							<string>cawdor polearm/blunderbuss with grape &amp; purgation rounds*, Cawdor</string>
+						</array>
+						<key>Special Rules</key>
+						<string>Ammo (6+), Blaze (5+), Template</string>
+						<key>Stats</key>
+						<string>SR:T•LR-•Str2•AP-•L1</string>
+					</dict>
+					<dict>
+						<key>Category</key>
+						<string>Close Combat Weapons</string>
+						<key>Name</key>
+						<string>cawdor polearm/blunderbuss* purgation rounds</string>
+						<key>Points</key>
+						<real>0.0</real>
+						<key>Prerequisite</key>
+						<array>
+							<string>cawdor polearm/blunderbuss with grape &amp; purgation rounds*, Cawdor</string>
+						</array>
+						<key>Special Rules</key>
+						<string>Ammo (6+), Blaze (5+), Template</string>
+						<key>Stats</key>
+						<string>SR:T•LR-•Str3•AP-•L1</string>
+					</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
@@ -427,7 +487,27 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
 				</dict>
+					<dict>
+						<key>Category</key>
+						<string>Close Combat Weapons</string>
+						<key>Name</key>
+						<string>cawdor polearm/flamer* flamer</string>
+						<key>Points</key>
+						<real>0.0</real>
+						<key>Prerequisite</key>
+						<array>
+							<string>cawdor polearm/flamer*, Cawdor</string>
+						</array>
+						<key>Special Rules</key>
+						<string>Ammo (6+), Blaze (5+), Template</string>
+						<key>Stats</key>
+						<string>SR:T•LR-•Str4•AP-1•L1</string>
+					</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
@@ -439,6 +519,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Parry, Shred (6+), Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -451,6 +535,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Knockback (5+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str4•AP-1•L1</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -463,6 +551,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str6•AP-2•L2</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -475,6 +567,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Melee, Shock (3+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str2•AP-1•L1</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -505,6 +601,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L2</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -635,6 +735,10 @@
 					<array>
 						<string>Redemptionist</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Shred (5+), Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
 				</dict>
 			</array>
 		</dict>
