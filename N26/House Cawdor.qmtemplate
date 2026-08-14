@@ -165,7 +165,7 @@
 					<key>Category</key>
 					<string>Ranged Weapons</string>
 					<key>Name</key>
-					<string>cawdor heavy crossbow* frag shells</string>
+					<string>Cawdor heavy crossbow* frag shells</string>
 					<key>Points</key>
 					<real>110</real>
 					<key>Prerequisite</key>
@@ -181,12 +181,12 @@
 					<key>Category</key>
 					<string>Ranged Weapons</string>
 					<key>Name</key>
-					<string>cawdor heavy crossbow* krak shells</string>
+					<string>Cawdor heavy crossbow* krak shells</string>
 					<key>Points</key>
 					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>cawdor heavy crossbow*, Cawdor</string>
+						<string>Cawdor heavy crossbow*, Cawdor</string>
 					</array>
 					<key>Special Rules</key>
 					<string>Ammo (4+), Heavy</string>
@@ -400,114 +400,82 @@
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
 					<key>Name</key>
-					<string>cawdor polearm/autogun*</string>
+					<string>cawdor polearm*</string>
 					<key>Points</key>
 					<real>30</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Cawdor</string>
+						<string>Cawdor, autogun/blunderbuss/flamer option</string>
 					</array>
 					<key>Special Rules</key>
 					<string>Heavy, Lance, Melee, Unwieldy</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
 				</dict>
-					<dict>
-						<key>Category</key>
-						<string>Close Combat Weapons</string>
-						<key>Name</key>
-						<string>cawdor polearm/autogun* autogun</string>
-						<key>Points</key>
-						<real>0.0</real>
-						<key>Prerequisite</key>
-						<array>
-							<string>cawdor polearm/autogun*, Cawdor</string>
-						</array>
-						<key>Special Rules</key>
-						<string>Rapid Fire (1)</string>
-						<key>Stats</key>
-						<string>SR8"•LR24"•Str3•AP-•L1</string>
-					</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
 					<key>Name</key>
-					<string>cawdor polearm/blunderbuss with grape &amp; purgation rounds*</string>
+					<string>cawdor polearm autogun</string>
 					<key>Points</key>
-					<real>80</real>
+					<real>0.0</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Cawdor</string>
+						<string>cawdor polearm/autogun, Cawdor</string>
 					</array>
 					<key>Special Rules</key>
-					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<string>Rapid Fire (1)</string>
 					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
+					<string>SR8"•LR24"•Str3•AP-•L1</string>
 				</dict>
-					<dict>
-						<key>Category</key>
-						<string>Close Combat Weapons</string>
-						<key>Name</key>
-						<string>cawdor polearm/blunderbuss* grape rounds</string>
-						<key>Points</key>
-						<real>0.0</real>
-						<key>Prerequisite</key>
-						<array>
-							<string>cawdor polearm/blunderbuss with grape &amp; purgation rounds*, Cawdor</string>
-						</array>
-						<key>Special Rules</key>
-						<string>Ammo (6+), Blaze (5+), Template</string>
-						<key>Stats</key>
-						<string>SR:T•LR-•Str2•AP-•L1</string>
-					</dict>
-					<dict>
-						<key>Category</key>
-						<string>Close Combat Weapons</string>
-						<key>Name</key>
-						<string>cawdor polearm/blunderbuss* purgation rounds</string>
-						<key>Points</key>
-						<real>0.0</real>
-						<key>Prerequisite</key>
-						<array>
-							<string>cawdor polearm/blunderbuss with grape &amp; purgation rounds*, Cawdor</string>
-						</array>
-						<key>Special Rules</key>
-						<string>Ammo (6+), Blaze (5+), Template</string>
-						<key>Stats</key>
-						<string>SR:T•LR-•Str3•AP-•L1</string>
-					</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
 					<key>Name</key>
-					<string>cawdor polearm/flamer*</string>
+					<string>cawdor polearm blunderbuss grape rounds</string>
 					<key>Points</key>
-					<real>85</real>
+					<real>50</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Cawdor</string>
+						<string>cawdor polearm/blunderbuss, Cawdor</string>
 					</array>
 					<key>Special Rules</key>
-					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<string>Ammo (6+), Blaze (5+), Template</string>
 					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
+					<string>SR:T•LR-•Str2•AP-•L1</string>
 				</dict>
-					<dict>
-						<key>Category</key>
-						<string>Close Combat Weapons</string>
-						<key>Name</key>
-						<string>cawdor polearm/flamer* flamer</string>
-						<key>Points</key>
-						<real>0.0</real>
-						<key>Prerequisite</key>
-						<array>
-							<string>cawdor polearm/flamer*, Cawdor</string>
-						</array>
-						<key>Special Rules</key>
-						<string>Ammo (6+), Blaze (5+), Template</string>
-						<key>Stats</key>
-						<string>SR:T•LR-•Str4•AP-1•L1</string>
-					</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>cawdor polearm blunderbuss purgation rounds</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>cawdor polearm/blunderbuss, Cawdor</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>cawdor polearm flamer</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>cawdor polearm/flamer, Cawdor</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
 				<dict>
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
@@ -926,7 +894,7 @@
 					<key>Category</key>
 					<string>Personal Equipment</string>
 					<key>Name</key>
-					<string>book of the redemption</string>
+					<string>Book of the Redemption</string>
 					<key>Points</key>
 					<real>50</real>
 					<key>Prerequisite</key>
@@ -999,6 +967,10 @@
 					<string>dirt bike</string>
 					<key>Points</key>
 					<real>35</real>
+					<key>Special Rules</key>
+					<string>Mounted</string>
+					<key>Stats</key>
+					<string>M=8"</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -1011,6 +983,10 @@
 					<array>
 						<string>Cawdor</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Mounted, Agile</string>
+					<key>Stats</key>
+					<string>M=8"</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -1023,8 +999,68 @@
 					<array>
 						<string>Redemptionist</string>
 					</array>
+					<key>Special Rules</key>
+					<string>Mounted, Agile</string>
+					<key>Stats</key>
+					<string>M=8"</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Agility Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Brawn Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Combat Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Cunning Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Savant Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Shooting Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Inherent Skills</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
 		</dict>
 	</array>
 	<key>Organisation</key>
@@ -5127,8 +5163,6 @@
 					<string>Fighter (Champion, Pious)</string>
 					<key>Stats</key>
 					<string>M5"•WS3+•BS3+•S3•T3•W2•I3•A2•Sv5+•Ld7•Cl7•Wil6•Int7</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>37</integer>
 				</dict>
@@ -6482,8 +6516,6 @@
 					<string>Fighter (Champion, Fanatic)</string>
 					<key>Stats</key>
 					<string>M5"•WS3+•BS3+•S3•T3•W2•I3•A2•Sv5+•Ld7•Cl7•Wil8•Int6</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>37</integer>
 				</dict>
@@ -7848,8 +7880,6 @@
 					<string>Fighter (Ganger, Pious, Specialist)</string>
 					<key>Stats</key>
 					<string>M5"•WS4+•BS4+•S3•T3•W1•I3•A1•Sv6+•Ld6•Cl6•Wil6•Int6</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>13</integer>
 				</dict>
@@ -9183,6 +9213,27 @@
 					<integer>1</integer>
 					<key>Minimum Size</key>
 					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Ridge Walker</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Mounted, Agile</string>
+								<key>Stats</key>
+								<string>M=8"</string>
+							</dict>
+						</array>
+					</array>
 					<key>Name</key>
 					<string>Cawdor Way-Brethren</string>
 					<key>Points</key>
@@ -9190,11 +9241,9 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Fighter (Pious, Prospect)</string>
+					<string>Fighter (Pious, Prospect); Dodge</string>
 					<key>Stats</key>
 					<string>M6"•WS5+•BS5+•S3•T3•W1•I4•A1•Sv6+•Ld5•Cl6•Wil6•Int5</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>4</integer>
 				</dict>
@@ -10538,8 +10587,6 @@
 					<string>Fighter (Pious, Prospect)</string>
 					<key>Stats</key>
 					<string>M6"•WS5+•BS5+•S3•T3•W1•I4•A1•Sv6+•Ld5•Cl5•Wil5•Int5</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>1</integer>
 				</dict>
@@ -11893,8 +11940,6 @@
 					<string>Fighter (Fanatic, Ganger, Specialist)</string>
 					<key>Stats</key>
 					<string>M5"•WS4+•BS4+•S3•T3•W1•I3•A1•Sv6+•Ld6•Cl7•Wil7•Int5</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>13</integer>
 				</dict>
@@ -13238,8 +13283,6 @@
 					<string>Fighter (Fanatic, Prospect)</string>
 					<key>Stats</key>
 					<string>M6"•WS5+•BS5+•S3•T3•W1•I4•A2•Sv6+•Ld5•Cl6•Wil5•Int5</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>1</integer>
 				</dict>
@@ -13255,660 +13298,6 @@
 			<key>Units</key>
 			<array>
 				<dict>
-					<key>Attached Units</key>
-					<array>
-						<dict>
-							<key>Command</key>
-							<array>
-								<array>
-									<dict>
-										<key>Count</key>
-										<integer>0</integer>
-										<key>Magic Items</key>
-										<array>
-											<dict>
-												<key>Items</key>
-												<array/>
-												<key>Limit</key>
-												<integer>-1</integer>
-												<key>Name</key>
-												<string>Skills</string>
-											</dict>
-										</array>
-										<key>Maximum</key>
-										<real>1</real>
-										<key>Name</key>
-										<string>Advancements</string>
-										<key>Options</key>
-										<array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Leadership</string>
-													<key>Points</key>
-													<real>5</real>
-													<key>Stats</key>
-													<string>Ld+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Intelligence</string>
-													<key>Points</key>
-													<real>5</real>
-													<key>Stats</key>
-													<string>Int+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>random Primary skill</string>
-													<key>Points</key>
-													<real>5</real>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Cool</string>
-													<key>Points</key>
-													<real>5</real>
-													<key>Stats</key>
-													<string>Cl+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Willpower</string>
-													<key>Points</key>
-													<real>5</real>
-													<key>Stats</key>
-													<string>Wil+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Primary skill</string>
-													<key>Points</key>
-													<real>10</real>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>random Secondary skill</string>
-													<key>Points</key>
-													<real>10</real>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>8</real>
-													<key>Name</key>
-													<string>Initiative</string>
-													<key>Points</key>
-													<real>10</real>
-													<key>Stats</key>
-													<string>I+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>8</real>
-													<key>Name</key>
-													<string>Movement</string>
-													<key>Points</key>
-													<real>10</real>
-													<key>Stats</key>
-													<string>M+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Secondary skill</string>
-													<key>Points</key>
-													<real>15</real>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>4</real>
-													<key>Name</key>
-													<string>Weapon Skill</string>
-													<key>Points</key>
-													<real>15</real>
-													<key>Stats</key>
-													<string>WS+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>4</real>
-													<key>Name</key>
-													<string>Ballistic Skill</string>
-													<key>Points</key>
-													<real>15</real>
-													<key>Stats</key>
-													<string>BS+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>7</real>
-													<key>Name</key>
-													<string>Strength</string>
-													<key>Points</key>
-													<real>20</real>
-													<key>Stats</key>
-													<string>S+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>7</real>
-													<key>Name</key>
-													<string>Toughness</string>
-													<key>Points</key>
-													<real>20</real>
-													<key>Stats</key>
-													<string>T+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>9</real>
-													<key>Name</key>
-													<string>Wounds</string>
-													<key>Points</key>
-													<real>20</real>
-													<key>Stats</key>
-													<string>W+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>9</real>
-													<key>Name</key>
-													<string>Attacks</string>
-													<key>Points</key>
-													<real>20</real>
-													<key>Stats</key>
-													<string>A+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>4</real>
-													<key>Name</key>
-													<string>Save</string>
-													<key>Points</key>
-													<real>20</real>
-													<key>Stats</key>
-													<string>Sv+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>any Skill</string>
-													<key>Points</key>
-													<real>30</real>
-												</dict>
-											</array>
-										</array>
-										<key>Points</key>
-										<real>0.0</real>
-									</dict>
-								</array>
-								<array>
-									<dict>
-										<key>Count</key>
-										<integer>0</integer>
-										<key>Maximum</key>
-										<real>1</real>
-										<key>Name</key>
-										<string>Lasting Injuries</string>
-										<key>Options</key>
-										<array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Lesson Learnt</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>11</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Eternal Enmity</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>12</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Bitter Enmity</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>13</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Personal Enmity</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>14</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Horrid Scars</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>15</string>
-													</array>
-													<key>Special Rules</key>
-													<string>Fearsome</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>6</real>
-													<key>Name</key>
-													<string>Impressive Scars</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>16</string>
-													</array>
-													<key>Stats</key>
-													<string>Ld+1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Out Cold</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>21-26</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Grievous Wound</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>31-46</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Eye Injury</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>51</string>
-													</array>
-													<key>Stats</key>
-													<string>BS-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Hand Injury</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>52</string>
-													</array>
-													<key>Stats</key>
-													<string>WS-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Hobbled</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>53</string>
-													</array>
-													<key>Stats</key>
-													<string>M-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Spinal Injury</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>54</string>
-													</array>
-													<key>Stats</key>
-													<string>S-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Enfeebled</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>55</string>
-													</array>
-													<key>Stats</key>
-													<string>T-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>3</real>
-													<key>Name</key>
-													<string>Head Injury</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>56</string>
-													</array>
-													<key>Stats</key>
-													<string>Ld-1</string>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Captured</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>61-62</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Critical Injury</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>63-65</string>
-													</array>
-												</dict>
-											</array>
-											<array>
-												<dict>
-													<key>Count</key>
-													<integer>0</integer>
-													<key>Maximum</key>
-													<real>1</real>
-													<key>Name</key>
-													<string>Memorable Death</string>
-													<key>Points</key>
-													<real>0.0</real>
-													<key>Prerequisite</key>
-													<array>
-														<string>66</string>
-													</array>
-												</dict>
-											</array>
-										</array>
-										<key>Points</key>
-										<real>0.0</real>
-									</dict>
-								</array>
-							</array>
-							<key>Equipment</key>
-							<array>
-								<array>
-									<dict>
-										<key>Count</key>
-										<integer>1</integer>
-										<key>Default</key>
-										<true/>
-										<key>Maximum</key>
-										<real>1</real>
-										<key>Name</key>
-										<string>beak &amp; talons</string>
-										<key>Points</key>
-										<real>0.0</real>
-										<key>Special Rules</key>
-										<string>Melee, Rending (6+)</string>
-										<key>Stats</key>
-										<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
-									</dict>
-								</array>
-							</array>
-							<key>Magic</key>
-							<array>
-								<array>
-									<dict>
-										<key>Count</key>
-										<integer>0</integer>
-										<key>Magic Items</key>
-										<array>
-											<dict>
-												<key>Items</key>
-												<array/>
-												<key>Limit</key>
-												<integer>-1</integer>
-												<key>Name</key>
-												<string>Agility Skills</string>
-												<key>Prerequisite</key>
-												<string>Primary</string>
-											</dict>
-											<dict>
-												<key>Items</key>
-												<array/>
-												<key>Limit</key>
-												<integer>-1</integer>
-												<key>Name</key>
-												<string>Combat Skills</string>
-												<key>Prerequisite</key>
-												<string>Secondary</string>
-											</dict>
-										</array>
-										<key>Maximum</key>
-										<real>1</real>
-										<key>Name</key>
-										<string>Skills</string>
-										<key>Points</key>
-										<real>0.0</real>
-									</dict>
-								</array>
-							</array>
-							<key>Maximum Size</key>
-							<integer>1</integer>
-							<key>Minimum Size</key>
-							<integer>1</integer>
-							<key>Name</key>
-							<string>Sheen Bird</string>
-							<key>Points</key>
-							<real>75</real>
-							<key>Size</key>
-							<integer>1</integer>
-							<key>Special Rules</key>
-							<string>Fighter (Beast, Flying, Pet); Leash Range 6", Frenzied</string>
-							<key>Stats</key>
-							<string>M7"•WS3+•BS6+•S2•T3•W1•I5•A2•Sv6+•Ld6•Cl6•Wil6•Int4</string>
-							<key>XP</key>
-							<integer>13</integer>
-						</dict>
-					</array>
 					<key>Command</key>
 					<array>
 						<array>
@@ -14483,6 +13872,57 @@
 							</dict>
 						</array>
 					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy club</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Concussive (5+), Heavy, Melee, Unwieldy</string>
+								<key>Stats</key>
+								<string>SR:E•LR-•Str:S+2•AP-•L2</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy flamer</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Ammo (6+), Blaze (5+), Template</string>
+								<key>Stats</key>
+								<string>SR:T•LR-•Str5•AP-2•L1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked heavy stubber</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Special Rules</key>
+								<string>Heavy, Rapid Fire (2), Twin-linked</string>
+								<key>Stats</key>
+								<string>SR20"•LR40"•Str4•AP-1•L1</string>
+							</dict>
+						</array>
+					</array>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -14521,65 +13961,6 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic Items</key>
-					<array>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<real>3</real>
-							<key>Name</key>
-							<string>Weapons</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<real>3</real>
-							<key>Name</key>
-							<string>Weapon Accessories</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<integer>-1</integer>
-							<key>Name</key>
-							<string>Grenades</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<real>1</real>
-							<key>Name</key>
-							<string>Armour</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<integer>-1</integer>
-							<key>Name</key>
-							<string>Field Armour</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<integer>-1</integer>
-							<key>Name</key>
-							<string>Personal Equipment</string>
-						</dict>
-						<dict>
-							<key>Items</key>
-							<array/>
-							<key>Limit</key>
-							<real>1</real>
-							<key>Name</key>
-							<string>Mounts</string>
-						</dict>
-					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -14591,11 +13972,9 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Fighter (Brute, Loner, Pious)</string>
+					<string>Fighter (Brute, Loner, Pious); Bulging Biceps</string>
 					<key>Stats</key>
 					<string>M4"•WS4+•BS4+•S5•T4•W4•I3•A2•Sv6+•Ld6•Cl6•Wil6•Int5</string>
-					<key>Upper Limit</key>
-					<integer>1</integer>
 					<key>XP</key>
 					<integer>25</integer>
 				</dict>
@@ -14722,6 +14101,14 @@
 							<key>Limit</key>
 							<integer>-1</integer>
 							<key>Name</key>
+							<string>Gang Equipment</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
 							<string>Mounts</string>
 						</dict>
 					</array>
@@ -14734,8 +14121,6 @@
 					<key>Points</key>
 					<real>0.0</real>
 					<key>Size</key>
-					<integer>1</integer>
-					<key>Upper Limit</key>
 					<integer>1</integer>
 				</dict>
 			</array>
