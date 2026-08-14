@@ -670,14 +670,14 @@
 		</dict>
 		<dict>
 			<key>Category</key>
-			<string>Psyrender</string>
+			<string>Psyrender Wyrd Powers</string>
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
 			<array>
 				<dict>
 					<key>Category</key>
-					<string>Psyrender</string>
+					<string>Psyrender Wyrd Powers</string>
 					<key>Name</key>
 					<string>Mind Control (Single)</string>
 					<key>Points</key>
@@ -685,7 +685,7 @@
 				</dict>
 				<dict>
 					<key>Category</key>
-					<string>Psyrender</string>
+					<string>Psyrender Wyrd Powers</string>
 					<key>Name</key>
 					<string>Terrify (Double)</string>
 					<key>Points</key>
@@ -693,7 +693,7 @@
 				</dict>
 				<dict>
 					<key>Category</key>
-					<string>Psyrender</string>
+					<string>Psyrender Wyrd Powers</string>
 					<key>Name</key>
 					<string>Hallucinations (Single)</string>
 					<key>Points</key>
@@ -703,14 +703,14 @@
 		</dict>
 		<dict>
 			<key>Category</key>
-			<string>Bonecrusher</string>
+			<string>Bonecrusher Wyrd Powers</string>
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
 			<key>Items</key>
 			<array>
 				<dict>
 					<key>Category</key>
-					<string>Bonecrusher</string>
+					<string>Bonecrusher Wyrd Powers</string>
 					<key>Name</key>
 					<string>Crush (Free)</string>
 					<key>Points</key>
@@ -718,7 +718,7 @@
 				</dict>
 				<dict>
 					<key>Category</key>
-					<string>Bonecrusher</string>
+					<string>Bonecrusher Wyrd Powers</string>
 					<key>Name</key>
 					<string>Force Field (Single), Continuous Effect</string>
 					<key>Points</key>
@@ -726,11 +726,15 @@
 				</dict>
 				<dict>
 					<key>Category</key>
-					<string>Bonecrusher</string>
+					<string>Bonecrusher Wyrd Powers</string>
 					<key>Name</key>
 					<string>Force Blast (Free), Continuous Effect</string>
 					<key>Points</key>
 					<real>0.0</real>
+					<key>Special Rules</key>
+					<string>Knockback (3+)</string>
+					<key>Stats</key>
+					<string>SR8"•LR12"•Str2•AP-1•L1</string>
 				</dict>
 			</array>
 		</dict>
@@ -10844,6 +10848,42 @@
 								<key>Stats</key>
 								<string>SR:E•LR-•Str:S•AP-2•L2</string>
 							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>concussion cannon</string>
+								<key>Points</key>
+								<real>25</real>
+								<key>Special Rules</key>
+								<string>Blast (3"), Concussive (5+), Knockback (5+)</string>
+								<key>Stats</key>
+								<string>SR9"•LR18"•Str4•AP-1•L1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>sanction pattern man-catcher</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Special Rules</key>
+								<string>Melee, Shock (5+)</string>
+								<key>Stats</key>
+								<string>SR:E•LR-•Str:S•AP-1•L1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>SLHG pattern assault ram 'sledge hammer' with auxiliary grenade launcher</string>
+								<key>Points</key>
+								<real>80</real>
+								<key>Special Rules</key>
+								<string>Concussive (5+), Knockback (5+), Melee</string>
+								<key>Stats</key>
+								<string>SR:E•LR-•Str:S+2•AP-1•L2</string>
+							</dict>
 						</array>
 						<array>
 							<dict>
@@ -10862,8 +10902,6 @@
 								<key>Stats</key>
 								<string>SR:E•LR-•Str:S+1•AP-•L1</string>
 							</dict>
-						</array>
-						<array>
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
