@@ -127,3 +127,14 @@ Running log of judgment calls made while building N26 gang files from screenshot
 - **New pattern: item restricted to a fighter Subtype, not a named fighter/gang/specialist-role.** `Corpse Grinder Cult icon` (Personal Equipment, 40cr) is tagged "Exclusive," Leader/Champion Subtype only on the card. Tagged it `Prerequisite: [Leader/Champion]`, mirroring the compound-slash style already used for skill prerequisites (e.g. `Fighter/Walker`) — no prior gang had an item-level version of this, worth confirming it resolves correctly. Item name keeps the gang name title-cased per the standing rule (`Corpse Grinder Cult icon`, not `cult icon` like Cawdor's generic version — this one's own printed name includes the gang name).
 - **Gang Equipment allowance added to the Stash.**
 - **Skill Access table read directly**, no skew/ambiguity issues (5 rows).
+
+## Free Ogryns.qmtemplate
+
+- **No pet, no Brute, no Vehicle this gang** — all 4 fighters are plain Fighter-role units (Leader/Champion/Fighter×2), no `Attached Units` block needed.
+- **Skipped: the gang-wide Augmetic Weapons lock-in rule**, identical boilerplate on all 4 cards ("may not be given any additional Augmetic Weapons during a campaign; Augmetic Weapons they're equipped with must be included on all Model Cards and cannot be discarded"). This is a post-campaign-progression restriction (which specific weapons become permanent) with no schema equivalent and no short name to append — same treatment as other multi-step mechanics we've skipped. The second bullet on each card ("may be given additional weapons... from the Free Ogryn Equipment List and from the Trading Post") is just confirming normal purchasing applies, not a restriction, so no `Magic Items` changes were needed for any of the four.
+- **Stevedore Ogryn is `Fighter (Specialist, Ganger)`** — got the standard `Specialist` block in `Magic` per the 2026-08-16 standing rule.
+- **9 new Close Combat/Ranged items, no N26 match**: `las cutter` *did* match N26 exactly (80cr, same profile) and was copied straight across; `storm welder`, `arc welder`, `augmetic fist`, `paired augmetic fists*`, `heavy rock cutter*`, `heavy rock saw*`, `cleaver`, `spud-jacker` are all genuinely new, added with full `Special Rules`/`Stats` from the reference page. `axe`, `maul`, `two-handed axe*`, `two-handed hammer*`, and the grenades/armour/personal equipment all matched N26 directly.
+- **`Servo-harness - partial`** kept its price-list name verbatim (including the " - partial" suffix) since that's how it's printed and there's no fuller version listed to disambiguate from — added as a bare Personal Equipment entry, no stats.
+- **No Weapon Accessories or Mounts sections in this gang's equipment list** — both categories stay present but empty, same as Corpse Grinder Cult.
+- **Gang Equipment allowance added to the Stash.**
+- **Skill Access table read directly**, no skew/ambiguity issues (4 rows).
