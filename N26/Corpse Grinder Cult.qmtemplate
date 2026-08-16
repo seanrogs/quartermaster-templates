@@ -98,7 +98,7 @@
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
 					<key>Name</key>
-					<string>Butcher's chain cleaver</string>
+					<string>butcher's chain cleaver</string>
 					<key>Points</key>
 					<real>35</real>
 					<key>Special Rules</key>
@@ -110,7 +110,7 @@
 					<key>Category</key>
 					<string>Close Combat Weapons</string>
 					<key>Name</key>
-					<string>Paired Butcher's chain cleavers*</string>
+					<string>paired butcher's chain cleavers*</string>
 					<key>Points</key>
 					<real>55</real>
 					<key>Special Rules</key>
@@ -2444,6 +2444,103 @@
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Specialist</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Heavy</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Bulging Biceps</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Gunner</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Hip-shooting</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Gunslinger</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Gunfighter</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Scout</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Clamber</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sniper</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Precision Shot</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Brawler</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Berserker</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Medic</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Medicate</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Tech</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Munitioneer</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
 									<dict>
@@ -3268,6 +3365,261 @@
 						<array>
 							<dict>
 								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Warped Monstrosity</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>WS5+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>WS=5+</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>WS4+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>WS=4+</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>WS3+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>WS=3+</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>S3</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>S=3</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>S4</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>S=4</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>S5</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>S=5</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>T4</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>T=4</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>T5</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>T=5</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>T6</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>T=6</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>W1</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>W=1</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>W2</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>W=2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>W3</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>W=3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>I2</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>I=2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>I3</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>I=3</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>I4</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>I=4</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>A1</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>A=1</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>A2</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>A=2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>A3</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>A=3</string>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Sv6+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Sv=6+</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sv5+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Sv=5+</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Sv4+</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Stats</key>
+											<string>Sv=4+</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
 								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
@@ -3917,9 +4269,9 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Fighter (Beast, Brute); Warped Monstrosity, Erratic Movement, Blessed by the Lord of Skin and Sinew, Out of Control</string>
+					<string>Fighter (Beast, Brute); Erratic Movement, Blessed by the Lord of Skin and Sinew, Out of Control</string>
 					<key>Stats</key>
-					<string>M=3+D3"•WS*•BS6+•S*•T*•W*•I*•A*•Sv*•Ld4•Cl8•Wil7•Int5</string>
+					<string>M:3+D3"•WS*•BS6+•S*•T*•W*•I*•A*•Sv*•Ld4•Cl8•Wil7•Int5</string>
 					<key>XP</key>
 					<integer>25</integer>
 				</dict>
