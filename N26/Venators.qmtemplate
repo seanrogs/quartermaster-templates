@@ -78,6 +78,1544 @@
 			<key>Items</key>
 			<array/>
 		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Cawdor Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-autogun</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>Combi, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR8"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-autogun flamer</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combi-autogun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Combi, Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>Cawdor heavy crossbow* frag shells</string>
+					<key>Points</key>
+					<real>110</real>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Blast (5"), Heavy, Knockback (6+)</string>
+					<key>Stats</key>
+					<string>SR15"•LR30"•Str4•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>Cawdor heavy crossbow* krak shells</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Cawdor heavy crossbow*</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Heavy</string>
+					<key>Stats</key>
+					<string>SR15"•LR30"•Str6•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>exterminator</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>autogun/shotgun/chainaxe/eviscerator</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Auxiliary, Blaze (5+), Single Shot, Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Name</key>
+					<string>fire pike*</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Breaching (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shotgun executioner ammo</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (5+), Knockback (5+)</string>
+					<key>Stats</key>
+					<string>SR4"•LR16"•Str4•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shotgun retributor ammo</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Blaze (5+), Rapid Fire (2)</string>
+					<key>Stats</key>
+					<string>SR4"•LR8"•Str4•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Cawdor Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Cawdor polearm*</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>autogun/blunderbuss/flamer option</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Heavy, Lance, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Cawdor polearm autogun</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Cawdor polearm/autogun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR8"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Cawdor polearm blunderbuss grape rounds</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Cawdor polearm/blunderbuss</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str2•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Cawdor polearm blunderbuss purgation rounds</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Cawdor polearm/blunderbuss</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Cawdor polearm flamer</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Cawdor polearm/flamer</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>chain glaive*</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Parry, Shred (6+), Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>frag lance*</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Knockback (5+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>krak lance*</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str6•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>stun lance*</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Heavy, Lance-bomb, Melee, Shock (3+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str2•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>cleaver</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Close Combat Weapons</string>
+					<key>Name</key>
+					<string>eviscerator*</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Shred (5+), Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Cawdor Personal Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Personal Equipment</string>
+					<key>Name</key>
+					<string>bomb delivery rats</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Personal Equipment</string>
+					<key>Name</key>
+					<string>cult icon</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Personal Equipment</string>
+					<key>Name</key>
+					<string>Book of the Redemption</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Personal Equipment</string>
+					<key>Name</key>
+					<string>pyromantic mantle</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Cawdor Mounts</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Mounts</string>
+					<key>Name</key>
+					<string>ridge walker</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Mounted, Agile</string>
+					<key>Stats</key>
+					<string>M=8"</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Cawdor Mounts</string>
+					<key>Name</key>
+					<string>ridge walker</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Mounted, Agile</string>
+					<key>Stats</key>
+					<string>M=8"</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Delaque Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Ranged Weapons</string>
+					<key>Name</key>
+					<string>flechette pistol</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (1), Toxin (3+)</string>
+					<key>Stats</key>
+					<string>SR4"•LR12"•Str-•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Delaque Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Close Combat Weapons</string>
+					<key>Name</key>
+					<string>psychomantic claws*</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Melee, Paired (2)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-3•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Close Combat Weapons</string>
+					<key>Name</key>
+					<string>serpent's fangs*</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Melee, Paired (2), Toxin (3+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str-•AP-3•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Close Combat Weapons</string>
+					<key>Name</key>
+					<string>shivver sword</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Melee, Parry</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Close Combat Weapons</string>
+					<key>Name</key>
+					<string>web gauntlet</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Special Rules</key>
+					<string>Backstab, Melee, Web</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str3•AP-•L-</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Delaque Personal Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Delaque Personal Equipment</string>
+					<key>Name</key>
+					<string>psychomancer's harness</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Stats</key>
+					<string>M+2"</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Escher Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-bolter</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Combi, Rapid Fire (1), Scarce (4+)</string>
+					<key>Stats</key>
+					<string>SR12"•LR24"•Str4•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-bolter needler</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combi-bolter</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Combi, Toxin (3+)</string>
+					<key>Stats</key>
+					<string>SR9"•LR18"•Str-•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Ranged Weapons</string>
+					<key>Name</key>
+					<string>wyld bow</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Assault</string>
+					<key>Stats</key>
+					<string>SR9"•LR18"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shotgun acid ammo</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Blaze (5+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR4"•LR8"•Str3•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Ranged Weapons</string>
+					<key>Name</key>
+					<string>'nightshade' chem-thrower</string>
+					<key>Points</key>
+					<real>95</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Gas, Template, Toxin (3+)</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str-•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Escher Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Close Combat Weapons</string>
+					<key>Name</key>
+					<string>whip</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Escher Close Combat Weapons</string>
+					<key>Name</key>
+					<string>venom claw</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Melee, Shred (5+), Toxin (3+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str-•AP-2•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Goliath Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>stub cannon</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Knockback (5+)</string>
+					<key>Stats</key>
+					<string>SR9"•LR18"•Str5•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-stub gun</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>Combi, Light</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-stub gun plasma pistol</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combi-stub gun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Combi, Damage (2), Light, Unstable</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str5•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>assault grenade launcher frag grenades</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Blast (3"), Knockback (6+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR6"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>assault grenade launcher krak grenades</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>assault grenade launcher</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR6"•LR24"•Str6•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>assault grenade launcher smoke grenades</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>assault grenade launcher</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Blast (3"), Smoke</string>
+					<key>Stats</key>
+					<string>SR6"•LR24"•Str-•AP-•L-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>'krumper' rivet cannon</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Assault, Blaze (5+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR3"•LR9"•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Ranged Weapons</string>
+					<key>Name</key>
+					<string>storm welder</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (3), Shock (6+), Unstable</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str5•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Goliath Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>cleaver</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>'pulverizer' serrated axe</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>paired 'pulverizers'</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Special Rules</key>
+					<string>Melee, Paired (2)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>'renderizer' serrated axe*</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Damage (2), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>heavy rock saw*</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Special Rules</key>
+					<string>Damage (2), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+3•AP-3•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>spud-jacker</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Knockback (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Goliath Close Combat Weapons</string>
+					<key>Name</key>
+					<string>paired spud-jackers*</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Knockback (6+), Melee, Paired (2)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Van Saar Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-laspistol</string>
+					<key>Points</key>
+					<real>140</real>
+					<key>Special Rules</key>
+					<string>Combi, Light</string>
+					<key>Stats</key>
+					<string>SR8"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-laspistol meltagun</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combi-laspistol</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Combi, Damage (3)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str8•AP-4•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-flamer</string>
+					<key>Points</key>
+					<real>85</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Gunner specialist</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Additional Attacks (1), Ammo (6+), Blaze (5+), Light, Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>combi-flamer man-catcher</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combi-flamer, Gunner specialist</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Melee, Shock (6+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str-•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>las carbine</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR10"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>las sub-carbine</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR5"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>suppression laser</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str4•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Ranged Weapons</string>
+					<key>Name</key>
+					<string>rad beamer</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Rapid Fire (1), Rad-phage</string>
+					<key>Stats</key>
+					<string>SR12"•LR24"•Str3•AP-1•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Van Saar Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Close Combat Weapons</string>
+					<key>Name</key>
+					<string>spider-rig</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Additional Attacks (1), Melee, Shock (6+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Close Combat Weapons</string>
+					<key>Name</key>
+					<string>'hystrar' pattern energy shield</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Knockback (5+), Melee, Parry, Shield</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Van Saar Armour</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Armour</string>
+					<key>Name</key>
+					<string>light carapace armour</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Gunner specialist</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Van Saar Personal Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Personal Equipment</string>
+					<key>Name</key>
+					<string>augurspex</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Tech specialist</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Personal Equipment</string>
+					<key>Name</key>
+					<string>refraction cloak</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Sniper specialist</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Personal Equipment</string>
+					<key>Name</key>
+					<string>servo-medicae</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Medic specialist</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Personal Equipment</string>
+					<key>Name</key>
+					<string>vox array</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Tech specialist</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Van Saar Mounts</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Van Saar Mounts</string>
+					<key>Name</key>
+					<string>grav cutter</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Mounted, Agile, Flying</string>
+					<key>Stats</key>
+					<string>M=7"</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>House Orlock Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>House Orlock Close Combat Weapons</string>
+					<key>Name</key>
+					<string>arc hammer*</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Concussive (5+), Heavy, Knockback (5+), Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+3•AP-1•L3</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Free Ogryns Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Ranged Weapons</string>
+					<key>Name</key>
+					<string>storm welder</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (3), Shock (6+), Unstable</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str5•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Free Ogryns Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>arc welder</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Blaze (5+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-3•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>augmetic fist</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>paired augmetic fists*</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Melee, Paired (2)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>heavy rock cutter*</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+4•AP-4•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>heavy rock saw*</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Special Rules</key>
+					<string>Damage (2), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+3•AP-3•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>cleaver</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Close Combat Weapons</string>
+					<key>Name</key>
+					<string>spud-jacker</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Knockback (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Free Ogryns Personal Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Free Ogryns Personal Equipment</string>
+					<key>Name</key>
+					<string>servo-harness - partial</string>
+					<key>Points</key>
+					<real>100</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Ironhead Squat Prospectors Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead autogun</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (1), Reliable</string>
+					<key>Stats</key>
+					<string>SR8"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead autopistol</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (1), Reliable</string>
+					<key>Stats</key>
+					<string>SR4"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead heavy stubber*</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Heavy, Rapid Fire (2), Reliable</string>
+					<key>Stats</key>
+					<string>SR20"•LR40"•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead stub gun</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead boltgun</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Rapid Fire (1), Reliable</string>
+					<key>Stats</key>
+					<string>SR12"•LR24"•Str4•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead bolt pistol</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Light, Rapid Fire (1), Reliable</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str4•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>heavy melta</string>
+					<key>Points</key>
+					<real>160</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Damage (3), Heavy, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR9"•LR18"•Str8•AP-4•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead combat shotgun</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str4•AP-•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>storm welder</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (3), Shock (6+), Unstable</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str5•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead flamer</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Rapid Fire (1), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead hand flamer</string>
+					<key>Points</key>
+					<real>55</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Light, Rapid Fire (1), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead heavy flamer*</string>
+					<key>Points</key>
+					<real>105</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Rapid Fire (1), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str5•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead grenade launcher seismic grenades</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Blast (3"), Breaching (6+), Concussive (5+), Knockback (5+)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str3•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead inferno pistol</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Damage (2), Light</string>
+					<key>Stats</key>
+					<string>SR4"•LR7"•Str8•AP-3•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>Ironhead meltagun</string>
+					<key>Points</key>
+					<real>150</real>
+					<key>Special Rules</key>
+					<string>Ammo (5+), Damage (3)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str8•AP-4•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>bolt spitter</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Additional Attack (1), Light, Power Pack, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR4"•LR10"•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Ranged Weapons</string>
+					<key>Name</key>
+					<string>stone burner</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Additional Attack (1), Damage (2), Light, Power Pack</string>
+					<key>Stats</key>
+					<string>SR2"•LR4"•Str5•AP-2•L2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>two-handed chainaxe*</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Shred (5+), Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>excavator hammer*</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-1•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>heavy drill</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Melee, Shred (6+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>hydraulic drill</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Melee, Shred (6+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>rock saw</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Breaching (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>circular stone saw</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Additional Attack (1), Melee, Power Pack, Shred (6+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>drill</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Special Rules</key>
+					<string>Additional Attack (1), Melee, Power Pack</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str3•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>gem extractor</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Additional Attack (1), Melee, Power Pack</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Ironhead arc welder</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Additional Attack (1), Blaze (5+), Melee, Power Pack</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>two-handed power axe*</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Breaching (6+), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-3•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ironhead Squat Prospectors Close Combat Weapons</string>
+					<key>Name</key>
+					<string>two-handed power pick*</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Breaching (4+), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-2•L2</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Organisation</key>
 	<array>
