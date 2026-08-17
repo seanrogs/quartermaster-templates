@@ -2358,6 +2358,45 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Genestealer Cult Wyrd Powers</string>
+										<key>Prerequisite</key>
+										<string>Genestealer Cult Corrupted</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Malstrain Wyrd Powers</string>
+										<key>Prerequisite</key>
+										<string>Malstrain Corrupted</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wyrd</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Genestealer Cult Corrupted / Malstrain Corrupted</string>
+								</array>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -3721,6 +3760,45 @@
 								<string>Skills</string>
 								<key>Points</key>
 								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Genestealer Cult Wyrd Powers</string>
+										<key>Prerequisite</key>
+										<string>Genestealer Cult Corrupted</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<integer>-1</integer>
+										<key>Name</key>
+										<string>Malstrain Wyrd Powers</string>
+										<key>Prerequisite</key>
+										<string>Malstrain Corrupted</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wyrd</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Genestealer Cult Corrupted / Malstrain Corrupted</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -7785,6 +7863,8 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -7793,6 +7873,8 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -7801,6 +7883,8 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -7809,6 +7893,8 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -7817,6 +7903,8 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -7825,6 +7913,8 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -7833,6 +7923,8 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
+											<key>Count</key>
+											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -14304,6 +14396,61 @@
 					<string>Stash</string>
 					<key>Points</key>
 					<real>0.0</real>
+					<key>Size</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Blood God</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Plague Lord</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Dark Prince</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Architect of Fate</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Chaos Dedication</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Chaos Corrupted</string>
+					</array>
 					<key>Size</key>
 					<integer>1</integer>
 				</dict>
