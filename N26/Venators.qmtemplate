@@ -8,82 +8,6 @@
 	<array>
 		<dict>
 			<key>Category</key>
-			<string>Ranged Weapons</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Close Combat Weapons</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Grenades</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Armour</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-			<key>Single Selection</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Field Armour</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Personal Equipment</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Gang Equipment</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Weapon Accessories</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Mounts</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array/>
-			<key>Single Selection</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Category</key>
 			<string>House Cawdor Ranged Weapons</string>
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
@@ -144,70 +68,6 @@
 					<string>Ammo (4+), Heavy</string>
 					<key>Stats</key>
 					<string>SR15"•LR30"•Str6•AP-2•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Ranged Weapons</string>
-					<key>Name</key>
-					<string>exterminator</string>
-					<key>Points</key>
-					<real>35</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>autogun/shotgun/chainaxe/eviscerator</string>
-					</array>
-					<key>Special Rules</key>
-					<string>Auxiliary, Blaze (5+), Single Shot, Template</string>
-					<key>Stats</key>
-					<string>SR:T•LR-•Str4•AP-1•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Ranged Weapons</string>
-					<key>Name</key>
-					<string>fire pike*</string>
-					<key>Points</key>
-					<real>80</real>
-					<key>Special Rules</key>
-					<string>Ammo (6+), Blaze (5+), Breaching (5+), Template</string>
-					<key>Stats</key>
-					<string>SR:T•LR-•Str4•AP-2•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Ranged Weapons</string>
-					<key>Multiple</key>
-					<true/>
-					<key>Name</key>
-					<string>shotgun executioner ammo</string>
-					<key>Points</key>
-					<real>45</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>shotgun</string>
-					</array>
-					<key>Special Rules</key>
-					<string>Ammo (5+), Knockback (5+)</string>
-					<key>Stats</key>
-					<string>SR4"•LR16"•Str4•AP-2•L2</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Ranged Weapons</string>
-					<key>Multiple</key>
-					<true/>
-					<key>Name</key>
-					<string>shotgun retributor ammo</string>
-					<key>Points</key>
-					<real>25</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>shotgun</string>
-					</array>
-					<key>Special Rules</key>
-					<string>Blaze (5+), Rapid Fire (2)</string>
-					<key>Stats</key>
-					<string>SR4"•LR8"•Str4•AP-•L1</string>
 				</dict>
 			</array>
 		</dict>
@@ -358,18 +218,6 @@
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S•AP-1•L2</string>
 				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Close Combat Weapons</string>
-					<key>Name</key>
-					<string>eviscerator*</string>
-					<key>Points</key>
-					<real>65</real>
-					<key>Special Rules</key>
-					<string>Heavy, Melee, Shred (5+), Unwieldy</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
-				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -395,22 +243,6 @@
 					<key>Points</key>
 					<real>40</real>
 				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Personal Equipment</string>
-					<key>Name</key>
-					<string>Book of the Redemption</string>
-					<key>Points</key>
-					<real>50</real>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Personal Equipment</string>
-					<key>Name</key>
-					<string>pyromantic mantle</string>
-					<key>Points</key>
-					<real>30</real>
-				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -427,18 +259,6 @@
 					<string>ridge walker</string>
 					<key>Points</key>
 					<real>40</real>
-					<key>Special Rules</key>
-					<string>Mounted, Agile</string>
-					<key>Stats</key>
-					<string>M=8"</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Cawdor Mounts</string>
-					<key>Name</key>
-					<string>ridge walker</string>
-					<key>Points</key>
-					<real>45</real>
 					<key>Special Rules</key>
 					<string>Mounted, Agile</string>
 					<key>Stats</key>
@@ -480,42 +300,6 @@
 					<key>Category</key>
 					<string>House Delaque Close Combat Weapons</string>
 					<key>Name</key>
-					<string>psychomantic claws*</string>
-					<key>Points</key>
-					<real>65</real>
-					<key>Special Rules</key>
-					<string>Melee, Paired (2)</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+1•AP-3•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Delaque Close Combat Weapons</string>
-					<key>Name</key>
-					<string>serpent's fangs*</string>
-					<key>Points</key>
-					<real>70</real>
-					<key>Special Rules</key>
-					<string>Melee, Paired (2), Toxin (3+)</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str-•AP-3•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Delaque Close Combat Weapons</string>
-					<key>Name</key>
-					<string>shivver sword</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Special Rules</key>
-					<string>Melee, Parry</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Delaque Close Combat Weapons</string>
-					<key>Name</key>
 					<string>web gauntlet</string>
 					<key>Points</key>
 					<real>10</real>
@@ -523,25 +307,6 @@
 					<string>Backstab, Melee, Web</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str3•AP-•L-</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>House Delaque Personal Equipment</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array>
-				<dict>
-					<key>Category</key>
-					<string>House Delaque Personal Equipment</string>
-					<key>Name</key>
-					<string>psychomancer's harness</string>
-					<key>Points</key>
-					<real>35</real>
-					<key>Stats</key>
-					<string>M+2"</string>
 				</dict>
 			</array>
 		</dict>
@@ -583,18 +348,6 @@
 				<dict>
 					<key>Category</key>
 					<string>House Escher Ranged Weapons</string>
-					<key>Name</key>
-					<string>wyld bow</string>
-					<key>Points</key>
-					<real>15</real>
-					<key>Special Rules</key>
-					<string>Assault</string>
-					<key>Stats</key>
-					<string>SR9"•LR18"•Str3•AP-•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Escher Ranged Weapons</string>
 					<key>Multiple</key>
 					<true/>
 					<key>Name</key>
@@ -621,39 +374,6 @@
 					<string>Ammo (6+), Gas, Template, Toxin (3+)</string>
 					<key>Stats</key>
 					<string>SR:T•LR-•Str-•AP-•L1</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>House Escher Close Combat Weapons</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array>
-				<dict>
-					<key>Category</key>
-					<string>House Escher Close Combat Weapons</string>
-					<key>Name</key>
-					<string>whip</string>
-					<key>Points</key>
-					<real>5</real>
-					<key>Special Rules</key>
-					<string>Knockback (6+), Melee</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S•AP-•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Escher Close Combat Weapons</string>
-					<key>Name</key>
-					<string>venom claw</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Special Rules</key>
-					<string>Melee, Shred (5+), Toxin (3+)</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str-•AP-2•L1</string>
 				</dict>
 			</array>
 		</dict>
@@ -708,50 +428,6 @@
 					<key>Category</key>
 					<string>House Goliath Ranged Weapons</string>
 					<key>Name</key>
-					<string>assault grenade launcher frag grenades</string>
-					<key>Points</key>
-					<real>45</real>
-					<key>Special Rules</key>
-					<string>Ammo (4+), Blast (3"), Knockback (6+), Rapid Fire (1)</string>
-					<key>Stats</key>
-					<string>SR6"•LR24"•Str3•AP-•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Goliath Ranged Weapons</string>
-					<key>Name</key>
-					<string>assault grenade launcher krak grenades</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>assault grenade launcher</string>
-					</array>
-					<key>Special Rules</key>
-					<string>Ammo (4+), Rapid Fire (1)</string>
-					<key>Stats</key>
-					<string>SR6"•LR24"•Str6•AP-2•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Goliath Ranged Weapons</string>
-					<key>Name</key>
-					<string>assault grenade launcher smoke grenades</string>
-					<key>Points</key>
-					<real>20</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>assault grenade launcher</string>
-					</array>
-					<key>Special Rules</key>
-					<string>Ammo (3+), Blast (3"), Smoke</string>
-					<key>Stats</key>
-					<string>SR6"•LR24"•Str-•AP-•L-</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Goliath Ranged Weapons</string>
-					<key>Name</key>
 					<string>'krumper' rivet cannon</string>
 					<key>Points</key>
 					<real>45</real>
@@ -759,18 +435,6 @@
 					<string>Assault, Blaze (5+), Rapid Fire (1)</string>
 					<key>Stats</key>
 					<string>SR3"•LR9"•Str4•AP-1•L1</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Goliath Ranged Weapons</string>
-					<key>Name</key>
-					<string>storm welder</string>
-					<key>Points</key>
-					<real>60</real>
-					<key>Special Rules</key>
-					<string>Rapid Fire (3), Shock (6+), Unstable</string>
-					<key>Stats</key>
-					<string>SR8"•LR16"•Str5•AP-•L1</string>
 				</dict>
 			</array>
 		</dict>
@@ -828,18 +492,6 @@
 					<string>Damage (2), Heavy, Melee, Unwieldy</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+2•AP-1•L2</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Goliath Close Combat Weapons</string>
-					<key>Name</key>
-					<string>heavy rock saw*</string>
-					<key>Points</key>
-					<real>100</real>
-					<key>Special Rules</key>
-					<string>Damage (2), Heavy, Melee, Unwieldy</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+3•AP-3•L2</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -970,18 +622,6 @@
 					<key>Stats</key>
 					<string>SR8"•LR16"•Str4•AP-•L1</string>
 				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Van Saar Ranged Weapons</string>
-					<key>Name</key>
-					<string>rad beamer</string>
-					<key>Points</key>
-					<real>35</real>
-					<key>Special Rules</key>
-					<string>Ammo (4+), Rapid Fire (1), Rad-phage</string>
-					<key>Stats</key>
-					<string>SR12"•LR24"•Str3•AP-1•L1</string>
-				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -995,18 +635,6 @@
 					<key>Category</key>
 					<string>House Van Saar Close Combat Weapons</string>
 					<key>Name</key>
-					<string>spider-rig</string>
-					<key>Points</key>
-					<real>50</real>
-					<key>Special Rules</key>
-					<string>Additional Attacks (1), Melee, Shock (6+)</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>House Van Saar Close Combat Weapons</string>
-					<key>Name</key>
 					<string>'hystrar' pattern energy shield</string>
 					<key>Points</key>
 					<real>35</real>
@@ -1016,29 +644,6 @@
 					<string>SR:E•LR-•Str:S•AP-•L1</string>
 				</dict>
 			</array>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>House Van Saar Armour</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array>
-				<dict>
-					<key>Category</key>
-					<string>House Van Saar Armour</string>
-					<key>Name</key>
-					<string>light carapace armour</string>
-					<key>Points</key>
-					<real>100</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>Gunner specialist</string>
-					</array>
-				</dict>
-			</array>
-			<key>Single Selection</key>
-			<true/>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1119,27 +724,6 @@
 			</array>
 			<key>Single Selection</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>House Orlock Close Combat Weapons</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array>
-				<dict>
-					<key>Category</key>
-					<string>House Orlock Close Combat Weapons</string>
-					<key>Name</key>
-					<string>arc hammer*</string>
-					<key>Points</key>
-					<real>70</real>
-					<key>Special Rules</key>
-					<string>Concussive (5+), Heavy, Knockback (5+), Melee, Unwieldy</string>
-					<key>Stats</key>
-					<string>SR:E•LR-•Str:S+3•AP-1•L3</string>
-				</dict>
-			</array>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1252,23 +836,6 @@
 					<string>Concussive (6+), Knockback (6+), Melee</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>Category</key>
-			<string>Free Ogryns Personal Equipment</string>
-			<key>Icon</key>
-			<string>glyphicons_048_star</string>
-			<key>Items</key>
-			<array>
-				<dict>
-					<key>Category</key>
-					<string>Free Ogryns Personal Equipment</string>
-					<key>Name</key>
-					<string>servo-harness - partial</string>
-					<key>Points</key>
-					<real>100</real>
 				</dict>
 			</array>
 		</dict>
@@ -1639,6 +1206,50 @@
 				<dict>
 					<key>Command</key>
 					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Profile 1</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-1•T+1•Ld-1•Cl-1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 3</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-1•S+1•I+1•Ld-1•Cl-2</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>A+1•Ld-2•Cl-1•Int-1</string>
+							</dict>
+						</array>
 						<array>
 							<dict>
 								<key>Count</key>
@@ -5048,6 +4659,50 @@
 						<array>
 							<dict>
 								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Profile 1</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>WS-1•T+1•I-1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 3</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-1•WS-1•Ld+1•Int+1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>BS-1•A+1•Ld-1•Wil-1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
 								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
@@ -8444,6 +8099,50 @@
 						<array>
 							<dict>
 								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Profile 1</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 2</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-1•T+1•I-1•Cl-1•Wil-1•Int+1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 3</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M+1•I+1•Cl-1•Wil-1</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Profile 4</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-1•BS-1•A+1•Cl-1•Wil-1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
 								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
@@ -9027,8 +8726,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -9037,8 +8734,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -9047,8 +8742,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -9057,8 +8750,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -9067,8 +8758,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -9077,8 +8766,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -9087,8 +8774,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -9097,8 +8782,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -9208,7 +8891,7 @@
 					<key>Special Rules</key>
 					<string>Fighter (Ganger, Specialist); Venator Gang Legacy</string>
 					<key>Stats</key>
-					<string>M5"•WS4+•BS4+•S3•T3•W1•I3•A1•Sv6+•Ld6•Cl7•Wil6•Int6</string>
+					<string>M5"•WS4+•BS4+•S3•T3•W1•I3•A1•Sv6+•Ld6•Cl7•Wil7•Int6</string>
 					<key>XP</key>
 					<integer>13</integer>
 				</dict>
@@ -9801,8 +9484,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -9811,8 +9492,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -9821,8 +9500,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -9831,8 +9508,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -9841,8 +9516,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -9851,8 +9524,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -9861,8 +9532,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -9871,8 +9540,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -10575,8 +10242,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -10585,8 +10250,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -10595,8 +10258,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -10605,8 +10266,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -10615,8 +10274,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -10625,8 +10282,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -10635,8 +10290,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -10645,8 +10298,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -11349,8 +11000,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -11359,8 +11008,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -11369,8 +11016,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -11379,8 +11024,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -11389,8 +11032,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -11399,8 +11040,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -11409,8 +11048,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -11419,8 +11056,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -12123,8 +11758,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -12133,8 +11766,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -12143,8 +11774,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -12153,8 +11782,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -12163,8 +11790,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -12173,8 +11798,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -12183,8 +11806,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -12193,8 +11814,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
