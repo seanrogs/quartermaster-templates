@@ -996,7 +996,7 @@
 			<key>Class</key>
 			<string>Core</string>
 			<key>Lower Limit</key>
-			<real>0.20000000298023224</real>
+			<real>0.2</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -1050,7 +1050,7 @@
 								<key>Points</key>
 								<real>0.0</real>
 								<key>Special Rules</key>
-								<string>Regular infantry; Deathblow, Hatred (Orcs &amp; Goblins), Immune to Psychology, Loner, Magic Resistance (-2), Motley Crew*, Open Order, Resolute, Slayer, Unbreakable</string>
+								<string>Regular infantry; Deathblow, Furious Charge, Hatred (Orcs &amp; Goblins), Immune to Psychology, Loner, Magic Resistance (-2), Motley Crew*, Open Order, Resolute, Slayer, Unbreakable</string>
 								<key>Stats</key>
 								<string>M3•WS4•BS3•S3•T4•W1•I2•A1•Ld10</string>
 							</dict>
@@ -1097,7 +1097,7 @@
 								<key>Points</key>
 								<real>7</real>
 								<key>Special Rules</key>
-								<string>Regular infantry; Deathblow, “Fight Me!”, Hatred (Orcs &amp; Goblins), Immune to Psychology, Loner, Magic Resistance (-2), Motley Crew*, Open Order, Resolute, Slayer, Unbreakable</string>
+								<string>Regular infantry; Deathblow, “Fight Me!”, Furious Charge, Hatred (Orcs &amp; Goblins), Immune to Psychology, Loner, Magic Resistance (-2), Motley Crew*, Open Order, Resolute, Slayer, Unbreakable</string>
 								<key>Stats</key>
 								<string>M3•WS5•BS3•S4•T4•W1•I3•A2•Ld10</string>
 							</dict>
@@ -1336,6 +1336,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>30</integer>
 					<key>Minimum Size</key>
@@ -1419,6 +1432,16 @@
 							<key>Name</key>
 							<string>Runic Tattoos</string>
 						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -1435,7 +1458,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Heavy infantry (Character); Deathblow, Doomseeker, First to the Fray, Gromril Weapons, Hatred (Orcs &amp; Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Unbreakable, Vanguard, Whirlwind of Death</string>
+					<string>Heavy infantry; Deathblow, Doomseeker, First to the Fray, Gromril Weapons, Hatred (Orcs &amp; Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Skirmishers, Unbreakable, Vanguard, Whirlwind of Death</string>
 					<key>Stats</key>
 					<string>M3•WS5•BS0•S5•T4•W2•I3•A2D3•Ld10</string>
 					<key>Tallies</key>
@@ -1819,6 +1842,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -2020,8 +2056,21 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
-					<integer>-1</integer>
+					<integer>20</integer>
 					<key>Minimum Size</key>
 					<integer>5</integer>
 					<key>Name</key>
@@ -2050,22 +2099,12 @@
 				</dict>
 			</array>
 			<key>Upper Limit</key>
-			<real>0.20000000000000001</real>
-		</dict>
-		<dict>
-			<key>Class</key>
-			<string>Allies</string>
-			<key>Lower Limit</key>
-			<real>0.0</real>
-			<key>Units</key>
-			<array/>
-			<key>Upper Limit</key>
-			<real>0.25</real>
+			<real>0.2</real>
 		</dict>
 	</array>
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20251021</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>

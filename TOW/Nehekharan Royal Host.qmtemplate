@@ -89,6 +89,8 @@
 					<string>Armour of the Ages</string>
 					<key>Points</key>
 					<real>50</real>
+					<key>Special Rules</key>
+					<string>Infantry/cavalry/chariot</string>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -692,7 +694,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1337,7 +1339,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1666,7 +1668,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1920,7 +1922,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Nehekharan Undead, Swiftstride, Vanguard</string>
+								<string>Heavy cavalry; Counter Charge, Nehekharan Undead, Swiftstride, Vanguard</string>
 								<key>Stats</key>
 								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
@@ -2217,7 +2219,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Light chariot; Armour Value 5+; Arrows of Asaph, Dry as Dust, Horde, Impact Hits (D3), Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Swiftstride</string>
+					<string>Light chariot; Armour Value 4+; Arrows of Asaph, Dry as Dust, Horde, Impact Hits (D3), Nehekharan Undead, Open Order, Regeneration (6+), Reserve Move, Swiftstride</string>
 					<key>Stats</key>
 					<string>M-•WS-•BS-•S4•T4•W3•I-•A-•Ld-</string>
 					<key>Tallies</key>
@@ -2287,6 +2289,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -2453,6 +2468,19 @@
 								</array>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -2629,7 +2657,7 @@
 					<key>Name</key>
 					<string>Tomb Guard Chariots</string>
 					<key>Points</key>
-					<real>53</real>
+					<real>49</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>0-1 Tomb Guard or Tomb Guard Chariots as Core</string>
@@ -2729,6 +2757,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -2811,6 +2852,19 @@
 								<real>1</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -2899,6 +2953,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -3123,6 +3190,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3340,6 +3420,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3549,6 +3642,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3631,6 +3737,19 @@
 								</array>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>20</integer>
@@ -3762,6 +3881,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3885,6 +4017,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3898,7 +4043,7 @@
 					<key>Special Rules</key>
 					<string>Monstrous infantry; Arrows of Asaph, Close Order, Indomitable (1), Khopesh, Nehekharan Undead, Regeneration (6+)</string>
 					<key>Stats</key>
-					<string>M5•WS4•BS3•S4•T4•W3•I2•A3•Ld8</string>
+					<string>M5•WS4•BS2•S4•T4•W3•I2•A3•Ld8</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4040,6 +4185,19 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -4244,7 +4402,7 @@
 					<key>Name</key>
 					<string>Tomb Guard Chariots</string>
 					<key>Points</key>
-					<real>53</real>
+					<real>49</real>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
@@ -4424,6 +4582,8 @@
 										<dict>
 											<key>Default</key>
 											<true/>
+											<key>Equipped</key>
+											<true/>
 											<key>Name</key>
 											<string>hand weapons</string>
 											<key>Points</key>
@@ -4434,6 +4594,8 @@
 										<dict>
 											<key>Default</key>
 											<true/>
+											<key>Equipped</key>
+											<true/>
 											<key>Name</key>
 											<string>cavalry spears</string>
 											<key>Points</key>
@@ -4443,6 +4605,8 @@
 									<array>
 										<dict>
 											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
 											<string>light armour</string>
@@ -4649,6 +4813,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20251020</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>

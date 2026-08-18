@@ -101,7 +101,7 @@
 						<string>City-state of Nuln</string>
 					</array>
 					<key>Special Rules</key>
-					<string>Armour Bane (1), Multiple Wounds (D3), Notes</string>
+					<string>Armour Bane (1), Magical Attacks, Multiple Wounds (D3), Notes</string>
 					<key>Stats</key>
 					<string>R36"•S5•AP-2</string>
 				</dict>
@@ -299,7 +299,7 @@
 					<key>Multiple</key>
 					<true/>
 					<key>Name</key>
-					<string>Squintsoffen’s Marvellous Magnifier*</string>
+					<string>Squintsoffen’s Marvellous Magnifier</string>
 					<key>Points</key>
 					<real>35</real>
 					<key>Prerequisite</key>
@@ -997,7 +997,7 @@
 					<key>Special Rules</key>
 					<string>Regular infantry (named character); “Hold the Line!”, Mercenary Commander, Rallying Cry, Strategic Mastery, Stubborn</string>
 					<key>Stats</key>
-					<string>M4•WS6•BS5•S4•T4•W3•I4•A4•Ld9</string>
+					<string>M4•WS6•BS5•S4•T4•W3•I4•A4•Ld10</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -1253,7 +1253,7 @@
 					<key>Special Rules</key>
 					<string>Regular infantry (character); Magical Attacks, Magic Resistance (-1), Prayers of Sigmar</string>
 					<key>Stats</key>
-					<string>M4•WS5•BS3•S4•T4•W3•I5•A3•Ld8</string>
+					<string>M4•WS5•BS3•S4•T4•W3•I5•A3•Ld9</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -2389,7 +2389,7 @@
 					<key>Special Rules</key>
 					<string>Regular infantry (character); Magical Attacks, Magic Resistance (-1), Prayers of Sigmar</string>
 					<key>Stats</key>
-					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld7</string>
+					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld8</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -2865,6 +2865,19 @@
 									</dict>
 								</array>
 							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -2968,6 +2981,19 @@
 							</array>
 							<key>Lower Limit</key>
 							<integer>1</integer>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -3090,6 +3116,19 @@
 								<real>1</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -3241,6 +3280,19 @@
 									</dict>
 								</array>
 							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -3344,6 +3396,19 @@
 							</array>
 							<key>Lower Limit</key>
 							<integer>1</integer>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -3498,6 +3563,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3642,6 +3720,34 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Veteran Outriders</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3764,6 +3870,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -3777,7 +3896,7 @@
 					<key>Size</key>
 					<integer>10</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry; Detachment, Horde, Impetuous, Levies, Open Order, Warband</string>
+					<string>Regular infantry; Detachment, Furious Charge, Horde, Impetuous, Levies, Open Order, Warband</string>
 					<key>Stats</key>
 					<string>M4•WS3•BS3•S3•T3•W1•I3•A1•Ld6</string>
 					<key>Tallies</key>
@@ -3855,6 +3974,19 @@
 								<real>1</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -3944,6 +4076,19 @@
 										<real>0.0</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -4036,6 +4181,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -4222,6 +4380,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -4233,7 +4404,7 @@
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry; Close Order, Regimental Unit, Stubborn</string>
+					<string>Regular infantry; Close Order, Furious Charge, Regimental Unit, Stubborn</string>
 					<key>Stats</key>
 					<string>M4•WS4•BS3•S4•T3•W1•I3•A1•Ld8</string>
 					<key>Tallies</key>
@@ -4363,6 +4534,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -4402,7 +4586,7 @@
 					<key>Name</key>
 					<string>Pistoliers</string>
 					<key>Points</key>
-					<real>16</real>
+					<real>15</real>
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
@@ -4532,6 +4716,34 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Veteran Outriders</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -4832,6 +5044,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -4883,7 +5108,7 @@
 					<key>Name</key>
 					<string>Empire Knights</string>
 					<key>Points</key>
-					<real>21</real>
+					<real>20</real>
 					<key>Size</key>
 					<integer>4</integer>
 					<key>Special Rules</key>
@@ -5479,6 +5704,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5676,7 +5914,7 @@
 								<key>Special Rules</key>
 								<string>Cumbersome, Helstorm, Move or Shoot</string>
 								<key>Stats</key>
-								<string>R12-48"•S3•AP-1</string>
+								<string>R12-48"•S4•AP-2</string>
 							</dict>
 						</array>
 						<array>
@@ -5976,21 +6214,6 @@
 								<integer>0</integer>
 								<key>Name</key>
 								<string>Ogre pistol</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string></string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>5</real>
 								<key>Special Rules</key>
@@ -6000,6 +6223,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -6007,7 +6243,7 @@
 					<key>Name</key>
 					<string>Imperial Ogres</string>
 					<key>Points</key>
-					<real>31</real>
+					<real>29</real>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
@@ -6184,6 +6420,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -6246,6 +6495,16 @@
 							<key>Name</key>
 							<string>Runic Tattoos</string>
 						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>1</integer>
@@ -6262,7 +6521,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Heavy infantry (Character); Deathblow, Doomseeker, First to the Fray, Gromril Weapons, Hatred (Orcs &amp; Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Unbreakable, Vanguard, Whirlwind of Death</string>
+					<string>Heavy infantry; Deathblow, Doomseeker, First to the Fray, Gromril Weapons, Hatred (Orcs &amp; Goblins), Immune to Psychology, Impact Hits (D3+1), Loner, Magic Resistance (-2), Random Attacks, Resolute, Skirmishers, Unbreakable, Vanguard, Whirlwind of Death</string>
 					<key>Stats</key>
 					<string>M3•WS5•BS0•S5•T4•W2•I3•A2D3•Ld10</string>
 					<key>Tallies</key>
@@ -6293,6 +6552,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20250630</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>

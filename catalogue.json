@@ -1,6 +1,432 @@
 {
     "gameSystems": [
         {
+            "id": "HH3",
+            "gameSystemVersion": 20260802,
+            "name": "Horus Heresy 3rd Edition",
+            "notes": "Updated with Zone Mortalis",
+            "templateGroups": [
+                {
+                    "name": "Legiones Astartes",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Loyalist_Legiones_Astartes",
+                            "version": 20260802,
+                            "name": "Loyalist Legiones Astartes"
+                        },
+                        {
+                            "id": "HH3-Traitor_Legiones_Astartes",
+                            "version": 20260802,
+                            "name": "Traitor Legiones Astartes"
+                        },
+                        {
+                            "id": "HH3-Blackshields",
+                            "version": 20260802,
+                            "name": "Blackshields"
+                        },
+                        {
+                            "id": "HH3-Shattered_Legions",
+                            "version": 20260802,
+                            "name": "Shattered Legions"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Mechanicum",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Mechanicum_Taghmata",
+                            "version": 20260802,
+                            "name": "Mechanicum Taghmata"
+                        },
+                        {
+                            "id": "HH3-Skitarii_Conclaves",
+                            "version": 20260802,
+                            "name": "Skitarii Conclaves"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Emperor",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Solar_Auxilia",
+                            "version": 20260802,
+                            "name": "Solar Auxilia"
+                        },
+                        {
+                            "id": "HH3-Legio_Custodes",
+                            "version": 20260802,
+                            "name": "Legio Custodes"
+                        },
+                        {
+                            "id": "HH3-Anathema_Psykarna",
+                            "version": 20260802,
+                            "name": "Anathema Psykarna"
+                        },
+                        {
+                            "id": "HH3-Divisio_Assassinorum",
+                            "version": 20260523,
+                            "name": "Divisio Assassinorum"
+                        }
+                    ]
+                },
+                {
+                    "name": "Knights and Titans",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Questoris_Familia",
+                            "version": 20260802,
+                            "name": "Questoris Familia"
+                        },
+                        {
+                            "id": "HH3-Legio_Titanicus",
+                            "version": 20260802,
+                            "name": "Legio Titanicus"
+                        }
+                    ]
+                },
+                {
+                    "name": "Forces of the Warmaster",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Daemons_of_the_Ruinstorm",
+                            "version": 20260802,
+                            "name": "Daemons of the Ruinstorm"
+                        },
+                        {
+                            "id": "HH3-Cults_Abominatio",
+                            "version": 20250905,
+                            "name": "Cults Abominatio"
+                        }
+                    ]
+                },
+                {
+                    "name": "Militia and Fortifications",
+                    "factionTemplates": [
+                        {
+                            "id": "HH3-Imperialis_Militia",
+                            "version": 20260802,
+                            "name": "Imperialis Militia"
+                        },
+                        {
+                            "id": "HH3-Battlefield_Fortifications",
+                            "version": 20251101,
+                            "name": "Battlefield Fortifications"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "TOW",
+            "gameSystemVersion": 20260709,
+            "name": "Warhammer: The Old World",
+            "notes": "July 2026 Errata updates and Path to Glory",
+            "templateGroups": [
+                {
+                    "name": "Grand Cathay",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Grand_Cathay",
+                            "version": 20260709,
+                            "name": "Grand Cathay Grand Army",
+                            "filename": "Grand Cathay"
+                        },
+                        {
+                            "id": "TOW-Jade_Fleet",
+                            "version": 20260709,
+                            "name": "Jade Fleet"
+                        },
+                        {
+                            "id": "TOW-Warriors_of_Wind_Field",
+                            "version": 20260709,
+                            "name": "Warriors of Wind & Field"
+                        }
+                    ]
+                },
+                {
+                    "name": "Warriors of Chaos",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Warriors_of_Chaos",
+                            "version": 20260709,
+                            "name": "Warriors of Chaos Grand Army",
+                            "filename": "Warriors of Chaos"
+                        },
+                        {
+                            "id": "TOW-Heralds_of_Darkness",
+                            "version": 20260709,
+                            "name": "Heralds of Darkness"
+                        },
+                        {
+                            "id": "TOW-Wolves_of_the_Sea",
+                            "version": 20260709,
+                            "name": "Wolves of the Sea"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tomb Kings of Khemri",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Tomb_Kings_of_Khemri",
+                            "version": 20260709,
+                            "name": "Tomb Kings of Khemri Grand Army",
+                            "filename": "Tomb Kings of Khemri"
+                        },
+                        {
+                            "id": "TOW-Mortuary_Cult",
+                            "version": 20260709,
+                            "name": "Mortuary Cult"
+                        },
+                        {
+                            "id": "TOW-Nehekharan_Royal_Host",
+                            "version": 20260709,
+                            "name": "Nehekharan Royal Host"
+                        }
+                    ]
+                },
+                {
+                    "name": "The Empire of Man",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-The_Empire_of_Man",
+                            "version": 20260709,
+                            "name": "The Empire of Man Grand Army",
+                            "filename": "The Empire of Man"
+                        },
+                        {
+                            "id": "TOW-City-state_of_Nuln",
+                            "version": 20260709,
+                            "name": "City-state of Nuln"
+                        },
+                        {
+                            "id": "TOW-Knightly_Order",
+                            "version": 20260709,
+                            "name": "Knightly Order"
+                        },
+                        {
+                            "id": "TOW-Renegade_Crowns",
+                            "version": 20260709,
+                            "name": "Renegade Crowns"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kingdom of Bretonnia",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Kingdom_of_Bretonnia",
+                            "version": 20260709,
+                            "name": "Kingdom of Bretonnia Grand Army",
+                            "filename": "Kingdom of Bretonnia"
+                        },
+                        {
+                            "id": "TOW-Bretonnian_Exiles",
+                            "version": 20260709,
+                            "name": "Bretonnian Exiles"
+                        },
+                        {
+                            "id": "TOW-Errantry_Crusade",
+                            "version": 20260709,
+                            "name": "Errantry Crusade"
+                        },
+                        {
+                            "id": "TOW-Renegade_Crowns",
+                            "version": 20260709,
+                            "name": "Renegade Crowns"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dwarfen Mountain Holds",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Dwarfen_Mountain_Holds",
+                            "version": 20260709,
+                            "name": "Dwarfen Mountain Holds Grand Army",
+                            "filename": "Dwarfen Mountain Holds"
+                        },
+                        {
+                            "id": "TOW-Royal_Clan",
+                            "version": 20260709,
+                            "name": "Royal Clan"
+                        },
+                        {
+                            "id": "TOW-Expeditionary_Force",
+                            "version": 20260709,
+                            "name": "Expeditionary Force"
+                        },
+                        {
+                            "id": "TOW-Slayer_Host",
+                            "version": 20260709,
+                            "name": "Slayer Host"
+                        }
+                    ]
+                },
+                {
+                    "name": "Wood Elf Realms",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Wood_Elf_Realms",
+                            "version": 20260709,
+                            "name": "Wood Elf Realms Grand Army",
+                            "filename": "Wood Elf Realms"
+                        },
+                        {
+                            "id": "TOW-Host_of_Talsyn",
+                            "version": 20260709,
+                            "name": "Host of Talsyn"
+                        },
+                        {
+                            "id": "TOW-Orions_Wild_Hunt",
+                            "version": 20260709,
+                            "name": "Orion’s Wild Hunt"
+                        }
+                    ]
+                },
+                {
+                    "name": "High Elf Realms",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-High_Elf_Realms",
+                            "version": 20260709,
+                            "name": "High Elf Realms Grand Army",
+                            "filename": "High Elf Realms"
+                        },
+                        {
+                            "id": "TOW-The_Chracian_Warhost",
+                            "version": 20260709,
+                            "name": "The Chracian Warhost"
+                        },
+                        {
+                            "id": "TOW-Sea_Guard_Garrison",
+                            "version": 20260709,
+                            "name": "Sea Guard Garrison"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orc & Goblin Tribes",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Orc_Goblin_Tribes",
+                            "version": 20260709,
+                            "name": "Orc & Goblin Tribes Grand Army",
+                            "filename": "Orc & Goblin Tribes"
+                        },
+                        {
+                            "id": "TOW-Nomadic_Waaagh!",
+                            "version": 20260709,
+                            "name": "Nomadic Waaagh!"
+                        },
+                        {
+                            "id": "TOW-Troll_Horde",
+                            "version": 20260709,
+                            "name": "Troll Horde"
+                        }
+                    ]
+                },
+                {
+                    "name": "Beastmen Brayherds",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Beastmen_Brayherds",
+                            "version": 20260709,
+                            "name": "Beastmen Brayherds Grand Army",
+                            "filename": "Beastmen Brayherds"
+                        },
+                        {
+                            "id": "TOW-Minotaur_Blood_Herd",
+                            "version": 20260709,
+                            "name": "Minotaur Blood Herd"
+                        },
+                        {
+                            "id": "TOW-Wild_Herd",
+                            "version": 20260709,
+                            "name": "Wild Herd"
+                        }
+                    ]
+                },
+                {
+                    "name": "Renegades",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Chaos_Dwarfs_Renegades",
+                            "version": 20260709,
+                            "name": "Chaos Dwarfs Renegades"
+                        },
+                        {
+                            "id": "TOW-Daemons_of_Chaos_Renegades",
+                            "version": 20260709,
+                            "name": "Daemons of Chaos Renegades"
+                        },
+                        {
+                            "id": "TOW-Dark_Elves_Renegades",
+                            "version": 20260709,
+                            "name": "Dark Elves Renegades"
+                        },
+                        {
+                            "id": "TOW-Ogre_Kingdoms_Renegades",
+                            "version": 20260709,
+                            "name": "Ogre Kingdoms Renegades"
+                        },
+                        {
+                            "id": "TOW-Lizardmen_Renegades",
+                            "version": 20260709,
+                            "name": "Lizardmen Renegades"
+                        },
+                        {
+                            "id": "TOW-Skaven_Renegades",
+                            "version": 20260709,
+                            "name": "Skaven Renegades"
+                        }
+                    ]
+                },
+                {
+                    "name": "Legacy",
+                    "factionTemplates": [
+                        {
+                            "id": "TOW-Chaos_Dwarfs",
+                            "version": 20260709,
+                            "name": "Chaos Dwarfs"
+                        },
+                        {
+                            "id": "TOW-Daemons_of_Chaos",
+                            "version": 20260709,
+                            "name": "Daemons of Chaos"
+                        },
+                        {
+                            "id": "TOW-Dark_Elves",
+                            "version": 20260709,
+                            "name": "Dark Elves"
+                        },
+                        {
+                            "id": "TOW-Ogre_Kingdoms",
+                            "version": 20260709,
+                            "name": "Ogre Kingdoms"
+                        },
+                        {
+                            "id": "TOW-Lizardmen",
+                            "version": 20260709,
+                            "name": "Lizardmen"
+                        },
+                        {
+                            "id": "TOW-Skaven",
+                            "version": 20260709,
+                            "name": "Skaven"
+                        },
+                        {
+                            "id": "TOW-Vampire_Counts",
+                            "version": 20260709,
+                            "name": "Vampire Counts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "Necromunda",
             "gameSystemVersion": 20260620,
             "name": "Necromunda",
@@ -139,387 +565,6 @@
                             "id": "Necromunda-Alliances",
                             "version": 20260125,
                             "name": "Alliances"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "HH3",
-            "gameSystemVersion": 20251101,
-            "name": "Horus Heresy 3rd Edition",
-            "notes": "Updated with October errata and Blackshields update",
-            "templateGroups": [
-                {
-                    "name": "Legiones Astartes",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Loyalist_Legiones_Astartes",
-                            "version": 20251107,
-                            "name": "Loyalist Legiones Astartes"
-                        },
-                        {
-                            "id": "HH3-Traitor_Legiones_Astartes",
-                            "version": 20251107,
-                            "name": "Traitor Legiones Astartes"
-                        },
-                        {
-                            "id": "HH3-Blackshields",
-                            "version": 20260115,
-                            "name": "Blackshields"
-                        },
-                        {
-                            "id": "HH3-Shattered_Legions",
-                            "version": 20251107,
-                            "name": "Shattered Legions"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Emperor",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Solar_Auxilia",
-                            "version": 20251012,
-                            "name": "Solar Auxilia"
-                        },
-                        {
-                            "id": "HH3-Legio_Custodes",
-                            "version": 20251107,
-                            "name": "Legio Custodes"
-                        },
-                        {
-                            "id": "HH3-Anathema_Psykarna",
-                            "version": 20251012,
-                            "name": "Anathema Psykarna"
-                        },
-                        {
-                            "id": "HH3-Divisio_Assassinorum",
-                            "version": 20251107,
-                            "name": "Divisio Assassinorum"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Mechanicum",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Mechanicum_Taghmata",
-                            "version": 20260115,
-                            "name": "Mechanicum Taghmata"
-                        }
-                    ]
-                },
-                {
-                    "name": "Knights and Titans",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Questoris_Familia",
-                            "version": 20250908,
-                            "name": "Questoris Familia"
-                        },
-                        {
-                            "id": "HH3-Legio_Titanicus",
-                            "version": 20250908,
-                            "name": "Legio Titanicus"
-                        }
-                    ]
-                },
-                {
-                    "name": "Forces of the Warmaster",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Daemons_of_the_Ruinstorm",
-                            "version": 20250913,
-                            "name": "Daemons of the Ruinstorm"
-                        },
-                        {
-                            "id": "HH3-Cults_Abominatio",
-                            "version": 20250905,
-                            "name": "Cults Abominatio"
-                        }
-                    ]
-                },
-                {
-                    "name": "Militia and Fortifications",
-                    "factionTemplates": [
-                        {
-                            "id": "HH3-Imperialis_Militia",
-                            "version": 20251107,
-                            "name": "Imperialis Militia"
-                        },
-                        {
-                            "id": "HH3-Battlefield_Fortifications",
-                            "version": 20251101,
-                            "name": "Battlefield Fortifications"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "TOW",
-            "gameSystemVersion": 20251214,
-            "name": "Warhammer: The Old World",
-            "notes": "Artefacts of the Shadowlands",
-            "templateGroups": [
-                {
-                    "name": "Warriors of Chaos",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Warriors_of_Chaos",
-                            "version": 20251214,
-                            "name": "Warriors of Chaos Grand Army",
-                            "filename": "Warriors of Chaos"
-                        },
-                        {
-                            "id": "TOW-Heralds_of_Darkness",
-                            "version": 20251214,
-                            "name": "Heralds of Darkness"
-                        },
-                        {
-                            "id": "TOW-Wolves_of_the_Sea",
-                            "version": 20251214,
-                            "name": "Wolves of the Sea"
-                        }
-                    ]
-                },
-                {
-                    "name": "Tomb Kings of Khemri",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Tomb_Kings_of_Khemri",
-                            "version": 20251020,
-                            "name": "Tomb Kings of Khemri Grand Army",
-                            "filename": "Tomb Kings of Khemri"
-                        },
-                        {
-                            "id": "TOW-Mortuary_Cult",
-                            "version": 20251020,
-                            "name": "Mortuary Cult"
-                        },
-                        {
-                            "id": "TOW-Nehekharan_Royal_Host",
-                            "version": 20251020,
-                            "name": "Nehekharan Royal Host"
-                        }
-                    ]
-                },
-                {
-                    "name": "The Empire of Man",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-The_Empire_of_Man",
-                            "version": 20250630,
-                            "name": "The Empire of Man Grand Army",
-                            "filename": "The Empire of Man"
-                        },
-                        {
-                            "id": "TOW-City-state_of_Nuln",
-                            "version": 20250630,
-                            "name": "City-state of Nuln"
-                        },
-                        {
-                            "id": "TOW-Knightly_Order",
-                            "version": 20250630,
-                            "name": "Knightly Order"
-                        },
-                        {
-                            "id": "TOW-Renegade_Crowns",
-                            "version": 20251020,
-                            "name": "Renegade Crowns"
-                        }
-                    ]
-                },
-                {
-                    "name": "Kingdom of Bretonnia",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Kingdom_of_Bretonnia",
-                            "version": 20250630,
-                            "name": "Kingdom of Bretonnia Grand Army",
-                            "filename": "Kingdom of Bretonnia"
-                        },
-                        {
-                            "id": "TOW-Bretonnian_Exiles",
-                            "version": 20250630,
-                            "name": "Bretonnian Exiles"
-                        },
-                        {
-                            "id": "TOW-Errantry_Crusade",
-                            "version": 20250630,
-                            "name": "Errantry Crusade"
-                        },
-                        {
-                            "id": "TOW-Renegade_Crowns",
-                            "version": 20251020,
-                            "name": "Renegade Crowns"
-                        }
-                    ]
-                },
-                {
-                    "name": "Dwarfen Mountain Holds",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Dwarfen_Mountain_Holds",
-                            "version": 20250630,
-                            "name": "Dwarfen Mountain Holds Grand Army",
-                            "filename": "Dwarfen Mountain Holds"
-                        },
-                        {
-                            "id": "TOW-Royal_Clan",
-                            "version": 20250630,
-                            "name": "Royal Clan"
-                        },
-                        {
-                            "id": "TOW-Expeditionary_Force",
-                            "version": 20250630,
-                            "name": "Expeditionary Force"
-                        },
-                        {
-                            "id": "TOW-Slayer_Host",
-                            "version": 20251021,
-                            "name": "Slayer Host"
-                        }
-                    ]
-                },
-                {
-                    "name": "Grand Cathay",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Grand_Cathay",
-                            "version": 20250920,
-                            "name": "Grand Cathay Grand Army",
-                            "filename": "Grand Cathay"
-                        },
-                        {
-                            "id": "TOW-Jade_Fleet",
-                            "version": 20250920,
-                            "name": "Jade Fleet"
-                        }
-                    ]
-                },
-                {
-                    "name": "Wood Elf Realms",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Wood_Elf_Realms",
-                            "version": 20250630,
-                            "name": "Wood Elf Realms Grand Army",
-                            "filename": "Wood Elf Realms"
-                        },
-                        {
-                            "id": "TOW-Host_of_Talsyn",
-                            "version": 20250630,
-                            "name": "Host of Talsyn"
-                        },
-                        {
-                            "id": "TOW-Orions_Wild_Hunt",
-                            "version": 20250630,
-                            "name": "Orion’s Wild Hunt"
-                        }
-                    ]
-                },
-                {
-                    "name": "High Elf Realms",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-High_Elf_Realms",
-                            "version": 20250630,
-                            "name": "High Elf Realms Grand Army",
-                            "filename": "High Elf Realms"
-                        },
-                        {
-                            "id": "TOW-The_Chracian_Warhost",
-                            "version": 20250630,
-                            "name": "The Chracian Warhost"
-                        },
-                        {
-                            "id": "TOW-Sea_Guard_Garrison",
-                            "version": 20250630,
-                            "name": "Sea Guard Garrison"
-                        }
-                    ]
-                },
-                {
-                    "name": "Orc & Goblin Tribes",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Orc_Goblin_Tribes",
-                            "version": 20250630,
-                            "name": "Orc & Goblin Tribes Grand Army",
-                            "filename": "Orc & Goblin Tribes"
-                        },
-                        {
-                            "id": "TOW-Nomadic_Waaagh!",
-                            "version": 20250214,
-                            "name": "Nomadic Waaagh!"
-                        },
-                        {
-                            "id": "TOW-Troll_Horde",
-                            "version": 20250630,
-                            "name": "Troll Horde"
-                        }
-                    ]
-                },
-                {
-                    "name": "Beastmen Brayherds",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Beastmen_Brayherds",
-                            "version": 20250618,
-                            "name": "Beastmen Brayherds Grand Army",
-                            "filename": "Beastmen Brayherds"
-                        },
-                        {
-                            "id": "TOW-Minotaur_Blood_Herd",
-                            "version": 20250630,
-                            "name": "Minotaur Blood Herd"
-                        },
-                        {
-                            "id": "TOW-Wild_Herd",
-                            "version": 20250618,
-                            "name": "Wild Herd"
-                        }
-                    ]
-                },
-                {
-                    "name": "Legacy",
-                    "factionTemplates": [
-                        {
-                            "id": "TOW-Chaos_Dwarfs",
-                            "version": 20251023,
-                            "name": "Chaos Dwarfs"
-                        },
-                        {
-                            "id": "TOW-Daemons_of_Chaos",
-                            "version": 20251023,
-                            "name": "Daemons of Chaos"
-                        },
-                        {
-                            "id": "TOW-Dark_Elves",
-                            "version": 20251223,
-                            "name": "Dark Elves"
-                        },
-                        {
-                            "id": "TOW-Ogre_Kingdoms",
-                            "version": 20251023,
-                            "name": "Ogre Kingdoms"
-                        },
-                        {
-                            "id": "TOW-Lizardmen",
-                            "version": 20251023,
-                            "name": "Lizardmen"
-                        },
-                        {
-                            "id": "TOW-Skaven",
-                            "version": 20251023,
-                            "name": "Skaven"
-                        },
-                        {
-                            "id": "TOW-Vampire_Counts",
-                            "version": 20251023,
-                            "name": "Vampire Counts"
                         }
                     ]
                 }
@@ -784,6 +829,11 @@
                             "id": "WH40K2-Space_Wolves",
                             "version": 20240424,
                             "name": "Space Wolves"
+                        },
+                        {
+                            "id": "WH40K2-Legion_of_the_Damned",
+                            "version": 20260407,
+                            "name": "Legion of the Damned"
                         }
                     ]
                 },

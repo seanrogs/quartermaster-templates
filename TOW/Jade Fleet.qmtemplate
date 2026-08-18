@@ -113,6 +113,82 @@
 					<key>Stats</key>
 					<string>R:Combat•S:S•AP-3</string>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Runefang</string>
+					<key>Points</key>
+					<real>100</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Strike First, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Mace of Helsturm</string>
+					<key>Points</key>
+					<real>65</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Multiple Wounds (D6), Requires Two Hands, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S10•AP-5</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Sword of Justice</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks, Multiple Wounds (2), Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Dragon Bow</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Commanders of the Empire</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Multiple Wounds (2)</string>
+					<key>Stats</key>
+					<string>R36"•S6•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Hammer of Righteousness</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Requires Two Hands, Strikes Last, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S+2•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Pearl Daggers</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Extra Attacks (D3), Magical Attacks, Requires Two Hands, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -155,6 +231,30 @@
 					<real>20</real>
 					<key>Special Rules</key>
 					<string>infantry/cavalry</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Fortune</string>
+					<key>Points</key>
+					<real>45</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Tarnus</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Twice-blessed Armour</string>
+					<key>Points</key>
+					<real>25</real>
 				</dict>
 			</array>
 		</dict>
@@ -199,6 +299,42 @@
 					<key>Points</key>
 					<real>25</real>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>The White Cloak</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Jade Amulet*</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Witch Hunter’s Ward*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Slayer’s Hourglass</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -214,7 +350,7 @@
 					<key>Name</key>
 					<string>Standard of Wei-Jin</string>
 					<key>Points</key>
-					<real>40</real>
+					<real>60</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -222,7 +358,7 @@
 					<key>Name</key>
 					<string>Icon of Heavenly Fury</string>
 					<key>Points</key>
-					<real>35</real>
+					<real>45</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -272,6 +408,62 @@
 					<key>Points</key>
 					<real>15</real>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Imperial Banner</string>
+					<key>Points</key>
+					<real>60</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Griffon Standard</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Steel Standard</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>The Gleaming Pennant</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Banner of Duty</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Tapestry of Sigmar’s Triumph</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Icon of Morr</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -287,7 +479,7 @@
 					<key>Name</key>
 					<string>Maw Shard</string>
 					<key>Points</key>
-					<real>40</real>
+					<real>50</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -311,7 +503,7 @@
 					<key>Category</key>
 					<string>Enchanted Item</string>
 					<key>Name</key>
-					<string>Ring of Jet*</string>
+					<string>Ring of Jet</string>
 					<key>Points</key>
 					<real>30</real>
 				</dict>
@@ -334,6 +526,46 @@
 					<string>Single Use; Breath Weapon, Flaming Attacks, Magical Attacks</string>
 					<key>Stats</key>
 					<string>R:N/A•S4•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Laurels of Victory</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>The Silver Horn</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Shroud of Iron</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Ring of Fortune</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Ring of Taal</string>
+					<key>Points</key>
+					<real>20</real>
 				</dict>
 			</array>
 		</dict>
@@ -386,15 +618,65 @@
 					<key>Name</key>
 					<string>Seal of Xing Po*</string>
 					<key>Points</key>
-					<real>25</real>
+					<real>35</real>
 				</dict>
 				<dict>
 					<key>Category</key>
 					<string>Arcane Item</string>
 					<key>Name</key>
-					<string>Scrolls Of Wei</string>
+					<string>Scrolls of Wei-jin</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Book of Ashur</string>
+					<key>Points</key>
+					<real>85</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Wizard’s Familiar*</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Wizard’s Staff*</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Twin-tailed Wand</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Tome of Midnight</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Crystal Ball</string>
+					<key>Points</key>
+					<real>20</real>
 				</dict>
 			</array>
 		</dict>
@@ -925,7 +1207,7 @@
 								<key>Special Rules</key>
 								<string>Armour Bane (1), Flaming Attacks, Move &amp; Shoot, Quick Shot, Notes</string>
 								<key>Stats</key>
-								<string>R9"•S4•AP-1</string>
+								<string>R9"•S3•AP-1</string>
 							</dict>
 						</array>
 					</array>
@@ -1049,7 +1331,7 @@
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Flaming Attacks, Move &amp; Shoot, Quick Shot, Notes</string>
 											<key>Stats</key>
-											<string>R9"•S4•AP-1</string>
+											<string>R9"•S3•AP-1</string>
 										</dict>
 									</array>
 									<array>
@@ -1068,9 +1350,9 @@
 								<key>Points</key>
 								<real>135</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable</string>
+								<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Flammable, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts</string>
 								<key>Stats</key>
-								<string>M1•WS-•BS-•S5•T5•W(+7)•I-•A-•Ld-</string>
+								<string>M1•WS-•BS-•S5•T4•W(+7)•I-•A-•Ld-</string>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1502,7 +1784,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Cathayan Cataphracts, Counter Charge, First Charge, Swiftstride</string>
+								<string>Heavy cavalry; Cathayan Cataphracts, Counter Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1700,7 +1982,7 @@
 								<key>Points</key>
 								<real>16</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; Cathayan Cataphracts, Counter Charge, First Charge, Swiftstride</string>
+								<string>Heavy cavalry; Cathayan Cataphracts, Counter Charge, Swiftstride</string>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 								<key>Tallies</key>
@@ -1791,7 +2073,7 @@
 								<key>Special Rules</key>
 								<string>Armour Bane (1), Flaming Attacks, Move &amp; Shoot, Quick Shot, Notes</string>
 								<key>Stats</key>
-								<string>R9"•S4•AP-1</string>
+								<string>R9"•S3•AP-1</string>
 							</dict>
 						</array>
 					</array>
@@ -1915,7 +2197,7 @@
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Flaming Attacks, Move &amp; Shoot, Quick Shot, Notes</string>
 											<key>Stats</key>
-											<string>R9"•S4•AP-1</string>
+											<string>R9"•S3•AP-1</string>
 										</dict>
 									</array>
 									<array>
@@ -1934,9 +2216,9 @@
 								<key>Points</key>
 								<real>135</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable</string>
+								<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Flammable, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts</string>
 								<key>Stats</key>
-								<string>M1•WS-•BS-•S5•T5•W(+7)•I-•A-•Ld-</string>
+								<string>M1•WS-•BS-•S5•T4•W(+7)•I-•A-•Ld-</string>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2071,6 +2353,19 @@
 										<string>WS+1•Ld+1</string>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -2229,7 +2524,7 @@
 								<key>Name</key>
 								<string>Celestial Dragon Guard</string>
 								<key>Points</key>
-								<real>1</real>
+								<real>2</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Miao Ying, 0-1</string>
@@ -2240,6 +2535,19 @@
 								<string>WS+1•Ld+1</string>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -2429,7 +2737,7 @@
 								<key>Name</key>
 								<string>Celestial Dragon Guard</string>
 								<key>Points</key>
-								<real>1</real>
+								<real>2</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Miao Ying, 0-1</string>
@@ -2440,6 +2748,19 @@
 								<string>WS+1•Ld+1</string>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -2644,7 +2965,7 @@
 								<key>Name</key>
 								<string>Celestial Dragon Guard</string>
 								<key>Points</key>
-								<real>1</real>
+								<real>2</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Miao Ying, 0-1</string>
@@ -2655,6 +2976,19 @@
 								<string>WS+1•Ld+1</string>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -2759,7 +3093,7 @@
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous infantry (character); Enough for Everyone, Mercenary Crew</string>
+								<string>Monstrous infantry; Enough for Everyone, Mercenary Crew</string>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S4•T4•W3•I2•A3•Ld8</string>
 							</dict>
@@ -2867,6 +3201,15 @@
 					<string>War machine, Skirmishers</string>
 					<key>Stats</key>
 					<string>M-•WS-•BS-•S-•T6•W3•I-•A-•Ld-</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -2945,7 +3288,7 @@
 								<key>Points</key>
 								<real>35</real>
 								<key>Special Rules</key>
-								<string>Monstrous infantry (character); Enough for Everyone, Mercenary Crew</string>
+								<string>Monstrous infantry; Enough for Everyone, Mercenary Crew</string>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S4•T4•W3•I2•A3•Ld8</string>
 							</dict>
@@ -3018,6 +3361,15 @@
 					<string>War machine, Skirmishers</string>
 					<key>Stats</key>
 					<string>M-•WS-•BS-•S-•T6•W3•I-•A-•Ld-</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -3157,9 +3509,9 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts, Unbreakable</string>
+					<string>Heavy chariot; Close Order, Disengage, Eye of the Dragon, Feigned Flight, Fire &amp; Flee, Flammable, Fly (8), Heavenly Beacon, Impact Hits (D3+1, Sky Lantern only), Large Target, Reserve Move, Scouts</string>
 					<key>Stats</key>
-					<string>M1•WS-•BS-•S5•T5•W7•I-•A-•Ld-</string>
+					<string>M1•WS-•BS-•S5•T4•W7•I-•A-•Ld-</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4233,7 +4585,7 @@
 					<key>Special Rules</key>
 					<string>Regular infantry (character); Magical Attacks, Magic Resistance (-1), Prayers of Sigmar</string>
 					<key>Stats</key>
-					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld7</string>
+					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld8</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4443,7 +4795,7 @@
 					<key>Special Rules</key>
 					<string>Regular infantry (character); Magical Attacks, Magic Resistance (-1), Prayers of Ulric</string>
 					<key>Stats</key>
-					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld7</string>
+					<string>M4•WS4•BS3•S4•T4•W2•I4•A2•Ld8</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -4523,6 +4875,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -4626,6 +4991,19 @@
 									</dict>
 								</array>
 							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -4713,6 +5091,19 @@
 										<real>0.0</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -4805,6 +5196,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -4923,6 +5327,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5020,6 +5437,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -5123,6 +5553,19 @@
 									</dict>
 								</array>
 							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
+							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
 							<key>Minimum Size</key>
@@ -5210,6 +5653,19 @@
 										<real>0.0</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -5302,6 +5758,19 @@
 										<real>1</real>
 									</dict>
 								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<integer>-1</integer>
+									<key>Name</key>
+									<string>Veteran Abilities</string>
+									<key>Prerequisite</key>
+									<string>Path to Glory</string>
+								</dict>
 							</array>
 							<key>Maximum Size</key>
 							<integer>-1</integer>
@@ -5469,6 +5938,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -5556,6 +6038,19 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -5648,6 +6143,19 @@
 								<real>1</real>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -5789,6 +6297,19 @@
 								</array>
 							</dict>
 						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
 					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
@@ -5964,6 +6485,19 @@
 							</dict>
 						</array>
 					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
@@ -6034,6 +6568,6 @@
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20250920</integer>
+	<integer>20260709</integer>
 </dict>
 </plist>
