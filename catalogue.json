@@ -1,6 +1,48 @@
 {
     "gameSystems": [
         {
+            "id": "N26",
+            "gameSystemVersion": 20260818,
+            "name": "Necromunda 26",
+            "templateGroups": [
+                {
+                    "name": "Clan Houses",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Cawdor",
+                            "version": 20260818,
+                            "name": "House Cawdor"
+                        },
+                        {
+                            "id": "N26-House_Delaque",
+                            "version": 20260818,
+                            "name": "House Delaque"
+                        },
+                        {
+                            "id": "N26-House_Escher",
+                            "version": 20260818,
+                            "name": "House Escher"
+                        },
+                        {
+                            "id": "N26-House_Goliath",
+                            "version": 20260818,
+                            "name": "House Goliath"
+                        },
+                        {
+                            "id": "N26-House_Orlock",
+                            "version": 20260818,
+                            "name": "House Orlock"
+                        },
+                        {
+                            "id": "N26-House_Van_Saar",
+                            "version": 20260818,
+                            "name": "House Van Saar"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "HH3",
             "gameSystemVersion": 20260802,
             "name": "Horus Heresy 3rd Edition",
@@ -427,150 +469,6 @@
             ]
         },
         {
-            "id": "Necromunda",
-            "gameSystemVersion": 20260620,
-            "name": "Necromunda",
-            "notes": "Updated with Spire of Primus",
-            "templateGroups": [
-                {
-                    "name": "Clan Houses",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-House_Cawdor",
-                            "version": 20251227,
-                            "name": "House Cawdor"
-                        },
-                        {
-                            "id": "Necromunda-House_Delaque",
-                            "version": 20251227,
-                            "name": "House Delaque"
-                        },
-                        {
-                            "id": "Necromunda-House_Escher",
-                            "version": 20251227,
-                            "name": "House Escher"
-                        },
-                        {
-                            "id": "Necromunda-House_Goliath",
-                            "version": 20251227,
-                            "name": "House Goliath"
-                        },
-                        {
-                            "id": "Necromunda-House_Orlock",
-                            "version": 20251227,
-                            "name": "House Orlock"
-                        },
-                        {
-                            "id": "Necromunda-House_Van_Saar",
-                            "version": 20251227,
-                            "name": "House Van Saar"
-                        }
-                    ]
-                },
-                {
-                    "name": "Outlaws & Xenos",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Chaos_Cult",
-                            "version": 20251227,
-                            "name": "Chaos Cult"
-                        },
-                        {
-                            "id": "Necromunda-Corpse_Grinder_Cult",
-                            "version": 20251227,
-                            "name": "Corpse Grinder Cult"
-                        },
-                        {
-                            "id": "Necromunda-Genestealer_Cult",
-                            "version": 20251227,
-                            "name": "Genestealer Cult"
-                        },
-                        {
-                            "id": "Necromunda-Malstrain",
-                            "version": 20251227,
-                            "name": "Malstrain"
-                        }
-                    ]
-                },
-                {
-                    "name": "Spyrers, Enforcers & Venators",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Badzone_Enforcers",
-                            "version": 20251227,
-                            "name": "Badzone Enforcers"
-                        },
-                        {
-                            "id": "Necromunda-Palanite_Enforcers",
-                            "version": 20251227,
-                            "name": "Palanite Enforcers"
-                        },
-                        {
-                            "id": "Necromunda-Spyrer_Hunting_Party",
-                            "version": 20260125,
-                            "name": "Spyrer Hunting Party"
-                        },
-                        {
-                            "id": "Necromunda-Venators",
-                            "version": 20251228,
-                            "name": "Venators"
-                        }
-                    ]
-                },
-                {
-                    "name": "Outcasts & Outlands",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Ash_Waste_Nomads",
-                            "version": 20251228,
-                            "name": "Ash Waste Nomads"
-                        },
-                        {
-                            "id": "Necromunda-Ironhead_Squat_Prospectors",
-                            "version": 20251227,
-                            "name": "Ironhead Squat Prospectors"
-                        },
-                        {
-                            "id": "Necromunda-Slave_Ogryn_Gang",
-                            "version": 20251227,
-                            "name": "Slave Ogryn Gang"
-                        },
-                        {
-                            "id": "Necromunda-Underhive_Outcasts",
-                            "version": 20251227,
-                            "name": "Underhive Outcasts"
-                        }
-                    ]
-                },
-                {
-                    "name": "Extras",
-                    "factionTemplates": [
-                        {
-                            "id": "Necromunda-Campaigns",
-                            "version": 20260125,
-                            "name": "Campaign Tracking Tools",
-                            "filename": "Campaigns"
-                        },
-                        {
-                            "id": "Necromunda-Hired_Guns_and_Hangers-on",
-                            "version": 20260125,
-                            "name": "Hired Guns and Hangers-on"
-                        },
-                        {
-                            "id": "Necromunda-Vehicles",
-                            "version": 20251227,
-                            "name": "Vehicles"
-                        },
-                        {
-                            "id": "Necromunda-Alliances",
-                            "version": 20260125,
-                            "name": "Alliances"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "Titanicus",
             "gameSystemVersion": 20250424,
             "name": "Adeptus Titanicus",
@@ -914,93 +812,6 @@
                             "id": "WH40K2-Tyranids",
                             "version": 20240318,
                             "name": "Tyranids"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "HH2",
-            "gameSystemVersion": 20250714,
-            "name": "Horus Heresy 2nd Edition",
-            "templateGroups": [
-                {
-                    "name": "Legiones Astartes",
-                    "factionTemplates": [
-                        {
-                            "id": "HH2-Legiones_Astartes",
-                            "version": 20250602,
-                            "name": "Legiones Astartes"
-                        }
-                    ]
-                },
-                {
-                    "name": "Mechanicum",
-                    "factionTemplates": [
-                        {
-                            "id": "HH2-Mechanicum",
-                            "version": 20250602,
-                            "name": "Mechanicum"
-                        },
-                        {
-                            "id": "HH2-Questoris_Household",
-                            "version": 20241019,
-                            "name": "Questoris Household"
-                        }
-                    ]
-                },
-                {
-                    "name": "Imperium",
-                    "factionTemplates": [
-                        {
-                            "id": "HH2-Agents_of_the_Emperor",
-                            "version": 20250209,
-                            "name": "Agents of the Emperor"
-                        },
-                        {
-                            "id": "HH2-Legio_Custodes",
-                            "version": 20241019,
-                            "name": "Legio Custodes"
-                        },
-                        {
-                            "id": "HH2-Sisters_of_Silence",
-                            "version": 20221125,
-                            "name": "Sisters of Silence"
-                        },
-                        {
-                            "id": "HH2-Solar_Auxilia",
-                            "version": 20250130,
-                            "name": "Solar Auxilia"
-                        },
-                        {
-                            "id": "HH2-Divisio_Assassinorum",
-                            "version": 20241019,
-                            "name": "Divisio Assassinorum"
-                        },
-                        {
-                            "id": "HH2-Imperialis_Militia",
-                            "version": 20240424,
-                            "name": "Imperialis Militia"
-                        }
-                    ]
-                },
-                {
-                    "name": "Hereticus",
-                    "factionTemplates": [
-                        {
-                            "id": "HH2-Daemons_of_the_Ruinstorm",
-                            "version": 20241019,
-                            "name": "Daemons of the Ruinstorm"
-                        },
-                        {
-                            "id": "HH2-Bound_Daemons",
-                            "version": 20241019,
-                            "name": "Bound Daemons"
-                        },
-                        {
-                            "id": "HH2-Cults_Abominatio",
-                            "version": 20241019,
-                            "name": "Cults Abominatio"
                         }
                     ]
                 }
