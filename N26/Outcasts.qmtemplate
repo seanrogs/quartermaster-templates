@@ -8,6 +8,743 @@
 	<array>
 		<dict>
 			<key>Category</key>
+			<string>Ranged Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>autogun</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR8"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>autopistol</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (1)</string>
+					<key>Stats</key>
+					<string>SR4"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>stub gun</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>Light</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>flamer</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str4•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>hand flamer</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Blaze (5+), Light, Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>grenade launcher frag grenades</string>
+					<key>Points</key>
+					<real>80</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Blast (3"), Knockback (5+)</string>
+					<key>Stats</key>
+					<string>SR6"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>grenade launcher krak grenades</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>grenade launcher</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (4+)</string>
+					<key>Stats</key>
+					<string>SR6"•LR24"•Str6•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>lasgun</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>-</string>
+					<key>Stats</key>
+					<string>SR16"•LR24"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>laspistol</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>Light</string>
+					<key>Stats</key>
+					<string>SR8"•LR12"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>throwing knives</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Special Rules</key>
+					<string>Ammo (3+), Toxin (4+)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str-•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>combat shotgun salvo ammo</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+)</string>
+					<key>Stats</key>
+					<string>SR4"•LR12"•Str4•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>combat shotgun shredder ammo</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>combat shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (6+), Rapid Fire (1), Shred (6+), Template</string>
+					<key>Stats</key>
+					<string>SR:T•LR-•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>sawn-off shotgun scatter shot</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Light, Rapid Fire (2)</string>
+					<key>Stats</key>
+					<string>SR4"•LR8"•Str2•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>sawn-off shotgun solid shot</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>sawn-off shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Light, Knockback (6+)</string>
+					<key>Stats</key>
+					<string>SR4"•LR8"•Str4•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shotgun scatter ammo</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Rapid Fire (2)</string>
+					<key>Stats</key>
+					<string>SR4"•LR8"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shotgun solid ammo</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>shotgun</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Knockback (5+)</string>
+					<key>Stats</key>
+					<string>SR8"•LR16"•Str4•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Name</key>
+					<string>Aranthian-pattern meltagun</string>
+					<key>Points</key>
+					<real>145</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (5+), Damage (3)</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str8•AP-4•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Ranged Weapons</string>
+					<key>Name</key>
+					<string>Aranthian-pattern plasma pistol</string>
+					<key>Points</key>
+					<real>85</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Ammo (5+), Damage (2), Light, Unstable</string>
+					<key>Stats</key>
+					<string>SR6"•LR12"•Str6•AP-2•L2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Close Combat Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>chainaxe</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Melee, Shred (5+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>chainsword</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Melee, Parry, Shred (5+)</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>axe</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>fighting knife</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Special Rules</key>
+					<string>Backstab, Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>flail</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Special Rules</key>
+					<string>Knockback (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>maul</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>two-handed axe*</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>two-handed hammer*</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Concussive (6+), Heavy, Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>Aranthian-pattern power fist</string>
+					<key>Points</key>
+					<real>115</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Breaching (5+), Concussive (5+), Damage (2), Melee, Unwieldy</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+3•AP-3•L3</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Close Combat Weapons</string>
+					<key>Name</key>
+					<string>power greatsword</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Breaching (6+), Heavy, Melee, Parry</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-2•L2</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Grenades</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Grenades</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>blasting charges</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Special Rules</key>
+					<string>Ammo (5+), Blast (5"), Knockback (5+), Limited</string>
+					<key>Stats</key>
+					<string>SR-•LR6"•Str5•AP-1•L2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Grenades</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>frag grenades</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Blast (3"), Knockback (6+), Limited</string>
+					<key>Stats</key>
+					<string>SR-•LR9"•Str3•AP-•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Grenades</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>krak grenades</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Limited</string>
+					<key>Stats</key>
+					<string>SR-•LR9"•Str6•AP-2•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Grenades</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>smoke grenades</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Ammo (4+), Blast (3"), Limited, Smoke</string>
+					<key>Stats</key>
+					<string>SR-•LR9"•Str-•AP-•L-</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Armour</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>hazard suit</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>mesh armour</string>
+					<key>Points</key>
+					<real>40</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Armour</string>
+					<key>Name</key>
+					<string>seven-pointed breastplate</string>
+					<key>Points</key>
+					<real>120</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+					<key>Stats</key>
+					<string>Sv+1</string>
+				</dict>
+			</array>
+			<key>Single Selection</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Field Armour</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Personal Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>drop rig</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>medicae kit</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>photo-goggles</string>
+					<key>Points</key>
+					<real>35</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>respirator</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>conduit of Ozostium</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>gloves of Ozostium</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
+					<string>seven-pointed talisman</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Aranthian Outcast Gang</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Gang Equipment</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Weapon Accessories</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Weapon Accessories</string>
+					<key>Name</key>
+					<string>telescopic sight</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Mounts</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array/>
+			<key>Single Selection</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Mutations</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>void soul</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>extra appendage</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Stats</key>
+					<string>A+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>horrific appearance</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Special Rules</key>
+					<string>Fearsome</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>massive claws</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Special Rules</key>
+					<string>Breaching (6+), Melee</string>
+					<key>Stats</key>
+					<string>SR:E•LR-•Str:S+1•AP-1•L1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>needle spines</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>tentacles</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>toxic blood</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Mutations</string>
+					<key>Name</key>
+					<string>wing membranes</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
 			<string>House Cawdor Ranged Weapons</string>
 			<key>Icon</key>
 			<string>glyphicons_048_star</string>
@@ -265,6 +1002,8 @@
 					<string>M=8"</string>
 				</dict>
 			</array>
+			<key>Single Selection</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -720,6 +1459,8 @@
 					<string>M=7"</string>
 				</dict>
 			</array>
+			<key>Single Selection</key>
+			<true/>
 		</dict>
 	</array>
 	<key>Organisation</key>
