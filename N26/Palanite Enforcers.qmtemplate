@@ -574,6 +574,14 @@
 					<key>Category</key>
 					<string>Personal Equipment</string>
 					<key>Name</key>
+					<string>magnacles</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Personal Equipment</string>
+					<key>Name</key>
 					<string>medicae kit</string>
 					<key>Points</key>
 					<real>20</real>
@@ -1981,6 +1989,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Lower Limit</key>
+					<integer>1</integer>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -6127,8 +6137,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -6137,8 +6145,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -6147,8 +6153,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -6157,8 +6161,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -6167,8 +6169,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -6177,8 +6177,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -6187,8 +6185,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -6197,8 +6193,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -7577,8 +7571,6 @@
 								<array>
 									<array>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Heavy</string>
 											<key>Points</key>
@@ -7587,8 +7579,6 @@
 											<string>Bulging Biceps</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunner</string>
 											<key>Points</key>
@@ -7597,8 +7587,6 @@
 											<string>Hip-shooting</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Gunslinger</string>
 											<key>Points</key>
@@ -7607,8 +7595,6 @@
 											<string>Gunfighter</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Scout</string>
 											<key>Points</key>
@@ -7617,8 +7603,6 @@
 											<string>Clamber</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Sniper</string>
 											<key>Points</key>
@@ -7627,8 +7611,6 @@
 											<string>Precision Shot</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Brawler</string>
 											<key>Points</key>
@@ -7637,8 +7619,6 @@
 											<string>Berserker</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Medic</string>
 											<key>Points</key>
@@ -7647,8 +7627,6 @@
 											<string>Medicate</string>
 										</dict>
 										<dict>
-											<key>Count</key>
-											<integer>0</integer>
 											<key>Name</key>
 											<string>Tech</string>
 											<key>Points</key>
@@ -10372,6 +10350,108 @@
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Psyrender</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Mind Control (Single)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Terrify (Double)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Hallucinations (Single)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Bonecrusher</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Crush (Free)</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Force Field (Single), Continuous Effect</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Force Blast (Free), Continuous Effect</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Knockback (3+)</string>
+											<key>Stats</key>
+											<string>SR8"•LR12"•Str2•AP-1•L1</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
 									<dict>
@@ -12110,6 +12190,6 @@
 	<key>System</key>
 	<string>N26</string>
 	<key>Version</key>
-	<integer>20260811</integer>
+	<integer>20260820</integer>
 </dict>
 </plist>
