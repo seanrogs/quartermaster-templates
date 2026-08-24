@@ -338,6 +338,54 @@
 					<key>Stats</key>
 					<string>R:Combat•S:S•AP-1•I(+1)</string>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Sword of Reaving</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Special Rules</key>
+					<string>Extra Attacks (+D3), Magical Attacks, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Flail of Wrecks</string>
+					<key>Points</key>
+					<real>45</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks, Multiple Wounds (2), Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+2•AP-2</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Grim Verdict</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (2), Furious Charge, Impetuous, Magical Attacks, Requires Two Hands, Strikes Last, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+3•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Hunter’s Scorn</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks, Multiple Shots (2), Notes</string>
+					<key>Stats</key>
+					<string>R30"•S5•AP-1</string>
+				</dict>
 			</array>
 			<key>Single Selection</key>
 			<true/>
@@ -505,6 +553,50 @@
 						<string>Battle March</string>
 					</array>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Armour of Dark Faith</string>
+					<key>Points</key>
+					<real>40</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry/cavalry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Scale of False Promise</string>
+					<key>Points</key>
+					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry/cavalry</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Stupidity</string>
+					<key>Stats</key>
+					<string>T+1•W+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Mantle of Drifting Shadow</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>infantry</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Loner</string>
+					<key>Stats</key>
+					<string>M+1</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -607,6 +699,22 @@
 					<array>
 						<string>Battle March</string>
 					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Amulet of Spell Attraction</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Periapt of Soul Exchange</string>
+					<key>Points</key>
+					<real>20</real>
 				</dict>
 			</array>
 		</dict>
@@ -716,6 +824,22 @@
 					<array>
 						<string>Battle March</string>
 					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>The Banner of the Dark Heart</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Standard of the Fell Warrior</string>
+					<key>Points</key>
+					<real>15</real>
 				</dict>
 			</array>
 		</dict>
@@ -874,6 +998,30 @@
 						<string>Battle March</string>
 					</array>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Ring of Doom</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Daemon-blooded Steed</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Elixir of Power</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -1030,6 +1178,30 @@
 					<array>
 						<string>Battle March</string>
 					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Rod of Might</string>
+					<key>Points</key>
+					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Scroll of Invocation*</string>
+					<key>Points</key>
+					<real>30</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Infernal Familiar</string>
+					<key>Points</key>
+					<real>25</real>
 				</dict>
 			</array>
 		</dict>
