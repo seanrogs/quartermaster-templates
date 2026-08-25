@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Army List Name</key>
-	<string>Vampire Counts</string>
+	<string>Vampire Counts Renegades</string>
 	<key>Items</key>
 	<array>
 		<dict>
@@ -138,9 +138,17 @@
 					<key>Category</key>
 					<string>Magic Standard</string>
 					<key>Name</key>
+					<string>Drakenhof Banner</string>
+					<key>Points</key>
+					<real>60</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
 					<string>Banner of the Barrows</string>
 					<key>Points</key>
-					<real>65</real>
+					<real>50</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Wight Lord Battle Standard Bearer</string>
@@ -150,9 +158,9 @@
 					<key>Category</key>
 					<string>Magic Standard</string>
 					<key>Name</key>
-					<string>Drakenhof Banner</string>
+					<string>Standard of Hellish Vigor</string>
 					<key>Points</key>
-					<real>50</real>
+					<real>40</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -160,15 +168,7 @@
 					<key>Name</key>
 					<string>The Screaming Banner</string>
 					<key>Points</key>
-					<real>45</real>
-				</dict>
-				<dict>
-					<key>Category</key>
-					<string>Magic Standard</string>
-					<key>Name</key>
-					<string>Standard of Hellish Vigor</string>
-					<key>Points</key>
-					<real>40</real>
+					<real>25</real>
 				</dict>
 			</array>
 		</dict>
@@ -236,7 +236,7 @@
 					<key>Category</key>
 					<string>Arcane Item</string>
 					<key>Name</key>
-					<string>Scepter of de Noirot</string>
+					<string>Sceptre de Noirot</string>
 					<key>Points</key>
 					<real>35</real>
 				</dict>
@@ -263,9 +263,17 @@
 					<key>Category</key>
 					<string>Vampiric Powers</string>
 					<key>Name</key>
-					<string>Curse of the Revenant</string>
+					<string>Red Fury</string>
 					<key>Points</key>
 					<real>50</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Vampiric Powers</string>
+					<key>Name</key>
+					<string>Curse of the Revenant</string>
+					<key>Points</key>
+					<real>40</real>
 					<key>Stats</key>
 					<string>W+1</string>
 				</dict>
@@ -273,9 +281,9 @@
 					<key>Category</key>
 					<string>Vampiric Powers</string>
 					<key>Name</key>
-					<string>Beguile</string>
+					<string>Honour or Death</string>
 					<key>Points</key>
-					<real>40</real>
+					<real>35</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -293,6 +301,18 @@
 					<key>Category</key>
 					<string>Vampiric Powers</string>
 					<key>Name</key>
+					<string>Master of the Black Arts</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Level 3 Vampire Lord</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Vampiric Powers</string>
+					<key>Name</key>
 					<string>Dark Acolyte</string>
 					<key>Points</key>
 					<real>30</real>
@@ -301,13 +321,17 @@
 					<key>Category</key>
 					<string>Vampiric Powers</string>
 					<key>Name</key>
-					<string>Master of the Black Arts</string>
+					<string>Quickblood</string>
 					<key>Points</key>
-					<real>30</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>Level 2 Vampire Count / Level 1 Vampire Thrall</string>
-					</array>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Vampiric Powers</string>
+					<key>Name</key>
+					<string>Beguile</string>
+					<key>Points</key>
+					<real>20</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -348,6 +372,18 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Master of the Dead</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -439,10 +475,6 @@
 								<string>full plate armour</string>
 								<key>Points</key>
 								<real>9</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Renegades</string>
-								</array>
 							</dict>
 						</array>
 					</array>
@@ -451,81 +483,27 @@
 						<array>
 							<dict>
 								<key>Count</key>
-								<integer>0</integer>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
 								<string>Level 1 Wizard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Dark Magic</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Illusion</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Necromancy</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
-								<real>30</real>
+								<real>0.0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
 								<string>Level 2 Wizard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Dark Magic</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Illusion</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Necromancy</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Level 3 Wizard</string>
 								<key>Points</key>
 								<real>60</real>
 							</dict>
@@ -537,15 +515,25 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Renegades</string>
+								<string>Dark Magic</string>
 								<key>Points</key>
 								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Renegades</string>
-								</array>
-								<key>Stats</key>
-								<string>Ld=9</string>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Illusion</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Necromancy</string>
+								<key>Points</key>
+								<real>0.0</real>
 							</dict>
 						</array>
 						<array>
@@ -709,16 +697,16 @@
 											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
-											<string>hand weapons and lances</string>
+											<string>hand weapons and spectral lances</string>
 											<key>Points</key>
 											<real>0.0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>210</real>
+								<real>165</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Armour Value 4+; Close Order, Dark Vitality, First Charge, Fly (8), Ghoulish Glamour, Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Scrying Pool</string>
+								<string>Heavy chariot; Armour Value 4+; Accursed Weapons (Pallid Handmaidens only), Close Order, Dark Vitality, First Charge, Fly (8), Ghoulish Glamour, Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Scrying Pool</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+5)•I-•A-•Ld-</string>
 								<key>Tallies</key>
@@ -866,19 +854,19 @@
 						</array>
 					</array>
 					<key>Name</key>
-					<string>Vampire Count</string>
+					<string>Vampire Lord</string>
 					<key>Points</key>
-					<real>160</real>
+					<real>185</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>0-1 Vampire Count, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
+						<string>0-1 Vampire Lord, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry (character); Dark Vitality, Flammable, Indomitable (2), Lore of Undeath, Necromantic Undead, Regeneration (5+)</string>
+					<string>Regular infantry (character); Accursed Weapons, Dark Vitality, Flammable, Indomitable (2), Lore of Undeath, Necromantic Undead, Regeneration (5+)</string>
 					<key>Stats</key>
-					<string>M6•WS7•BS5•S5•T5•W3•I6•A4•Ld8</string>
+					<string>M6•WS7•BS5•S5•T5•W4•I6•A5•Ld9</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -900,6 +888,18 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Master of the Dead</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -1127,7 +1127,7 @@
 											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
-											<string>hand weapons and lances</string>
+											<string>hand weapons and spectral lances</string>
 											<key>Points</key>
 											<real>0.0</real>
 										</dict>
@@ -1136,7 +1136,7 @@
 								<key>Points</key>
 								<real>195</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Armour Value 4+; Accursed Reliquary, Blasphemous Tome, Close Order, Dark Vitality, First Charge, Fly (8), Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Wailing Dirge</string>
+								<string>Heavy chariot; Armour Value 4+; Accursed Reliquary, Blasphemous Tome, Close Order, Dark Vitality, First Charge, Fly (8), Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Wailing Dirge (-2)</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+5)•I-•A-•Ld-</string>
 								<key>Tallies</key>
@@ -1286,10 +1286,10 @@
 					<key>Name</key>
 					<string>Master Necromancer</string>
 					<key>Points</key>
-					<real>130</real>
+					<real>145</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>0-1 Vampire Count, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
+						<string>0-1 Vampire Lord, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
@@ -1322,6 +1322,22 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Master of the Dead</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Wizard</string>
+								</array>
+							</dict>
+						</array>
 					</array>
 					<key>Equipment</key>
 					<array>
@@ -1335,6 +1351,51 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>hand weapon</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>wicked claws</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>scaly skin</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>heavy armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -1519,7 +1580,7 @@
 											<key>Maximum</key>
 											<real>1</real>
 											<key>Name</key>
-											<string>calloused hide</string>
+											<string>scaly skin</string>
 											<key>Points</key>
 											<real>0.0</real>
 										</dict>
@@ -1528,7 +1589,7 @@
 								<key>Points</key>
 								<real>185</real>
 								<key>Special Rules</key>
-								<string>Behemoth; Carrion Feeders, Close Order, Fly (9), Large Target, Necromantic Undead, Stomp Attacks (D6), Swiftstride, Terror</string>
+								<string>Behemoth; Carrion Feeders, Close Order, Fly (9), Large Target, Necromantic Undead, Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge (-2)</string>
 								<key>Stats</key>
 								<string>M6•WS3•BS-•S5•T(+1)•W(+5)•I3•A4•Ld-</string>
 								<key>Tallies</key>
@@ -1549,12 +1610,12 @@
 					<real>145</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>0-1 Vampire Count, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
+						<string>0-1 Vampire Lord, Master Necromancer or Strigoi Ghoul King per 1,000 points</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry (character); Dark Vitality, Flammable, Hatred (all enemies), Indomitable (1), Lore of Undeath, Necromantic Undead, Poisoned Attacks, Regeneration (5+), the Hunger</string>
+					<string>Regular infantry (character); Dark Vitality, Flammable, Ghoulkin, Hatred (all enemies), Indomitable (1), Lore of Undeath, Necromantic Undead, Poisoned Attacks, Regeneration (5+), The Hunger, Vanguard</string>
 					<key>Stats</key>
 					<string>M6•WS6•BS3•S5•T5•W3•I7•A5•Ld8</string>
 					<key>Tallies</key>
@@ -1568,6 +1629,21 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -1714,9 +1790,9 @@
 								<key>Points</key>
 								<real>14</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; First Charge, Necromantic Undead, Swiftstride</string>
+								<string>Heavy cavalry; First Charge, Necromantic Undead, Spectral Steed, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
+								<string>M8•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1754,6 +1830,21 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -1799,7 +1890,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry (character); Ethereal, Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Terror, Wailing Dirge</string>
+					<string>Regular infantry (character); Ethereal, Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Terror, Wailing Dirge (-1)</string>
 					<key>Stats</key>
 					<string>M6•WS3•BS0•S3•T3•W2•I3•A1•Ld6</string>
 					<key>Tallies</key>
@@ -1844,6 +1935,22 @@
 								<string>Battle Standard Bearer</string>
 								<key>Points</key>
 								<real>25</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Master of the Dead</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Wizard</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -1933,10 +2040,6 @@
 								<string>full plate armour</string>
 								<key>Points</key>
 								<real>9</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Renegades</string>
-								</array>
 							</dict>
 						</array>
 					</array>
@@ -1983,6 +2086,43 @@
 								</array>
 								<key>Points</key>
 								<real>30</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Level 2 Wizard</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Dark Magic</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Illusion</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Necromancy</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>60</real>
 							</dict>
 						</array>
 						<array>
@@ -2089,8 +2229,6 @@
 								</array>
 							</dict>
 							<dict>
-								<key>Count</key>
-								<integer>0</integer>
 								<key>Name</key>
 								<string>Coven Throne</string>
 								<key>Options</key>
@@ -2146,16 +2284,16 @@
 											<key>Equipped</key>
 											<true/>
 											<key>Name</key>
-											<string>hand weapons and lances</string>
+											<string>hand weapons and spectral lances</string>
 											<key>Points</key>
 											<real>0.0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>210</real>
+								<real>165</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Armour Value 4+; Close Order, Dark Vitality, First Charge, Fly (8), Ghoulish Glamour, Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Scrying Pool</string>
+								<string>Heavy chariot; Armour Value 4+; Accursed Weapons (Pallid Handmaidens only), Close Order, Dark Vitality, First Charge, Fly (8), Ghoulish Glamour, Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Scrying Pool</string>
 								<key>Stats</key>
 								<string>M-•WS-•BS-•S5•T5•W(+5)•I-•A-•Ld-</string>
 								<key>Tallies</key>
@@ -2173,11 +2311,11 @@
 					<key>Name</key>
 					<string>Vampire Thrall</string>
 					<key>Points</key>
-					<real>75</real>
+					<real>70</real>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry (character); Banner of the Count, Dark Vitality, Flammable, Indomitable (1), Lore of Undeath, Necromantic Undead, Regeneration (5+)</string>
+					<string>Regular infantry (character); Accursed Weapons, Banner of the Count, Dark Vitality, Flammable, Indomitable (1), Lore of Undeath, Necromantic Undead, Regeneration (5+)</string>
 					<key>Stats</key>
 					<string>M6•WS6•BS4•S5•T4•W2•I5•A3•Ld7</string>
 					<key>Tallies</key>
@@ -2201,6 +2339,18 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Master of the Dead</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -2374,7 +2524,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>Mortis Engine</string>
+								<string>Corpse Cart</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -2384,25 +2534,13 @@
 											<key>Default</key>
 											<true/>
 											<key>Maximum</key>
-											<real>3</real>
+											<real>1</real>
 											<key>Name</key>
-											<string>Banshees</string>
+											<string>The Restless Dead</string>
 											<key>Points</key>
 											<real>0.0</real>
 											<key>Stats</key>
-											<string>M-•WS3•BS0•S3•T-•W-•I3•A1•Ld5</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Default</key>
-											<true/>
-											<key>Equipped</key>
-											<true/>
-											<key>Name</key>
-											<string>hand weapons</string>
-											<key>Points</key>
-											<real>0.0</real>
+											<string>M4•WS1•BS0•S3•T-•W-•I1•A2D6•Ld-</string>
 										</dict>
 									</array>
 									<array>
@@ -2414,41 +2552,38 @@
 											<key>Maximum</key>
 											<real>1</real>
 											<key>Name</key>
-											<string>Spirit Horde</string>
+											<string>hand weapons</string>
 											<key>Points</key>
 											<real>0.0</real>
-											<key>Stats</key>
-											<string>M6•WS3•BS0•S3•T-•W-•I1•AD6•Ld-</string>
 										</dict>
 									</array>
 									<array>
 										<dict>
-											<key>Default</key>
-											<true/>
-											<key>Equipped</key>
-											<true/>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
 											<key>Name</key>
-											<string>hand weapons and lances</string>
+											<string>Balefire Brazier</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Warped Tintinnabulation</string>
+											<key>Points</key>
+											<real>15</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>195</real>
+								<real>60</real>
 								<key>Special Rules</key>
-								<string>Heavy chariot; Armour Value 4+; Accursed Reliquary, Blasphemous Tome, Close Order, Dark Vitality, First Charge, Fly (8), Impact Hits (D6+1), Large Target, Necromantic Undead, Random Attacks (Spirit Horde only), Regeneration (6+), Wailing Dirge</string>
+								<string>Heavy chariot; Armour Value 4+; Close Order, Dark Vitality, First Charge, Impact Hits (D3+1), Indomitable (1), Necromantic Undead, Random Attacks (The Restless Dead only), Regeneration (6+), Vigor Mortis</string>
 								<key>Stats</key>
-								<string>M-•WS-•BS-•S5•T5•W(+5)•I-•A-•Ld-</string>
-								<key>Tallies</key>
-								<array>
-									<dict>
-										<key>Count</key>
-										<real>4</real>
-										<key>Name</key>
-										<string>Unit Strength</string>
-									</dict>
-								</array>
+								<string>M-•WS-•BS-•S4•T4•W(+4)•I-•A-•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -2479,6 +2614,16 @@
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
 								<key>Magic Items</key>
 								<array>
 									<dict>
@@ -2490,8 +2635,6 @@
 										<string>Magic Standard</string>
 									</dict>
 								</array>
-								<key>Maximum</key>
-								<real>1</real>
 								<key>Name</key>
 								<string>Battle Standard Bearer</string>
 								<key>Points</key>
@@ -2645,9 +2788,9 @@
 								<key>Points</key>
 								<real>14</real>
 								<key>Special Rules</key>
-								<string>Heavy cavalry; First Charge, Necromantic Undead, Swiftstride</string>
+								<string>Heavy cavalry; First Charge, Necromantic Undead, Spectral Steed, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
+								<string>M8•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2663,7 +2806,7 @@
 					<key>Name</key>
 					<string>Wight Lord</string>
 					<key>Points</key>
-					<real>40</real>
+					<real>60</real>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -2681,6 +2824,21 @@
 					</array>
 				</dict>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>General</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -2820,18 +2978,6 @@
 								<key>Equipped</key>
 								<true/>
 								<key>Name</key>
-								<string>light armour</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Default</key>
-								<true/>
-								<key>Equipped</key>
-								<true/>
-								<key>Name</key>
 								<string>shields</string>
 								<key>Points</key>
 								<real>0.0</real>
@@ -2840,9 +2986,36 @@
 						<array>
 							<dict>
 								<key>Name</key>
+								<string>light armour</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
 								<string>thrusting spears</string>
 								<key>Points</key>
 								<real>1</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Implacable Defence</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>0-1 per 1,000 points</string>
+								</array>
 							</dict>
 						</array>
 					</array>
@@ -2866,7 +3039,7 @@
 					<key>Name</key>
 					<string>Skeleton Warriors</string>
 					<key>Points</key>
-					<real>5</real>
+					<real>4</real>
 					<key>Size</key>
 					<integer>10</integer>
 					<key>Special Rules</key>
@@ -2942,7 +3115,7 @@
 						</dict>
 					</array>
 					<key>Maximum Size</key>
-					<integer>40</integer>
+					<integer>-1</integer>
 					<key>Minimum Size</key>
 					<integer>20</integer>
 					<key>Name</key>
@@ -2952,9 +3125,9 @@
 					<key>Size</key>
 					<integer>20</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry; Close Order, Horde, Necromantic Undead, Regeneration (6+), the Newly Dead</string>
+					<string>Regular infantry; Close Order, Horde, Necromantic Undead, Regeneration (6+), Shambling Horde</string>
 					<key>Stats</key>
-					<string>M4•WS2•BS0•S3•T3•W1•I1•A1•Ld2</string>
+					<string>M4•WS1•BS0•S3•T2•W1•I1•A1•Ld2</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -2999,6 +3172,44 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>calloused hides</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>light armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ambushers</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -3016,15 +3227,15 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Name</key>
 					<string>Crypt Ghouls</string>
 					<key>Points</key>
-					<real>9</real>
+					<real>8</real>
 					<key>Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry; Move through Cover, Necromantic Undead, Open Order, Poisoned Attacks, Regeneration (6+), Reserve Move, Skirmishers</string>
+					<string>Regular infantry; Armour Bane (1), Dark Vitality, Move through Cover, Necromantic Undead, Open Order, Poisoned Attacks, Regeneration (6+), Reserve Move, Skirmishers, The Hunger</string>
 					<key>Stats</key>
 					<string>M5•WS3•BS3•S3•T4•W1•I3•A2•Ld5</string>
 					<key>Tallies</key>
@@ -3058,15 +3269,15 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>Bat Swarms</string>
 					<key>Points</key>
 					<real>39</real>
 					<key>Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Special Rules</key>
-					<string>Swarms; Fly (7), Necromantic Undead, Regeneration (6+), Skirmishers</string>
+					<string>Swarms; Cloud of Horror, Fly (7), Necromantic Undead, Regeneration (6+), Skirmishers</string>
 					<key>Stats</key>
 					<string>M1•WS3•BS0•S2•T2•W5•I4•A5•Ld3</string>
 					<key>Tallies</key>
@@ -3292,17 +3503,17 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Name</key>
 					<string>Grave Guard</string>
 					<key>Points</key>
 					<real>11</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Wights, 0-1 unit of Grave Guard or Black Knights a Core</string>
+						<string>0-1 unit of Grave Guard or Black Knights a Core</string>
 					</array>
 					<key>Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Special Rules</key>
 					<string>Heavy infantry; Cleaving Blow, Close Order, Indomitable (1), Necromantic Undead, Regeneration (6+)</string>
 					<key>Stats</key>
@@ -3318,6 +3529,8 @@
 							<true/>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -3429,14 +3642,6 @@
 								<real>2</real>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>barding</string>
-								<key>Points</key>
-								<real>2</real>
-							</dict>
-						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -3479,13 +3684,25 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>0.0</real>
 								<key>Special Rules</key>
-								<string>Close Order,; First Charge, Necromantic Undead, Regeneration (6+), Swiftstride</string>
+								<string>Close Order, First Charge, Necromantic Undead, Regeneration (6+), Spectral Steed, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
+								<string>M8•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -3495,7 +3712,7 @@
 					<real>24</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Wights, 0-1 unit of Grave Guard or Black Knights a Core</string>
+						<string>0-1 unit of Grave Guard or Black Knights a Core</string>
 					</array>
 					<key>Size</key>
 					<integer>5</integer>
@@ -3514,6 +3731,150 @@
 							<true/>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Corpsemaster</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>hand weapon</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>whip</string>
+											<key>Points</key>
+											<real>3</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>cavalry spear</string>
+											<key>Points</key>
+											<real>3</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•WS3•BS0•S3•T-•W-•I3•A1•Ld5</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Balefire Brazier</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Warped Tintinnabulation</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>The Restless Dead</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>hand weapons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M4•WS1•BS0•S3•T-•W-•I1•A2D6•Ld-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Corpse Cart</string>
+					<key>Points</key>
+					<real>60</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Heavy chariot; Armour Save 4+; Close Order, Dark Vitality, First Charge, Impact Hits (D3+1), Indomitable (1), Necromantic Undead, Random Attacks (The Restless Dead only), Regeneration (6+), Vigor Mortis</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS-•S4•T4•W4•I-•A-•Ld-</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+						</dict>
+					</array>
+					<key>Upper Limit</key>
+					<integer>3</integer>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -3678,13 +4039,13 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Name</key>
 					<string>Grave Guard</string>
 					<key>Points</key>
 					<real>11</real>
 					<key>Size</key>
-					<integer>10</integer>
+					<integer>5</integer>
 					<key>Special Rules</key>
 					<string>Heavy infantry; Cleaving Blow, Close Order, Indomitable (1), Necromantic Undead, Regeneration (6+)</string>
 					<key>Stats</key>
@@ -3811,14 +4172,6 @@
 								<real>2</real>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>barding</string>
-								<key>Points</key>
-								<real>2</real>
-							</dict>
-						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -3861,13 +4214,25 @@
 											<real>0.0</real>
 										</dict>
 									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
 								</array>
 								<key>Points</key>
 								<real>0.0</real>
 								<key>Special Rules</key>
-								<string>Close Order,; First Charge, Necromantic Undead, Regeneration (6+), Swiftstride</string>
+								<string>Close Order, First Charge, Necromantic Undead, Regeneration (6+), Spectral Steed, Swiftstride</string>
 								<key>Stats</key>
-								<string>M7•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
+								<string>M8•WS2•BS-•S3•T-•W-•I2•A1•Ld-</string>
 							</dict>
 						</array>
 					</array>
@@ -3925,6 +4290,33 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>scaly skin</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>heavy armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -3947,14 +4339,10 @@
 					<string>Crypt Horrors</string>
 					<key>Points</key>
 					<real>46</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Crypt Horrors or Fell Bats per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
-					<string>Monstrous infantry; Indomitable (1), Move through Cover, Necromantic Undead, Open Order, Regeneration (6+), Stomp Attacks (1)</string>
+					<string>Monstrous infantry; Dark Vitality, Indomitable (1), Move through Cover, Necromantic Undead, Open Order, Regeneration (5+), Stomp Attacks (1), The Hunger</string>
 					<key>Stats</key>
 					<string>M6•WS3•BS0•S4•T5•W3•I2•A3•Ld5</string>
 					<key>Tallies</key>
@@ -4006,10 +4394,6 @@
 					<string>Fell Bats</string>
 					<key>Points</key>
 					<real>15</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Crypt Horrors or Fell Bats per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
@@ -4029,7 +4413,7 @@
 					</array>
 				</dict>
 				<dict>
-					<key>Command</key>
+					<key>Equipment</key>
 					<array>
 						<array>
 							<dict>
@@ -4040,7 +4424,21 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Corpsemaster</string>
+								<string>wicked claws</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>scaly skin</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -4052,63 +4450,14 @@
 											<key>Maximum</key>
 											<real>1</real>
 											<key>Name</key>
-											<string>hand weapon</string>
+											<string>heavy armour</string>
 											<key>Points</key>
 											<real>0.0</real>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>whip</string>
-											<key>Points</key>
-											<real>3</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>cavalry spear</string>
-											<key>Points</key>
-											<real>3</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
 								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Magic: A Corpsemaster is a Level 1 Wizard. Every Corpsemaster knows a spell from the Necromancy Lore of Magic</string>
-								</array>
-								<key>Stats</key>
-								<string>M-•WS3•BS0•S3•T-•W-•I3•A1•Ld5</string>
-							</dict>
-						</array>
-					</array>
-					<key>Equipment</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Balefire Brazier</string>
-								<key>Points</key>
-								<real>10</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Warped Tintinnabulation</string>
-								<key>Points</key>
-								<real>15</real>
 							</dict>
 						</array>
 					</array>
@@ -4116,44 +4465,25 @@
 					<integer>1</integer>
 					<key>Minimum Size</key>
 					<integer>1</integer>
-					<key>Mount</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>The Restless Dead</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Stats</key>
-								<string>M4•WS1•BS0•S3•T-•W-•I1•A2D6•Ld-</string>
-							</dict>
-						</array>
-					</array>
 					<key>Name</key>
-					<string>Corpse Cart</string>
+					<string>Varghulf</string>
 					<key>Points</key>
-					<real>115</real>
+					<real>110</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>0-3</string>
+						<string>0-1 per 1,000 points</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Heavy chariot; Armour Save 4+; Close Order, Dark Vitality, First Charge, Impact Hits (D3+1), Indomitable (1), Lore of Undeath, Necromantic Undead, Random Attacks (The Restless Dead only), Regeneration (6+)</string>
+					<string>Monstrous creature; Bestial Fury, Close Order, Counter Charge, Dark Vitality, Flammable, Indomitable (1), Necromantic Undead, Regeneration (5+), Swiftstride, Terror, The Hunger</string>
 					<key>Stats</key>
-					<string>M-•WS-•BS-•S4•T4•W4•I-•A-•Ld-</string>
+					<string>M8•WS5•BS0•S5•T5•W4•I4•A5•Ld4</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
 							<key>Count</key>
-							<real>5</real>
+							<real>4</real>
 							<key>Name</key>
 							<string>Unit Strength</string>
 						</dict>
@@ -4178,7 +4508,7 @@
 					<key>Maximum Size</key>
 					<integer>6</integer>
 					<key>Minimum Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>Spirit Hosts</string>
 					<key>Points</key>
@@ -4188,7 +4518,7 @@
 						<string>0-1 per Cairn Wraith or; Tomb Banshee</string>
 					</array>
 					<key>Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Special Rules</key>
 					<string>Swarms; Bound Spirits, Ethereal, Magical Attacks, Necromantic Undead, Open Order, Regeneration (6+), Reserve Move</string>
 					<key>Stats</key>
@@ -4204,6 +4534,235 @@
 							<true/>
 						</dict>
 					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>25</real>
+										<key>Name</key>
+										<string>Magic Items</string>
+									</dict>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>25</real>
+										<key>Name</key>
+										<string>Vampiric Powers</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Kastellan</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>M-•WS5•BS3•S4•T4•W1•I4•A3•Ld7</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Magic Standard</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>standard bearer</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>musician</string>
+								<key>Points</key>
+								<real>7</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hand weapons</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>lances</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>heavy armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>full plate armour</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>shields</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Drilled</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Nightmares</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>iron-shod hooves</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>barding</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M7•WS3•BS-•S4•T-•W-•I2•A1•Ld-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Name</key>
+					<string>Blood Knights</string>
+					<key>Points</key>
+					<real>39</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Vampire Lord General</string>
+					</array>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Heavy cavalry; Accursed Weapons, Close Order, Counter Charge, Dark Vitality, First Charge, Flammable, Indomitable (1), Martial Pride, Necromantic Undead, Regeneration (6+), Swiftstride</string>
+					<key>Stats</key>
+					<string>M-•WS5•BS3•S4•T4•W1•I4•A2•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>2</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -4237,6 +4796,33 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>calloused hides</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>light armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -4254,7 +4840,7 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>Vargheists</string>
 					<key>Points</key>
@@ -4264,9 +4850,9 @@
 						<string>Strigoi Ghoul King General, 0-1 Vargheists of Terrorgheist as Special</string>
 					</array>
 					<key>Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Special Rules</key>
-					<string>Monstrous infantry; Armour Bane (2), Dark Vitality, Flammable, Fly (9), Frenzy, Indomitable (1), Necromantic Undead, Regeneration (6+), Skirmishers</string>
+					<string>Monstrous infantry; Armour Bane (2), Dark Vitality, Dispersed Formation, Flammable, Fly (9), Furious Charge, Indomitable (1), Impetuous, Necromantic Undead, Regeneration (5+), Skirmishers, The Hunger</string>
 					<key>Stats</key>
 					<string>M6•WS4•BS0•S5•T4•W3•I4•A3•Ld7</string>
 					<key>Tallies</key>
@@ -4321,7 +4907,7 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>calloused hide</string>
+								<string>scaly skin</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -4342,7 +4928,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Behemoth; Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge</string>
+					<string>Behemoth; Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge (-2)</string>
 					<key>Stats</key>
 					<string>M6•WS3•BS0•S5•T6•W6•I3•A4•Ld4</string>
 					<key>Tallies</key>
@@ -4398,6 +4984,33 @@
 								<real>0.0</real>
 							</dict>
 						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>calloused hides</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>light armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
 					</array>
 					<key>Magic Items</key>
 					<array>
@@ -4415,19 +5028,15 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Name</key>
 					<string>Vargheists</string>
 					<key>Points</key>
 					<real>61</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Special Rules</key>
-					<string>Monstrous infantry; Armour Bane (2), Dark Vitality, Flammable, Fly (9), Frenzy, Indomitable (1), Necromantic Undead, Regeneration (6+), Skirmishers</string>
+					<string>Monstrous infantry; Armour Bane (2), Dark Vitality, Dispersed Formation, Flammable, Fly (9), Furious Charge, Indomitable (1), Impetuous, Necromantic Undead, Regeneration (5+), Skirmishers, The Hunger</string>
 					<key>Stats</key>
 					<string>M6•WS4•BS0•S5•T4•W3•I4•A3•Ld7</string>
 					<key>Tallies</key>
@@ -4439,119 +5048,6 @@
 							<string>Unit Strength</string>
 							<key>Use Size</key>
 							<true/>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>Command</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Wraith</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Spectral scythe</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Stats</key>
-								<string>M-•WS3•BS0•S3•T-•W-•I2•A2•Ld5</string>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Nightmares (x2)</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Iron-shod hooves</string>
-											<key>Points</key>
-											<real>0.0</real>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Stats</key>
-								<string>M8•WS3•BS-•S4•T-•W-•I2•A1•Ld-</string>
-							</dict>
-						</array>
-					</array>
-					<key>Equipment</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Armour Save 3+</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
-					<key>Maximum Size</key>
-					<integer>1</integer>
-					<key>Minimum Size</key>
-					<integer>1</integer>
-					<key>Name</key>
-					<string>Black Coach</string>
-					<key>Points</key>
-					<real>205</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-2</string>
-					</array>
-					<key>Size</key>
-					<integer>1</integer>
-					<key>Special Rules</key>
-					<string>Heavy chariot; Close Order, First Charge, Impact Hits (D6+2), Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Spectral Coach, Terror</string>
-					<key>Stats</key>
-					<string>M-•WS-•BS-•S5•T6•W4•I-•A-•Ld-</string>
-					<key>Tallies</key>
-					<array>
-						<dict>
-							<key>Count</key>
-							<real>5</real>
-							<key>Name</key>
-							<string>Unit Strength</string>
 						</dict>
 					</array>
 				</dict>
@@ -4595,7 +5091,24 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>calloused hide</string>
+								<string>scaly skin</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>heavy armour</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -4609,14 +5122,10 @@
 					<string>Terrorgheist</string>
 					<key>Points</key>
 					<real>205</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Terrorgheist or Varghulf per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Behemoth; Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge</string>
+					<string>Behemoth; Close Order, Fly (9), Indomitable (1), Infested, Large Target, Necromantic Undead, Regeneration (5+), Stomp Attacks (D6), Swiftstride, Terror, Wailing Dirge (-2)</string>
 					<key>Stats</key>
 					<string>M6•WS3•BS0•S5•T6•W6•I3•A4•Ld4</string>
 					<key>Tallies</key>
@@ -4624,66 +5133,6 @@
 						<dict>
 							<key>Count</key>
 							<real>6</real>
-							<key>Name</key>
-							<string>Unit Strength</string>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>Equipment</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>wicked claws</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>1</integer>
-								<key>Default</key>
-								<true/>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>calloused hide</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
-					<key>Maximum Size</key>
-					<integer>1</integer>
-					<key>Minimum Size</key>
-					<integer>1</integer>
-					<key>Name</key>
-					<string>Varghulf</string>
-					<key>Points</key>
-					<real>140</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Terrorgheist or Varghulf per 1,000 points</string>
-					</array>
-					<key>Size</key>
-					<integer>1</integer>
-					<key>Special Rules</key>
-					<string>Monstrous creature; Bestial Fury, Close Order, Counter Charge, Dark Vitality, Flammable, Frenzy, Indomitable (1), Necromantic Undead, Regeneration (5+), Swiftstride, Terror</string>
-					<key>Stats</key>
-					<string>M8•WS5•BS0•S5•T5•W4•I4•A4•Ld4</string>
-					<key>Tallies</key>
-					<array>
-						<dict>
-							<key>Count</key>
-							<real>4</real>
 							<key>Name</key>
 							<string>Unit Strength</string>
 						</dict>
@@ -4845,7 +5294,7 @@
 					<key>Maximum Size</key>
 					<integer>-1</integer>
 					<key>Minimum Size</key>
-					<integer>5</integer>
+					<integer>4</integer>
 					<key>Mount</key>
 					<array>
 						<array>
@@ -4894,12 +5343,8 @@
 					<string>Blood Knights</string>
 					<key>Points</key>
 					<real>39</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
-					<integer>5</integer>
+					<integer>4</integer>
 					<key>Special Rules</key>
 					<string>Heavy cavalry; Accursed Weapons, Close Order, Counter Charge, Dark Vitality, First Charge, Flammable, Indomitable (1), Martial Pride, Necromantic Undead, Regeneration (6+), Swiftstride</string>
 					<key>Stats</key>
@@ -4913,6 +5358,119 @@
 							<string>Unit Strength</string>
 							<key>Use Size</key>
 							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Wraith</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Spectral scythe</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M-•WS3•BS0•S3•T-•W-•I2•A2•Ld5</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Nightmares (x2)</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Iron-shod hooves</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Stats</key>
+								<string>M8•WS3•BS-•S4•T-•W-•I2•A1•Ld-</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Armour Save 3+</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Black Coach</string>
+					<key>Points</key>
+					<real>205</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 per 1,000 points</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Heavy chariot; Close Order, First Charge, Impact Hits (D6+2), Indomitable (1), Magical Attacks, Necromantic Undead, Regeneration (6+), Spectral Coach, Terror</string>
+					<key>Stats</key>
+					<string>M-•WS-•BS-•S5•T6•W4•I-•A-•Ld-</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
 						</dict>
 					</array>
 				</dict>
@@ -4987,7 +5545,7 @@
 								<key>Equipped</key>
 								<true/>
 								<key>Name</key>
-								<string>Spectral Steeds</string>
+								<string>Skeletal Steeds</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -5046,9 +5604,214 @@
 			<key>Lower Limit</key>
 			<real>0.0</real>
 			<key>Units</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Militia Leader</string>
+								<key>Points</key>
+								<real>7</real>
+								<key>Stats</key>
+								<string>M4•WS3•BS3•S3•T3•W1•I3•A2•Ld7</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>mixed weapons</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>two hand weapons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Default</key>
+											<true/>
+											<key>Equipped</key>
+											<true/>
+											<key>Name</key>
+											<string>throwing weapons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>10</integer>
+					<key>Name</key>
+					<string>Free Company Militia</string>
+					<key>Plural Name</key>
+					<string>Free Company Militia Fighters</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Size</key>
+					<integer>10</integer>
+					<key>Special Rules</key>
+					<string>Regular infantry; Detachment, Furious Charge, Horde, Impetuous, Levies, Open Order, Warband</string>
+					<key>Stats</key>
+					<string>M4•WS3•BS3•S3•T3•W1•I3•A1•Ld6</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Marksman</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Stats</key>
+								<string>M4•WS3•BS4•S3•T3•W1•I3•A1•Ld7</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hand weapons</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>warbows</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Fire &amp; Flee</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Scouts</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<integer>-1</integer>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<string>Path to Glory</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Empire Archers</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Regular infantry; Detachment, Move through Cover, Open Order, Skirmishers, Vanguard</string>
+					<key>Stats</key>
+					<string>M4•WS3•BS3•S3•T3•W1•I3•A1•Ld7</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</array>
 			<key>Upper Limit</key>
-			<real>0.2</real>
+			<real>0.20000000000000001</real>
 		</dict>
 		<dict>
 			<key>Class</key>

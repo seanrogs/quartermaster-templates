@@ -274,7 +274,73 @@
 					<key>Stats</key>
 					<string>R30"•S5•AP-1</string>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Skirmisher’s Blade</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Extra Attacks (+1), Magical Attacks, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Thornspitter Stave</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Armour Bane (1), Magical Attacks, Ponderous, Notes</string>
+					<key>Stats</key>
+					<string>R24"/Combat•S4/S+1•AP-</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Trailblazer’s Hatchet</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Flaming Attacks, Magical Attacks, Move through Cover, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S+1•AP-1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Weapon</string>
+					<key>Name</key>
+					<string>Diestro’s Blade</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Magical Attacks, Notes</string>
+					<key>Stats</key>
+					<string>R:Combat•S:S•AP-1•I(+1)</string>
+				</dict>
 			</array>
+			<key>Single Selection</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -391,6 +457,54 @@
 					<key>Special Rules</key>
 					<string>Move through Cover, Scouts</string>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Helm of Courage</string>
+					<key>Points</key>
+					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Padded Hauberk</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Iron-rimmed Shield</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Armour</string>
+					<key>Name</key>
+					<string>Shadowed Mantle</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -468,6 +582,30 @@
 					<key>Prerequisite</key>
 					<array>
 						<string>infantry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>Talisman of Authority</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Talisman</string>
+					<key>Name</key>
+					<string>The Warding Talisman</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
 					</array>
 				</dict>
 			</array>
@@ -554,6 +692,30 @@
 					<string>Monster Hunter’s Tapestry</string>
 					<key>Points</key>
 					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>Banner of Renown</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Magic Standard</string>
+					<key>Name</key>
+					<string>The Banner of the Bold</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
 				</dict>
 			</array>
 		</dict>
@@ -662,6 +824,56 @@
 					<key>Points</key>
 					<real>20</real>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>The Ranger’s Glass</string>
+					<key>Points</key>
+					<real>20</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>The All-Seeing Eye of Numas</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Wilderness Map*</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Enchanted Item</string>
+					<key>Name</key>
+					<string>Enchanted Almanac</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -765,6 +977,60 @@
 					<key>Points</key>
 					<real>30</real>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Scroll of Fiery Convocation*</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Scroll of Deathly Whispers*</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Name</key>
+					<string>Wyrdstone Shard</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Arcane Item</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Scroll of Obfuscation*</string>
+					<key>Points</key>
+					<real>5</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -840,6 +1106,61 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Seasoned Commander</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Seasoned Commander</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Grizzled Veteran</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Stats</key>
+					<string>Ld+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Seasoned Commander</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Weapon Master (WS)</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Stats</key>
+					<string>WS+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Seasoned Commander</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>Weapon Master (BS)</string>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Stats</key>
+					<string>BS+1</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Seasoned Commander</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>The Spoils of War</string>
+					<key>Points</key>
+					<real>0.0</real>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Lookup</key>
 	<dict>
@@ -898,7 +1219,7 @@
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
-			<real>0.2</real>
+			<real>0.20000000000000001</real>
 		</dict>
 		<dict>
 			<key>Class</key>
@@ -922,6 +1243,6 @@
 		<string>R30"•S3•AP-</string>
 	</array>
 	<key>Version</key>
-	<integer>20260709</integer>
+	<integer>20260824</integer>
 </dict>
 </plist>
