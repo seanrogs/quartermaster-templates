@@ -321,3 +321,32 @@ Running log of judgment calls made while building N26 gang files from screenshot
 - **`blast pistol` and `stalking knife`** were sourced from the Ash Waste Nomads template (absent from `N26.qmsystem`) — now moot for Asun'ghar, since she lives in that file alongside those definitions.
 - **`Additional Attack (1)` on the drill is transcribed as printed** (singular), where the rest of the project uses `Additional Attacks (N)`. Worth normalising if trait names are matched strictly.
 - Unmodelled, name-only in `Special Rules`: The Lady of Ash, Oculi Command (and its Deploy Oculi action), Target Paint, and Ragnir's "Ammo-Jack" alternative hire (it swaps subtypes/XP rather than cost, so there is nothing for a discount to express).
+
+## Cults (page 26) — merged into existing gang templates
+
+- **Both fighters housed in their own gang's template**, on instruction, rather than a separate Cults file: `The Prophet of the Redemption` → `House Cawdor`, `The Eightfold Harvest Lord` → `Corpse Grinder Cult`. Both appended to the host's `Champion` class, keeping the minimal Most Wanted shape (no `XP`/`Advancements`/`Lasting Injuries`/allowances). Neither has a discount or a pet.
+- **The Eightfold Harvest Lord's "Blessed by the Lord of Skin and Sinew" restricts him to a Corpse Grinder Cult gang** — enforced implicitly by placement, exactly as with Asun'ghar, so no unit-level `Prerequisite` was added. The rule name stays in `Special Rules`.
+- **The Prophet's 3+ Invulnerable Save is not modelled.** It sits inside the multi-sentence "Blessed by the Lost Saint" rule, which is innate rather than granted by an item, so there is nothing to hang a `Special Rules` save string on — same call as Kal Jericho's 4+ invulnerable in Supplementary Fighters. Only the rule name is recorded.
+- **Equipment matched to existing canonical names rather than re-derived**: the Prophet's "full servo-harness" → `servo-harness full` (from `N26.qmsystem`, no stats, correct since his card says the benefits are already baked into his profile); the Harvest Lord's "paired heavy chain cleavers" → `paired heavy chain cleavers*` (from the Corpse Grinder Cult template, asterisk included, `SR:E•LR-•Str:S•AP-2•L2`, `Melee, Paired (2), Shred (6+)`).
+- **Note on the source PDF**: it has **67 pages**, not the 25 an early regex check suggested — that had matched a nested `/Pages` node. Sections beyond page 26 remain unread.
+
+## Unaffiliated Most Wanted.qmtemplate
+
+- **Built from pages 27–33**, same minimal pattern: no `Items`, no allowances, no `Reputation`/`Stash`, no `XP`/`Advancements`/`Lasting Injuries`, gear hard-coded, `Version` 20260826. 17 Champions, no pets, no discounts, so no `Command` key appears anywhere in the file.
+- **Two Wyrds get pre-selected `Magic` slots**, following the Yageloth pattern: Ortruum 8-8 (Force Blast, Terrify, Weapon Jinx) and Thaetos 23-2 (Force Blast, Flaming Weapon, Quickening). Power names were taken verbatim from the generic `Wyrd Powers` category now present in `N26.qmsystem`, including their action-type suffixes, so they match the system exactly.
+- **Ortruum 8-8 has no `Equipment` key at all** — his card says "has no equipment", matching the Deacon Malakev / Psychic Familiar precedent.
+- **Vandoth the Fallen's "Agent of Order" is an *exclusion* list, not a restriction we can express**: he cannot be hired by Corpse Grinder Cult, Genestealer Cult (or Corrupted), Chaos Helot (or Corrupted), Malstrain (or Corrupted), or Ash Waste Nomad gangs. A `Prerequisite` states what is required, not what is forbidden, and enumerating every *permitted* gang would be brittle. Left as a name in `Special Rules` — the one restriction in this book that has no structural home.
+- **Three fighters have "hired as if he was a Hanger-on" alternatives** — Silberlant Sevos (Whisper Merchant), Bigby Crumb (Slopper), Doctor Arachnos (Rogue Doc) — see the cross-template note below; each now appears in both roles.
+- **Duplicate equipment entries are intentional where the card says so**: Vunder Gorvos carries `stub gun` twice ("two stub guns"). Fighters with "a shotgun with solid & scatter ammo" get both ammo profiles as separate fixed entries, as established.
+- **`gunk bombs` L column prints as `-`** rather than a number, transcribed as `L-` in `Stats` — same treatment as other blank columns.
+- Unmodelled, name-only in `Special Rules`: Vox Disruption, Well Fed, Medical Mechadendrites, Soul Hound, Feral Warrior (+1 Attack while Injured), and the `slop pot`'s deployable-model behaviour.
+
+
+## Cross-template: Hanger-on alternatives duplicated into the Hanger-on role
+
+- **Four fighters may be "hired as if" they were a Hanger-on**, and on instruction each now appears in *both* roles as a selectable option rather than only as a Champion: Silberlant Sevos, Bigby Crumb and Doctor Arachnos in `Unaffiliated Most Wanted`, and Ragnir Gunnstein in `Ironhead Squat Prospectors`.
+- **The Hanger-on copy differs from the Champion in exactly two ways**, matching the cards: the type string becomes `Fighter (Hanger-on)` (dropping Champion and Loner), and `XP: 13` is added — the only `XP` keys anywhere in these Most Wanted templates, since the Champion versions are all "Starting XP N/A". Points and equipment are identical; no card changes the cost.
+- **The alt-hire rule name is replaced by the rule actually gained**, since in the Hanger-on form the conversion has already happened: `Whisper Merchant` → `Useful Lies`, `Slopper` → `"Grub's Up!"`, `Rogue Doc` → `Patch-up`, `Ammo-Jack` → `Gun-smith`. Every other named rule and skill carries across unchanged.
+- **Skill access was *not* added**, though the cards also say each gains "the same skill access as a \<Hanger-on type\>". Three of the four could be sourced from `Supplementary Fighters` (Rogue Doc Agility-S/Savant-P, Ammo-Jack Savant-S/Shooting-P, Slopper Brawn-S/Savant-P), but Whisper Merchant is defined on page 56 of the source PDF, which has not been read. Left off all four rather than doing three and guessing one — worth adding once that page is transcribed.
+- **Each name now appears twice within its template** (once per role). That is what "appear in both roles as options" requires, but it is worth confirming the app distinguishes them by class rather than by name.
+- **"May not purchase or be equipped with additional weapons or wargear"** needed no handling — these templates carry no item allowances at all.
