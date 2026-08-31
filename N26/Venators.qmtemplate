@@ -265,6 +265,8 @@
 					<string>M=8"</string>
 				</dict>
 			</array>
+			<key>Single Selection</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -720,6 +722,8 @@
 					<string>M=7"</string>
 				</dict>
 			</array>
+			<key>Single Selection</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>Category</key>
@@ -1030,7 +1034,7 @@
 					<key>Points</key>
 					<real>45</real>
 					<key>Special Rules</key>
-					<string>Additional Attack (1), Light, Power Pack, Rapid Fire (1)</string>
+					<string>Additional Attacks (1), Light, Power Pack, Rapid Fire (1)</string>
 					<key>Stats</key>
 					<string>SR4"•LR10"•Str4•AP-1•L1</string>
 				</dict>
@@ -1042,7 +1046,7 @@
 					<key>Points</key>
 					<real>75</real>
 					<key>Special Rules</key>
-					<string>Ammo (6+), Additional Attack (1), Damage (2), Light, Power Pack</string>
+					<string>Ammo (6+), Additional Attacks (1), Damage (2), Light, Power Pack</string>
 					<key>Stats</key>
 					<string>SR2"•LR4"•Str5•AP-2•L2</string>
 				</dict>
@@ -1123,7 +1127,7 @@
 					<key>Points</key>
 					<real>40</real>
 					<key>Special Rules</key>
-					<string>Additional Attack (1), Melee, Power Pack, Shred (6+)</string>
+					<string>Additional Attacks (1), Melee, Power Pack, Shred (6+)</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+1•AP-1•L1</string>
 				</dict>
@@ -1135,7 +1139,7 @@
 					<key>Points</key>
 					<real>25</real>
 					<key>Special Rules</key>
-					<string>Additional Attack (1), Melee, Power Pack</string>
+					<string>Additional Attacks (1), Melee, Power Pack</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str3•AP-1•L1</string>
 				</dict>
@@ -1147,7 +1151,7 @@
 					<key>Points</key>
 					<real>30</real>
 					<key>Special Rules</key>
-					<string>Additional Attack (1), Melee, Power Pack</string>
+					<string>Additional Attacks (1), Melee, Power Pack</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+1•AP-•L1</string>
 				</dict>
@@ -1159,7 +1163,7 @@
 					<key>Points</key>
 					<real>80</real>
 					<key>Special Rules</key>
-					<string>Additional Attack (1), Blaze (5+), Melee, Power Pack</string>
+					<string>Additional Attacks (1), Blaze (5+), Melee, Power Pack</string>
 					<key>Stats</key>
 					<string>SR:E•LR-•Str:S+2•AP-2•L2</string>
 				</dict>
@@ -10079,6 +10083,70 @@
 					<integer>1</integer>
 					<key>Minimum Size</key>
 					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Svenotar Scout Trike</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Svenotar autogun</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR8"•LR24"•Str3•AP-•L1</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar boltgun</string>
+											<key>Points</key>
+											<real>35</real>
+											<key>Special Rules</key>
+											<string>Ammo (3+), Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR12"•LR24"•Str4•AP-1•L2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar meltagun</string>
+											<key>Points</key>
+											<real>70</real>
+											<key>Special Rules</key>
+											<string>Ammo (6+), Arc (Centreline), Damage (3), Rapid Fire (1)</string>
+											<key>Stats</key>
+											<string>SR6"•LR12"•Str8•AP-4•L3</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>80</real>
+								<key>Special Rules</key>
+								<string>Mounted</string>
+								<key>Stats</key>
+								<string>M=8"</string>
+							</dict>
+						</array>
+					</array>
 					<key>Name</key>
 					<string>Squat Hunt Leader</string>
 					<key>Points</key>
@@ -19055,6 +19123,70 @@
 					<integer>1</integer>
 					<key>Minimum Size</key>
 					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Svenotar Scout Trike</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Svenotar autogun</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR8"•LR24"•Str3•AP-•L1</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar boltgun</string>
+											<key>Points</key>
+											<real>35</real>
+											<key>Special Rules</key>
+											<string>Ammo (3+), Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR12"•LR24"•Str4•AP-1•L2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar meltagun</string>
+											<key>Points</key>
+											<real>70</real>
+											<key>Special Rules</key>
+											<string>Ammo (6+), Arc (Centreline), Damage (3), Rapid Fire (1)</string>
+											<key>Stats</key>
+											<string>SR6"•LR12"•Str8•AP-4•L3</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>80</real>
+								<key>Special Rules</key>
+								<string>Mounted</string>
+								<key>Stats</key>
+								<string>M=8"</string>
+							</dict>
+						</array>
+					</array>
 					<key>Name</key>
 					<string>Squat Hunt Champion</string>
 					<key>Points</key>
@@ -28268,6 +28400,70 @@
 					<integer>1</integer>
 					<key>Minimum Size</key>
 					<integer>1</integer>
+					<key>Mount</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Svenotar Scout Trike</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Svenotar autogun</string>
+											<key>Points</key>
+											<real>0.0</real>
+											<key>Special Rules</key>
+											<string>Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR8"•LR24"•Str3•AP-•L1</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar boltgun</string>
+											<key>Points</key>
+											<real>35</real>
+											<key>Special Rules</key>
+											<string>Ammo (3+), Arc (Centreline), Rapid Fire (1), Reliable, Twin-linked</string>
+											<key>Stats</key>
+											<string>SR12"•LR24"•Str4•AP-1•L2</string>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Svenotar meltagun</string>
+											<key>Points</key>
+											<real>70</real>
+											<key>Special Rules</key>
+											<string>Ammo (6+), Arc (Centreline), Damage (3), Rapid Fire (1)</string>
+											<key>Stats</key>
+											<string>SR6"•LR12"•Str8•AP-4•L3</string>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>80</real>
+								<key>Special Rules</key>
+								<string>Mounted</string>
+								<key>Stats</key>
+								<string>M=8"</string>
+							</dict>
+						</array>
+					</array>
 					<key>Name</key>
 					<string>Squat Hunter</string>
 					<key>Points</key>
@@ -29962,6 +30158,6 @@
 	<key>System</key>
 	<string>N26</string>
 	<key>Version</key>
-	<integer>20260811</integer>
+	<integer>20260824</integer>
 </dict>
 </plist>
