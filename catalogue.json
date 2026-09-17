@@ -325,10 +325,50 @@
         },
         {
             "id": "N26",
-            "gameSystemVersion": 20260905,
+            "gameSystemVersion": 20260917,
             "name": "Necromunda 26",
-            "notes": "Necromunda's Most Wanted, September Errata",
+            "notes": "Escher: The House of Blades, Goliath: The House of Chains",
             "templateGroups": [
+                {
+                    "name": "House Escher",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Escher",
+                            "version": 20260917,
+                            "name": "House Escher"
+                        },
+                        {
+                            "id": "N26-Chymist_Cult",
+                            "version": 20260917,
+                            "name": "Chymist Cult"
+                        },
+                        {
+                            "id": "N26-Wyld_Hunt",
+                            "version": 20260917,
+                            "name": "Wyld Hunt"
+                        }
+                    ]
+                },
+                {
+                    "name": "House Goliath",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Goliath",
+                            "version": 20260917,
+                            "name": "House Goliath"
+                        },
+                        {
+                            "id": "N26-Furnace_Brutes",
+                            "version": 20260917,
+                            "name": "Furnace Brutes"
+                        },
+                        {
+                            "id": "N26-Unborn",
+                            "version": 20260917,
+                            "name": "Unborn"
+                        }
+                    ]
+                },
                 {
                     "name": "Clan Houses",
                     "factionTemplates": [
@@ -341,16 +381,6 @@
                             "id": "N26-House_Delaque",
                             "version": 20260826,
                             "name": "House Delaque"
-                        },
-                        {
-                            "id": "N26-House_Escher",
-                            "version": 20260826,
-                            "name": "House Escher"
-                        },
-                        {
-                            "id": "N26-House_Goliath",
-                            "version": 20260826,
-                            "name": "House Goliath"
                         },
                         {
                             "id": "N26-House_Orlock",
