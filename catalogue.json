@@ -1,6 +1,174 @@
 {
     "gameSystems": [
         {
+            "id": "N26",
+            "gameSystemVersion": 20260919,
+            "name": "Necromunda 26",
+            "notes": "Escher: The House of Blades, Goliath: The House of Chains",
+            "templateGroups": [
+                {
+                    "name": "House Escher",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Escher",
+                            "version": 20260919,
+                            "name": "House Escher"
+                        },
+                        {
+                            "id": "N26-Chymist_Cult",
+                            "version": 20260919,
+                            "name": "Chymist Cult"
+                        },
+                        {
+                            "id": "N26-Wyld_Hunt",
+                            "version": 20260919,
+                            "name": "Wyld Hunt"
+                        }
+                    ]
+                },
+                {
+                    "name": "House Goliath",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Goliath",
+                            "version": 20260919,
+                            "name": "House Goliath"
+                        },
+                        {
+                            "id": "N26-Furnace_Brutes",
+                            "version": 20260919,
+                            "name": "Furnace Brutes"
+                        },
+                        {
+                            "id": "N26-Unborn",
+                            "version": 20260919,
+                            "name": "Unborn"
+                        }
+                    ]
+                },
+                {
+                    "name": "Clan Houses",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-House_Cawdor",
+                            "version": 20260905,
+                            "name": "House Cawdor"
+                        },
+                        {
+                            "id": "N26-House_Delaque",
+                            "version": 20260826,
+                            "name": "House Delaque"
+                        },
+                        {
+                            "id": "N26-House_Orlock",
+                            "version": 20260905,
+                            "name": "House Orlock"
+                        },
+                        {
+                            "id": "N26-House_Van_Saar",
+                            "version": 20260905,
+                            "name": "House Van Saar"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gangs of The Underhive",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-Palanite_Enforcers",
+                            "version": 20260820,
+                            "name": "Palanite Enforcers"
+                        },
+                        {
+                            "id": "N26-Venators",
+                            "version": 20260824,
+                            "name": "Venators"
+                        },
+                        {
+                            "id": "N26-Corpse_Grinder_Cult",
+                            "version": 20260905,
+                            "name": "Corpse Grinder Cult"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gangs of The Outlands",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-Outcasts",
+                            "version": 20260831,
+                            "name": "Outcasts"
+                        },
+                        {
+                            "id": "N26-Free_Ogryns",
+                            "version": 20260820,
+                            "name": "Free Ogryns"
+                        },
+                        {
+                            "id": "N26-Genestealer_Cult",
+                            "version": 20260820,
+                            "name": "Genestealer Cult"
+                        },
+                        {
+                            "id": "N26-Chaos_Helots",
+                            "version": 20260820,
+                            "name": "Chaos Helots"
+                        },
+                        {
+                            "id": "N26-Malstrain",
+                            "version": 20260820,
+                            "name": "Malstrain"
+                        },
+                        {
+                            "id": "N26-Spyrer_Hunters",
+                            "version": 20260824,
+                            "name": "Spyrer Hunters"
+                        },
+                        {
+                            "id": "N26-Ironhead_Squat_Prospectors",
+                            "version": 20260905,
+                            "name": "Ironhead Squat Prospectors"
+                        },
+                        {
+                            "id": "N26-Ash_Waste_Nomads",
+                            "version": 20260828,
+                            "name": "Ash Waste Nomads"
+                        }
+                    ]
+                },
+                {
+                    "name": "Supplementary Fighters",
+                    "factionTemplates": [
+                        {
+                            "id": "N26-Alliances",
+                            "version": 20260826,
+                            "name": "Alliances"
+                        },
+                        {
+                            "id": "N26-Supplementary_Fighters",
+                            "version": 20260824,
+                            "name": "Supplementary Fighters"
+                        },
+                        {
+                            "id": "N26-Clan_Houses_Most_Wanted",
+                            "version": 20260828,
+                            "name": "Clan Houses Most Wanted"
+                        },
+                        {
+                            "id": "N26-Nobles_&_Guilds_Most_Wanted",
+                            "version": 20260828,
+                            "name": "Nobles & Guilds Most Wanted"
+                        },
+                        {
+                            "id": "N26-Unaffiliated_Most_Wanted",
+                            "version": 20260828,
+                            "name": "Unaffiliated Most Wanted"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "TOW",
             "gameSystemVersion": 20260824,
             "name": "Warhammer: The Old World",
@@ -318,174 +486,6 @@
                             "id": "TOW-Vampire_Counts",
                             "version": 20260824,
                             "name": "Vampire Counts"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "N26",
-            "gameSystemVersion": 20260919,
-            "name": "Necromunda 26",
-            "notes": "Escher: The House of Blades, Goliath: The House of Chains",
-            "templateGroups": [
-                {
-                    "name": "House Escher",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-House_Escher",
-                            "version": 20260919,
-                            "name": "House Escher"
-                        },
-                        {
-                            "id": "N26-Chymist_Cult",
-                            "version": 20260919,
-                            "name": "Chymist Cult"
-                        },
-                        {
-                            "id": "N26-Wyld_Hunt",
-                            "version": 20260919,
-                            "name": "Wyld Hunt"
-                        }
-                    ]
-                },
-                {
-                    "name": "House Goliath",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-House_Goliath",
-                            "version": 20260919,
-                            "name": "House Goliath"
-                        },
-                        {
-                            "id": "N26-Furnace_Brutes",
-                            "version": 20260919,
-                            "name": "Furnace Brutes"
-                        },
-                        {
-                            "id": "N26-Unborn",
-                            "version": 20260919,
-                            "name": "Unborn"
-                        }
-                    ]
-                },
-                {
-                    "name": "Clan Houses",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-House_Cawdor",
-                            "version": 20260905,
-                            "name": "House Cawdor"
-                        },
-                        {
-                            "id": "N26-House_Delaque",
-                            "version": 20260826,
-                            "name": "House Delaque"
-                        },
-                        {
-                            "id": "N26-House_Orlock",
-                            "version": 20260905,
-                            "name": "House Orlock"
-                        },
-                        {
-                            "id": "N26-House_Van_Saar",
-                            "version": 20260905,
-                            "name": "House Van Saar"
-                        }
-                    ]
-                },
-                {
-                    "name": "Gangs of The Underhive",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-Palanite_Enforcers",
-                            "version": 20260820,
-                            "name": "Palanite Enforcers"
-                        },
-                        {
-                            "id": "N26-Venators",
-                            "version": 20260824,
-                            "name": "Venators"
-                        },
-                        {
-                            "id": "N26-Corpse_Grinder_Cult",
-                            "version": 20260905,
-                            "name": "Corpse Grinder Cult"
-                        }
-                    ]
-                },
-                {
-                    "name": "Gangs of The Outlands",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-Outcasts",
-                            "version": 20260831,
-                            "name": "Outcasts"
-                        },
-                        {
-                            "id": "N26-Free_Ogryns",
-                            "version": 20260820,
-                            "name": "Free Ogryns"
-                        },
-                        {
-                            "id": "N26-Genestealer_Cult",
-                            "version": 20260820,
-                            "name": "Genestealer Cult"
-                        },
-                        {
-                            "id": "N26-Chaos_Helots",
-                            "version": 20260820,
-                            "name": "Chaos Helots"
-                        },
-                        {
-                            "id": "N26-Malstrain",
-                            "version": 20260820,
-                            "name": "Malstrain"
-                        },
-                        {
-                            "id": "N26-Spyrer_Hunters",
-                            "version": 20260824,
-                            "name": "Spyrer Hunters"
-                        },
-                        {
-                            "id": "N26-Ironhead_Squat_Prospectors",
-                            "version": 20260905,
-                            "name": "Ironhead Squat Prospectors"
-                        },
-                        {
-                            "id": "N26-Ash_Waste_Nomads",
-                            "version": 20260828,
-                            "name": "Ash Waste Nomads"
-                        }
-                    ]
-                },
-                {
-                    "name": "Supplementary Fighters",
-                    "factionTemplates": [
-                        {
-                            "id": "N26-Alliances",
-                            "version": 20260826,
-                            "name": "Alliances"
-                        },
-                        {
-                            "id": "N26-Supplementary_Fighters",
-                            "version": 20260824,
-                            "name": "Supplementary Fighters"
-                        },
-                        {
-                            "id": "N26-Clan_Houses_Most_Wanted",
-                            "version": 20260828,
-                            "name": "Clan Houses Most Wanted"
-                        },
-                        {
-                            "id": "N26-Nobles_&_Guilds_Most_Wanted",
-                            "version": 20260828,
-                            "name": "Nobles & Guilds Most Wanted"
-                        },
-                        {
-                            "id": "N26-Unaffiliated_Most_Wanted",
-                            "version": 20260828,
-                            "name": "Unaffiliated Most Wanted"
                         }
                     ]
                 }
