@@ -8486,13 +8486,30 @@
 						<array>
 							<dict>
 								<key>Count</key>
-								<integer>1</integer>
+								<integer>2</integer>
 								<key>Default</key>
 								<true/>
 								<key>Maximum</key>
-								<real>1</real>
+								<real>2</real>
 								<key>Name</key>
-								<string>2 heavy flamers, 2 Decimator claws</string>
+								<string>Decimator claw</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>heavy flamer</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -8500,7 +8517,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>heavy flamer, Decimator claw, butcher cannon</string>
+								<string>butcher cannon</string>
 								<key>Points</key>
 								<real>20</real>
 							</dict>
@@ -8508,7 +8525,7 @@
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
-								<string>heavy flamer, Decimator claw, soulburner petard</string>
+								<string>soulburner petard</string>
 								<key>Points</key>
 								<real>15</real>
 							</dict>
@@ -11655,6 +11672,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20260802</integer>
+	<integer>20261013</integer>
 </dict>
 </plist>

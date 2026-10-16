@@ -2976,6 +2976,134 @@
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Discipline Master Cadre</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Infantry Troop</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Levy Troop</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Militia Medicae</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Fire Support Troop</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Helot Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Solar Auxilia with Oblitum Pattern Cohort Doctrine, Veletaris Tercio</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Solar Auxilia</string>
+				</dict>
 			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
@@ -17363,6 +17491,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20260802</integer>
+	<integer>20261011</integer>
 </dict>
 </plist>

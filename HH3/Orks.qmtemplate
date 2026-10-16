@@ -500,6 +500,79 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Legion Heavy Weapons</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>heavy bolter</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>heavy flamer</string>
+					<key>Points</key>
+					<real>10</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>autocannon</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>missile launcher</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>multi-melta</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>plasma cannon</string>
+					<key>Points</key>
+					<real>20</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>volkite culverin</string>
+					<key>Points</key>
+					<real>15</real>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Legion Heavy Weapons</string>
+					<key>Name</key>
+					<string>lascannon</string>
+					<key>Points</key>
+					<real>25</real>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>Organisation</key>
 	<array>
@@ -738,6 +811,730 @@
 					<true/>
 					<key>Points</key>
 					<real>0.0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>4</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Strike Force Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Bulwark Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0.0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Linebreaker Primary Detachment</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0.0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Zone Mortalis</string>
+					</array>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -2750,7 +3547,157 @@
 			<key>Lower Limit</key>
 			<real>0.0</real>
 			<key>Units</key>
-			<array/>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Clan</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Bad Moons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Blood Axes</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Death Skulls</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Evil Suns</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Bad Moons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Snakebites</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Freebooters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>twin dakkaguns</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>kustom mega-blasta</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Klaw of Gork (or possibly Mork)</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>ammo runt</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Bad Moons / Freebooters</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Primork</string>
+					<key>Points</key>
+					<real>350</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Xenos, [Orks], Prophet of the Waaagh!; Biggest an’ da Best, Bulky (4), Eternal Warrior (1), Fear (1), Feel No Pain (6+), Impact (S &amp; A), Implacable Advance, Mob Rule (LD), Slow and Purposeful; Paragon</string>
+					<key>Stats</key>
+					<string>M6•WS6•BS2•S6•T6•W5•I3•A5•LD9•CL10•WP9•IN7•SAV2+•INV4+</string>
+				</dict>
+			</array>
 			<key>Upper Limit</key>
 			<real>-1</real>
 		</dict>
@@ -3084,7 +4031,7 @@
 					<key>Name</key>
 					<string>Warboss</string>
 					<key>Points</key>
-					<real>90</real>
+					<real>110</real>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -3238,6 +4185,14 @@
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>big choppa</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
 						</array>
 						<array>
 							<dict>
@@ -3263,7 +4218,7 @@
 					<key>Name</key>
 					<string>Mega Warboss</string>
 					<key>Points</key>
-					<real>130</real>
+					<real>150</real>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -3372,13 +4327,13 @@
 					<key>Name</key>
 					<string>Kustom Meka-dread</string>
 					<key>Points</key>
-					<real>180</real>
+					<real>230</real>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
 					<string>Xenos, [Orks]; Battlesmith (2), Bulky (8), Explodes (4+), Implacable Advance; Walker (Heavy)</string>
 					<key>Stats</key>
-					<string>M6•WS4•BS2•S8•T8•W7•I2•A4•LD12•CL10•WP7•IN6•SAV2+•INV5+</string>
+					<string>M6•WS4•BS3•S8•T8•W7•I2•A4•LD12•CL10•WP7•IN8•SAV2+•INV5+</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -5562,7 +6517,7 @@
 					<key>Special Rules</key>
 					<string>Xenos, [Orks]; Cyborks, Feel No Pain (5+), Impact (S), Medic (4+), Mob Rule (CL); Infantry (Command)</string>
 					<key>Stats</key>
-					<string>M6•WS5•BS2•S4•T4•W3•I3•A3•LD7•CL8•WP8•IN8•SAV4+•INV-</string>
+					<string>M6•WS5•BS2•S4•T4•W3•I3•A3•LD7•CL8•WP8•IN8•SAV4+•INV5+</string>
 					<key>Tallies</key>
 					<array>
 						<dict>
@@ -8509,7 +9464,7 @@
 					<key>Size</key>
 					<integer>10</integer>
 					<key>Special Rules</key>
-					<string>Xenos, [Orks]; Impact (S), Line (2), Mob Rule (CL); Infantry (Light)</string>
+					<string>Xenos, [Orks]; Impact (S), Line (1), Mob Rule (CL); Infantry (Light)</string>
 					<key>Stats</key>
 					<string>M6•WS4•BS2•S3•T4•W1•I2•A2•LD6•CL7•WP6•IN5•SAV4+•INV-</string>
 				</dict>
@@ -8807,6 +9762,8 @@
 						</array>
 						<array>
 							<dict>
+								<key>Additional</key>
+								<true/>
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Magic Items</key>
@@ -8840,7 +9797,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>10</real>
 								<key>Special Rules</key>
 								<string>Battlesmith (1)</string>
 								<key>Stats</key>
@@ -9058,6 +10015,8 @@
 						</array>
 						<array>
 							<dict>
+								<key>Additional</key>
+								<true/>
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Magic Items</key>
@@ -9091,7 +10050,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>10</real>
 								<key>Special Rules</key>
 								<string>Battlesmith (1)</string>
 								<key>Stats</key>
@@ -9103,12 +10062,41 @@
 					<array>
 						<array>
 							<dict>
+								<key>Count</key>
+								<integer>5</integer>
 								<key>Default</key>
 								<true/>
-								<key>Equipped</key>
-								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
 								<key>Name</key>
-								<string>deffguns</string>
+								<string>deffgun</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Nemesis bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Legion Heavy Weapons</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Legion Heavy Weapons</string>
 								<key>Points</key>
 								<real>0.0</real>
 							</dict>
@@ -9219,7 +10207,7 @@
 					<key>Plural Name</key>
 					<string>Lootas</string>
 					<key>Points</key>
-					<real>14</real>
+					<real>9</real>
 					<key>Size</key>
 					<integer>5</integer>
 					<key>Special Rules</key>
@@ -13441,7 +14429,7 @@
 								<key>Name</key>
 								<string>tusks and stomping feet</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>10</real>
 							</dict>
 						</array>
 						<array>
@@ -13466,14 +14454,16 @@
 						</array>
 						<array>
 							<dict>
+								<key>Count</key>
+								<integer>1</integer>
 								<key>Default</key>
 								<true/>
-								<key>Equipped</key>
-								<true/>
+								<key>Maximum</key>
+								<real>1</real>
 								<key>Name</key>
 								<string>stikkbombs</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>6</real>
 							</dict>
 						</array>
 						<array>
@@ -21084,6 +22074,240 @@
 					<string>M10•BS2•AF14•AS13•AR11•HP10•TC-</string>
 				</dict>
 				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Clan</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Bad Moons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Blood Axes</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Death Skulls</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Evil Suns</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Bad Moons</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Snakebites</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Freebooters</string>
+											<key>Points</key>
+											<real>0.0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Turret Mounted big zzappa</string>
+								<key>Points</key>
+								<real>30</real>
+								<key>Stats</key>
+								<string>TC-10</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Turret Mounted flakka gunz</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Stats</key>
+								<string>TC-10</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Turret Mounted killkannon</string>
+								<key>Points</key>
+								<real>35</real>
+								<key>Stats</key>
+								<string>TC-10</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Turret Mounted supa lobba</string>
+								<key>Points</key>
+								<real>40</real>
+								<key>Stats</key>
+								<string>TC-10</string>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Turret Mounted supa kannon</string>
+								<key>Points</key>
+								<real>50</real>
+								<key>Stats</key>
+								<string>TC-10</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>grot riggers</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>deff rolla</string>
+								<key>Points</key>
+								<real>0.0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>assault gubbins</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>grot gunners</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>red paint job</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Evil Sunz</string>
+								</array>
+								<key>Stats</key>
+								<string>M+2</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>3</real>
+							<key>Name</key>
+							<string>Ork Big Gunz</string>
+						</dict>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>5</real>
+							<key>Name</key>
+							<string>Ork Pintle Weapons</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Battle Fortress</string>
+					<key>Points</key>
+					<real>290</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Xenos, [Orks]; Explodes (5+); Vehicle (Super-heavy, Rapid)</string>
+					<key>Stats</key>
+					<string>M9•BS2•AF14•AS13•AR11•HP12•TC30</string>
+				</dict>
+				<dict>
 					<key>Equipment</key>
 					<array>
 						<array>
@@ -24816,6 +26040,6 @@
 	<key>System</key>
 	<string>HH3</string>
 	<key>Version</key>
-	<integer>20251012</integer>
+	<integer>20261015</integer>
 </dict>
 </plist>
