@@ -64670,6 +64670,10 @@
 				<dict>
 					<key>Name</key>
 					<string>The Spoils of Victory</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Reapers of Lives or Blade of the Just</string>
+					</array>
 				</dict>
 				<dict>
 					<key>Name</key>
@@ -64706,10 +64710,18 @@
 				<dict>
 					<key>Name</key>
 					<string>The Blade of the Just</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Reapers of Lives or Spoils of Victory</string>
+					</array>
 				</dict>
 				<dict>
 					<key>Name</key>
 					<string>The Reapers of Lives</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Spoils of Victory or Blade of the Just</string>
+					</array>
 				</dict>
 				<dict>
 					<key>Name</key>
