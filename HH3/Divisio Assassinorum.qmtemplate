@@ -10,7 +10,7 @@
 			<key>Class</key>
 			<string>Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -27,12 +27,20 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -44,7 +52,7 @@
 								<key>Name</key>
 								<string>Loyalist</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -52,7 +60,7 @@
 								<key>Name</key>
 								<string>Traitor</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -65,7 +73,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Clade Operative Prime Advantage</string>
@@ -81,7 +89,7 @@
 			<key>Class</key>
 			<string>Auxiliary Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -91,7 +99,7 @@
 			<key>Class</key>
 			<string>Apex Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -101,7 +109,7 @@
 			<key>Class</key>
 			<string>Warlord</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -111,7 +119,7 @@
 			<key>Class</key>
 			<string>High Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -121,7 +129,7 @@
 			<key>Class</key>
 			<string>Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -131,7 +139,7 @@
 			<key>Class</key>
 			<string>Retinue</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -141,7 +149,7 @@
 			<key>Class</key>
 			<string>Elites</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -151,7 +159,7 @@
 			<key>Class</key>
 			<string>Heavy Assault</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -161,7 +169,7 @@
 			<key>Class</key>
 			<string>Troops</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -171,7 +179,7 @@
 			<key>Class</key>
 			<string>Support</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -188,7 +196,7 @@
 								<key>Name</key>
 								<string>needlespine blaster</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -202,7 +210,7 @@
 								<key>Name</key>
 								<string>Nemesii blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -216,7 +224,7 @@
 								<key>Name</key>
 								<string>Nemesii grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -249,7 +257,7 @@
 								<key>Name</key>
 								<string>neural shredder</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -263,7 +271,7 @@
 								<key>Name</key>
 								<string>poison blades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -277,7 +285,7 @@
 								<key>Name</key>
 								<string>phase sword</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -310,7 +318,7 @@
 								<key>Name</key>
 								<string>Animus speculum</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -324,7 +332,7 @@
 								<key>Name</key>
 								<string>psyk-out bombs</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -357,7 +365,7 @@
 								<key>Name</key>
 								<string>Executioner pistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -371,7 +379,7 @@
 								<key>Name</key>
 								<string>Neuro-gauntlet</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -385,7 +393,7 @@
 								<key>Name</key>
 								<string>power sword</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -418,7 +426,7 @@
 								<key>Name</key>
 								<string>2 laspistols</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -432,7 +440,7 @@
 								<key>Name</key>
 								<string>sympatic dataspikes</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -465,7 +473,7 @@
 								<key>Name</key>
 								<string>toxin ejector</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -479,7 +487,7 @@
 								<key>Name</key>
 								<string>poison globes</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -493,7 +501,7 @@
 								<key>Name</key>
 								<string>Hookfang</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -526,7 +534,7 @@
 								<key>Name</key>
 								<string>Exitus rifle</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -540,7 +548,7 @@
 								<key>Name</key>
 								<string>Exitus pistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -554,7 +562,7 @@
 								<key>Name</key>
 								<string>Assassin’s blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -581,7 +589,7 @@
 			<key>Class</key>
 			<string>War-engine</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -591,7 +599,7 @@
 			<key>Class</key>
 			<string>Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -601,7 +609,7 @@
 			<key>Class</key>
 			<string>Heavy Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -611,7 +619,7 @@
 			<key>Class</key>
 			<string>Recon</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -621,7 +629,7 @@
 			<key>Class</key>
 			<string>Fast Attack</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -631,7 +639,7 @@
 			<key>Class</key>
 			<string>Armour</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -641,7 +649,7 @@
 			<key>Class</key>
 			<string>Lord of War</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>

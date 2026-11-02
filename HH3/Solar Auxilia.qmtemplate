@@ -117,7 +117,7 @@
 					<key>Name</key>
 					<string>Hull Mounted heavy bolter</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -125,7 +125,7 @@
 					<key>Name</key>
 					<string>Hull Mounted heavy flamer</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -133,7 +133,7 @@
 					<key>Name</key>
 					<string>Hull Mounted multi-laser</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -166,7 +166,7 @@
 					<key>Name</key>
 					<string>Sponson Mounted heavy bolters</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -174,7 +174,7 @@
 					<key>Name</key>
 					<string>Sponson Mounted heavy flamers</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -182,7 +182,7 @@
 					<key>Name</key>
 					<string>Sponson Mounted multiple-lasers</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 				</dict>
 				<dict>
 					<key>Category</key>
@@ -242,329 +242,28 @@
 			<key>Class</key>
 			<string>Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
-			<key>Units</key>
+			<real>0</real>
+			<key>Unit Limits</key>
 			<array>
 				<dict>
-					<key>Command</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Ultima Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Coordinated Manoeuvres; Additional Detachments (Infantry Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Solar Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Shock Assault; Additional Detachments (Veletaris Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Reconnaissance Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Strike and Fade; Additional Detachments (Scout Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Mechanised Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Rolling Advance; Additional Detachments (Armour Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Siege Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Ceaseless Bombardment; Additional Detachments (Artillery Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Iron Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Special Rules</key>
-								<string>Iron over Flesh</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Oblitum Pattern Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Loyalist</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Psycho-conditioned; Imperial Writ; Additional Detachments (Helot Tercio)</string>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Fateweaver Cohort</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Traitor</string>
-								</array>
-								<key>Special Rules</key>
-								<string>Servants of the Empyrean; Additional Detachments (Ætheric Incursion)</string>
-							</dict>
-						</array>
-					</array>
 					<key>Lower Limit</key>
 					<integer>1</integer>
-					<key>Maximum Size</key>
-					<integer>0</integer>
-					<key>Minimum Size</key>
-					<integer>0</integer>
 					<key>Name</key>
-					<string>Cohort Doctrine</string>
-					<key>Per Unit</key>
-					<true/>
-					<key>Points</key>
-					<real>0.0</real>
-					<key>Size</key>
-					<integer>0</integer>
-					<key>Upper Limit</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>Command</key>
+					<string>Primary Detachment</string>
+					<key>Units</key>
 					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Calibanite Jaegers</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Dark Angels</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Archite Palatines</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Emperor’s Children</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Selucid Thorakites</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Iron Warriors</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Chogorian Limitanei</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>White Scars</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Fenrisian Kaerls</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Space Wolves</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Inwit Phalangites</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Imperial Fists</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Nostraman Damnatii</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Night Lords</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Saiphan Elevatii</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Blood Angels</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Medusan Chainshroud</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Iron Hands</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Nagrakal Thraexii</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>World Eaters</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Ultramar High Guard</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Ultramarines</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Barbaran Ambaxtoi</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Death Guard</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Prosperine Spireguard</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Thousand Sons</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Cthonian Headhunters</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Sons of Horus</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Colchisian Torquatii</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Word Bearers</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Proximan Sacramentii</string>
-								<key>Options</key>
-								<array>
-									<array/>
-								</array>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Salamanders</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Therion Velites</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Raven Guard</string>
-								</array>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Sparatoi Vindicta</string>
-								<key>Points</key>
-								<real>0.0</real>
-								<key>Prerequisite</key>
-								<array>
-									<string>Alpha Legion</string>
-								</array>
-							</dict>
-						</array>
+						<string>Crusade Primary Detachment</string>
+						<string>Strike Force Primary Detachment</string>
+						<string>Bulwark Primary Detachment</string>
+						<string>Linebreaker Primary Detachment</string>
+						<string>Allied Detachment</string>
 					</array>
-					<key>Maximum Size</key>
-					<integer>1</integer>
-					<key>Minimum Size</key>
-					<integer>1</integer>
-					<key>Name</key>
-					<string>Legiones Auxilia Designation</string>
-					<key>Points</key>
-					<real>0.0</real>
-					<key>Size</key>
-					<integer>1</integer>
 					<key>Upper Limit</key>
 					<integer>1</integer>
 				</dict>
+			</array>
+			<key>Units</key>
+			<array>
 				<dict>
 					<key>Command</key>
 					<array>
@@ -579,7 +278,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -593,7 +292,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -616,7 +315,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -639,7 +338,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -651,7 +350,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -663,7 +362,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -675,7 +374,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -687,7 +386,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -699,7 +398,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -711,7 +410,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -723,7 +422,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -735,7 +434,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -747,7 +446,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -759,7 +458,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -771,7 +470,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -787,7 +486,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Clade Operative</string>
@@ -803,7 +502,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Cult Operative</string>
@@ -813,8 +512,6 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
-					<key>Lower Limit</key>
-					<integer>1</integer>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -826,7 +523,7 @@
 								<key>Name</key>
 								<string>Loyalist</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -834,7 +531,7 @@
 								<key>Name</key>
 								<string>Traitor</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -856,7 +553,7 @@
 											<key>Name</key>
 											<string>Ultima Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -864,7 +561,7 @@
 											<key>Name</key>
 											<string>Solar Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -872,7 +569,7 @@
 											<key>Name</key>
 											<string>Reconnaissance Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -880,7 +577,7 @@
 											<key>Name</key>
 											<string>Mechanised Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -888,7 +585,7 @@
 											<key>Name</key>
 											<string>Siege Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -896,12 +593,12 @@
 											<key>Name</key>
 											<string>Iron Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -923,7 +620,7 @@
 											<key>Name</key>
 											<string>Calibanite Jaegers</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -931,7 +628,7 @@
 											<key>Name</key>
 											<string>Archite Palatines</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -939,7 +636,7 @@
 											<key>Name</key>
 											<string>Selucid Thorakites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -947,7 +644,7 @@
 											<key>Name</key>
 											<string>Chogorian Limitanei</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -955,7 +652,7 @@
 											<key>Name</key>
 											<string>Fenrisian Kaerls</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -963,7 +660,7 @@
 											<key>Name</key>
 											<string>Inwit Phalangites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -971,7 +668,7 @@
 											<key>Name</key>
 											<string>Nostraman Damnatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -979,7 +676,7 @@
 											<key>Name</key>
 											<string>Saiphan Elevatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -987,7 +684,7 @@
 											<key>Name</key>
 											<string>Medusan Chainshroud</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -995,7 +692,7 @@
 											<key>Name</key>
 											<string>Nagrakal Thraexii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1003,7 +700,7 @@
 											<key>Name</key>
 											<string>Ultramar High Guard</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1011,7 +708,7 @@
 											<key>Name</key>
 											<string>Barbaran Ambaxtoi</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1019,7 +716,7 @@
 											<key>Name</key>
 											<string>Prosperine Spireguard</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1027,7 +724,7 @@
 											<key>Name</key>
 											<string>Cthonian Headhunters</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1035,7 +732,7 @@
 											<key>Name</key>
 											<string>Colchisian Torquatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1043,7 +740,7 @@
 											<key>Name</key>
 											<string>Proximan Sacramentii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1051,7 +748,7 @@
 											<key>Name</key>
 											<string>Therion Velites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -1059,12 +756,12 @@
 											<key>Name</key>
 											<string>Sparatoi Vindicta</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -1077,7 +774,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -1097,7 +794,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1111,7 +808,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1125,7 +822,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1148,7 +845,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1169,7 +866,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1181,7 +878,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1193,7 +890,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1205,7 +902,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1217,7 +914,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1229,7 +926,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1241,7 +938,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1253,7 +950,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1265,7 +962,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1277,7 +974,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1289,7 +986,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1299,6 +996,105 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Loyalist</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Traitor</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Dark Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>White Scars</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Space Wolves</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Imperial Fists</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Blood Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Iron Hands</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Ultramarines</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Salamanders</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Raven Guard</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1308,7 +1104,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -1332,7 +1128,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1346,7 +1142,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1360,7 +1156,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1383,7 +1179,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1406,7 +1202,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1418,7 +1214,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1430,7 +1226,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1442,7 +1238,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1454,7 +1250,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1466,7 +1262,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1478,7 +1274,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1490,7 +1286,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1502,7 +1298,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1514,7 +1310,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1526,7 +1322,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1538,7 +1334,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1548,6 +1344,105 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Loyalist</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Traitor</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Dark Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>White Scars</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Space Wolves</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Imperial Fists</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Blood Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Iron Hands</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Ultramarines</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Salamanders</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Raven Guard</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1557,7 +1452,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -1581,7 +1476,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1595,7 +1490,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1609,7 +1504,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1632,7 +1527,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1646,7 +1541,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1658,7 +1553,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1670,7 +1565,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1682,7 +1577,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1694,7 +1589,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1706,7 +1601,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1718,7 +1613,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1730,7 +1625,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1742,7 +1637,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1754,7 +1649,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1766,7 +1661,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1778,7 +1673,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1788,6 +1683,105 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Loyalist</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Traitor</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Dark Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>White Scars</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Space Wolves</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Imperial Fists</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Blood Angels</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Iron Hands</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Ultramarines</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Salamanders</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Raven Guard</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1797,7 +1791,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -1821,7 +1815,7 @@
 								<key>Name</key>
 								<string>Warlord</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1835,7 +1829,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1849,12 +1843,14 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Limit From Points</key>
+					<real>3000</real>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1864,7 +1860,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>3,000+ points</string>
@@ -1888,7 +1884,7 @@
 								<key>Name</key>
 								<string>Lord of War</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -1903,7 +1899,9 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
+					<key>Points Limit</key>
+					<real>0.25</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>25% of total</string>
@@ -1927,7 +1925,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1950,7 +1948,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1962,7 +1960,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1974,7 +1972,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1986,7 +1984,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1998,7 +1996,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2010,7 +2008,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2022,7 +2020,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2034,7 +2032,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2046,7 +2044,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2058,7 +2056,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2070,7 +2068,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2082,7 +2080,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2113,7 +2111,7 @@
 											<key>Name</key>
 											<string>Ultima Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2121,7 +2119,7 @@
 											<key>Name</key>
 											<string>Solar Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2129,7 +2127,7 @@
 											<key>Name</key>
 											<string>Reconnaissance Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2137,7 +2135,7 @@
 											<key>Name</key>
 											<string>Mechanised Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2145,7 +2143,7 @@
 											<key>Name</key>
 											<string>Siege Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2153,12 +2151,12 @@
 											<key>Name</key>
 											<string>Iron Pattern Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2180,7 +2178,7 @@
 											<key>Name</key>
 											<string>Calibanite Jaegers</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2188,7 +2186,7 @@
 											<key>Name</key>
 											<string>Archite Palatines</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2196,7 +2194,7 @@
 											<key>Name</key>
 											<string>Selucid Thorakites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2204,7 +2202,7 @@
 											<key>Name</key>
 											<string>Chogorian Limitanei</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2212,7 +2210,7 @@
 											<key>Name</key>
 											<string>Fenrisian Kaerls</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2220,7 +2218,7 @@
 											<key>Name</key>
 											<string>Inwit Phalangites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2228,7 +2226,7 @@
 											<key>Name</key>
 											<string>Nostraman Damnatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2236,7 +2234,7 @@
 											<key>Name</key>
 											<string>Saiphan Elevatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2244,7 +2242,7 @@
 											<key>Name</key>
 											<string>Medusan Chainshroud</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2252,7 +2250,7 @@
 											<key>Name</key>
 											<string>Nagrakal Thraexii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2260,7 +2258,7 @@
 											<key>Name</key>
 											<string>Ultramar High Guard</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2268,7 +2266,7 @@
 											<key>Name</key>
 											<string>Barbaran Ambaxtoi</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2276,7 +2274,7 @@
 											<key>Name</key>
 											<string>Prosperine Spireguard</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2284,7 +2282,7 @@
 											<key>Name</key>
 											<string>Cthonian Headhunters</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2292,7 +2290,7 @@
 											<key>Name</key>
 											<string>Colchisian Torquatii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2300,7 +2298,7 @@
 											<key>Name</key>
 											<string>Proximan Sacramentii</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2308,7 +2306,7 @@
 											<key>Name</key>
 											<string>Therion Velites</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2316,12 +2314,12 @@
 											<key>Name</key>
 											<string>Sparatoi Vindicta</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -2334,7 +2332,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>50% of total</string>
@@ -2350,7 +2348,7 @@
 			<key>Class</key>
 			<string>Auxiliary Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -2367,7 +2365,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2381,12 +2379,20 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2396,7 +2402,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2414,7 +2420,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2428,12 +2434,20 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2443,7 +2457,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2461,12 +2475,20 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2476,7 +2498,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2494,12 +2516,20 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2509,7 +2539,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2527,12 +2557,20 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2542,7 +2580,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2560,12 +2598,20 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2575,7 +2621,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2593,12 +2639,20 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2608,7 +2662,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2636,7 +2690,7 @@
 											<key>Name</key>
 											<string>Veletaris Storm Section</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2644,7 +2698,7 @@
 											<key>Name</key>
 											<string>Veletaris Vanguard Section</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2652,12 +2706,12 @@
 											<key>Name</key>
 											<string>Veletaris Raider Section</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2690,12 +2744,12 @@
 											<key>Name</key>
 											<string>Hermes Veletaris Squadron</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2709,12 +2763,19 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Veletaris Command Section</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2724,10 +2785,139 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Veletaris Command Section</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Veletaris Tercio</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Veletaris Storm Section</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Veletaris Vanguard Section</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Veletaris Raider Section</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Hermes Veletaris Squadron</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Veletaris Tercio</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Additional Veletaris Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Solar Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -2758,12 +2948,12 @@
 											<key>Name</key>
 											<string>Lasrifle Section</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2796,12 +2986,12 @@
 											<key>Name</key>
 											<string>Hermes Light Sentinel Squadron</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2815,12 +3005,19 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Line Command Section</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2830,10 +3027,123 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Line Command Section</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Infantry Tercio</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Lasrifle Section</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Hermes Light Sentinel Squadron</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Infantry Tercio</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Additional Infantry Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Ultima Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -2864,7 +3174,7 @@
 											<key>Name</key>
 											<string>Rapier Section</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2872,7 +3182,7 @@
 											<key>Name</key>
 											<string>Basilisk Artillery Tank</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2880,17 +3190,24 @@
 											<key>Name</key>
 											<string>Medusa Artillery Tank</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Artillery Command Section</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2900,10 +3217,87 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Artillery Command Section</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Artillery Tercio</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Rapier Section</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Basilisk Artillery Tank</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Medusa Artillery Tank</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Artillery Tercio</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Additional Artillery Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Siege Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -2934,7 +3328,7 @@
 											<key>Name</key>
 											<string>Leman Russ Assault Tank</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2942,7 +3336,7 @@
 											<key>Name</key>
 											<string>Leman Russ Strike Tank</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2950,17 +3344,24 @@
 											<key>Name</key>
 											<string>Malcador Heavy Tank</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Armoured Command Section Tank</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2970,10 +3371,87 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Armoured Command Section Tank</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Armour Tercio</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Leman Russ Assault Tank</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Leman Russ Strike Tank</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>Malcador Heavy Tank</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Armour Tercio</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Additional Armour Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Mechanised Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -3004,12 +3482,12 @@
 											<key>Name</key>
 											<string>Hermes Light Sentinel Squadron</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3033,17 +3511,24 @@
 											<key>Name</key>
 											<string>Aethon Heavy Sentinel Swuadron</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Hermes Command Section</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -3053,10 +3538,100 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Hermes Command Section</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Scout Tercio</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Recon</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Hermes Light Sentinel Squadron</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Aethon Heavy Sentinel Swuadron</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Scout Tercio</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Additional Scout Tercio</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Reconnaissance Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -3087,12 +3662,12 @@
 											<key>Name</key>
 											<string>Castellax Destructor Maniple</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3116,12 +3691,12 @@
 											<key>Name</key>
 											<string>Tech-priest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3145,7 +3720,7 @@
 											<key>Name</key>
 											<string>Castellax Battle Maniple</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3153,12 +3728,12 @@
 											<key>Name</key>
 											<string>Thallax Cohort</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -3173,10 +3748,10 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Iron Pattern Cohort Doctrine</string>
+						<string>Iron Pattern Cohort</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -3191,7 +3766,7 @@
 			<key>Class</key>
 			<string>Apex Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3208,7 +3783,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -3229,7 +3804,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3241,7 +3816,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3253,7 +3828,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3265,7 +3840,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3277,7 +3852,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3289,7 +3864,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3301,7 +3876,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3313,7 +3888,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3325,7 +3900,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3337,7 +3912,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3349,7 +3924,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3359,6 +3934,13 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -3368,7 +3950,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -3386,7 +3968,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -3407,7 +3989,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3419,7 +4001,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3431,7 +4013,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3443,7 +4025,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3455,7 +4037,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3467,7 +4049,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3479,7 +4061,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3491,7 +4073,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3503,7 +4085,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3515,7 +4097,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3527,7 +4109,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3537,6 +4119,13 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -3546,7 +4135,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -3564,7 +4153,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -3585,7 +4174,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3597,7 +4186,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3609,7 +4198,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3621,7 +4210,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3633,7 +4222,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3645,7 +4234,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3657,7 +4246,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3669,7 +4258,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3681,7 +4270,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3693,7 +4282,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3705,7 +4294,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -3715,6 +4304,13 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -3724,7 +4320,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -3736,7 +4332,7 @@
 			<key>Class</key>
 			<string>Warlord</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -3746,7 +4342,7 @@
 			<key>Class</key>
 			<string>High Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3794,7 +4390,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3822,7 +4418,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3886,7 +4482,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3914,7 +4510,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3982,7 +4578,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4010,7 +4606,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4083,7 +4679,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4120,7 +4716,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4132,12 +4728,12 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4149,7 +4745,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4161,7 +4757,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4261,7 +4857,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4283,7 +4879,7 @@
 								<key>Name</key>
 								<string>flare shield</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4297,7 +4893,7 @@
 								<key>Name</key>
 								<string>smoke launchers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4371,7 +4967,7 @@
 			<key>Class</key>
 			<string>Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -4419,7 +5015,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4431,7 +5027,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4487,7 +5083,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4499,7 +5095,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4559,7 +5155,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4571,7 +5167,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4636,7 +5232,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4673,7 +5269,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4685,12 +5281,12 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4702,7 +5298,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4714,7 +5310,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4784,7 +5380,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -4858,7 +5456,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4870,7 +5468,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -4934,7 +5532,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4946,7 +5544,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -5014,7 +5612,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -5026,7 +5624,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -5097,7 +5695,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5109,7 +5707,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5121,7 +5719,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5183,7 +5781,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -5233,7 +5833,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -5259,7 +5861,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5275,7 +5877,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -5287,7 +5889,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -5329,7 +5931,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -5353,7 +5957,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5369,7 +5973,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -5381,7 +5985,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -5427,7 +6031,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -5451,7 +6057,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5467,7 +6073,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -5479,7 +6085,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -5525,7 +6131,7 @@
 								<key>Name</key>
 								<string>volkite charger</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -5545,7 +6151,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5557,7 +6163,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5607,7 +6213,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -5664,7 +6272,7 @@
 											<key>Name</key>
 											<string>multi-laser</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5672,7 +6280,7 @@
 											<key>Name</key>
 											<string>volkite caliver</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5719,7 +6327,7 @@
 											<key>Name</key>
 											<string>multi-laser</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5727,7 +6335,7 @@
 											<key>Name</key>
 											<string>volkite caliver</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5778,7 +6386,7 @@
 											<key>Name</key>
 											<string>multi-laser</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5786,7 +6394,7 @@
 											<key>Name</key>
 											<string>volkite caliver</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5832,7 +6440,7 @@
 								<key>Name</key>
 								<string>multi-laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -5840,7 +6448,7 @@
 								<key>Name</key>
 								<string>volkite caliver</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -5868,7 +6476,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5880,7 +6488,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -5894,7 +6502,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -5970,7 +6580,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -5982,7 +6592,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -6046,7 +6656,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -6058,7 +6668,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -6126,7 +6736,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -6138,7 +6748,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -6209,7 +6819,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6221,7 +6831,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6233,7 +6843,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6295,7 +6905,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6338,7 +6950,7 @@
 								<key>Name</key>
 								<string>Turret Mounted battlecannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -6346,7 +6958,7 @@
 								<key>Name</key>
 								<string>Turret Mounted gravis autocannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -6354,7 +6966,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -6374,7 +6986,7 @@
 											<key>Name</key>
 											<string>Co-axial Mounted heavy stubber</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -6403,7 +7015,7 @@
 								<key>Name</key>
 								<string>Turret Mounted volkite macro-saker</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6481,7 +7093,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6522,7 +7136,7 @@
 								<key>Name</key>
 								<string>Auto-gurney</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Surgical Suite</string>
 								<key>Stats</key>
@@ -6538,7 +7152,7 @@
 								<key>Name</key>
 								<string>Medical Orderly</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Triage</string>
 								<key>Stats</key>
@@ -6559,7 +7173,7 @@
 								<key>Name</key>
 								<string>phase lancet</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6573,7 +7187,7 @@
 								<key>Name</key>
 								<string>needle pistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6587,7 +7201,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6601,7 +7215,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6616,7 +7230,7 @@
 								<key>Name</key>
 								<string>Prime Advantage: Logistical Benefit</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6660,7 +7274,7 @@
 								<key>Name</key>
 								<string>laspistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6674,7 +7288,7 @@
 								<key>Name</key>
 								<string>ætherlabe staff</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6688,7 +7302,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6731,7 +7347,7 @@
 								<key>Name</key>
 								<string>hand flamer</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6745,7 +7361,7 @@
 								<key>Name</key>
 								<string>Davinite blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6759,7 +7375,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6833,7 +7451,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -6861,7 +7479,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -6925,7 +7543,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -6953,7 +7571,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7021,7 +7639,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7049,7 +7667,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7122,7 +7740,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -7159,7 +7777,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7171,12 +7789,12 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7188,7 +7806,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7200,7 +7818,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7273,7 +7891,7 @@
 								<key>Name</key>
 								<string>Prime Advantage: Special Assignment</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -7312,7 +7930,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -7334,7 +7952,7 @@
 								<key>Name</key>
 								<string>flare shield</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7348,7 +7966,7 @@
 								<key>Name</key>
 								<string>smoke launchers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7401,7 +8019,7 @@
 								<key>Name</key>
 								<string>Prime Advantage: Special Assignment</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -7443,7 +8061,7 @@
 			<key>Class</key>
 			<string>Retinue</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -7491,7 +8109,7 @@
 											<key>Name</key>
 											<string>lasrifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7559,7 +8177,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7571,7 +8189,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7579,7 +8197,7 @@
 											<key>Name</key>
 											<string>chainsword</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7659,7 +8277,7 @@
 											<key>Name</key>
 											<string>lasrifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7727,7 +8345,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7739,7 +8357,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7747,7 +8365,7 @@
 											<key>Name</key>
 											<string>chainsword</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7831,7 +8449,7 @@
 											<key>Name</key>
 											<string>lasrifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7899,7 +8517,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7911,7 +8529,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -7919,7 +8537,7 @@
 											<key>Name</key>
 											<string>chainsword</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8008,7 +8626,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -8045,7 +8663,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8057,7 +8675,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8065,12 +8683,12 @@
 											<key>Name</key>
 											<string>chainsword</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -8138,7 +8756,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8150,7 +8768,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8212,7 +8830,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8240,7 +8860,7 @@
 			<key>Class</key>
 			<string>Elites</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -8262,7 +8882,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8288,7 +8910,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8304,7 +8926,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8316,7 +8938,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8344,7 +8966,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8368,7 +8992,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8384,7 +9008,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8396,7 +9020,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8428,7 +9052,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8452,7 +9078,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8468,7 +9094,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8480,7 +9106,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8514,7 +9140,7 @@
 								<key>Name</key>
 								<string>volkite charger</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -8534,7 +9160,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8546,7 +9172,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8584,7 +9210,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8623,7 +9251,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistols</string>
+										<array>
+											<string>pistols</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8649,7 +9279,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8665,7 +9295,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8677,7 +9307,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8705,7 +9335,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistols</string>
+										<array>
+											<string>pistols</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8729,7 +9361,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8745,7 +9377,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8757,7 +9389,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8789,7 +9421,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistols</string>
+										<array>
+											<string>pistols</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8813,7 +9447,7 @@
 											<key>Name</key>
 											<string>volkite charger</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8829,7 +9463,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8841,7 +9475,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -8873,7 +9507,7 @@
 								<key>Name</key>
 								<string>heavy flamers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8885,7 +9519,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8897,7 +9531,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8935,7 +9569,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8974,7 +9610,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -8984,7 +9622,9 @@
 										<key>Name</key>
 										<string>Auxilia Pistols</string>
 										<key>Prerequisite</key>
-										<string>replaces breaching shotgun</string>
+										<array>
+											<string>replaces breaching shotgun</string>
+										</array>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -9002,7 +9642,7 @@
 											<key>Name</key>
 											<string>breaching shotgun</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -9018,7 +9658,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9030,7 +9670,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9058,7 +9698,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -9068,7 +9710,9 @@
 										<key>Name</key>
 										<string>Auxilia Pistols</string>
 										<key>Prerequisite</key>
-										<string>replaces breaching shotgun</string>
+										<array>
+											<string>replaces breaching shotgun</string>
+										</array>
 									</dict>
 								</array>
 								<key>Name</key>
@@ -9084,7 +9728,7 @@
 											<key>Name</key>
 											<string>breaching shotgun</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -9100,7 +9744,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9112,7 +9756,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9144,7 +9788,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -9154,7 +9800,9 @@
 										<key>Name</key>
 										<string>Auxilia Pistols</string>
 										<key>Prerequisite</key>
-										<string>replaces breaching shotgun</string>
+										<array>
+											<string>replaces breaching shotgun</string>
+										</array>
 									</dict>
 								</array>
 								<key>Name</key>
@@ -9170,7 +9818,7 @@
 											<key>Name</key>
 											<string>breaching shotgun</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -9186,7 +9834,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9198,7 +9846,7 @@
 											<key>Name</key>
 											<string>charnabal tabar</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9232,7 +9880,7 @@
 								<key>Name</key>
 								<string>breaching shotgun</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -9252,7 +9900,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9264,7 +9912,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9302,7 +9950,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9330,7 +9980,7 @@
 			<key>Class</key>
 			<string>Heavy Assault</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -9359,7 +10009,7 @@
 											<key>Name</key>
 											<string>claw</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -9388,7 +10038,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -9402,7 +10052,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9436,7 +10088,7 @@
 								<key>Name</key>
 								<string>bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -9458,7 +10110,7 @@
 								<key>Name</key>
 								<string>Mauler bolt cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -9488,7 +10140,7 @@
 								<key>Name</key>
 								<string>shock chargers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -9529,7 +10181,7 @@
 			<key>Class</key>
 			<string>Troops</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -9551,7 +10203,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -9577,7 +10231,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9589,7 +10243,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9629,7 +10283,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -9653,7 +10309,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9665,7 +10321,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9709,7 +10365,9 @@
 										<key>Name</key>
 										<string>Auxilia Melee Weapons</string>
 										<key>Prerequisite</key>
-										<string>pistol</string>
+										<array>
+											<string>pistol</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -9733,7 +10391,7 @@
 											<key>Name</key>
 											<string>laspistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9745,7 +10403,7 @@
 											<key>Name</key>
 											<string>charnabal sabre</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Prerequisite</key>
 											<array>
 												<string>pistol</string>
@@ -9816,7 +10474,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9828,7 +10486,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9840,7 +10498,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9878,7 +10536,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9912,7 +10572,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10052,7 +10712,7 @@
 								<key>Name</key>
 								<string>chainsword</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10060,7 +10720,7 @@
 								<key>Name</key>
 								<string>chainaxe</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10088,7 +10748,7 @@
 								<key>Name</key>
 								<string>bolt pistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10256,7 +10916,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -10287,7 +10947,7 @@
 			<key>Class</key>
 			<string>Support</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -10304,7 +10964,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted earthshaker cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10362,7 +11022,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10394,7 +11056,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted Medusa mortar</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10452,7 +11114,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10494,7 +11158,7 @@
 											<key>Name</key>
 											<string>lasrifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -10506,7 +11170,7 @@
 											<key>Name</key>
 											<string>frag grenades</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -10518,12 +11182,12 @@
 											<key>Name</key>
 											<string>krak grenades</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Infantry (Sergeant)</string>
 								<key>Stats</key>
@@ -10541,7 +11205,7 @@
 								<key>Name</key>
 								<string>Rapier Carrier</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Bulky (4); Infantry</string>
 								<key>Stats</key>
@@ -10562,7 +11226,7 @@
 								<key>Name</key>
 								<string>Gravis multi-laser array</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10608,7 +11272,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10642,7 +11308,7 @@
 								<key>Name</key>
 								<string>volkite caliver</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10662,7 +11328,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10674,7 +11340,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -10688,7 +11354,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10722,7 +11390,7 @@
 								<key>Name</key>
 								<string>bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10744,7 +11412,7 @@
 								<key>Name</key>
 								<string>Mauler bolt cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10758,7 +11426,7 @@
 								<key>Name</key>
 								<string>shock chargers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10803,7 +11471,7 @@
 								<key>Name</key>
 								<string>Thallax Praetorian</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Infantry (Sergeant, Antigrav)</string>
 								<key>Stats</key>
@@ -10839,7 +11507,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10875,7 +11543,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10920,7 +11588,7 @@
 								<key>Name</key>
 								<string>needle pistol</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10932,7 +11600,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10944,7 +11612,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -10958,7 +11626,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10991,7 +11661,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11017,7 +11689,7 @@
 			<key>Class</key>
 			<string>War-engine</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11034,7 +11706,7 @@
 								<key>Name</key>
 								<string>multi-laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11088,7 +11760,7 @@
 								<key>Name</key>
 								<string>Aethon missile battery</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11110,7 +11782,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11140,7 +11814,7 @@
 			<key>Class</key>
 			<string>Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11157,7 +11831,7 @@
 								<key>Name</key>
 								<string>searchlights</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11195,7 +11869,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11227,7 +11903,7 @@
 								<key>Name</key>
 								<string>searchlights</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11261,7 +11937,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11287,7 +11965,7 @@
 			<key>Class</key>
 			<string>Heavy Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11304,7 +11982,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11382,7 +12060,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11408,7 +12088,7 @@
 			<key>Class</key>
 			<string>Recon</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11425,7 +12105,7 @@
 								<key>Name</key>
 								<string>multi-laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11445,7 +12125,7 @@
 								<key>Name</key>
 								<string>frag grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11457,7 +12137,7 @@
 								<key>Name</key>
 								<string>krak grenades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -11471,7 +12151,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11503,7 +12185,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11525,7 +12207,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11555,7 +12239,7 @@
 			<key>Class</key>
 			<string>Fast Attack</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11572,7 +12256,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11586,7 +12270,7 @@
 								<key>Name</key>
 								<string>6 Centreline Mounted hellstrike missiles</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -11600,7 +12284,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11632,7 +12318,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11646,7 +12332,7 @@
 								<key>Name</key>
 								<string>2 Centreline Mounted Gravis autocannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -11660,7 +12346,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11692,7 +12380,7 @@
 								<key>Name</key>
 								<string>Turret Mounted volkite culverin</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11730,7 +12418,7 @@
 								<key>Name</key>
 								<string>Two Sponson Mounted volkite calivers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11749,7 +12437,7 @@
 								<key>Name</key>
 								<string>Auxilia Sponson Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11763,7 +12451,7 @@
 								<key>Name</key>
 								<string>searchlights</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11797,7 +12485,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11829,7 +12519,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted avenger bolt cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11843,7 +12533,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -11857,7 +12547,7 @@
 								<key>Name</key>
 								<string>Hull (Rear) Mounted heavy stubber</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -11871,7 +12561,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -11897,7 +12589,7 @@
 			<key>Class</key>
 			<string>Armour</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -11914,7 +12606,7 @@
 								<key>Name</key>
 								<string>Turret Mounted battlecannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11922,7 +12614,7 @@
 								<key>Name</key>
 								<string>Turret Mounted gravis autocannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11930,7 +12622,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11950,7 +12642,7 @@
 											<key>Name</key>
 											<string>Co-axial Mounted heavy stubber</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -11969,7 +12661,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -11988,7 +12680,7 @@
 								<key>Name</key>
 								<string>Auxilia Hull Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12046,7 +12738,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12078,7 +12772,7 @@
 								<key>Name</key>
 								<string>Turret Mounted volkite macro-saker</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12108,7 +12802,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12127,7 +12821,7 @@
 								<key>Name</key>
 								<string>Auxilia Hull Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12185,7 +12879,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12217,7 +12913,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted battlecannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12225,7 +12921,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12245,7 +12941,7 @@
 											<key>Name</key>
 											<string>Co-axial Mounted heavy stubber</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -12264,7 +12960,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12291,7 +12987,7 @@
 								<key>Name</key>
 								<string>Auxilia Hull Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12305,7 +13001,7 @@
 								<key>Name</key>
 								<string>Sponson Mounted multi-lasers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12324,7 +13020,7 @@
 								<key>Name</key>
 								<string>Auxilia Sponson Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12394,7 +13090,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12426,7 +13124,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted infernus cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12440,7 +13138,7 @@
 								<key>Name</key>
 								<string>Sponson Mounted multi-lasers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12459,7 +13157,7 @@
 								<key>Name</key>
 								<string>Auxilia Sponson Weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12529,7 +13227,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12561,7 +13261,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted neutron beam laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12575,7 +13275,7 @@
 								<key>Name</key>
 								<string>Sponson (Right) Mounted multi-laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12583,7 +13283,7 @@
 								<key>Name</key>
 								<string>Sponson (Right) Mounted heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12591,7 +13291,7 @@
 								<key>Name</key>
 								<string>Sponson (Right) Mounted heavy flamer</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -12677,7 +13377,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12709,7 +13411,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted Proteus laser destroyer</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12767,7 +13469,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12799,7 +13503,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted demolisher cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12857,7 +13561,9 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<string>Prime Slot</string>
+							<array>
+								<string>Prime Slot</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -12889,7 +13595,7 @@
 								<key>Name</key>
 								<string>Centreline (Rear) Mounted twin earthshaker cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -12963,7 +13669,7 @@
 			<key>Class</key>
 			<string>Lord of War</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -12992,12 +13698,12 @@
 											<key>Name</key>
 											<string>Co-axial Mounted multi-laser</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13011,7 +13717,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin battlecannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13025,7 +13731,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted multi-laser</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13047,7 +13753,7 @@
 								<key>Name</key>
 								<string>3 Hull (Left/Right) Mounted multi-lasers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13055,7 +13761,7 @@
 								<key>Name</key>
 								<string>3 Hull (Left/Right) Mounted heavy bolters</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13063,7 +13769,7 @@
 								<key>Name</key>
 								<string>3 Hull (Left/Right) Mounted heavy flamers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13151,7 +13857,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin battlecannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13159,7 +13865,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin avenger bolt cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13181,7 +13887,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy stubber</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13195,7 +13901,7 @@
 								<key>Name</key>
 								<string>2 Sponson Mounted heavy stubbers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -13279,7 +13985,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted praetor launcher</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13293,7 +13999,7 @@
 								<key>Name</key>
 								<string>2 Hull (Front) Mounted heavy bolters</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13361,7 +14067,7 @@
 								<key>Name</key>
 								<string>2 Hull (Front) Mounted heavy bolters</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13375,7 +14081,7 @@
 								<key>Name</key>
 								<string>2 Sponson Mounted heavy bolters</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13455,12 +14161,12 @@
 											<key>Name</key>
 											<string>Co-axial Mounted autocannon</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13474,7 +14180,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted demolisher cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13488,7 +14194,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13588,12 +14294,12 @@
 											<key>Name</key>
 											<string>Co-axial Mounted autocannon</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13607,7 +14313,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted demolisher cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13621,7 +14327,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13709,7 +14415,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted tremor cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13723,7 +14429,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13811,7 +14517,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted Vulcan mega-bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13825,7 +14531,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13839,7 +14545,7 @@
 								<key>Name</key>
 								<string>Hull (Left) Mounted heavy stubber</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13853,7 +14559,7 @@
 								<key>Name</key>
 								<string>Hull (Right) Mounted heavy stubber</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13941,7 +14647,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted plasma blastgun</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -13955,7 +14661,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14043,7 +14749,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted volcano cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14057,7 +14763,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14145,7 +14851,7 @@
 								<key>Name</key>
 								<string>Centreline Mounted  Stormsword siege cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14159,7 +14865,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14247,7 +14953,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14261,7 +14967,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted twin lascannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14275,7 +14981,7 @@
 								<key>Name</key>
 								<string>Hull (Rear) Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14289,7 +14995,7 @@
 								<key>Name</key>
 								<string>One Centreline (Front, Rear) Mounted macro-bomb cluster</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -14322,7 +15028,7 @@
 								<key>Name</key>
 								<string>Turret Mounted twin heavy bolter</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14336,7 +15042,7 @@
 								<key>Name</key>
 								<string>Hull (Front) Mounted Gravis autocannon array</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -14350,7 +15056,7 @@
 								<key>Name</key>
 								<string>Hull (Rear) Mounted twin rotary defence cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -14376,6 +15082,127 @@
 	</array>
 	<key>System</key>
 	<string>HH3</string>
+	<key>Traits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Cohort Doctrine</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Ultima Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Solar Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Reconnaissance Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Mechanised Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Siege Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Iron Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Oblitum Pattern Cohort</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Fateweaver Cohort</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Legiones Auxilia Designation</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Calibanite Jaegers</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Archite Palatines</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Selucid Thorakites</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Chogorian Limitanei</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Fenrisian Kaerls</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Inwit Phalangites</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Nostraman Damnatii</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Saiphan Elevatii</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Medusan Chainshroud</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Nagrakal Thraexii</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Ultramar High Guard</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Barbaran Ambaxtoi</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Prosperine Spireguard</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Cthonian Headhunters</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Colchisian Torquatii</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Proximan Sacramentii</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Therion Velites</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Sparatoi Vindicta</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Version</key>
 	<integer>20261013</integer>
 </dict>
