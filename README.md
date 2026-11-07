@@ -3,7 +3,9 @@ Public repo for Quartermaster game systems and faction templates
 
 ## Website
 
-templates.quartermaster.app is served from this repo by GitHub Pages. Each page (`index.html`, `HH.html`, `WHFB.html` and so on) is plain HTML: add templates inside the `<div id="content">` cards as before. The home page's "What's been updated?" list is the exception; see below. The header, footer and `style.css` match [quartermaster.app](https://github.com/seanrogs/quartermaster-site), so keep them in sync with that site's `_layouts/default.html` and `assets/css/site.css`.
+templates.quartermaster.app is served from this repo by GitHub Pages. Each page (`index.html`, `HH.html`, `WHFB.html` and so on) is plain HTML: add templates inside the `<div id="content">` cards as before. The home page's "What's been updated?" list is the exception; see below.
+
+Show an edition as a badge in headings and contents pills with `<span class="edition">3rd Edition</span>`, and a work in progress with `<span class="badge wip">WIP</span>`. The header, footer and `style.css` match [quartermaster.app](https://github.com/seanrogs/quartermaster-site), so keep them in sync with that site's `_layouts/default.html` and `assets/css/site.css`.
 
 ## Posting a "What's been updated?" entry
 

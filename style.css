@@ -118,7 +118,12 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); font-weight: 500; line-he
 .contents a { display: inline-block; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--text); text-decoration: none; }
 .contents a:hover { border-color: var(--accent); color: var(--accent); }
 
-.banner { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px 18px; margin: 24px 0 0; max-width: 720px; }
+/* Edition and status badges: <span class="edition">3rd Edition</span>, <span class="badge wip">WIP</span> */
+.edition, .badge { display: inline-block; vertical-align: 0.2em; white-space: nowrap; font-family: var(--font-display); font-weight: 500; font-size: 12px; line-height: 1; letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 8px 4px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
+.badge.wip { background: none; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); }
+.contents .edition { font-size: 11px; padding: 4px 6px 3px; margin-left: 2px; vertical-align: 0.1em; }
+
+.banner {background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px 18px; margin: 24px 0 0; max-width: 720px; }
 .banner p { margin: 0; }
 
 /* Game system cards */
