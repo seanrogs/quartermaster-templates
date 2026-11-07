@@ -1,0 +1,137 @@
+/* Quartermaster Templates — matches quartermaster.app (seanrogs/quartermaster-site, assets/css/site.css).
+   Colours follow the app's AccentColor asset (light #8A2812, dark #F69882). Keep the shared parts in sync with that file. */
+:root {
+  --accent: #8a2812;
+  --accent-strong: #6f1f0d;
+  --accent-soft: #f6e7e2;
+  --bg: #fbf9f7;
+  --surface: #ffffff;
+  --text: #1d1a19;
+  --muted: #6b625e;
+  --line: #e7e0dc;
+  --shadow: 0 1px 2px rgb(40 20 10 / 6%), 0 8px 24px rgb(40 20 10 / 8%);
+  --radius: 14px;
+  --max: 1120px;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* Futura ships with iOS and macOS (the app's logo uses Futura Medium); others fall back to similar geometric fonts. */
+  --font-display: Futura, "Futura PT", "Century Gothic", "Avenir Next", var(--font);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #f69882;
+    --accent-strong: #ffb4a3;
+    --accent-soft: #3a211b;
+    --bg: #141110;
+    --surface: #1e1a18;
+    --text: #f1ece9;
+    --muted: #aea29c;
+    --line: #342d2a;
+    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px rgb(0 0 0 / 30%);
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 80px; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; height: auto; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:hover { color: var(--accent-strong); }
+
+.wrap { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+@media (min-width: 700px) { .wrap { padding: 0 32px; } }
+
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 16px; top: 8px; z-index: 10; background: var(--surface); padding: 8px 12px; border-radius: 8px; }
+
+/* Header */
+.site-header {
+  position: sticky; top: 0; z-index: 5;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 60px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-family: var(--font-display); font-weight: 500; font-size: 19px; }
+.brand:hover { color: var(--text); }
+.brand img { border-radius: 8px; }
+.site-nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.site-nav a { font-family: var(--font-display); font-weight: 500; color: var(--muted); text-decoration: none; font-size: 15px; padding: 6px 10px; border-radius: 999px; }
+.site-nav a:hover, .site-nav a[aria-current] { color: var(--text); background: var(--accent-soft); }
+.site-nav .nav-cta { background: var(--accent); color: #fff; }
+.site-nav .nav-cta:hover { background: var(--accent-strong); color: #fff; }
+@media (prefers-color-scheme: dark) { .site-nav .nav-cta, .site-nav .nav-cta:hover { color: #1d1a19; } }
+@media (max-width: 640px) {
+  .header-inner { padding-top: 8px; padding-bottom: 8px; }
+  .site-nav { width: 100%; justify-content: space-between; gap: 0; }
+  .site-nav a { padding: 6px 8px; font-size: 14px; }
+}
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--line); margin-top: 96px; padding: 32px 0 48px; color: var(--muted); font-size: 14px; }
+.site-footer nav { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-bottom: 12px; }
+.site-footer a { color: var(--muted); text-decoration: none; }
+.site-footer a:hover { color: var(--text); }
+.site-footer p { margin: 0; }
+
+/* Page heading */
+.page-head { padding: 48px 0 8px; max-width: 720px; }
+.eyebrow { font-size: 14px; color: var(--muted); margin: 0 0 8px; }
+.eyebrow a { color: var(--muted); }
+h1, h2, h3, h4, h5 { font-family: var(--font-display); font-weight: 500; line-height: 1.25; }
+.page-head h1 { font-weight: 700; font-size: clamp(34px, 5vw, 48px); line-height: 1.1; margin: 0 0 12px; }
+.lede { font-size: 20px; color: var(--muted); margin: 0; }
+
+/* Jump links to each game system */
+.contents { margin: 28px 0 40px; display: flex; flex-wrap: wrap; gap: 8px; }
+.contents ul { display: contents; list-style: none; }
+.contents li { margin: 0; }
+.contents a { display: inline-block; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--text); text-decoration: none; }
+.contents a:hover { border-color: var(--accent); color: var(--accent); }
+
+.banner { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px 18px; margin: 24px 0 0; max-width: 720px; }
+.banner p { margin: 0; }
+
+/* Game system cards */
+#content { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); align-items: start; }
+#content #content { grid-column: 1 / -1; }
+.column { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; min-width: 0; }
+.column h2 { font-size: 24px; margin: 0 0 12px; }
+.column h3 { font-size: 20px; margin: 24px 0 8px; }
+.column h3:first-child { margin-top: 0; }
+.column h4 { font-size: 17px; margin: 24px 0 8px; color: var(--muted); }
+.column h5 { font-size: 15px; margin: 18px 0 6px; color: var(--muted); }
+.column p { margin: 0 0 14px; }
+.column ul { list-style: none; margin: 0; padding: 0; }
+.column > ul, .column > div > ul { padding: 10px 0; border-top: 1px solid var(--line); }
+.column > h2 + ul, .column > div > h3 + ul { border-top: 0; padding-top: 0; }
+.column li { margin: 4px 0; }
+.column li a { text-decoration: none; }
+.column li a:hover { text-decoration: underline; }
+.column ul ul { margin: 2px 0 6px 0; }
+.column ul ul li { margin: 2px 0; }
+
+/* Notes under a file */
+ul.note, ul.local, ul.supplements, ul.prerequisite { color: var(--muted); font-size: 14px; line-height: 1.45; }
+ul.supplements > li::before { content: "+"; margin-right: 6px; }
+ul.prerequisite > li::before { content: "✓"; margin-right: 6px; }
+ul.note a, ul.supplements a { color: var(--muted); text-decoration: underline; }
+sup { font-size: 0.65em; color: var(--muted); }
+
+/* What's been updated (home page) */
+.column em { font-style: normal; font-size: 14px; color: var(--muted); }
+
+.caption h3 { margin-top: 24px; }
+
+:target { background: var(--accent-soft); border-radius: 6px; }
+.column:target, h2:target { background: none; }
+.hidden { display: none; }
