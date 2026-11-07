@@ -117,6 +117,10 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); font-weight: 500; line-he
 .contents li { margin: 0; }
 .contents a { display: inline-block; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--text); text-decoration: none; }
 .contents a:hover { border-color: var(--accent); color: var(--accent); }
+/* "More …" pills are secondary: no fill or border, accent text and a trailing chevron. */
+.contents li.more a { display: inline-flex; align-items: center; gap: 7px; background: none; border-color: transparent; color: var(--accent); padding-left: 10px; padding-right: 10px; }
+.contents li.more a::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); }
+.contents li.more a:hover { background: var(--accent-soft); border-color: transparent; }
 
 /* Edition and status badges: <span class="edition">3rd Edition</span>, <span class="badge wip">WIP</span> */
 .edition, .badge { display: inline-block; vertical-align: 0.2em; white-space: nowrap; font-family: var(--font-display); font-weight: 500; font-size: 12px; line-height: 1; letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 8px 4px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); }
