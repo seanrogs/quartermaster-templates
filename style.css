@@ -105,6 +105,15 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); font-weight: 500; line-he
 .contents[open] > summary { margin-bottom: 16px; }
 .contents ul { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0 0 14px; padding: 0; }
 .contents ul:last-child { margin-bottom: 0; }
+
+/* Pills drop in when the section opens, row by row, left to right. */
+@keyframes pill-in { from { opacity: 0; transform: translateY(-8px) scale(0.96); } }
+.contents[open] li { animation: pill-in 0.32s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: calc(var(--row, 0) * 50ms + var(--col, 0) * 25ms); }
+.contents ul:nth-of-type(2) { --row: 1; } .contents ul:nth-of-type(3) { --row: 2; } .contents ul:nth-of-type(4) { --row: 3; }
+.contents ul:nth-of-type(5) { --row: 4; } .contents ul:nth-of-type(6) { --row: 5; } .contents ul:nth-of-type(n+7) { --row: 6; }
+.contents li:nth-child(2) { --col: 1; } .contents li:nth-child(3) { --col: 2; } .contents li:nth-child(4) { --col: 3; }
+.contents li:nth-child(5) { --col: 4; } .contents li:nth-child(n+6) { --col: 5; }
+@media (prefers-reduced-motion: reduce) { .contents[open] li { animation: none; } }
 .contents li { margin: 0; }
 .contents a { display: inline-block; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--text); text-decoration: none; }
 .contents a:hover { border-color: var(--accent); color: var(--accent); }
