@@ -1,365 +1,123 @@
-<!--
-
-Observer Theme
-By Zack Sultan
-Released January 2013
-Revised April 16, 2014
-
--->
-
-<html>
-    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
-        <title>Quartermaster Templates</title>
-        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
-        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
-
-            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
-
-        <link rel="stylesheet" href="observer.css">
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
-
-
-
-<!-- Options -->
-
-
-        <meta name="if:Show Navigation" content="1"/>
-        <meta name="if:Alternate Header Layout" content="0"/>
-        <meta name="if:Show Description" content="0"/>
-        <meta name="if:Show Archive Navigation Link" content="1"/>
-        <meta name="if:Wide Images" content="1"/>
-        <meta name="if:Photoset Layout" content="0"/>
-        <meta name="if:Show Post Tags" content="1"/>
-        <meta name="if:Show Post Notes" content="1"/>
-        <meta name="if:Show Copyright" content="0"/>
-        <meta name="if:Infinite Scroll" content="1"/>
-
-        <meta name="Title font" content="Gibson">
-        <meta name="Title font weight" content="bold" title="Bold">
-        <meta name="Title font weight" content="normal" title="Normal">
-        <meta name="font:Body font" content="Calluna"/>
-
-        <meta name="Background color" content="#fff">
-        <meta name="Title color" content="#444444">
-        <meta name="Link color" content="#5f79a4">
-
-        <meta name="color:Body text" content="#333333"/>
-		<meta name="color:Secondary text" content="#888888"/>
-        <meta name="image:Logo" content=""/>
-        <meta name="text:TypeKit ID" content=""/>
-        <meta name="text:Title Font" content=""/>
-        <meta name="text:Body Font" content=""/>
-        <meta name="text:Post Headline Font" content=""/>
-        <!--<meta name="text:Secondary Font" content=""/>-->
-
-		<meta name='text:Disqus Shortname' content='' />
-
-<!-- Scripts -->
-
-    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
-
-
-
-
-
-    <!-- Media resizing -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Make desktop tumblr video stretch to 100%
-            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
-            // Resize tumblr video on mobile
-            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
-		});
-
-        //Make Spotify the right size and responsive
-	    $(document).ready(function(){
-	        $('.mobile-spotify iframe').css('height', '80px');
-            $('.mobile-spotify iframe').css('width', '290px');
-            $('iframe[src*="embed.spotify.com"]').each( function() {
-                $(this).css('width',$(this).parent(1).css('width'));
-                $(this).css('height', '82');
-                $(this).attr('src',$(this).attr('src'));
-            });
-        });
-        $(window).resize(function() {
-            $('iframe[src*="embed.spotify.com"]').each( function() {
-                $(this).css('width',$(this).parent(1).css('width'));
-                $(this).css('height', '82');
-                $(this).attr('src',$(this).attr('src'));
-            });
-        });
-
-        //disable safari active states
-        document.addEventListener("touchstart", function() {},false);
-
-	</script>
-
-
-<!-- End header -->
-
-
-<meta http-equiv="x-dns-prefetch-control" content="off"/>
-<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
-
-<meta charset="utf-8" />
+---
+# Jekyll fills in "What's been updated?" from _updates/. Everything else on this page is plain HTML.
+---
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#8A2812" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b1513" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=879731050">
+  <title>Quartermaster Templates</title>
+  <meta name="description" content="Game systems and faction templates for Quartermaster, made and shared by the community. Tap a file on your iPhone or iPad to install it.">
+  <link rel="icon" href="/icon.png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <link rel="stylesheet" href="/style.css">
 </head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <!-- Header: keep in sync with quartermaster-site/_layouts/default.html -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="https://quartermaster.app/">
+        <img src="/icon.png" alt="" width="32" height="32">
+        <span>Quartermaster</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="https://quartermaster.app/userguide">User Guide</a>
+        <a href="https://quartermaster.app/archive">News</a>
+        <a href="/" aria-current="page">Templates</a>
+        <a href="https://quartermaster.app/contact">Contact</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/quartermaster/id879731050">Get the app</a>
+      </nav>
+    </div>
+  </header>
 
-	<body>
-
-		<div id="page">
-
-			<div id="header">
-
-
-				<div class="links">
+  <main id="main" class="wrap">
+    <div class="page-head">
+    <h1>Quartermaster Templates</h1>
+    <p class="lede">Game systems and faction templates for Quartermaster, made and shared by the community. Tap a file on your iPhone or iPad to download it.</p>
+    </div>
+				<details class="contents">
+					<summary>Browse Game Systems</summary>
 					<ul>
-					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
-						<li><a href="http://www.quartermaster.app/">Home</a></li>
-
-
-						<li><a href="http://www.quartermaster.app/about">About</a></li>
-
-						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
-
-						<li>Templates</li>
-
-						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
-
-						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
-
-					</ul>
-				</div>
-
-
-				<div class="blog-title">
-
-                    <h1><a href="/">Quartermaster Templates</a></h1>
-
-				</div>
-
-				<div class="contents" style="margin-top: 50px;">
-					<ul>
-						<li><a href="HH.html#HH3">Horus&nbsp;Heresy</a></li>
-						<li><a href="HH.html#LI">Legions&nbsp;Imperialis</a></li>
+						<li><a href="HH.html#HH3">Horus&nbsp;Heresy <span class="edition">3rd Ed</span></a></li>
 						<li><a href="HH.html#Titanicus">Adeptus&nbsp;Titanicus</a></li>
-					</ul>
-					<ul>
-						<li><a href="WH40K.html#Necromunda">Necromunda</a></li>
-						<li><a href="WH40K.html#WH40K2">Warhammer&nbsp;40,000 2nd Edition</a></li>
-                        <li><a href="WH40K.html#BFG">Battlefleet&nbsp;Gothic</a></li>
+						<li class="more"><a href="HH.html">More Horus Heresy</a></li>
 					</ul>
 					<ul>
 					    <li><a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a></li>
 						<li><a href="WHFB.html#Mordheim">Mordheim</a></li>
-					    <li><a href="WHFB.html#WHFB">Warhammer&nbsp;Fantasy&nbsp;Battles</a></li>
-					    <li><a href="WHFB.html#Warmaster">Warmaster</a></li>
+					    <li class="more"><a href="WHFB.html">More Warhammer Fantasy</a></li>
 					</ul>
 					<ul>
-						<li><a href="Other.html#TrenchCrusade">Trench Crusade</a></li>
+						<li><a href="GW.html">Necromunda <span class="edition">N26</span></a></li>
+					    <li class="more"><a href="GW.html">More Necromunda</a></li>
 					</ul>
 					<ul>
-  						<li><a href="Archive.html">Archive</a></li>
+						<li><a href="WH40K.html">Warhammer&nbsp;40,000 <span class="edition">2nd Ed</span></a></li>
+                        <li><a href="WH40K.html#WH40K3">Warhammer&nbsp;40,000 <span class="edition">3rd Ed</span></a></li>
+						<li class="more"><a href="WH40K.html">More 40K</a></li>
 					</ul>
-				</div>
+					<ul>
+						<li><a href="Other.html">Other Game Systems</a></li>
+  						<li class="more"><a href="Archive.html">Archive</a></li>
+					</ul>
+				</details>
 
 
-
-			</div> <!-- header end -->
 
 			<div id="content">
 				<div class="column">
-					<div>
-						<h3>What's been updated?</h3>
-						<ul>
-							<li><em>15 October</em><br>
-								<a href="HH.html#HH3">Horus&nbsp;Heresy</a>: Prospero Burns & Errata
-								<ul>
-									<li><a href="HH.html#HH3-Daemons">Daemons</a></li>
-									<li><a href="HH.html#HH3-Imperialis_Militia">Imperialis Militia</a></li>
-									<li><a href="HH.html#HH3-Legio_Custodes">Legio Custodes</a></li>
-									<li><a href="HH.html#HH3-Mechanicum_Taghmata">Mechanicum Taghmata</a></li>
-									<li><a href="HH.html#HH3-Solar_Auxilia">Solar Auxilia</a></li>
-								</ul>
-							</li>
-							<li><em>19 September</em><br>
-								<a href="GW.html#N26">Necromunda 26</a> Underhive Journals
-								<ul class="note">
-									<li>Game system updated with Finesse and Muscle skills</li>
-								</ul>
-								<ul>
-									<li>Escher: The House of Blades
-										<ul>
-											<li><a href="GW.html#N26-House_Escher">House Escher</a></li>
-											<li><a href="GW.html#N26-Chymist_Cult">Chymist Cult</a></li>
-											<li><a href="GW.html#N26-Wyld_Hunt">Wyld Hunt</a></li>
-										</ul>
-									</li>
-									<li>Goliath: The House of Chains
-										<ul>
-											<li><a href="GW.html#N26-House_Goliath">House Goliath</a></li>
-											<li><a href="GW.html#N26-Furnace_Brutes">Furnace Brutes</a></li>
-											<li><a href="GW.html#N26-Unborn">Unborn</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><em>31 August</em><br>
-								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a> Arcane Journal: The March of Chaos
-								<ul>
-									<li><a href="WHFB.html#TOW-Hordes_of_Chaos">Hordes of Chaos</a></li>
-									<li>Game system updated with Corrupted Magic Items</li>
-									<li>Champions of Ruin and Chieftains of Ruin</li>
-									<li>Sorcerous Ruses</li>
-								</ul>
-							</li>
-							<li><em>28 August</em><br>
-								<a href="GW.html#N26">Necromunda 26</a>
-								<ul>
-									<li>Necromunda's Most Wanted</li>
-									<li>Dramatis Personae added to multiple templates</li>
-									<li>Extended Trading Post added to game system</li>
-								</ul>
-							</li>
-							<li><em>24 August</em><br>
-								<a href="GW.html#N26">Necromunda 26</a>
-								<ul>
-									<li><a href="GW.html#N26-Venators">Venators</a></li>
-									<li><a href="GW.html#N26-Outcasts">Outcasts</a></li>
-									<li><a href="GW.html#N26-Spyrer_Hunters">Spyrer Hunters</a></li>
-									<li><a href="GW.html#N26-Alliances">Alliances</a></li>
-									<li><a href="GW.html#N26-Supplementary_Fighters">Supplementary Fighters</a></li>
-								</ul>
-							</li>
-							<li><em>20 August</em><br>
-								<a href="GW.html#N26">Necromunda 26</a>
-								<ul>
-									<li><a href="GW.html#N26-Palanite_Enforcers">Palanite Enforcers</a></li>
-									<li><a href="GW.html#N26-Corpse_Grinder_Cult">Corpse Grinder Cult</a></li>
-									<li><a href="GW.html#N26-Free_Ogryns">Free Ogryns</a></li>
-									<li><a href="GW.html#N26-Genestealer_Cult">Genestealer Cult</a></li>
-									<li><a href="GW.html#N26-Chaos_Helots">Chaos Helots</a></li>
-									<li><a href="GW.html#N26-Malstrain">Malstrain</a></li>
-									<li><a href="GW.html#N26-Ironhead_Squat_Prospectors">Ironhead Squat Prospectors</a></li>
-									<li><a href="GW.html#N26-Ash_Waste_Nomads">Ash Waste Nomads</a></li>
-								</ul>
-							</li>
-							<li><em>18 August</em><br>
-								<a href="GW.html#N26">Necromunda 26</a>
-								<ul>
-									<li><a href="GW.html#N26-House_Cawdor">House Cawdor</a></li>
-									<li><a href="GW.html#N26-House_Delaque">House Delaque</a></li>
-									<li><a href="GW.html#N26-House_Escher">House Escher</a></li>
-									<li><a href="GW.html#N26-House_Goliath">House Goliath</a></li>
-									<li><a href="GW.html#N26-House_Orlock">House Orlock</a></li>
-									<li><a href="GW.html#N26-House_Van_Saar">House Van Saar</a></li>
-								</ul>
-							</li>
-							<li><em>2 August</em><br>
-								<a href="HH.html#HH3">Horus&nbsp;Heresy</a>: Zone Mortalis
-								<ul class="note">
-									<li>Update the HH3 game system for core Prime Advantages</li>
-								</ul>
-								<ul>
-									<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
-									<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
-									<li><a href="HH.html#HH3-Blackshields">Blackshields</a></li>
-									<li><a href="HH.html#HH3-Shattered_Legions">Shattered Legions</a></li>
-									<li><a href="HH.html#HH3-Mechanicum_Taghmata">Mechanicum Taghmata</a></li>
-									<li><a href="HH.html#HH3-Skitarii_Conclaves">Skitarii Conclaves</a></li>
-									<li><a href="HH.html#HH3-Solar_Auxilia">Solar Auxilia</a></li>
-									<li><a href="HH.html#HH3-Legio_Custodes">Legio Custodes</a></li>
-									<li><a href="HH.html#HH3-Anathema_Psykarna">Anathema Psykarna</a></li>
-									<li><a href="HH.html#HH3-Questoris_Familia">Questoris Familia</a></li>
-									<li><a href="HH.html#HH3-Legio_Titanicus">Legio Titanicus</a></li>
-									<li><a href="HH.html#HH3-Daemons_of_the_Ruinstorm">Daemons of the Ruinstorm</a></li>
-									<li><a href="HH.html#HH3-Imperialis_Militia">Imperialis Militia</a></li>
-								</ul>
-							</li>
-							<li><em>10 July</em><br>
-								<a href="WHFB.html#TOW">Warhammer:&nbsp;The&nbsp;Old&nbsp;World</a>
-								<ul>
-									<li>All factions updated with July 2026 Errata</li>
-									<li>Path to Glory Veteran Abilities</li>
-									<li><a href="WHFB.html#TOW-Renegades">Renegades 1.5.2.2</a></li>
-								</ul>
-							</li>
-							<li><em>24 June</em><br>
-								<a href="HH.html#HH3">Horus&nbsp;Heresy</a>: Mailed Fist and Battle of Tallarn updates
-								<ul>
-									<li><a href="HH.html#HH3-Loyalist_Legiones_Astartes">Loyalist Legiones Astartes</a></li>
-									<li><a href="HH.html#HH3-Traitor_Legiones_Astartes">Traitor Legiones Astartes</a></li>
-									<li><a href="HH.html#HH3-Blackshields">Blackshields</a></li>
-									<li><a href="HH.html#HH3-Shattered_Legions">Shattered Legions</a></li>
-									<li><a href="HH.html#HH3-Mechanicum_Taghmata">Mechanicum Taghmata</a></li>
-									<li><a href="HH.html#HH3-Solar_Auxilia">Solar Auxilia</a></li>
-								</ul>
-							</li>
-							<li><em>23 May</em><br>
-								<a href="HH.html#HH3">Horus&nbsp;Heresy</a>: Liber Custodes
-								<ul>
-									<li><a href="HH.html#HH3-Legio_Custodes">Legio Custodes</a></li>
-									<li><a href="HH.html#HH3-Anathema_Psykarna">Anathema Psykarna</a></li>
-									<li><a href="HH.html#HH3-Divisio_Assassinorum">Divisio Assassinorum</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+					<h3>What's been updated?</h3>
+					<!-- Each update is a Markdown file in _updates/. See README.md. -->
+					<ol class="updates">
+						{%- assign updates = site.updates | sort: "date" | reverse -%}
+						{%- for update in updates limit: site.updates_shown %}
+						<li class="update">
+							<time datetime="{{ update.date | date: '%Y-%m-%d' }}">{{ update.date | date: '%-d %B %Y' }}</time>
+							<h4>{{ update.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</h4>
+							{%- if update.note %}
+							<p class="update-note">{{ update.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+							{%- endif %}
+							{{ update.content | markdownify }}
+						</li>
+						{%- endfor %}
+					</ol>
 				</div>
 
 				<div class="column">
 					<div class="caption">
 						<h3>What are <i>qmtemplates</i>?</h3>
-						<p><i>qmtemplates</i> are faction template files for use with <a href="http://quartermaster.app">Quartermaster</a>.</p>
+						<p><i>qmtemplates</i> are faction template files for use with <a href="https://quartermaster.app">Quartermaster</a>.</p>
 						<p>All faction templates are made and contributed by the Quartermaster community. Have one to contribute? Email it to <a href="mailto:contribute@quartermaster.app">contribute@quartermaster.app</a></p>
 						<h3>Don't see what you're looking for?</h3>
-						<p>Get involved! You can create your own faction templates in Quartermaster itself. Find out more about <a href="http://quartermaster.app/post/28595799629/editing-a-quartermaster-template">editing a Quartermaster template</a> in the <a href="http://quartermaster.app/tagged/User_Guide">Quartermaster User Guide</a>.</p>
+						<p>Get involved! You can create your own faction templates in Quartermaster itself. Find out how to configure factions and create your own in the <a href="https://quartermaster.app/userguide">Quartermaster User Guide</a>.</p>
 						<h3>Having trouble downloading?</h3>
 						<p>Open this page in Safari on your device for the best results. Google Chrome, the Facebook browser, and other in-app browsers can't download files on iOS.</p>
 						<p>Make sure you have the latest game system installed for the template. Game system files are listed with the faction templates for each game system.</p>
 					</div>
 				</div>
 			</div><!-- content end -->
+  </main>
 
-			<div id="footer">
-
-					<div id="footer-links">
-
-						<ul>
-							<li><a href="/">Home</a></li>
-
-
-    					    <li><a href="/about">About</a></li>
-
-    					    <li><a href="/userguide">User Guide</a></li>
-
-    					    <li><a href="/templates">Templates</a></li>
-
-    					    <li><a href="/contact">Contact</a></li>
-
-    					    <li><a href="/support">Donate</a></li>
-
-
-
-
-                            <li><a href="/legal">Legal</a></li>
-                            <li><a href="/privacy">Privacy</a></li>
-                            <li><a href="/archive">Archive</a></li>
-						</ul>
-					</div>
-
-					<div class="colophon">
-
-
-						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
-
-
-	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
-
-					</div>
-
-				</div>
-
-		</div> <!-- page end -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="https://quartermaster.app/">Home</a>
+        <a href="https://quartermaster.app/about">About</a>
+        <a href="https://quartermaster.app/userguide">User Guide</a>
+        <a href="https://quartermaster.app/archive">News</a>
+        <a href="/">Templates</a>
+        <a href="https://quartermaster.app/contact">Contact</a>
+        <a href="https://quartermaster.app/support">Donate</a>
+        <a href="https://quartermaster.app/legal">Legal</a>
+        <a href="https://quartermaster.app/privacy">Privacy</a>
+      </nav>
+      <p>Quartermaster © Sean Rogers 2011–<script>document.write(new Date().getFullYear())</script>. This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+    </div>
+  </footer>
 </body>
-
 </html>
