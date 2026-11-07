@@ -96,8 +96,10 @@ h1, h2, h3, h4, h5 { font-family: var(--font-display); font-weight: 500; line-he
 .contents { margin: 28px 0 40px; }
 .contents > summary { display: inline-flex; align-items: center; gap: 10px; list-style: none; cursor: pointer; font-family: var(--font-display); font-weight: 500; font-size: 16px; padding: 9px 18px; border-radius: 999px; background: var(--accent); color: #fff; -webkit-user-select: none; user-select: none; }
 .contents > summary::-webkit-details-marker { display: none; }
-.contents > summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform 0.15s; }
-.contents[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
+.contents > summary::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform 0.2s; }
+/* Like an iOS disclosure group: points to the trailing edge when closed, down when open. */
+.contents[open] > summary::after { transform: translateY(-2px) rotate(45deg); }
+@media (prefers-reduced-motion: reduce) { .contents > summary::after { transition: none; } }
 .contents > summary:hover { background: var(--accent-strong); }
 @media (prefers-color-scheme: dark) { .contents > summary { color: #1d1a19; } }
 .contents[open] > summary { margin-bottom: 16px; }
