@@ -1548,86 +1548,6 @@
 					<integer>1</integer>
 				</dict>
 				<dict>
-					<key>Attached Units</key>
-					<array>
-						<dict>
-							<key>Equipment</key>
-							<array>
-								<array>
-									<dict>
-										<key>Default</key>
-										<true/>
-										<key>Equipped</key>
-										<true/>
-										<key>Name</key>
-										<string>hand weapons</string>
-										<key>Points</key>
-										<real>0</real>
-									</dict>
-								</array>
-								<array>
-									<dict>
-										<key>Default</key>
-										<true/>
-										<key>Equipped</key>
-										<true/>
-										<key>Name</key>
-										<string>plague censers</string>
-										<key>Points</key>
-										<real>0</real>
-										<key>Special Rules</key>
-										<string>Poisoned Attacks, Requires Two Hands, Notes</string>
-										<key>Stats</key>
-										<string>R:Combat•S:S+2•AP-1</string>
-									</dict>
-								</array>
-							</array>
-							<key>Magic Items</key>
-							<array>
-								<dict>
-									<key>Items</key>
-									<array/>
-									<key>Limit</key>
-									<real>-1</real>
-									<key>Name</key>
-									<string>Veteran Abilities</string>
-									<key>Prerequisite</key>
-									<array>
-										<string>Path to Glory</string>
-									</array>
-								</dict>
-							</array>
-							<key>Maximum Size</key>
-							<integer>-1</integer>
-							<key>Minimum Size</key>
-							<integer>5</integer>
-							<key>Name</key>
-							<string>Plague Censer Bearers</string>
-							<key>Points</key>
-							<real>16</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>Plague Priest, 0-1 per 1,000 points</string>
-							</array>
-							<key>Size</key>
-							<integer>5</integer>
-							<key>Special Rules</key>
-							<string>Regular infantry; Frenzy, Scurry Away, Skirmishers, Stubborn, Warband, Hatred (all enemies), Detachment, Plague Disciples</string>
-							<key>Stats</key>
-							<string>M5•WS3•BS3•S3•T4•W1•I3•A2•Ld5</string>
-							<key>Tallies</key>
-							<array>
-								<dict>
-									<key>Count</key>
-									<real>1</real>
-									<key>Name</key>
-									<string>Unit Strength</string>
-									<key>Use Size</key>
-									<true/>
-								</dict>
-							</array>
-						</dict>
-					</array>
 					<key>Command</key>
 					<array>
 						<array>
@@ -3138,86 +3058,6 @@
 					</array>
 				</dict>
 				<dict>
-					<key>Attached Units</key>
-					<array>
-						<dict>
-							<key>Equipment</key>
-							<array>
-								<array>
-									<dict>
-										<key>Default</key>
-										<true/>
-										<key>Equipped</key>
-										<true/>
-										<key>Name</key>
-										<string>hand weapons</string>
-										<key>Points</key>
-										<real>0</real>
-									</dict>
-								</array>
-								<array>
-									<dict>
-										<key>Default</key>
-										<true/>
-										<key>Equipped</key>
-										<true/>
-										<key>Name</key>
-										<string>plague censers</string>
-										<key>Points</key>
-										<real>0</real>
-										<key>Special Rules</key>
-										<string>Poisoned Attacks, Requires Two Hands, Notes</string>
-										<key>Stats</key>
-										<string>R:Combat•S:S+2•AP-1</string>
-									</dict>
-								</array>
-							</array>
-							<key>Magic Items</key>
-							<array>
-								<dict>
-									<key>Items</key>
-									<array/>
-									<key>Limit</key>
-									<real>-1</real>
-									<key>Name</key>
-									<string>Veteran Abilities</string>
-									<key>Prerequisite</key>
-									<array>
-										<string>Path to Glory</string>
-									</array>
-								</dict>
-							</array>
-							<key>Maximum Size</key>
-							<integer>-1</integer>
-							<key>Minimum Size</key>
-							<integer>5</integer>
-							<key>Name</key>
-							<string>Plague Censer Bearers</string>
-							<key>Points</key>
-							<real>16</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>Plague Priest, 0-1 per 1,000 points</string>
-							</array>
-							<key>Size</key>
-							<integer>5</integer>
-							<key>Special Rules</key>
-							<string>Regular infantry; Frenzy, Scurry Away, Skirmishers, Stubborn, Warband, Hatred (all enemies), Detachment, Plague Disciples</string>
-							<key>Stats</key>
-							<string>M5•WS3•BS3•S3•T4•W1•I3•A2•Ld5</string>
-							<key>Tallies</key>
-							<array>
-								<dict>
-									<key>Count</key>
-									<real>1</real>
-									<key>Name</key>
-									<string>Unit Strength</string>
-									<key>Use Size</key>
-									<true/>
-								</dict>
-							</array>
-						</dict>
-					</array>
 					<key>Command</key>
 					<array>
 						<array>
@@ -4380,6 +4220,93 @@
 					</array>
 					<key>Upper Limit</key>
 					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>hand weapons</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>plague censers</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Special Rules</key>
+								<string>Poisoned Attacks, Requires Two Hands, Notes</string>
+								<key>Stats</key>
+								<string>R:Combat•S:S+2•AP-1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Plague Monks</string>
+						</array>
+					</dict>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>-1</real>
+							<key>Name</key>
+							<string>Veteran Abilities</string>
+							<key>Prerequisite</key>
+							<array>
+								<string>Path to Glory</string>
+							</array>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>-1</integer>
+					<key>Minimum Size</key>
+					<integer>5</integer>
+					<key>Name</key>
+					<string>Plague Censer Bearers Detachment</string>
+					<key>Plural Name</key>
+					<string>Plague Censer Bearers</string>
+					<key>Points</key>
+					<real>16</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Plague Monks</string>
+						<string>Plague Priest, 0-1 per 1,000 points</string>
+					</array>
+					<key>Size</key>
+					<integer>5</integer>
+					<key>Special Rules</key>
+					<string>Regular infantry; Frenzy, Scurry Away, Skirmishers, Stubborn, Warband, Hatred (all enemies), Detachment, Plague Disciples</string>
+					<key>Stats</key>
+					<string>M5•WS3•BS3•S3•T4•W1•I3•A2•Ld5</string>
+					<key>Tallies</key>
+					<array>
+						<dict>
+							<key>Count</key>
+							<real>1</real>
+							<key>Name</key>
+							<string>Unit Strength</string>
+							<key>Use Size</key>
+							<true/>
+						</dict>
+					</array>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
