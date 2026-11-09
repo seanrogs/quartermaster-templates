@@ -349,7 +349,38 @@
 			<key>Class</key>
 			<string>Characters</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>1</real>
+			<key>Unit Limits</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Lord</string>
+					<key>Per Points</key>
+					<real>1000</real>
+					<key>Units</key>
+					<array>
+						<string>General of the Empire</string>
+						<string>General Hans Von Löwenhacke</string>
+						<string>Grand Master</string>
+						<string>Harald Gemunsen</string>
+					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Lector or High Priest</string>
+					<key>Per Points</key>
+					<real>1000</real>
+					<key>Units</key>
+					<array>
+						<string>Lector of Sigmar</string>
+						<string>High Priest of Ulric</string>
+					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+			</array>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -366,7 +397,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -468,7 +499,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -502,11 +533,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -536,7 +569,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -550,7 +583,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -590,7 +623,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -628,7 +661,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -666,7 +699,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -682,7 +715,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -720,7 +753,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -736,7 +769,7 @@
 											<key>Name</key>
 											<string>serrated maw</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Multiple Wounds (2), Notes (FoF p70)</string>
 											<key>Stats</key>
@@ -754,7 +787,7 @@
 											<key>Name</key>
 											<string>griffonic pelt (heavy armour)</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -792,7 +825,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -808,7 +841,7 @@
 											<key>Name</key>
 											<string>serrated maw</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Multiple Wounds (2), Notes (FoF p70)</string>
 											<key>Stats</key>
@@ -826,7 +859,7 @@
 											<key>Name</key>
 											<string>griffonic pelt (heavy armour)</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -864,10 +897,6 @@
 					<string>General of the Empire</string>
 					<key>Points</key>
 					<real>90</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 General of the Empire or Grand Master per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -898,7 +927,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -912,7 +941,7 @@
 								<key>Name</key>
 								<string>full plate armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -926,7 +955,7 @@
 								<key>Name</key>
 								<string>Judgement</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Magical Attacks, Multiple Wounds (2), Requires Two Hands</string>
 								<key>Stats</key>
@@ -944,7 +973,7 @@
 								<key>Name</key>
 								<string>the Griffon Helm</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -954,11 +983,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -969,10 +1000,6 @@
 					<string>General Hans Von Löwenhacke</string>
 					<key>Points</key>
 					<real>90</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 General of the Empire or Grand Master per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -988,6 +1015,8 @@
 							<string>Unit Strength</string>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -1062,7 +1091,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>0-1 Grand Master or Chapter Master</string>
@@ -1083,7 +1112,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1157,7 +1186,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1183,11 +1212,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1217,7 +1248,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -1231,7 +1262,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1269,7 +1300,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1307,7 +1338,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -1323,7 +1354,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1349,10 +1380,6 @@
 					<string>Grand Master</string>
 					<key>Points</key>
 					<real>145</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 General of the Empire or Grand Master per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -1383,7 +1410,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1397,7 +1424,7 @@
 								<key>Name</key>
 								<string>Beast Reaver</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Armour Bane (1), Killing Blow, Magical Attacks, Notes</string>
 								<key>Stats</key>
@@ -1415,7 +1442,7 @@
 								<key>Name</key>
 								<string>full plate armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -1425,11 +1452,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1461,7 +1490,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -1475,12 +1504,12 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Heavy cavalry; Counter Charge, First Charge, Swiftstride</string>
 								<key>Stats</key>
@@ -1492,10 +1521,6 @@
 					<string>Harald Gemunsen</string>
 					<key>Points</key>
 					<real>185</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 General of the Empire or Grand Master per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -1526,7 +1551,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1572,7 +1597,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1598,11 +1623,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1632,7 +1659,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -1646,7 +1673,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1686,7 +1713,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1724,7 +1751,7 @@
 											<key>Name</key>
 											<string>Barded Warhorses</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 										</dict>
@@ -1756,10 +1783,6 @@
 					<string>Lector of Sigmar</string>
 					<key>Points</key>
 					<real>110</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Lector of Sigmar or High Priest of Ulric per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -1790,7 +1813,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1836,7 +1859,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -1862,11 +1885,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -1896,7 +1921,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -1910,7 +1935,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1950,7 +1975,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -1976,10 +2001,6 @@
 					<string>High Priest of Ulric</string>
 					<key>Points</key>
 					<real>110</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Lector of Sigmar or High Priest of Ulric per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -2009,7 +2030,7 @@
 										<key>Items</key>
 										<array/>
 										<key>Limit</key>
-										<integer>-1</integer>
+										<real>-1</real>
 										<key>Name</key>
 										<string>Magic Standard</string>
 									</dict>
@@ -2019,7 +2040,7 @@
 								<key>Name</key>
 								<string>Battle Standard Bearer</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -2036,7 +2057,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2138,7 +2159,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2172,11 +2193,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2206,7 +2229,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -2220,7 +2243,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2260,7 +2283,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2298,7 +2321,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2336,7 +2359,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -2352,7 +2375,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2390,7 +2413,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -2406,7 +2429,7 @@
 											<key>Name</key>
 											<string>serrated maw</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Multiple Wounds (2), Notes (FoF p70)</string>
 											<key>Stats</key>
@@ -2424,7 +2447,7 @@
 											<key>Name</key>
 											<string>griffonic pelt (heavy armour)</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2480,7 +2503,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -2497,7 +2520,7 @@
 								<key>Name</key>
 								<string>Level 3 Wizard</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2517,7 +2540,7 @@
 								<key>Name</key>
 								<string>Battle Magic</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2525,7 +2548,7 @@
 								<key>Name</key>
 								<string>Daemonology</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2533,7 +2556,7 @@
 								<key>Name</key>
 								<string>Dark Magic</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2541,7 +2564,7 @@
 								<key>Name</key>
 								<string>Elementalism</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2549,7 +2572,7 @@
 								<key>Name</key>
 								<string>Illusion</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2557,7 +2580,7 @@
 								<key>Name</key>
 								<string>Necromancy</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2587,11 +2610,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2621,7 +2646,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2659,7 +2684,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2697,7 +2722,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -2713,7 +2738,7 @@
 											<key>Name</key>
 											<string>serrated maw</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Multiple Wounds (2), Notes (FoF p70)</string>
 											<key>Stats</key>
@@ -2731,7 +2756,7 @@
 											<key>Name</key>
 											<string>griffonic pelt (heavy armour)</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -2799,7 +2824,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -2816,7 +2841,7 @@
 								<key>Name</key>
 								<string>Level 1 Wizard</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2836,7 +2861,7 @@
 								<key>Name</key>
 								<string>Battle Magic</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2844,7 +2869,7 @@
 								<key>Name</key>
 								<string>Daemonology</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2852,7 +2877,7 @@
 								<key>Name</key>
 								<string>Dark Magic</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2860,7 +2885,7 @@
 								<key>Name</key>
 								<string>Elementalism</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2868,7 +2893,7 @@
 								<key>Name</key>
 								<string>Illusion</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2876,7 +2901,7 @@
 								<key>Name</key>
 								<string>Necromancy</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2906,11 +2931,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -2940,7 +2967,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -2978,7 +3005,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3093,7 +3120,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>0-1 Grand Master or Chapter Master</string>
@@ -3114,7 +3141,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3172,7 +3199,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3198,11 +3225,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3232,7 +3261,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -3246,7 +3275,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3284,7 +3313,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3322,7 +3351,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -3338,7 +3367,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3392,7 +3421,7 @@
 								<key>Name</key>
 								<string>Suffer Not The Witch</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Hatred (enemy Wizards), Magic Resistance (-2)</string>
 							</dict>
@@ -3402,7 +3431,7 @@
 								<key>Name</key>
 								<string>Suffer Not The Revenant</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Hatred (Undead models), Flaming Attacks</string>
 							</dict>
@@ -3412,7 +3441,7 @@
 								<key>Name</key>
 								<string>Suffer Not The Mutant</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Hatred (Warriors of Chaos &amp; Beasts of Chaos), Magic Resistance (-1)</string>
 							</dict>
@@ -3422,7 +3451,7 @@
 								<key>Name</key>
 								<string>Suffer Not The Daemon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Hatred (Daemonic models), Magical Attacks</string>
 							</dict>
@@ -3441,7 +3470,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3455,7 +3484,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3533,11 +3562,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3567,7 +3598,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3605,7 +3636,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3634,7 +3665,7 @@
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
-					<string>Regular infantry (character); Immune to Psychology, Killing Blow, Suffer Not...</string>
+					<string>Regular infantry (character); Immune to Psychology, Killing Blow, Suffer Not</string>
 					<key>Stats</key>
 					<string>M4•WS4•BS4•S4•T4•W2•I5•A2•Ld8</string>
 					<key>Tallies</key>
@@ -3661,7 +3692,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3707,7 +3738,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3733,11 +3764,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3767,7 +3800,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -3781,7 +3814,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3821,7 +3854,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -3877,7 +3910,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3923,7 +3956,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3949,11 +3982,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -3983,7 +4018,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -3997,7 +4032,7 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -4037,7 +4072,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -4093,7 +4128,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4171,11 +4206,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -4205,7 +4242,7 @@
 											<key>Name</key>
 											<string>War Wagon Crew</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>M-•WS3•BS3•S3•T-•W-•I3•A1•Ld8</string>
 										</dict>
@@ -4219,7 +4256,7 @@
 											<key>Name</key>
 											<string>hand weapons</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -4233,7 +4270,7 @@
 											<key>Name</key>
 											<string>blunderbuss</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Multiple Shots (D3), Volley Fire, Notes</string>
 											<key>Stats</key>
@@ -4251,7 +4288,7 @@
 											<key>Name</key>
 											<string>long rifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Cumbersome, Notes</string>
 											<key>Stats</key>
@@ -4269,7 +4306,7 @@
 											<key>Name</key>
 											<string>repeating rifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Multiple Shots (3)</string>
 											<key>Stats</key>
@@ -4287,7 +4324,7 @@
 											<key>Name</key>
 											<string>ball &amp; chain</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Requires Two Hands, Strikes Last</string>
 											<key>Stats</key>
@@ -4305,7 +4342,7 @@
 											<key>Name</key>
 											<string>hooked halberd</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Requires Two Hands</string>
 											<key>Stats</key>
@@ -4323,7 +4360,7 @@
 											<key>Name</key>
 											<string>man-catcher</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Killing Blow, Requires Two Hands</string>
 											<key>Stats</key>
@@ -4341,7 +4378,7 @@
 											<key>Name</key>
 											<string>Barded Warhorses</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 										</dict>
@@ -4357,7 +4394,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -4413,7 +4450,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4437,6 +4474,13 @@
 							</dict>
 						</array>
 					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Flagellants</string>
+						</array>
+					</dict>
 					<key>Magic Items</key>
 					<array>
 						<dict>
@@ -4451,11 +4495,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Seasoned Commander</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -4516,7 +4562,7 @@
 										<key>Name</key>
 										<string>Detachment to Veteran State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4531,7 +4577,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4543,7 +4589,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4569,6 +4615,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Limit Per Points</key>
+							<real>1000</real>
 							<key>Magic</key>
 							<array>
 								<array>
@@ -4586,11 +4634,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -4603,10 +4653,6 @@
 							<string>Veteran State Troopers</string>
 							<key>Points</key>
 							<real>7</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>0-1 per 1,000 points</string>
-							</array>
 							<key>Size</key>
 							<integer>5</integer>
 							<key>Special Rules</key>
@@ -4624,6 +4670,8 @@
 									<true/>
 								</dict>
 							</array>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -4639,7 +4687,7 @@
 										<key>Name</key>
 										<string>Detachment to Veteran State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4654,7 +4702,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4666,7 +4714,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4698,11 +4746,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -4747,7 +4797,7 @@
 										<key>Name</key>
 										<string>Detachment to Veteran State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4762,7 +4812,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4774,7 +4824,7 @@
 										<key>Name</key>
 										<string>crossbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 									<dict>
 										<key>Name</key>
@@ -4813,11 +4863,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -4862,7 +4914,7 @@
 										<key>Name</key>
 										<string>Detachment to Veteran State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4887,7 +4939,7 @@
 													<key>Name</key>
 													<string>two hand weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 											<array>
@@ -4899,12 +4951,12 @@
 													<key>Name</key>
 													<string>throwing weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 										</array>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4914,11 +4966,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -4963,7 +5017,7 @@
 										<key>Name</key>
 										<string>Detachment to Veteran State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -4978,7 +5032,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -4990,7 +5044,7 @@
 										<key>Name</key>
 										<string>warbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5019,11 +5073,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5127,7 +5183,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5139,7 +5195,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5165,6 +5221,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit Per Points</key>
+					<real>1000</real>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -5182,11 +5240,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -5199,10 +5259,6 @@
 					<string>Veteran State Troopers</string>
 					<key>Points</key>
 					<real>7</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>10</integer>
 					<key>Special Rules</key>
@@ -5220,6 +5276,8 @@
 							<true/>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Attached Units</key>
@@ -5238,7 +5296,7 @@
 										<key>Name</key>
 										<string>Detachment to State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5253,7 +5311,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5265,7 +5323,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5291,6 +5349,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Limit Per Points</key>
+							<real>1000</real>
 							<key>Magic</key>
 							<array>
 								<array>
@@ -5308,11 +5368,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5325,10 +5387,6 @@
 							<string>Veteran State Troopers</string>
 							<key>Points</key>
 							<real>7</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>0-1 per 1,000 points</string>
-							</array>
 							<key>Size</key>
 							<integer>5</integer>
 							<key>Special Rules</key>
@@ -5346,6 +5404,8 @@
 									<true/>
 								</dict>
 							</array>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -5361,7 +5421,7 @@
 										<key>Name</key>
 										<string>Detachment to State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5376,7 +5436,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5388,7 +5448,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5420,11 +5480,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5469,7 +5531,7 @@
 										<key>Name</key>
 										<string>Detachment to State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5484,7 +5546,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5496,7 +5558,7 @@
 										<key>Name</key>
 										<string>crossbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 									<dict>
 										<key>Name</key>
@@ -5535,11 +5597,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5584,7 +5648,7 @@
 										<key>Name</key>
 										<string>Detachment to State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5609,7 +5673,7 @@
 													<key>Name</key>
 													<string>two hand weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 											<array>
@@ -5621,12 +5685,12 @@
 													<key>Name</key>
 													<string>throwing weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 										</array>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5636,11 +5700,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5685,7 +5751,7 @@
 										<key>Name</key>
 										<string>Detachment to State Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5700,7 +5766,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5712,7 +5778,7 @@
 										<key>Name</key>
 										<string>warbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5741,11 +5807,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -5827,7 +5895,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5839,7 +5907,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -5871,11 +5939,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -5923,7 +5993,7 @@
 										<key>Name</key>
 										<string>Detachment to State Missile Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -5938,7 +6008,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5950,7 +6020,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -5976,6 +6046,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Limit Per Points</key>
+							<real>1000</real>
 							<key>Magic</key>
 							<array>
 								<array>
@@ -5993,11 +6065,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -6010,10 +6084,6 @@
 							<string>Veteran State Troopers</string>
 							<key>Points</key>
 							<real>7</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>0-1 per 1,000 points</string>
-							</array>
 							<key>Size</key>
 							<integer>5</integer>
 							<key>Special Rules</key>
@@ -6031,6 +6101,8 @@
 									<true/>
 								</dict>
 							</array>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -6046,7 +6118,7 @@
 										<key>Name</key>
 										<string>Detachment to State Missile Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6061,7 +6133,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -6073,7 +6145,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -6105,11 +6177,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -6154,7 +6228,7 @@
 										<key>Name</key>
 										<string>Detachment to State Missile Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6169,7 +6243,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -6181,7 +6255,7 @@
 										<key>Name</key>
 										<string>crossbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 									<dict>
 										<key>Name</key>
@@ -6220,11 +6294,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -6269,7 +6345,7 @@
 										<key>Name</key>
 										<string>Detachment to State Missile Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6294,7 +6370,7 @@
 													<key>Name</key>
 													<string>two hand weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 											<array>
@@ -6306,12 +6382,12 @@
 													<key>Name</key>
 													<string>throwing weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 										</array>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6321,11 +6397,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -6370,7 +6448,7 @@
 										<key>Name</key>
 										<string>Detachment to State Missile Troop</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6385,7 +6463,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -6397,7 +6475,7 @@
 										<key>Name</key>
 										<string>warbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -6426,11 +6504,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -6554,7 +6634,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6566,7 +6646,7 @@
 								<key>Name</key>
 								<string>crossbows</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -6605,11 +6685,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6679,7 +6761,7 @@
 											<key>Name</key>
 											<string>two hand weapons</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -6691,12 +6773,12 @@
 											<key>Name</key>
 											<string>throwing weapons</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6706,11 +6788,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6770,7 +6854,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6782,7 +6866,7 @@
 								<key>Name</key>
 								<string>warbows</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -6811,11 +6895,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -6905,7 +6991,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>0-1 Empire Knights, Inner Circle Knights or Demigryph Knights</string>
@@ -6984,7 +7070,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -6996,7 +7082,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7008,7 +7094,7 @@
 								<key>Name</key>
 								<string>shields</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -7040,13 +7126,13 @@
 								<key>Name</key>
 								<string>great weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
 								<string>wolf hammers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Order of the White Wolf</string>
@@ -7091,11 +7177,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -7123,7 +7211,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -7135,12 +7223,12 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -7185,7 +7273,7 @@
 										<key>Name</key>
 										<string>Detachment to Empire Greatswords</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7200,7 +7288,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7212,7 +7300,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7238,6 +7326,8 @@
 									</dict>
 								</array>
 							</array>
+							<key>Limit Per Points</key>
+							<real>1000</real>
 							<key>Magic</key>
 							<array>
 								<array>
@@ -7255,11 +7345,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -7272,10 +7364,6 @@
 							<string>Veteran State Troopers</string>
 							<key>Points</key>
 							<real>7</real>
-							<key>Prerequisite</key>
-							<array>
-								<string>0-1 per 1,000 points</string>
-							</array>
 							<key>Size</key>
 							<integer>5</integer>
 							<key>Special Rules</key>
@@ -7293,6 +7381,8 @@
 									<true/>
 								</dict>
 							</array>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -7308,7 +7398,7 @@
 										<key>Name</key>
 										<string>Detachment to Empire Greatswords</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7323,7 +7413,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7335,7 +7425,7 @@
 										<key>Name</key>
 										<string>light armour</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7367,11 +7457,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -7416,7 +7508,7 @@
 										<key>Name</key>
 										<string>Detachment to Empire Greatswords</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7431,7 +7523,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7443,7 +7535,7 @@
 										<key>Name</key>
 										<string>crossbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 									<dict>
 										<key>Name</key>
@@ -7482,11 +7574,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -7531,7 +7625,7 @@
 										<key>Name</key>
 										<string>Detachment to Empire Greatswords</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7556,7 +7650,7 @@
 													<key>Name</key>
 													<string>two hand weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 											<array>
@@ -7568,12 +7662,12 @@
 													<key>Name</key>
 													<string>throwing weapons</string>
 													<key>Points</key>
-													<real>0.0</real>
+													<real>0</real>
 												</dict>
 											</array>
 										</array>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7583,11 +7677,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -7632,7 +7728,7 @@
 										<key>Name</key>
 										<string>Detachment to Empire Greatswords</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7647,7 +7743,7 @@
 										<key>Name</key>
 										<string>hand weapons</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 								<array>
@@ -7659,7 +7755,7 @@
 										<key>Name</key>
 										<string>warbows</string>
 										<key>Points</key>
-										<real>0.0</real>
+										<real>0</real>
 									</dict>
 								</array>
 							</array>
@@ -7688,11 +7784,13 @@
 									<key>Items</key>
 									<array/>
 									<key>Limit</key>
-									<integer>-1</integer>
+									<real>-1</real>
 									<key>Name</key>
 									<string>Veteran Abilities</string>
 									<key>Prerequisite</key>
-									<string>Path to Glory</string>
+									<array>
+										<string>Path to Glory</string>
+									</array>
 								</dict>
 							</array>
 							<key>Maximum Size</key>
@@ -7722,6 +7820,13 @@
 							</array>
 						</dict>
 					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Greatswords</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -7731,7 +7836,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Greatswords</string>
@@ -7747,7 +7852,23 @@
 			<key>Class</key>
 			<string>Special</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
+			<key>Unit Limits</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Special war machines</string>
+					<key>Per Points</key>
+					<real>1000</real>
+					<key>Units</key>
+					<array>
+						<string>Great Cannon</string>
+						<string>Mortar</string>
+					</array>
+					<key>Upper Limit</key>
+					<integer>3</integer>
+				</dict>
+			</array>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -7811,7 +7932,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>0-1 Empire Knights, Inner Circle Knights or Demigryph Knights</string>
@@ -7890,7 +8011,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7902,7 +8023,7 @@
 								<key>Name</key>
 								<string>full plate armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -7914,7 +8035,7 @@
 								<key>Name</key>
 								<string>shields</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -7946,13 +8067,13 @@
 								<key>Name</key>
 								<string>great weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
 								<string>wolf hammers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Order of the White Wolf</string>
@@ -7964,6 +8085,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit Per Points</key>
+					<real>1000</real>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -7981,11 +8104,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8013,7 +8138,7 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -8025,12 +8150,12 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -8040,10 +8165,6 @@
 					<string>Inner Circle Knights</string>
 					<key>Points</key>
 					<real>28</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>4</integer>
 					<key>Special Rules</key>
@@ -8061,6 +8182,8 @@
 							<true/>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -8137,7 +8260,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8149,7 +8272,7 @@
 								<key>Name</key>
 								<string>great weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8161,7 +8284,7 @@
 								<key>Name</key>
 								<string>full plate armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -8198,11 +8321,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8269,7 +8394,7 @@
 											<key>Name</key>
 											<string>repeater pistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -8303,7 +8428,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8315,7 +8440,7 @@
 								<key>Name</key>
 								<string>brace of pistols</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8327,7 +8452,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -8352,11 +8477,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8384,12 +8511,12 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M8•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -8439,7 +8566,7 @@
 											<key>Name</key>
 											<string>brace of pistols</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -8455,7 +8582,7 @@
 											<key>Name</key>
 											<string>repeater pistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -8489,7 +8616,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8501,7 +8628,7 @@
 								<key>Name</key>
 								<string>pistols</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8513,7 +8640,7 @@
 								<key>Name</key>
 								<string>repeater handguns</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8525,7 +8652,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -8535,11 +8662,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8567,12 +8696,12 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M8•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -8661,7 +8790,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>0-1 Empire Knights, Inner Circle Knights or Demigryph Knights</string>
@@ -8740,7 +8869,7 @@
 								<key>Name</key>
 								<string>hand weapon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8752,7 +8881,7 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -8770,7 +8899,7 @@
 								<key>Name</key>
 								<string>shields</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8782,19 +8911,19 @@
 								<key>Name</key>
 								<string>halberds</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
 								<string>lances</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
 								<string>wolf hammers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Order of the White Wolf</string>
@@ -8812,11 +8941,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -8844,7 +8975,7 @@
 											<key>Name</key>
 											<string>wicked claws</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Stats</key>
 											<string>R:Combat•S:S•AP-2</string>
 										</dict>
@@ -8858,12 +8989,12 @@
 											<key>Name</key>
 											<string>barding</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M7•WS4•BS-•S5•T-•W-•I4•A3•Ld-</string>
 							</dict>
@@ -8905,7 +9036,7 @@
 								<key>Name</key>
 								<string>Gun Crew</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S3•T3•W3•I3•A3•Ld7</string>
 							</dict>
@@ -8924,7 +9055,7 @@
 								<key>Name</key>
 								<string>great cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -8936,7 +9067,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -8997,7 +9128,7 @@
 								<key>Name</key>
 								<string>Gun Crew</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S3•T3•W3•I3•A3•Ld7</string>
 							</dict>
@@ -9016,7 +9147,7 @@
 								<key>Name</key>
 								<string>mortar</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9028,7 +9159,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -9113,7 +9244,7 @@
 											<key>Name</key>
 											<string>repeater pistol</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
@@ -9147,7 +9278,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9159,7 +9290,7 @@
 								<key>Name</key>
 								<string>crossbows</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -9177,10 +9308,12 @@
 								<key>Name</key>
 								<string>heavy armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
+					<key>Limit Per Points</key>
+					<real>1000</real>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -9192,7 +9325,7 @@
 								<key>Name</key>
 								<string>Vanguard</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -9222,11 +9355,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9254,12 +9389,12 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M8•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -9286,6 +9421,8 @@
 							<true/>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -9362,7 +9499,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9374,7 +9511,7 @@
 								<key>Name</key>
 								<string>wolf hammers</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Order of the White Wolf</string>
@@ -9394,10 +9531,18 @@
 								<key>Name</key>
 								<string>full plate armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>High Priest of Ulric</string>
+							<string>Priest of Ulric</string>
+						</array>
+					</dict>
 					<key>Magic</key>
 					<array>
 						<array>
@@ -9419,11 +9564,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9464,7 +9611,23 @@
 			<key>Class</key>
 			<string>Rare</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
+			<key>Unit Limits</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Rare war machines</string>
+					<key>Per Points</key>
+					<real>1000</real>
+					<key>Units</key>
+					<array>
+						<string>Helblaster Volley Gun</string>
+						<string>Helstorm Rocket Battery</string>
+					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+			</array>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -9508,7 +9671,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -9520,7 +9683,7 @@
 								<key>Name</key>
 								<string>flails</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -9530,11 +9693,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -9577,7 +9742,7 @@
 								<key>Name</key>
 								<string>Gun Crew</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S3•T3•W3•I3•A3•Ld7</string>
 							</dict>
@@ -9596,7 +9761,7 @@
 								<key>Name</key>
 								<string>Helblaster Volley Gun</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Armour Bane (2), Cumbersome, Helblaster, Move or Shoot</string>
 								<key>Stats</key>
@@ -9612,7 +9777,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -9624,10 +9789,6 @@
 					<string>Helblaster Volley Gun</string>
 					<key>Points</key>
 					<real>120</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Rare war machines per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -9658,7 +9819,7 @@
 								<key>Name</key>
 								<string>Gun Crew</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M4•WS3•BS3•S3•T3•W3•I3•A3•Ld7</string>
 							</dict>
@@ -9677,7 +9838,7 @@
 								<key>Name</key>
 								<string>Helstorm Rocket Battery</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Cumbersome, Helstorm, Move or Shoot</string>
 								<key>Stats</key>
@@ -9693,7 +9854,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -9705,10 +9866,6 @@
 					<string>Helstorm Rocket Battery</string>
 					<key>Points</key>
 					<real>125</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 Rare war machines per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -9749,7 +9906,7 @@
 											<key>Name</key>
 											<string>hand weapon</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9790,7 +9947,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M-•WS3•BS4•S3•T-•W-•I3•A1•Ld8</string>
 							</dict>
@@ -9809,7 +9966,7 @@
 								<key>Name</key>
 								<string>Steam Cannon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Armour Bane (2), Cannon Fire, Cumbersome, Multiple Wounds (D3), Notes</string>
 								<key>Stats</key>
@@ -9827,7 +9984,7 @@
 								<key>Name</key>
 								<string>steam gun</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Breath Weapon, Notes</string>
 								<key>Stats</key>
@@ -9835,6 +9992,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit Per Points</key>
+					<real>1000</real>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -9843,10 +10002,6 @@
 					<string>Steam Tank</string>
 					<key>Points</key>
 					<real>265</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -9862,6 +10017,8 @@
 							<string>Unit Strength</string>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Command</key>
@@ -9887,7 +10044,7 @@
 											<key>Name</key>
 											<string>hand weapons</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 									<array>
@@ -9901,7 +10058,7 @@
 											<key>Name</key>
 											<string>blunderbuss</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Multiple Shots (D3), Volley Fire, Notes</string>
 											<key>Stats</key>
@@ -9919,7 +10076,7 @@
 											<key>Name</key>
 											<string>long rifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Cumbersome, Notes</string>
 											<key>Stats</key>
@@ -9937,7 +10094,7 @@
 											<key>Name</key>
 											<string>repeating rifle</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Multiple Shots (3)</string>
 											<key>Stats</key>
@@ -9955,7 +10112,7 @@
 											<key>Name</key>
 											<string>ball &amp; chain</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (1), Requires Two Hands, Strikes Last</string>
 											<key>Stats</key>
@@ -9973,7 +10130,7 @@
 											<key>Name</key>
 											<string>hooked halberd</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Armour Bane (2), Requires Two Hands</string>
 											<key>Stats</key>
@@ -9991,7 +10148,7 @@
 											<key>Name</key>
 											<string>man-catcher</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Killing Blow, Requires Two Hands</string>
 											<key>Stats</key>
@@ -10000,12 +10157,14 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M-•WS3•BS3•S3•T-•W-•I3•A1•Ld8</string>
 							</dict>
 						</array>
 					</array>
+					<key>Limit Per Points</key>
+					<real>1000</real>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -10033,12 +10192,12 @@
 											<key>Name</key>
 											<string>iron-shod hooves</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M7•WS3•BS-•S3•T-•W-•I3•A1•Ld-</string>
 							</dict>
@@ -10048,10 +10207,6 @@
 					<string>War Wagon</string>
 					<key>Points</key>
 					<real>140</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>0-1 per 1,000 points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -10067,6 +10222,8 @@
 							<string>Unit Strength</string>
 						</dict>
 					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
 			</array>
 			<key>Upper Limit</key>
@@ -10076,7 +10233,7 @@
 			<key>Class</key>
 			<string>Mercenaries</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -10108,7 +10265,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10120,7 +10277,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -10180,11 +10337,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10290,7 +10449,7 @@
 								<key>Name</key>
 								<string>hand weapons</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -10302,7 +10461,7 @@
 								<key>Name</key>
 								<string>light armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Name</key>
@@ -10379,11 +10538,13 @@
 							<key>Items</key>
 							<array/>
 							<key>Limit</key>
-							<integer>-1</integer>
+							<real>-1</real>
 							<key>Name</key>
 							<string>Veteran Abilities</string>
 							<key>Prerequisite</key>
-							<string>Path to Glory</string>
+							<array>
+								<string>Path to Glory</string>
+							</array>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -10416,22 +10577,38 @@
 				</dict>
 			</array>
 			<key>Upper Limit</key>
-			<real>0.20000000000000001</real>
+			<real>0.2</real>
 		</dict>
 		<dict>
 			<key>Class</key>
 			<string>Allies</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
 			<real>0.25</real>
 		</dict>
 	</array>
+	<key>Role Comparisons</key>
+	<array>
+		<dict>
+			<key>Comparison</key>
+			<string>At Least</string>
+			<key>Number</key>
+			<integer>3</integer>
+			<key>Roles</key>
+			<array>
+				<string>Core</string>
+				<string>Special</string>
+				<string>Rare</string>
+				<string>Mercenaries</string>
+			</array>
+		</dict>
+	</array>
 	<key>System</key>
 	<string>TOW</string>
 	<key>Version</key>
-	<integer>20260824</integer>
+	<integer>20261107</integer>
 </dict>
 </plist>
