@@ -1414,6 +1414,73 @@
 		<string>R:Combat•S:S+2•AP-2</string>
 		<string>R30"•S3•AP-</string>
 	</array>
+	<key>Traits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Composition</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Standard Composition</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Grand Melee</string>
+					<key>Role Limits</key>
+					<dict>
+						<key>Characters</key>
+						<real>0.25</real>
+						<key>Core</key>
+						<real>0.25</real>
+						<key>Mercenaries</key>
+						<real>0.25</real>
+						<key>Rare</key>
+						<real>0.25</real>
+						<key>Special</key>
+						<real>0.25</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Battle March</string>
+					<key>Role Limits</key>
+					<dict>
+						<key>Characters</key>
+						<real>0.25</real>
+						<key>Core</key>
+						<real>0.35</real>
+						<key>Mercenaries</key>
+						<real>0.25</real>
+						<key>Rare</key>
+						<real>0.25</real>
+						<key>Special</key>
+						<real>0.3</real>
+					</dict>
+					<key>Single Restricted Unit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>Duplicate Limits</key>
+					<dict>
+						<key>Characters</key>
+						<integer>3</integer>
+						<key>Core</key>
+						<integer>4</integer>
+						<key>Mercenaries</key>
+						<integer>2</integer>
+						<key>Rare</key>
+						<integer>2</integer>
+						<key>Special</key>
+						<integer>3</integer>
+					</dict>
+					<key>Name</key>
+					<string>Combined Arms</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Version</key>
 	<integer>20260824</integer>
 </dict>
