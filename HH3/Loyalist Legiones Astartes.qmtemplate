@@ -1595,6 +1595,37 @@
 						<string>Raven Guard, Troops</string>
 					</array>
 				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Ancient of War</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Fury of the Ancients</string>
+						<string>Walker</string>
+						<string>no Malefic</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Eternal Warrior (1)</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Prime Advantage</string>
+					<key>Name</key>
+					<string>Prime Advantage: Skilled Riders</string>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Sky-Hunter Phalanx</string>
+						<string>Cavalry</string>
+					</array>
+					<key>Special Rules</key>
+					<string>Shrouded (6+), Move Through Cover</string>
+				</dict>
 			</array>
 		</dict>
 	</array>
@@ -1619,6 +1650,12 @@
 						<string>Bulwark Primary Detachment</string>
 						<string>Linebreaker Primary Detachment</string>
 						<string>Allied Detachment</string>
+						<string>Pride of the Legion</string>
+						<string>Fury of the Ancients</string>
+						<string>Sky-Hunter Phalanx</string>
+						<string>Armoured Spearhead</string>
+						<string>Orbital Drop Assault</string>
+						<string>White Scars Sky-Hunter Phalanx</string>
 					</array>
 					<key>Upper Limit</key>
 					<integer>1</integer>
@@ -2685,6 +2722,794 @@
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>5</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>5</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>5</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>5</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Heavy Transport (1 per Heavy Assault, Retinue, Elites)</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Pride of the Legion</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>May exchange Vanguard (X) for Line (1); Requires Master of the Legion; Destroyed Elites or Heavy Assault grants Opponent 1VP</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>10</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Logistical Benefit</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>War-engine</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>The Iron-clad</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Fury of the Ancients</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Command and Specialist must have Battlesmith (X); Destroyed War-engine grants Opponent 1VP</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>10</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Sky-Hunter Phalanx</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Antigrav or Flyer, or Embarked on Flyer only</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Golden Keshig</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Exchanged for Retinue</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>10</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>Fast Attack</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>10</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>Kyzagan Assault Speeder</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Exchanged for Fast Attack</string>
+								</array>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>2</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>White Scars Sky-Hunter Phalanx</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>White Scars</string>
+					</array>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Antigrav or Flyer, or Embarked on Flyer only</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>3</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>10</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>10</real>
+								<key>Name</key>
+								<string>Armour</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Armoured Spearhead</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Squadron Tactics; non-Vehicle must have Battlesmith (X)</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>High Command</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Command</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Retinue</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Troops</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Heavy Assault</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Elites</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Tallies</key>
+								<array>
+									<dict>
+										<key>Count</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>Prime Slots</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Transport</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Transport or Heavy Transport (1 per non-Vehicle)</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Heavy Transport</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Transport or Heavy Transport (1 per non-Vehicle)</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Detachment Definition</key>
+					<true/>
+					<key>Maximum Size</key>
+					<integer>0</integer>
+					<key>Minimum Size</key>
+					<integer>0</integer>
+					<key>Name</key>
+					<string>Orbital Drop Assault</string>
+					<key>Per Unit</key>
+					<true/>
+					<key>Points</key>
+					<real>0</real>
+					<key>Size</key>
+					<integer>0</integer>
+					<key>Special Rules</key>
+					<string>Orbital Drop Protocols</string>
 					<key>Upper Limit</key>
 					<integer>1</integer>
 				</dict>
@@ -6185,7 +7010,7 @@
 								<key>Maximum</key>
 								<real>2</real>
 								<key>Name</key>
-								<string>Transport</string>
+								<string>Elites</string>
 								<key>Options</key>
 								<array>
 									<array>
@@ -62307,7 +63132,7 @@
 				</dict>
 				<dict>
 					<key>Base</key>
-					<string>#4C9A2A</string>
+					<string>#76BB40</string>
 					<key>Name</key>
 					<string>Salamanders</string>
 					<key>Trim</key>
@@ -62327,6 +63152,6 @@
 		</dict>
 	</array>
 	<key>Version</key>
-	<integer>20261101</integer>
+	<integer>20261112</integer>
 </dict>
 </plist>
