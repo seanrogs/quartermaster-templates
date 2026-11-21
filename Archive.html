@@ -1,150 +1,51 @@
-<!--
-
-Observer Theme
-By Zack Sultan
-Released January 2013
-Revised April 16, 2014
-
--->
-
-<html>
-    <head>
-        <title>Quartermaster Templates</title>
-        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_61622fd3e6b6_128.png">
-        <link rel="alternate" type="application/rss+xml" href="http://quartermaster.app/rss">
-
-            <meta name="description" content="Quartermaster is a complete army management app for tabletop miniature games." />
-
-        <link rel="stylesheet" href="observer.css">
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
-        <meta charset="UTF-8">
-
-
-<!-- Options -->
-
-
-        <meta name="if:Show Navigation" content="1"/>
-        <meta name="if:Alternate Header Layout" content="0"/>
-        <meta name="if:Show Description" content="0"/>
-        <meta name="if:Show Archive Navigation Link" content="1"/>
-        <meta name="if:Wide Images" content="1"/>
-        <meta name="if:Photoset Layout" content="0"/>
-        <meta name="if:Show Post Tags" content="1"/>
-        <meta name="if:Show Post Notes" content="1"/>
-        <meta name="if:Show Copyright" content="0"/>
-        <meta name="if:Infinite Scroll" content="1"/>
-
-        <meta name="Title font" content="Gibson">
-        <meta name="Title font weight" content="bold" title="Bold">
-        <meta name="Title font weight" content="normal" title="Normal">
-        <meta name="font:Body font" content="Calluna"/>
-
-        <meta name="Background color" content="#fff">
-        <meta name="Title color" content="#444444">
-        <meta name="Link color" content="#5f79a4">
-
-        <meta name="color:Body text" content="#333333"/>
-		<meta name="color:Secondary text" content="#888888"/>
-        <meta name="image:Logo" content=""/>
-        <meta name="text:TypeKit ID" content=""/>
-        <meta name="text:Title Font" content=""/>
-        <meta name="text:Body Font" content=""/>
-        <meta name="text:Post Headline Font" content=""/>
-        <!--<meta name="text:Secondary Font" content=""/>-->
-
-		<meta name='text:Disqus Shortname' content='' />
-
-<!-- Scripts -->
-
-    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
-
-
-
-
-
-    <!-- Media resizing -->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // Make desktop tumblr video stretch to 100%
-            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
-            // Resize tumblr video on mobile
-            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
-		});
-
-        //Make Spotify the right size and responsive
-	    $(document).ready(function(){
-	        $('.mobile-spotify iframe').css('height', '80px');
-            $('.mobile-spotify iframe').css('width', '290px');
-            $('iframe[src*="embed.spotify.com"]').each( function() {
-                $(this).css('width',$(this).parent(1).css('width'));
-                $(this).css('height', '82');
-                $(this).attr('src',$(this).attr('src'));
-            });
-        });
-        $(window).resize(function() {
-            $('iframe[src*="embed.spotify.com"]').each( function() {
-                $(this).css('width',$(this).parent(1).css('width'));
-                $(this).css('height', '82');
-                $(this).attr('src',$(this).attr('src'));
-            });
-        });
-
-        //disable safari active states
-        document.addEventListener("touchstart", function() {},false);
-
-	</script>
-
-
-<!-- End header -->
-
-<meta http-equiv="x-dns-prefetch-control" content="off"/>
-<meta name="keywords" content="Quartermaster,updates,App Store,Tips and tricks,Warhammer 40k" />
-
-<meta charset="utf-8" />
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#8A2812" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1b1513" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=879731050">
+  <title>Archive · Quartermaster Templates</title>
+  <meta name="description" content="Older game systems and factions.">
+  <link rel="icon" href="/icon.png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <link rel="stylesheet" href="/style.css">
 </head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <!-- Header: keep in sync with quartermaster-site/_layouts/default.html -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="https://quartermaster.app/">
+        <img src="/icon.png" alt="" width="32" height="32">
+        <span>Quartermaster</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="https://quartermaster.app/userguide">User Guide</a>
+        <a href="https://quartermaster.app/archive">News</a>
+        <a href="/" aria-current="page">Templates</a>
+        <a href="https://quartermaster.app/contact">Contact</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/quartermaster/id879731050">Get the app</a>
+      </nav>
+    </div>
+  </header>
 
-	<body>
-
-		<div id="page">
-
-			<div id="header">
-
-
-				<div class="links">
-					<ul>
-					    <li id="get-link"><a href="http://www.quartermaster.app/get">Get&nbsp;Quartermaster</a></li>
-						<li><a href="http://www.quartermaster.app/">Home</a></li>
-
-
-						<li><a href="http://www.quartermaster.app/about">About</a></li>
-
-						<li><a href="http://www.quartermaster.app/userguide">User&nbsp;Guide</a></li>
-
-						<li>Templates</li>
-
-						<li><a href="http://www.quartermaster.app/contact">Contact</a></li>
-
-						<li><a href="http://www.quartermaster.app/support">Donate</a></li>
-
-					</ul>
-				</div>
-
-
-				<div class="blog-title">
-
-                    <h1><a href="/">Quartermaster Templates</a></h1>
-
-				</div>
-
+  <main id="main" class="wrap">
+    <div class="page-head">
+    <p class="eyebrow"><a href="/">Templates</a></p>
+    <h1>Archive</h1>
+    <p class="lede">Older game systems and factions.</p>
+    </div>
 				<div class="banner">
 					<p>The Game Systems and Factions listed here have not been maintained and may be out of date. Please help out with maintenance and confirm if these files are still relevant.</p>
 				</div>
 
-				<div class="contents" style="margin-top: 50px;">
+				<div class="contents">
 					<ul>
-						<li><a href="#WH40K10">Warhammer&nbsp;40,000&nbsp;10th&nbsp;Edition</a></li>
-						<li><a href="#WH40K9">Warhammer&nbsp;40,000&nbsp;9th&nbsp;Edition</a></li>
-						<li><a href="#WH40K7">Warhammer&nbsp;40,000&nbsp;7th&nbsp;Edition</a></li>
+						<li><a href="#WH40K9">Warhammer&nbsp;40,000 <span class="edition">9th Ed</span></a></li>
+						<li><a href="#WH40K7">Warhammer&nbsp;40,000 <span class="edition">7th Ed</span></a></li>
 					</ul>
 					<ul>
 						<li><a href="#KillTeam">Warhammer&nbsp;40,000: Kill Team</a></li>
@@ -168,37 +69,16 @@ Revised April 16, 2014
   						<li><a href="#KoW-Historical">Kings of War Historical</a></li>
 					</ul>
 					<ul>
-						<li><a href="/">More Game Systems</a></li>
+						<li class="more"><a href="/">More Game Systems</a></li>
 					</ul>
 				</div>
 
 
-
-			</div> <!-- header end -->
 
 			<div id="content">
 
 				<div class="column">
-					<h2 id="WH40K10">Warhammer 40,000 10th Edition (WIP)</h2>
-					<ul>
-						<li id="WH40K10-WH40K10"><a href="WH40K10/WH40K10.qmsystem">WH40K 10th Edition game system</a>
-							<ul class="note">
-								<li>Use this game system to begin creating faction templates for Warhammer 40,000 10th Edition.</li>
-							</ul>
-						</li>
-					</ul>
-					<h4>Example</h4>
-					<ul>
-						<li id="WH40K10-Orks"><a href="WH40K10/Orks.qmtemplate">Orks</a>
-                            <ul class="note">
-                                <li>This is an example template showing how 10th Edition units can be constructed. Follow this example to create your own templates.</li>
-                            </ul>
-						</li>
-					</ul>
-				</div>
-
-				<div class="column">
-					<h2 id="WH40K9">Warhammer 40,000 (9th Edition)</h2>
+					<h2 id="WH40K9">Warhammer 40,000 <span class="edition">9th Edition</span></h2>
 					<ul>
 						<li id="WH40K9-WH40K9"><a href="WH40K9/WH40K9.qmsystem">WH40K 9th Edition game system</a>
 							<ul class="note">
@@ -282,7 +162,7 @@ Revised April 16, 2014
 				</div>
 
 				<div class="column">
-					<h2 id="WH40K7">Warhammer 40,000 7th Edition</h2>
+					<h2 id="WH40K7">Warhammer 40,000 <span class="edition">7th Edition</span></h2>
 					<ul>
 						<li id="WH40K7-WH40K7"><a href="WH40K7/WH40K7.qmsystem">WH40K 7th Edition game system</a>
 							<ul class="note">
@@ -966,47 +846,23 @@ Revised April 16, 2014
 				</div>
 
 			</div><!-- content end -->
+  </main>
 
-			<div id="footer">
-
-					<div id="footer-links">
-
-						<ul>
-							<li><a href="/">Home</a></li>
-
-
-    					    <li><a href="/about">About</a></li>
-
-    					    <li><a href="/userguide">User Guide</a></li>
-
-    					    <li><a href="/templates">Templates</a></li>
-
-    					    <li><a href="/contact">Contact</a></li>
-
-    					    <li><a href="/support">Donate</a></li>
-
-
-
-
-                            <li><a href="/legal">Legal</a></li>
-                            <li><a href="/privacy">Privacy</a></li>
-                            <li><a href="/archive">Archive</a></li>
-						</ul>
-					</div>
-
-					<div class="colophon">
-
-
-						<p>Quartermaster &copy; Sean Rogers 2011–<script>document.write( new Date().getFullYear() );</script></p>
-
-
-	                    <p>This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
-
-					</div>
-
-				</div>
-
-		</div> <!-- page end -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="https://quartermaster.app/">Home</a>
+        <a href="https://quartermaster.app/about">About</a>
+        <a href="https://quartermaster.app/userguide">User Guide</a>
+        <a href="https://quartermaster.app/archive">News</a>
+        <a href="/">Templates</a>
+        <a href="https://quartermaster.app/contact">Contact</a>
+        <a href="https://quartermaster.app/support">Donate</a>
+        <a href="https://quartermaster.app/legal">Legal</a>
+        <a href="https://quartermaster.app/privacy">Privacy</a>
+      </nav>
+      <p>Quartermaster © Sean Rogers 2011–<script>document.write(new Date().getFullYear())</script>. This app is unofficial and in no way endorsed by Games Workshop Limited.</p>
+    </div>
+  </footer>
 </body>
-
 </html>

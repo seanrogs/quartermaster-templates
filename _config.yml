@@ -1,0 +1,18 @@
+# GitHub Pages builds this site with Jekyll. The template files are copied as-is.
+timezone: Australia/Brisbane
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# "What's been updated?" on the home page. One Markdown file per update in _updates/.
+collections:
+  updates:
+    output: false
+
+# How many updates the home page shows. Older files can stay; they just aren't listed.
+updates_shown: 12
+
+exclude:
+  - README.md
+  - LICENSE
