@@ -19,7 +19,7 @@
 					<key>Name</key>
 					<string>Prime Advantage: Paragon of Malevolence</string>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Malevolent Artifice</string>
@@ -34,98 +34,28 @@
 			<key>Class</key>
 			<string>Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
-			<key>Units</key>
+			<real>0</real>
+			<key>Unit Limits</key>
 			<array>
 				<dict>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Encroaching Ruin</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Heedless Slaughter</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Putrid Corruption</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Rapturous Sensation</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Formless Distortion</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Infernal Tempest</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Ravenous Dissolution</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Malevolent Artifice</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
-					<key>Maximum Size</key>
-					<integer>0</integer>
-					<key>Minimum Size</key>
-					<integer>0</integer>
+					<key>Lower Limit</key>
+					<integer>1</integer>
 					<key>Name</key>
-					<string>Ætheric Dominion</string>
-					<key>Per Unit</key>
-					<true/>
-					<key>Points</key>
-					<real>0.0</real>
-					<key>Prerequisite</key>
+					<string>Primary Detachment</string>
+					<key>Units</key>
 					<array>
-						<string>Daemons of the Ruinstorm</string>
+						<string>Crusade Primary Detachment</string>
+						<string>Strike Force Primary Detachment</string>
+						<string>Bulwark Primary Detachment</string>
+						<string>Linebreaker Primary Detachment</string>
+						<string>Allied Detachment</string>
 					</array>
-					<key>Size</key>
-					<integer>0</integer>
+					<key>Upper Limit</key>
+					<integer>1</integer>
 				</dict>
+			</array>
+			<key>Units</key>
+			<array>
 				<dict>
 					<key>Command</key>
 					<array>
@@ -140,7 +70,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -154,7 +84,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -177,7 +107,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -200,7 +130,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -212,7 +142,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -224,7 +154,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -236,7 +166,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -248,7 +178,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -260,7 +190,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -272,7 +202,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -284,7 +214,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -296,7 +226,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -308,7 +238,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -320,7 +250,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -332,7 +262,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -348,7 +278,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -360,7 +290,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -370,29 +300,6 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Loyalist</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Traitor</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -402,7 +309,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -422,7 +329,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -436,7 +343,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -450,7 +357,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -473,7 +380,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -494,7 +401,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -506,7 +413,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -518,7 +425,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -530,7 +437,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -542,7 +449,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -554,7 +461,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -566,7 +473,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -578,7 +485,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -590,7 +497,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -602,7 +509,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -614,7 +521,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -624,105 +531,6 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Loyalist</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Traitor</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Dark Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>White Scars</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Space Wolves</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Imperial Fists</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Blood Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Iron Hands</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Ultramarines</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Salamanders</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Raven Guard</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -732,7 +540,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -756,7 +564,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -770,7 +578,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -784,7 +592,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -807,7 +615,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -830,7 +638,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -842,7 +650,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -854,7 +662,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -866,7 +674,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -878,7 +686,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -890,7 +698,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -902,7 +710,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -914,7 +722,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -926,7 +734,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -938,7 +746,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -950,7 +758,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -962,7 +770,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -972,105 +780,6 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Loyalist</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Traitor</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Dark Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>White Scars</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Space Wolves</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Imperial Fists</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Blood Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Iron Hands</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Ultramarines</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Salamanders</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Raven Guard</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1080,7 +789,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -1104,7 +813,7 @@
 								<key>Name</key>
 								<string>High Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1118,7 +827,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1132,7 +841,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1155,7 +864,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1169,7 +878,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1181,7 +890,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1193,7 +902,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1205,7 +914,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1217,7 +926,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1229,7 +938,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1241,7 +950,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1253,7 +962,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1265,7 +974,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1277,7 +986,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1289,7 +998,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1301,7 +1010,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1311,105 +1020,6 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Loyalist</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Traitor</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Dark Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>White Scars</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Space Wolves</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Imperial Fists</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Blood Angels</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Iron Hands</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Ultramarines</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Salamanders</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Name</key>
-								<string>Raven Guard</string>
-								<key>Points</key>
-								<real>0.0</real>
-							</dict>
-						</array>
-					</array>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1419,7 +1029,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Zone Mortalis</string>
@@ -1443,7 +1053,7 @@
 								<key>Name</key>
 								<string>Lord of War</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -1458,11 +1068,9 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>25% of total</string>
-					</array>
+					<real>0</real>
+					<key>Points Limit</key>
+					<real>0.25</real>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -1482,7 +1090,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -1505,7 +1113,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1517,7 +1125,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1529,7 +1137,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1541,7 +1149,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1553,7 +1161,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1565,7 +1173,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1577,7 +1185,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1589,7 +1197,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1601,7 +1209,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1613,7 +1221,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1625,7 +1233,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1637,7 +1245,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -1653,7 +1261,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -1665,7 +1273,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -1684,7 +1292,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>50% of total</string>
@@ -1700,7 +1308,7 @@
 			<key>Class</key>
 			<string>Auxiliary Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -1717,7 +1325,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1731,12 +1339,20 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1746,7 +1362,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -1764,12 +1380,20 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1779,7 +1403,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -1797,12 +1421,20 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1812,7 +1444,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -1830,12 +1462,20 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1845,7 +1485,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -1863,12 +1503,20 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>Command</string>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1878,7 +1526,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -1908,17 +1556,25 @@
 											<key>Name</key>
 											<string>Brutes</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Esoterist</string>
+							<string>Rogue Psyker</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -1928,10 +1584,10 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Esoterist</string>
+						<string>Esoterist or Rogue Psyker</string>
 					</array>
 					<key>Size</key>
 					<integer>0</integer>
@@ -1960,12 +1616,12 @@
 											<key>Name</key>
 											<string>Herald of Tzeentch</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -1989,12 +1645,12 @@
 											<key>Name</key>
 											<string>Horrors of Tzeentch</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2018,12 +1674,12 @@
 											<key>Name</key>
 											<string>Flamers of Tzeentch</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2047,17 +1703,26 @@
 											<key>Name</key>
 											<string>Screamers of Tzeentch</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Esoterist</string>
+							<string>Prosperine Sorcerer</string>
+							<string>Infantry Tercio</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2067,7 +1732,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
 						<string>Traitor Esoterist or Prosperine Sorcerer / Traitor Solar Auxilia with Fateweaver Cohort Doctrine and Infantry Tercio</string>
@@ -2083,7 +1748,7 @@
 			<key>Class</key>
 			<string>Apex Detachments</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -2100,7 +1765,7 @@
 								<key>Name</key>
 								<string>Command</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2121,7 +1786,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2133,7 +1798,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2145,7 +1810,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2157,7 +1822,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2169,7 +1834,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2181,7 +1846,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2193,7 +1858,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2205,7 +1870,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2217,7 +1882,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2229,7 +1894,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2241,7 +1906,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2257,7 +1922,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -2269,7 +1934,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -2279,6 +1944,13 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2288,7 +1960,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2306,7 +1978,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Tallies</key>
 								<array>
 									<dict>
@@ -2327,7 +1999,7 @@
 								<key>Name</key>
 								<string>Retinue</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2339,7 +2011,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2351,7 +2023,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2363,7 +2035,7 @@
 								<key>Name</key>
 								<string>Troops</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2375,7 +2047,7 @@
 								<key>Name</key>
 								<string>Support</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2387,7 +2059,7 @@
 								<key>Name</key>
 								<string>War-engine</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2399,7 +2071,7 @@
 								<key>Name</key>
 								<string>Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2411,7 +2083,7 @@
 								<key>Name</key>
 								<string>Heavy Transport</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2423,7 +2095,7 @@
 								<key>Name</key>
 								<string>Recon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2435,7 +2107,7 @@
 								<key>Name</key>
 								<string>Fast Attack</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2447,7 +2119,7 @@
 								<key>Name</key>
 								<string>Armour</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Logistical Benefit</string>
@@ -2463,7 +2135,7 @@
 								<key>Name</key>
 								<string>Elites</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -2475,7 +2147,7 @@
 								<key>Name</key>
 								<string>Heavy Assault</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Paragon of Malevolence</string>
@@ -2485,6 +2157,13 @@
 					</array>
 					<key>Detachment Definition</key>
 					<true/>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Roles</key>
+						<array>
+							<string>High Command</string>
+						</array>
+					</dict>
 					<key>Maximum Size</key>
 					<integer>0</integer>
 					<key>Minimum Size</key>
@@ -2494,7 +2173,7 @@
 					<key>Per Unit</key>
 					<true/>
 					<key>Points</key>
-					<real>0.0</real>
+					<real>0</real>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -2506,7 +2185,7 @@
 			<key>Class</key>
 			<string>Warlord</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -2523,7 +2202,7 @@
 								<key>Name</key>
 								<string>Staff of Tzeentch</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2537,7 +2216,7 @@
 								<key>Name</key>
 								<string>baleful glare</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -2595,7 +2274,7 @@
 			<key>Class</key>
 			<string>High Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -2612,7 +2291,7 @@
 								<key>Name</key>
 								<string>sovereign blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2647,7 +2326,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -2657,7 +2336,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -2665,7 +2344,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -2675,7 +2354,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -2685,7 +2364,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -2695,7 +2374,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -2705,7 +2384,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -2715,14 +2394,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -2801,7 +2480,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Encroaching Ruin / Putrid Corruption / Rapturous Sensation / Formless Distortion / Infernal Tempest / Ravenous Dissolution</string>
@@ -2826,7 +2505,7 @@
 								<key>Name</key>
 								<string>Sovereign</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Bulky (7); Infantry (Champion, Malefic)</string>
 							</dict>
@@ -2878,7 +2557,7 @@
 								<key>Name</key>
 								<string>changeblade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -2938,7 +2617,7 @@
 								<key>Name</key>
 								<string>Ascendant Lord</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Bulky (7); Infantry (Champion, Malefic)</string>
 							</dict>
@@ -2984,7 +2663,7 @@
 			<key>Class</key>
 			<string>Command</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3001,7 +2680,7 @@
 								<key>Name</key>
 								<string>hierarch blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3036,7 +2715,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -3046,7 +2725,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3054,7 +2733,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -3064,7 +2743,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -3074,7 +2753,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -3084,7 +2763,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -3094,7 +2773,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -3104,14 +2783,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3190,7 +2869,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Encroaching Ruin / Putrid Corruption / Rapturous Sensation / Formless Distortion / Infernal Tempest / Ravenous Dissolution</string>
@@ -3228,7 +2907,7 @@
 								<key>Name</key>
 								<string>Hierarch</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Bulky (5); Infantry (Champion, Malefic)</string>
 							</dict>
@@ -3280,7 +2959,7 @@
 								<key>Name</key>
 								<string>harbinger blade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3294,7 +2973,7 @@
 								<key>Name</key>
 								<string>Totem of Dominion</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -3321,7 +3000,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -3331,7 +3010,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3339,7 +3018,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -3349,7 +3028,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -3359,7 +3038,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -3369,7 +3048,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -3379,7 +3058,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -3389,14 +3068,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3475,7 +3154,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
 									<string>Encroaching Ruin / Putrid Corruption / Rapturous Sensation / Formless Distortion / Infernal Tempest / Ravenous Dissolution</string>
@@ -3534,7 +3213,7 @@
 								<key>Name</key>
 								<string>ætherblade</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3548,7 +3227,7 @@
 								<key>Name</key>
 								<string>Staff of Change</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -3628,7 +3307,7 @@
 			<key>Class</key>
 			<string>Retinue</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -3638,7 +3317,7 @@
 			<key>Class</key>
 			<string>Elites</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3655,7 +3334,7 @@
 								<key>Name</key>
 								<string>2 heavy flamers, 2 Decimator claws</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -3715,7 +3394,7 @@
 			<key>Class</key>
 			<string>Heavy Assault</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3730,7 +3409,7 @@
 								<key>Name</key>
 								<string>immaterial armaments</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -3757,7 +3436,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -3767,7 +3446,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -3775,7 +3454,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -3785,7 +3464,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -3795,7 +3474,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -3805,7 +3484,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -3815,7 +3494,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -3825,14 +3504,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -3876,7 +3555,7 @@
 								<key>Name</key>
 								<string>Slaughterer blades</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -3932,7 +3611,7 @@
 			<key>Class</key>
 			<string>Troops</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -3949,7 +3628,7 @@
 								<key>Name</key>
 								<string>daemon claws</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -4014,7 +3693,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -4024,7 +3703,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4032,7 +3711,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+); Heavy</string>
 										</dict>
@@ -4042,7 +3721,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -4052,7 +3731,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4062,7 +3741,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -4072,7 +3751,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -4082,14 +3761,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4162,7 +3841,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -4172,7 +3851,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4180,7 +3859,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -4190,7 +3869,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -4200,7 +3879,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4210,7 +3889,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -4220,7 +3899,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -4230,14 +3909,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4281,7 +3960,7 @@
 								<key>Name</key>
 								<string>Blue Horror</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Stats</key>
 								<string>M7•WS3•BS3•S3•T4•W1•I3•A1•LD7•CL7•WP8•IN7•SAV5+•INV6+</string>
 							</dict>
@@ -4312,7 +3991,7 @@
 								<key>Name</key>
 								<string>coruscating grasp</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4366,7 +4045,7 @@
 			<key>Class</key>
 			<string>Support</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -4383,7 +4062,7 @@
 								<key>Name</key>
 								<string>great maw and talon</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4410,7 +4089,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -4420,7 +4099,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4428,7 +4107,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -4438,7 +4117,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -4448,7 +4127,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4458,7 +4137,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -4468,7 +4147,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -4478,14 +4157,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4558,7 +4237,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -4568,7 +4247,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4576,7 +4255,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -4586,7 +4265,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -4596,7 +4275,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4606,7 +4285,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -4616,7 +4295,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -4626,14 +4305,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4696,7 +4375,7 @@
 								<key>Name</key>
 								<string>changefire</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4736,7 +4415,7 @@
 			<key>Class</key>
 			<string>War-engine</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -4753,7 +4432,7 @@
 								<key>Name</key>
 								<string>pulverising limbs</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 						<array>
@@ -4767,7 +4446,7 @@
 								<key>Name</key>
 								<string>vile deluge</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4794,7 +4473,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -4804,7 +4483,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -4812,7 +4491,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+)</string>
 										</dict>
@@ -4822,7 +4501,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4832,7 +4511,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -4842,7 +4521,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -4852,7 +4531,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -4862,14 +4541,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -4909,7 +4588,7 @@
 			<key>Class</key>
 			<string>Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -4919,7 +4598,7 @@
 			<key>Class</key>
 			<string>Heavy Transport</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -4929,7 +4608,7 @@
 			<key>Class</key>
 			<string>Recon</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -4963,7 +4642,7 @@
 								<key>Name</key>
 								<string>daemon claws</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -5028,7 +4707,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -5038,7 +4717,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5046,7 +4725,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -5056,7 +4735,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -5066,7 +4745,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -5076,7 +4755,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -5086,7 +4765,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -5096,14 +4775,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -5143,7 +4822,7 @@
 			<key>Class</key>
 			<string>Fast Attack</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -5177,7 +4856,7 @@
 								<key>Name</key>
 								<string>daemon claws</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -5240,7 +4919,7 @@
 											<key>Name</key>
 											<string>Encroaching Ruin</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Deep Strike, Desecrators</string>
 										</dict>
@@ -5250,7 +4929,7 @@
 											<key>Name</key>
 											<string>Heedless Slaughter</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -5258,7 +4937,7 @@
 											<key>Name</key>
 											<string>Putrid Corruption</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Feel No Pain (6+), Explodes (5+); Heavy</string>
 										</dict>
@@ -5268,7 +4947,7 @@
 											<key>Name</key>
 											<string>Rapturous Sensation</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators; Light</string>
 										</dict>
@@ -5278,7 +4957,7 @@
 											<key>Name</key>
 											<string>Formless Distortion</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators</string>
 										</dict>
@@ -5288,7 +4967,7 @@
 											<key>Name</key>
 											<string>Infernal Tempest</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Aflame (1)</string>
 										</dict>
@@ -5298,7 +4977,7 @@
 											<key>Name</key>
 											<string>Ravenous Dissolution</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Hatred (Malefic, Psyker)</string>
 										</dict>
@@ -5308,14 +4987,14 @@
 											<key>Name</key>
 											<string>Malevolent Artifice</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Desecrators, Armour-breaker (4+)</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -5359,7 +5038,7 @@
 								<key>Name</key>
 								<string>razorspines</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -5399,7 +5078,7 @@
 			<key>Class</key>
 			<string>Armour</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array/>
 			<key>Upper Limit</key>
@@ -5409,7 +5088,7 @@
 			<key>Class</key>
 			<string>Lord of War</string>
 			<key>Lower Limit</key>
-			<real>0.0</real>
+			<real>0</real>
 			<key>Units</key>
 			<array>
 				<dict>
@@ -5438,7 +5117,7 @@
 											<key>Name</key>
 											<string>Baneaxe</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Critical Hit (5+); Immaterial</string>
 											<key>Stats</key>
@@ -5456,7 +5135,7 @@
 											<key>Name</key>
 											<string>Ironlash</string>
 											<key>Points</key>
-											<real>0.0</real>
+											<real>0</real>
 											<key>Special Rules</key>
 											<string>Assault, Immaterial</string>
 											<key>Stats</key>
@@ -5465,7 +5144,7 @@
 									</array>
 								</array>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 							</dict>
 						</array>
 					</array>
@@ -5498,7 +5177,7 @@
 								<key>Name</key>
 								<string>reaping claws</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Reaping Blow (2), Breaching (6+); Immaterial</string>
 								<key>Stats</key>
@@ -5516,7 +5195,7 @@
 								<key>Name</key>
 								<string>noxious vomit</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Template, Poisoned (5+), Panic (1); Assault, Immaterial</string>
 								<key>Stats</key>
@@ -5553,7 +5232,7 @@
 								<key>Name</key>
 								<string>Blade of Samus</string>
 								<key>Points</key>
-								<real>0.0</real>
+								<real>0</real>
 								<key>Special Rules</key>
 								<string>Critical Hit (6+); Immaterial</string>
 								<key>Stats</key>
@@ -5583,7 +5262,49 @@
 	</array>
 	<key>System</key>
 	<string>HH3</string>
+	<key>Traits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Ætheric Dominion</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Encroaching Ruin</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Heedless Slaughter</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Putrid Corruption</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Rapturous Sensation</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Formless Distortion</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Infernal Tempest</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Ravenous Dissolution</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Malevolent Artifice</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Version</key>
-	<integer>20261011</integer>
+	<integer>20261122</integer>
 </dict>
 </plist>
