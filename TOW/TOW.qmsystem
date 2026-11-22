@@ -11,7 +11,7 @@
 			<array>
 				<dict>
 					<key>Label</key>
-					<string>Dead</string>
+					<string>Dead or Fled</string>
 					<key>Shrouded</key>
 					<true/>
 					<key>VP Opponent</key>
@@ -45,11 +45,329 @@
 			<array>
 				<dict>
 					<key>Label</key>
-					<string>Banner Claimed</string>
+					<string>Lost General</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Battle March</string>
+					</array>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>100</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Lost General</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
 					<key>VP Opponent</key>
 					<dict>
 						<key>Value</key>
 						<real>50</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Lost Battle Standard</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Battle March</string>
+					</array>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>50</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Lost Battle Standard</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>25</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Banner Claimed</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Battle March</string>
+					</array>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>50</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Banner Claimed</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>25</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Enemy Broken</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Break Point</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>500</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Baggage Train Controlled</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Baggage Trains</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>100</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string> Baggage Train Destroyed</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Prerequisite</key>
+					<array>
+						<string>Baggage Trains</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>250</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Special Feature Controlled</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Special Features</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>200</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Baggage Cart Survived</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Baggage Carts</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>25</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>In Enemy Zone</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Baggage Carts</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>50</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Baggage Cart Destroyed</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Baggage Carts</string>
+					</array>
+					<key>Shrouded</key>
+					<true/>
+					<key>VP Opponent</key>
+					<dict>
+						<key>Value</key>
+						<real>25</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Controlling a Quarter</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Domination</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>100</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Controlling Double Strength</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Domination</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>150</real>
+					</dict>
+				</dict>
+				<dict>
+					<key>Label</key>
+					<string>Controlling Uncontested</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Domination</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>200</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Controlling Objective</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Prerequisite</key>
+					<array>
+						<string>Strategic Locations</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>30</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Treasure Trove Controlled</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>10</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Treasure Trove Destroyed</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Prerequisite</key>
+					<array>
+						<string>Raid &amp; Burn</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>30</real>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Conditions</key>
+			<array>
+				<dict>
+					<key>Label</key>
+					<string>Strategic Landmark</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+					<key>VP</key>
+					<dict>
+						<key>Value</key>
+						<real>25</real>
 					</dict>
 				</dict>
 			</array>
@@ -1608,10 +1926,42 @@
 				<dict>
 					<key>Name</key>
 					<string>Standard Composition</string>
+					<key>Role Comparisons</key>
+					<array>
+						<dict>
+							<key>Comparison</key>
+							<string>At Least</string>
+							<key>Number</key>
+							<integer>3</integer>
+							<key>Roles</key>
+							<array>
+								<string>Core</string>
+								<string>Special</string>
+								<string>Rare</string>
+								<string>Mercenaries</string>
+							</array>
+						</dict>
+					</array>
 				</dict>
 				<dict>
 					<key>Name</key>
 					<string>Grand Melee</string>
+					<key>Role Comparisons</key>
+					<array>
+						<dict>
+							<key>Comparison</key>
+							<string>At Least</string>
+							<key>Number</key>
+							<integer>3</integer>
+							<key>Roles</key>
+							<array>
+								<string>Core</string>
+								<string>Special</string>
+								<string>Rare</string>
+								<string>Mercenaries</string>
+							</array>
+						</dict>
+					</array>
 					<key>Role Limits</key>
 					<dict>
 						<key>Characters</key>
@@ -1629,6 +1979,22 @@
 				<dict>
 					<key>Name</key>
 					<string>Battle March</string>
+					<key>Role Comparisons</key>
+					<array>
+						<dict>
+							<key>Comparison</key>
+							<string>At Least</string>
+							<key>Number</key>
+							<integer>2</integer>
+							<key>Roles</key>
+							<array>
+								<string>Core</string>
+								<string>Special</string>
+								<string>Rare</string>
+								<string>Mercenaries</string>
+							</array>
+						</dict>
+					</array>
 					<key>Role Limits</key>
 					<dict>
 						<key>Characters</key>
@@ -1661,6 +2027,67 @@
 					</dict>
 					<key>Name</key>
 					<string>Combined Arms</string>
+					<key>Role Comparisons</key>
+					<array>
+						<dict>
+							<key>Comparison</key>
+							<string>At Least</string>
+							<key>Number</key>
+							<integer>3</integer>
+							<key>Roles</key>
+							<array>
+								<string>Core</string>
+								<string>Special</string>
+								<string>Rare</string>
+								<string>Mercenaries</string>
+							</array>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Multiple</key>
+			<true/>
+			<key>Name</key>
+			<string>Secondary Objectives</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>No Secondary Objectives</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Baggage Trains</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Features</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Domination</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Strategic Locations</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Raid &amp; Burn</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Baggage Carts</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>Battle March</string>
+					</array>
 				</dict>
 			</array>
 		</dict>
