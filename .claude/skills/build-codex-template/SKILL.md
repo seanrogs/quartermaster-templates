@@ -22,7 +22,7 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 
 | Codex says | Template pattern |
 |---|---|
-| Army variant (Chapter, Clan, Wych Cult…) | `traits=[trait('Sub-faction', ['Wych Cult'])]` on `template()`; units that only exist in, or are banned from, the variant get `prereq='Wych Cult'` / `prereq='not Wych Cult'` (a unit allowed in different slots is duplicated into each slot). Variants may carry colours: `('Goffs', '#141414', '#F25A50')` |
+| Army variant with its own rules (Chapter, Clan, Wych Cult…) | `traits=[trait('Sub-faction', ['Wych Cult'])]` on `template()`; units that only exist in, or are banned from, the variant get `prereq='Wych Cult'` / `prereq='not Wych Cult'` (a unit allowed in different slots is duplicated into each slot). Variants may carry colours: `('Goffs', '#141414', '#F25A50')`. Name the trait `Sub-faction`, and only add variants that change the army list — no background-only variants or made-up colour schemes |
 | "Only one of X or Y" across units (e.g. one Archon *or* Archite, special characters that count as one) | `hq_limits=[unit_limit('Archon or Wych Archite', [...names...])]` on `standard_foc()`, plus `upper=1` on each unit |
 | "Army of at least 1,500 points" | `from_points=1500` |
 | "Army must include X" / "army led by X" | `requires=['X', ...]` (one of the named units); keep a short `prereq` note for wording the link can't express |
@@ -36,10 +36,12 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 | A character model added on top of the squad | `opt(..., count=1, default=True, additional=True)` |
 | Mixed-model unit (e.g. Warriors and/or Incubi) | one Command group: base model `count=size, maximum=-1, default=True`, other model types at their extra cost; 0-1 types noted in `prereq` |
 | Character weapon choices ("two single-handed, or one single + one two-handed") | an Equipment group with `maximum=2` for single-handed and a group with `maximum=1` for two-handed |
-| "May take wargear from the Armoury, up to 100 pts" | `magic_items=armoury('Wargear, Arcane Wargear', 100)` plus `items(...)` categories at template level |
+| "May take wargear from the Armoury, up to 100 pts" | `magic_items=armoury('Wargear, Arcane Wargear', 100)` plus `items(...)` categories at template level. Unit-level Magic Items is one allowance for the whole unit, so use it only on single models (characters, command options) |
+| Every model in a multi-model unit may take armoury wargear (Shas'vre bodyguards) | an Equipment group `[opt('Wargear, Arcane Wargear', 0, maximum=-1, magic_items=armoury(...))]` so the allowance scales with unit size |
 | Slots shared by weapons and systems (Tau battlesuit hard points) | one group per model, `maximum=-3` on a team (`3` on a single model); options using two slots carry `prereq='uses two hard points'` |
+| Gear that unlocks armoury items (drone controller → drones) | the gear as a 0-pt option; the unlocked items live in the armoury with `prereq='drone controller'` — don't bundle them into packaged options |
 | Unit that takes a slot but joins another unit (Kroot Hounds, Krootox) | its own entry in its slot with `requires=['Kroot Carnivore Squad']` and an "attached to…" note |
-| Flat upgrade for the whole unit (+10 pts per team, not per model) | `[opt('bonded', 10, maximum=1)]` |
+| Flat upgrade for the whole unit (+10 pts per team, not per model) | `[opt('bonded', 10, maximum=1)]` — the option only, not also a Special Rule |
 | Armoury item a model can take more than once (drones) | 5th tuple element `True` in `items()` entries (writes `Multiple`) |
 | Dedicated transport | attach it: `attached=[raider()]`; compulsory transport adds `lower=1` |
 | Special character | `upper=1`, all wargear as `fixed(...)` at 0 pts, army restrictions in `prereq` |

@@ -2,14 +2,18 @@
 
 Usage: python3 -B factions/wh40k3_tau.py "WH40K3/Tau.qmtemplate"
 
-A 'Sept' Trait holds the eight major septs (background only, colours chosen for the
-app) and 'Farsight Enclave'. Commander Farsight's Breakaway Faction rules hang off the
-Farsight Enclave variant: banned units get 'not Farsight Enclave', units limited to
+A 'Sub-faction' Trait holds 'Farsight Enclave' (the septs have no rules of their own, so
+they are left out). Commander Farsight's Breakaway Faction rules hang off that variant: banned units get 'not Farsight Enclave', units limited to
 0-1 get a note, and the Ork Fighter upgrade needs 'Farsight Enclave'.
 
 Battlesuit hard points are one group per model (maximum -3 on teams, 3 on a single
 Commander). Twin-linked weapons use two hard points; the app can't count that, so
-they carry a note.
+they carry a note. Drones are bought from the armoury; the drone controller is a free
+support system that unlocks them.
+
+Armoury access on a single model (Commanders, team leaders) is Magic Items on the unit or
+option. On a multi-model team (Bodyguard) it is an Equipment option with maximum -1, so
+the allowance scales with team size.
 """
 import os
 import sys
@@ -44,10 +48,7 @@ def support_systems(first_maximum):
         opt('multi-tracker', 5, maximum=first_maximum),
         opt('target lock', 5),
         opt('shield generator', 20),
-        opt('drone controller and 1 gun drone', 10),
-        opt('drone controller and 2 gun drones', 20),
-        opt('drone controller and 1 shield drone', 15),
-        opt('drone controller and 2 shield drones', 30),
+        opt('drone controller', 0),
     ]
 
 
@@ -78,9 +79,10 @@ def team_leader(shas_vre_stats, markerlight=False):
 
 def bodyguard(prereq=None):
     return unit('XV8 Crisis Battlesuit Bodyguard Team', 40, 'WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+', size=1,
-                minimum=1, maximum=2, singular='Shas’vre', plural='Shas’vre', upper=1, rules='Bonded',
-                equipment=[standard('XV8 Crisis battlesuits'), crisis_hard_points(-3), bonded(), ork_fighter()],
-                magic_items=ARMOURY, prereq=prereq)
+                minimum=1, maximum=2, singular='Shas’vre', plural='Shas’vre', upper=1,
+                equipment=[standard('XV8 Crisis battlesuits'), crisis_hard_points(-3), bonded(), ork_fighter(),
+                           [opt(ARMOURY[0]['Name'], 0, maximum=-1, magic_items=ARMOURY)]],
+                prereq=prereq)
 
 
 # ---------------------------------------------------------------- vehicles
@@ -134,11 +136,11 @@ HQ = [
 
 ELITES = [
     unit('XV8 Crisis Battlesuit Team', 30, 'WS2•BS3•S5•T4•W2•I2•A2•Ld8•Sv3+', size=1, minimum=1, maximum=3,
-         singular='Shas’ui', plural='Shas’ui', rules='Bonded',
+         singular='Shas’ui', plural='Shas’ui',
          command=team_leader('WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+'),
          equipment=[standard('XV8 Crisis battlesuits'), crisis_hard_points(-3), bonded(), ork_fighter()]),
     unit('XV15 Stealth Team', 30, 'WS2•BS3•S4•T3•W1•I2•A2•Ld8•Sv3+', size=3, minimum=3, maximum=6,
-         singular='Shas’ui', plural='Shas’ui', rules='Stealth Armour; Infiltrate; Bonded',
+         singular='Shas’ui', plural='Shas’ui', rules='Stealth Armour; Infiltrate',
          command=team_leader('WS3•BS3•S4•T3•W1•I3•A2•Ld8•Sv3+', markerlight=True),
          equipment=[standard('XV15 Stealth battlesuits'), standard('burst cannons'), bonded(), ork_fighter()],
          prereq=FARSIGHT_0_1),
@@ -148,7 +150,7 @@ ELITES = [
 
 TROOPS = [
     unit('Fire Warrior Team', 10, 'WS2•BS3•S3•T3•W1•I2•A1•Ld7•Sv4+', size=6, minimum=6, maximum=12, lower=1,
-         singular='Shas’la', plural='Shas’la', rules='Bonded',
+         singular='Shas’la', plural='Shas’la',
          command=[[opt('Shas’ui', 10, maximum=1, stats='WS2•BS3•S3•T3•W1•I2•A2•Ld8•Sv4+',
                        options=[[opt('markerlight', 10, maximum=1)]], magic_items=ARMOURY)]],
          equipment=[[opt('pulse rifle', 0, count=6, maximum=-1, default=True),
@@ -172,7 +174,7 @@ FAST = [
          singular='Gun Drone', plural='Gun Drones', rules='Jetpacks; Independent',
          equipment=[standard('twin-linked pulse carbines')], prereq=NOT_FARSIGHT),
     unit('Pathfinder Team', 12, 'WS2•BS3•S3•T3•W1•I2•A1•Ld7•Sv4+', size=4, minimum=4, maximum=8,
-         singular='Shas’la', plural='Shas’la', rules='Bonded; Forward Scouts',
+         singular='Shas’la', plural='Shas’la', rules='Forward Scouts',
          command=[[opt('Shas’ui', 10, maximum=1, stats='WS2•BS3•S3•T3•W1•I2•A2•Ld8•Sv4+', magic_items=ARMOURY)]],
          equipment=[standard('pulse carbines with markerlights'), toggle('photon grenades', 1),
                     toggle('EMP grenades', 3), bonded(), ork_fighter()],
@@ -187,7 +189,7 @@ FAST = [
 
 HEAVY = [
     unit('XV88 Broadside Battlesuit Team', 70, 'WS2•BS3•S5•T4•W2•I2•A2•Ld8•Sv2+', size=1, minimum=1, maximum=3,
-         singular='Shas’ui', plural='Shas’ui', rules='Bonded',
+         singular='Shas’ui', plural='Shas’ui',
          command=team_leader('WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv2+'),
          equipment=[standard('XV88 Broadside battlesuits'), standard('twin-linked railguns'),
                     [opt('smart missile system', 0, count=1, maximum=-1, default=True),
@@ -221,23 +223,11 @@ ITEMS = [
     ]),
 ]
 
-SEPTS = [
-    ('T’au', '#C8893A', '#2B2B2B'),
-    ('Tau’n', '#C9962E', '#2A2F6E'),
-    ('Vior’la', '#E8E6DF', '#9E1A1A'),
-    ('D’yanoi', '#A3A65A', '#1F6B35'),
-    ('Dal’yth', '#E3D3A0', '#8A5A2B'),
-    ('Sa’cea', '#3A3F44', '#8F9AA6'),
-    ('Bork’an', '#2A2F6E', '#B3261E'),
-    ('Fal’shia', '#1F8A8A', '#F7F7F5'),
-    (FARSIGHT, '#B3261E', '#F7F7F5'),
-]
-
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    ethereal = unit_limit('Ethereal caste member', ['Ethereal', 'Aun’shi'])
+    ethereal = unit_limit('Ethereal Caste Member', ['Ethereal', 'Aun’shi'])
     write(template('Tau', 'WH40K3', 20261124,
                    standard_foc(HQ, ELITES, TROOPS, FAST, HEAVY, hq_limits=[ethereal]), ITEMS,
-                   traits=[trait('Sept', SEPTS)]),
+                   traits=[trait('Sub-faction', [(FARSIGHT, '#B3261E', '#F7F7F5')])]),
           sys.argv[1])
