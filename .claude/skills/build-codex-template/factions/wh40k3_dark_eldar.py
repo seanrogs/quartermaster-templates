@@ -2,15 +2,16 @@
 
 Usage: python3 factions/wh40k3_dark_eldar.py "WH40K3/Dark Eldar.qmtemplate"
 
-The Wych Cult variant is handled in the one file with Prerequisite notes: units are
-duplicated into their Wych Cult slot tagged 'Wych Cult', and normal-slot copies or
-banned units are tagged 'not Wych Cult'.
+The Wych Cult variant is a 'Sub-faction' Trait. Units are duplicated into their Wych
+Cult slot with the prerequisite 'Wych Cult', and normal-slot copies or banned units
+get 'not Wych Cult'.
 """
 import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
-from qmtemplate import armoury, fixed, items, opt, standard_foc, template, toggle, unit, write  # noqa: E402
+from qmtemplate import (armoury, fixed, items, opt, standard_foc, template, toggle, trait, unit,  # noqa: E402
+                        unit_limit, write)
 
 ARMOURY = armoury('Wargear, Arcane Wargear')
 
@@ -96,7 +97,7 @@ def ravager():
 def kabal_retinue():
     command = [[
         opt('Warrior', 0, count=5, maximum=-1, default=True, stats='WS4•BS4•S3•T3•W1•I5•A1•Ld8•Sv5+',
-            options=[[opt('splinter rifle', 0, count=1, maximum=-1, default=True)]]),
+            options=[[opt('splinter rifle', 0, count=5, maximum=-1, default=True)]]),
         opt('Incubus', 17, stats='WS5•BS4•S3•T3•W1•I5•A1•Ld8•Sv3+',
             options=[[opt('tormentor helm', 0, count=1, maximum=-1, default=True)],
                      [opt('punisher', 0, count=1, maximum=-1, default=True)]]),
@@ -190,7 +191,7 @@ def mandrakes():
 
 # ---------------------------------------------------------------- HQ
 
-def lord(name, pts, stats, prereq, wych=False):
+def lord(name, pts, stats, prereq, wych=False, upper=None):
     equipment = [single_handed(), two_handed()]
     if wych:
         equipment.insert(0, [opt('Wych weapons', 0, equipped=True)])
@@ -199,37 +200,38 @@ def lord(name, pts, stats, prereq, wych=False):
     else:
         rules = 'Independent Character; Retinue'
         attached = [kabal_retinue(), lord_raider()]
-    return unit(name, pts, stats, rules=rules, upper=1 if prereq and '0-1' in prereq else None,
+    return unit(name, pts, stats, rules=rules, upper=upper,
                 equipment=equipment, magic_items=ARMOURY, attached=attached, prereq=prereq)
 
 
 HQ = [
-    lord('Archon', 60, 'WS6•BS6•S3•T3•W3•I7•A3•Ld9•Sv5+', '0-1 Archon or Archite; not Wych Cult'),
+    lord('Archon', 60, 'WS6•BS6•S3•T3•W3•I7•A3•Ld9•Sv5+', 'not Wych Cult', upper=1),
     lord('Dracon', 35, 'WS5•BS5•S3•T3•W2•I6•A2•Ld9•Sv5+', 'not Wych Cult'),
-    lord('Wych Archite', 70, 'WS6•BS6•S3•T3•W3•I8•A3•Ld9•Sv6+', '0-1 Archon or Archite', wych=True),
+    lord('Wych Archite', 70, 'WS6•BS6•S3•T3•W3•I8•A3•Ld9•Sv6+', None, wych=True, upper=1),
     lord('Wych Dracite', 45, 'WS5•BS5•S3•T3•W2•I7•A2•Ld9•Sv6+', None, wych=True),
     unit('Haemonculi', 25, 'WS4•BS4•S3•T4•W2•I4•A2•Ld8•Sv5+', size=1, minimum=1, maximum=3,
          singular='Haemonculus', plural='Haemonculi', rules='Independent Character',
          equipment=[haemonculi_weapons()], magic_items=ARMOURY, prereq='not Wych Cult'),
     unit('Asdrubael Vect', 277, 'WS6•BS6•S4•FA14(11)•SA14(11)•RA14(10)•I7•A5', upper=1,
          rules='Fast, Skimmer, Open-topped; Dais of Destruction; Energy Field; Independent Character',
-         prereq='2,000+ points; counts as Archon',
+         from_points=2000,
          equipment=[fixed('Dais of Destruction'), [opt('disintegrator', 0, count=2, maximum=2, default=True)],
                     fixed('dark lance'), fixed('splinter pistols'), fixed('power weapons')]),
     unit('Kruellagh the Vile', 125, 'WS6•BS6•S3•T3•W3•I7•A3(4)•Ld9•Sv5+', upper=1,
          rules='Independent Character; Soul Flayer; Damnation Grenades; Retinue',
-         prereq='1,500+ points; Kabal of the Flayed Skull; counts as Archon',
+         prereq='Kabal of the Flayed Skull', from_points=1500,
          equipment=[fixed('hell mask'), fixed('terrorfex (Damnation grenades)'), fixed('Soul Flayer')],
          attached=[kabal_retinue(), lord_raider()]),
     unit('Lelith Hesperax', 90, 'WS7•BS6•S3•T3•W3•I8•A3•Ld9•Sv6+', upper=1,
          rules='Independent Character; Wych Weapons; Dodge; Lelith’s Retinue',
-         prereq='1,500+ points; Wych Cult; counts as Archite',
+         prereq='Wych Cult', from_points=1500,
          equipment=[fixed('agoniser'), fixed('splinter pistol'), fixed('shadow field'), fixed('Wych weapons')],
          attached=[wych_retinue('Lelith’s Retinue', 'Combat Drugs (choose result); Dodge; Wych Weapons'),
                    lord_raider()]),
     unit('Urien Rakarth', 100, 'WS4•BS4•S3•T4•W2•I4•A2•Ld8•Sv5+', upper=1,
          rules='Independent Character; Master Haemonculus; Retinue',
-         prereq='Army led by an Archon; not Wych Cult',
+         prereq=['Army led by an Archon', 'not Wych Cult'],
+         requires=['Archon', 'Asdrubael Vect', 'Kruellagh the Vile'],
          equipment=[fixed('destructor'), fixed('stinger'), fixed('poisoned blades'), fixed('Crucible of Malediction')],
          attached=[unit('Uber Grotesques', 15, 'WS5•BS0•S4•T3•W2•I4•A2•Ld6•Sv5+', size=1, minimum=1, maximum=5,
                         singular='Uber Grotesque', upper=1,
@@ -237,7 +239,7 @@ HQ = [
                         attached=[raider(prereq='accompanied by Urien')])]),
     unit('Decapitator', 112, 'WS5(6)•BS5•S3•T3•W2•I6•A2(4)•Ld9•Sv5+', upper=1,
          rules='Independent Character; Additional Limbs; Decapitator; Shadow-skinned; Master Infiltrator',
-         prereq='Army must include Mandrakes',
+         prereq='Mandrakes', requires=['Mandrakes'],
          equipment=[fixed('gruesome talismans'), fixed('severed heads (trophy rack)'), fixed('splinter pistol'),
                     fixed('Decapitator')]),
 ]
@@ -263,7 +265,7 @@ FAST = [
          command=[succubus('Reaver Succubus', 16, 'WS4•BS4•S4•T4•W1•I6•A2•Ld8•Sv4+')],
          equipment=[[opt('splinter pistols', 0, equipped=True)]],
          mount=[[opt('Reaver jetbikes', 0, equipped=True,
-                     options=[[opt('splinter rifle', 0, count=1, maximum=-1, default=True)],
+                     options=[[opt('splinter rifle', 0, count=3, maximum=-1, default=True)],
                               [opt('shredder', 15, maximum=2), opt('blaster', 10)]])]]),
     unit('Hellions', 18, 'WS4•BS4•S3•T3•W1•I6•A1•Ld8•Sv5+', size=3, minimum=3, maximum=10,
          singular='Hellion', upper=1,
@@ -271,7 +273,7 @@ FAST = [
          command=[succubus('Hellion Succubus', 16, 'WS4•BS4•S3•T3•W1•I6•A2•Ld8•Sv5+')],
          equipment=[[opt('hellglaives', 0, equipped=True)],
                     [opt('shredder', 15, maximum=1), opt('blaster', 10)]],
-         mount=[[opt('Hellion skyboards', 0, equipped=True)]], prereq='0-1'),
+         mount=[[opt('Hellion skyboards', 0, equipped=True)]]),
 ]
 
 HEAVY = [
@@ -287,19 +289,19 @@ HEAVY = [
 
 ITEMS = [
     items('Wargear', [
-        ('Combat drugs', 25, None, None),
+        ('combat drugs', 25, None, None),
         ('Crucible of Malediction', 20, 'One per army', None),
-        ('Gruesome talisman', 2, None, None),
-        ('Haywire grenades', 4, None, None),
+        ('gruesome talisman', 2, None, None),
+        ('haywire grenades', 4, None, None),
         ('Hell mask', 5, 'One mask per model', None),
         ('Hellion skyboard', 15, None, 'Sv+1'),
-        ('Plasma grenades', 2, None, None),
+        ('plasma grenades', 2, None, None),
         ('Reaver jetbike', 35, None, 'T+1•Sv+1'),
-        ('Shadow field', 25, 'One per army', None),
-        ('Soul seeker ammunition', 10, None, None),
+        ('shadow field', 25, 'One per army', None),
+        ('soul seeker ammunition', 10, None, None),
         ('Terrorfex', 15, None, None),
         ('Tormentor helm', 5, None, None),
-        ('Trophy rack', 5, None, None),
+        ('trophy rack', 5, None, None),
         ('Webway portal', 50, None, None),
     ]),
     items('Arcane Wargear', [
@@ -316,5 +318,9 @@ ITEMS = [
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    write(template('Dark Eldar', 'WH40K3', 20261118, standard_foc(HQ, ELITES, TROOPS, FAST, HEAVY), ITEMS),
+    archon = unit_limit('Archon or Wych Archite',
+                        ['Archon', 'Wych Archite', 'Asdrubael Vect', 'Kruellagh the Vile', 'Lelith Hesperax'])
+    write(template('Dark Eldar', 'WH40K3', 20261124,
+                   standard_foc(HQ, ELITES, TROOPS, FAST, HEAVY, hq_limits=[archon]), ITEMS,
+                   traits=[trait('Sub-faction', ['Wych Cult'])]),
           sys.argv[1])
