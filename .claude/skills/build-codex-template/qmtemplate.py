@@ -146,10 +146,16 @@ def trait(name, variants):
 
 
 def items(category, entries, icon=GLYPH_STAR):
-    """An Items category. entries: (name, points, prerequisite or None, stats or None)."""
+    """An Items category. entries: (name, points, prerequisite or None, stats or None[, multiple]).
+
+    multiple=True lets a model take the item more than once (e.g. drones, Chaos Hounds).
+    """
     out = []
-    for name, pts, prereq, stats in entries:
+    for entry in entries:
+        name, pts, prereq, stats = entry[:4]
         d = {'Category': category, 'Name': name, 'Points': float(pts)}
+        if len(entry) > 4 and entry[4]:
+            d['Multiple'] = True
         if prereq:
             d['Prerequisite'] = _prereq(prereq)
         if stats:

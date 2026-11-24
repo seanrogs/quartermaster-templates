@@ -1,0 +1,3182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Army List Name</key>
+	<string>Tau</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Category</key>
+			<string>Hard-wired Support Systems</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Hard-wired Support Systems</string>
+					<key>Name</key>
+					<string>hard-wired multi-tracker</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>one per model; Commanders up to three</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Hard-wired Support Systems</string>
+					<key>Name</key>
+					<string>hard-wired target lock</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>one per model; Commanders up to three</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Hard-wired Support Systems</string>
+					<key>Name</key>
+					<string>hard-wired blacksun filter</string>
+					<key>Points</key>
+					<real>3</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>one per model; Commanders up to three</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Hard-wired Support Systems</string>
+					<key>Name</key>
+					<string>hard-wired drone controller</string>
+					<key>Points</key>
+					<real>2</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>one per model; Commanders up to three</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Category</key>
+			<string>Drones</string>
+			<key>Icon</key>
+			<string>glyphicons_048_star</string>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>Category</key>
+					<string>Drones</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>gun drone</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>drone controller</string>
+					</array>
+					<key>Stats</key>
+					<string>WS2•BS2•S3•T3•W1•I4•A1•Ld7•Sv4+</string>
+				</dict>
+				<dict>
+					<key>Category</key>
+					<string>Drones</string>
+					<key>Multiple</key>
+					<true/>
+					<key>Name</key>
+					<string>shield drone</string>
+					<key>Points</key>
+					<real>15</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>drone controller</string>
+					</array>
+					<key>Stats</key>
+					<string>WS2•BS2•S3•T3•W1•I4•A1•Ld-•Sv4+</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Organisation</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>HQ</string>
+			<key>Lower Limit</key>
+			<real>1</real>
+			<key>Unit Limits</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Ethereal caste member</string>
+					<key>Units</key>
+					<array>
+						<string>Ethereal</string>
+						<string>Aun’shi</string>
+					</array>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>XV8 Crisis battlesuits</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>-3</real>
+										<key>Name</key>
+										<string>flamer</string>
+										<key>Points</key>
+										<real>6</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>burst cannon</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked burst cannon</string>
+										<key>Points</key>
+										<real>15</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>fusion blaster</string>
+										<key>Points</key>
+										<real>12</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked fusion blaster</string>
+										<key>Points</key>
+										<real>18</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>missile pod</string>
+										<key>Points</key>
+										<real>14</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked missile pod</string>
+										<key>Points</key>
+										<real>21</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>plasma rifle</string>
+										<key>Points</key>
+										<real>16</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked plasma rifle</string>
+										<key>Points</key>
+										<real>24</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>multi-tracker</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>target lock</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>shield generator</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 gun drone</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 gun drones</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 shield drone</string>
+										<key>Points</key>
+										<real>15</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 shield drones</string>
+										<key>Points</key>
+										<real>30</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>bonded</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>Ork Fighter</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Farsight Enclave</string>
+										</array>
+										<key>Stats</key>
+										<string>WS+1•I+1</string>
+									</dict>
+								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<real>50</real>
+									<key>Name</key>
+									<string>Hard-wired Support Systems, Drones</string>
+								</dict>
+							</array>
+							<key>Maximum Size</key>
+							<integer>2</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>XV8 Crisis Battlesuit Bodyguard Team</string>
+							<key>Plural Name</key>
+							<string>Shas’vre</string>
+							<key>Points</key>
+							<real>40</real>
+							<key>Singular Name</key>
+							<string>Shas’vre</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Bonded</string>
+							<key>Stats</key>
+							<string>WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>XV8 Crisis battlesuit</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>flamer</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>burst cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked burst cannon</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>fusion blaster</string>
+								<key>Points</key>
+								<real>12</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked fusion blaster</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>missile pod</string>
+								<key>Points</key>
+								<real>14</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked missile pod</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>plasma rifle</string>
+								<key>Points</key>
+								<real>16</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked plasma rifle</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>multi-tracker</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>target lock</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shield generator</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 gun drone</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 gun drones</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 shield drone</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 shield drones</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>50</real>
+							<key>Name</key>
+							<string>Hard-wired Support Systems, Drones</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Shas’o</string>
+					<key>Points</key>
+					<real>75</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Independent Character; Bodyguard</string>
+					<key>Stats</key>
+					<string>WS4•BS5•S5•T4•W4•I3•A4•Ld10•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>XV8 Crisis battlesuits</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>-3</real>
+										<key>Name</key>
+										<string>flamer</string>
+										<key>Points</key>
+										<real>6</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>burst cannon</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked burst cannon</string>
+										<key>Points</key>
+										<real>15</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>fusion blaster</string>
+										<key>Points</key>
+										<real>12</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked fusion blaster</string>
+										<key>Points</key>
+										<real>18</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>missile pod</string>
+										<key>Points</key>
+										<real>14</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked missile pod</string>
+										<key>Points</key>
+										<real>21</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>plasma rifle</string>
+										<key>Points</key>
+										<real>16</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked plasma rifle</string>
+										<key>Points</key>
+										<real>24</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>multi-tracker</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>target lock</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>shield generator</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 gun drone</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 gun drones</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 shield drone</string>
+										<key>Points</key>
+										<real>15</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 shield drones</string>
+										<key>Points</key>
+										<real>30</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>bonded</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>Ork Fighter</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Farsight Enclave</string>
+										</array>
+										<key>Stats</key>
+										<string>WS+1•I+1</string>
+									</dict>
+								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<real>50</real>
+									<key>Name</key>
+									<string>Hard-wired Support Systems, Drones</string>
+								</dict>
+							</array>
+							<key>Maximum Size</key>
+							<integer>2</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>XV8 Crisis Battlesuit Bodyguard Team</string>
+							<key>Plural Name</key>
+							<string>Shas’vre</string>
+							<key>Points</key>
+							<real>40</real>
+							<key>Singular Name</key>
+							<string>Shas’vre</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Bonded</string>
+							<key>Stats</key>
+							<string>WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>XV8 Crisis battlesuit</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>flamer</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>burst cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked burst cannon</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>fusion blaster</string>
+								<key>Points</key>
+								<real>12</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked fusion blaster</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>missile pod</string>
+								<key>Points</key>
+								<real>14</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked missile pod</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>plasma rifle</string>
+								<key>Points</key>
+								<real>16</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked plasma rifle</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>multi-tracker</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>target lock</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shield generator</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 gun drone</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 gun drones</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 shield drone</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 shield drones</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>50</real>
+							<key>Name</key>
+							<string>Hard-wired Support Systems, Drones</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Shas’el</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Independent Character; Bodyguard</string>
+					<key>Stats</key>
+					<string>WS3•BS4•S5•T4•W3•I3•A3•Ld9•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>symbols of office</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>honour blade</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Magic Items</key>
+					<array>
+						<dict>
+							<key>Items</key>
+							<array/>
+							<key>Limit</key>
+							<real>50</real>
+							<key>Name</key>
+							<string>Hard-wired Support Systems, Drones</string>
+						</dict>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Ethereal</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Independent Character; Inspiring Presence; Price of Failure</string>
+					<key>Stats</key>
+					<string>WS4•BS3•S3•T3•W2•I3•A3•Ld10•Sv-</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Default</key>
+										<true/>
+										<key>Equipped</key>
+										<true/>
+										<key>Name</key>
+										<string>XV8 Crisis battlesuits</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>-3</real>
+										<key>Name</key>
+										<string>flamer</string>
+										<key>Points</key>
+										<real>6</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>burst cannon</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked burst cannon</string>
+										<key>Points</key>
+										<real>15</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>fusion blaster</string>
+										<key>Points</key>
+										<real>12</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked fusion blaster</string>
+										<key>Points</key>
+										<real>18</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>missile pod</string>
+										<key>Points</key>
+										<real>14</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked missile pod</string>
+										<key>Points</key>
+										<real>21</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>plasma rifle</string>
+										<key>Points</key>
+										<real>16</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>twin-linked plasma rifle</string>
+										<key>Points</key>
+										<real>24</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>uses two hard points</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>multi-tracker</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>target lock</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>shield generator</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 gun drone</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 gun drones</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 1 shield drone</string>
+										<key>Points</key>
+										<real>15</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>drone controller and 2 shield drones</string>
+										<key>Points</key>
+										<real>30</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>bonded</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Name</key>
+										<string>Ork Fighter</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Farsight Enclave</string>
+										</array>
+										<key>Stats</key>
+										<string>WS+1•I+1</string>
+									</dict>
+								</array>
+							</array>
+							<key>Magic Items</key>
+							<array>
+								<dict>
+									<key>Items</key>
+									<array/>
+									<key>Limit</key>
+									<real>50</real>
+									<key>Name</key>
+									<string>Hard-wired Support Systems, Drones</string>
+								</dict>
+							</array>
+							<key>Maximum Size</key>
+							<integer>2</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>XV8 Crisis Battlesuit Bodyguard Team</string>
+							<key>Plural Name</key>
+							<string>Shas’vre</string>
+							<key>Points</key>
+							<real>40</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>must take Ork Fighter</string>
+							</array>
+							<key>Singular Name</key>
+							<string>Shas’vre</string>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Bonded</string>
+							<key>Stats</key>
+							<string>WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>XV8 Crisis battlesuit</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>shield generator</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>plasma rifle</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Dawn Blade</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Commander Farsight</string>
+					<key>Points</key>
+					<real>170</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Farsight Enclave</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Dawn Blade; Ork Fighter; Breakaway Faction; Independent Character; Bodyguard</string>
+					<key>Stats</key>
+					<string>WS5•BS5•S3(5)•T3(4)•W3(4)•I5•A4•Ld10•Sv3+</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>honour blade</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>hard-wired shield generator</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>photon grenades</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>EMP grenades</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Aun’shi</string>
+					<key>Points</key>
+					<real>105</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Independent Character; Blade Master; Inspiring Presence; Price of Failure</string>
+					<key>Stats</key>
+					<string>WS5•BS3•S3•T3•W3•I5•A4•Ld10•Sv4+</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>2</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Elites</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shas’ui team leader</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Shas’vre team leader</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>XV8 Crisis battlesuits</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-3</real>
+								<key>Name</key>
+								<string>flamer</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>burst cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked burst cannon</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>fusion blaster</string>
+								<key>Points</key>
+								<real>12</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked fusion blaster</string>
+								<key>Points</key>
+								<real>18</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>missile pod</string>
+								<key>Points</key>
+								<real>14</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked missile pod</string>
+								<key>Points</key>
+								<real>21</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>plasma rifle</string>
+								<key>Points</key>
+								<real>16</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked plasma rifle</string>
+								<key>Points</key>
+								<real>24</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>uses two hard points</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>multi-tracker</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>target lock</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shield generator</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 gun drone</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 gun drones</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 shield drone</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 shield drones</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bonded</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>XV8 Crisis Battlesuit Team</string>
+					<key>Plural Name</key>
+					<string>Shas’ui</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Singular Name</key>
+					<string>Shas’ui</string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Bonded</string>
+					<key>Stats</key>
+					<string>WS2•BS3•S5•T4•W2•I2•A2•Ld8•Sv3+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shas’ui team leader</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>markerlight</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Shas’vre team leader</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>markerlight</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS3•BS3•S4•T3•W1•I3•A2•Ld8•Sv3+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>XV15 Stealth battlesuits</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>burst cannons</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bonded</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>6</integer>
+					<key>Minimum Size</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>XV15 Stealth Team</string>
+					<key>Plural Name</key>
+					<string>Shas’ui</string>
+					<key>Points</key>
+					<real>30</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 in Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Shas’ui</string>
+					<key>Size</key>
+					<integer>3</integer>
+					<key>Special Rules</key>
+					<string>Stealth Armour; Infiltrate; Bonded</string>
+					<key>Stats</key>
+					<string>WS2•BS3•S4•T3•W1•I2•A2•Ld8•Sv3+</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Troops</string>
+			<key>Lower Limit</key>
+			<real>2</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>burst cannon</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>pair of gun drones</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>sensor spines</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>targeting array</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>multi-tracker</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>blacksun filter</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>target lock</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>flechette discharger</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>disruption pod</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>decoy launchers</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>seeker missile</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Devilfish Troop Carrier</string>
+							<key>Points</key>
+							<real>80</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>12 models or fewer, including drones</string>
+							</array>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Tank, Skimmer; Transport (12)</string>
+							<key>Stats</key>
+							<string>FA12•SA11•RA10•BS3</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shas’ui</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>markerlight</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS2•BS3•S3•T3•W1•I2•A2•Ld8•Sv4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>6</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>pulse rifle</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>pulse carbine</string>
+								<key>Points</key>
+								<real>0</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>up to half the team</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>photon grenades</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>EMP grenades</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bonded</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Lower Limit</key>
+					<integer>1</integer>
+					<key>Maximum Size</key>
+					<integer>12</integer>
+					<key>Minimum Size</key>
+					<integer>6</integer>
+					<key>Name</key>
+					<string>Fire Warrior Team</string>
+					<key>Plural Name</key>
+					<string>Shas’la</string>
+					<key>Points</key>
+					<real>10</real>
+					<key>Singular Name</key>
+					<string>Shas’la</string>
+					<key>Size</key>
+					<integer>6</integer>
+					<key>Special Rules</key>
+					<string>Bonded</string>
+					<key>Stats</key>
+					<string>WS2•BS3•S3•T3•W1•I2•A1•Ld7•Sv4+</string>
+				</dict>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shaper</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Kroot rifle</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>pulse rifle</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>pulse carbine</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>21</real>
+								<key>Stats</key>
+								<string>WS4•BS3•S4•T3•W3•I3•A3•Ld7/8•Sv6+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Kroot rifles</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Kroot armour</string>
+								<key>Points</key>
+								<real>1</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Shaper</string>
+								</array>
+								<key>Stats</key>
+								<string>Ld=8•Sv=6+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>20</integer>
+					<key>Minimum Size</key>
+					<integer>10</integer>
+					<key>Name</key>
+					<string>Kroot Carnivore Squad</string>
+					<key>Plural Name</key>
+					<string>Kroot</string>
+					<key>Points</key>
+					<real>7</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Kroot</string>
+					<key>Size</key>
+					<integer>10</integer>
+					<key>Special Rules</key>
+					<string>Mercenaries; Eaters of the Dead; Fieldcraft; Infiltrate</string>
+					<key>Stats</key>
+					<string>WS4•BS3•S4•T3•W1•I3•A1•Ld7/8•Sv-</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>6</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Fast Attack</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>twin-linked pulse carbines</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>8</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Gun Drone Squadron</string>
+					<key>Plural Name</key>
+					<string>Gun Drones</string>
+					<key>Points</key>
+					<real>12</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Gun Drone</string>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Jetpacks; Independent</string>
+					<key>Stats</key>
+					<string>WS2•BS2•S3•T3•W1•I4•A1•Ld7•Sv4+</string>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>burst cannon</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>pair of gun drones</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>sensor spines</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>targeting array</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>multi-tracker</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>blacksun filter</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>target lock</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>flechette discharger</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>disruption pod</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>decoy launchers</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>4</real>
+										<key>Name</key>
+										<string>seeker missile</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+							</array>
+							<key>Lower Limit</key>
+							<integer>1</integer>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Devilfish Troop Carrier</string>
+							<key>Points</key>
+							<real>80</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Tank, Skimmer; Transport (12)</string>
+							<key>Stats</key>
+							<string>FA12•SA11•RA10•BS3</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shas’ui</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS2•BS3•S3•T3•W1•I2•A2•Ld8•Sv4+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>pulse carbines with markerlights</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>photon grenades</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>EMP grenades</string>
+								<key>Points</key>
+								<real>3</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bonded</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>8</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Pathfinder Team</string>
+					<key>Plural Name</key>
+					<string>Shas’la</string>
+					<key>Points</key>
+					<real>12</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 in Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Shas’la</string>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Bonded; Forward Scouts</string>
+					<key>Stats</key>
+					<string>WS2•BS3•S3•T3•W1•I2•A1•Ld7•Sv4+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>fangs</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Kroot Carnivore Squad</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>8</integer>
+					<key>Minimum Size</key>
+					<integer>2</integer>
+					<key>Name</key>
+					<string>Kroot Hound Pack</string>
+					<key>Plural Name</key>
+					<string>Kroot Hounds</string>
+					<key>Points</key>
+					<real>6</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>attached to a Kroot Carnivore Squad</string>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Kroot Hound</string>
+					<key>Size</key>
+					<integer>2</integer>
+					<key>Special Rules</key>
+					<string>Attached Unit; Release the Hounds</string>
+					<key>Stats</key>
+					<string>WS4•BS0•S4•T3•W1•I4•A2•Ld*•Sv*</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>Heavy Support</string>
+			<key>Lower Limit</key>
+			<real>0</real>
+			<key>Units</key>
+			<array>
+				<dict>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Shas’ui team leader</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Hard-wired Support Systems, Drones</string>
+									</dict>
+								</array>
+								<key>Name</key>
+								<string>Shas’vre team leader</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Stats</key>
+								<string>WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv2+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>XV88 Broadside battlesuits</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>twin-linked railguns</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>smart missile system</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>twin-linked plasma rifle</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>multi-tracker</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>target lock</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shield generator</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 gun drone</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 gun drones</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 1 shield drone</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>drone controller and 2 shield drones</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>bonded</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>Ork Fighter</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Farsight Enclave</string>
+								</array>
+								<key>Stats</key>
+								<string>WS+1•I+1</string>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>XV88 Broadside Battlesuit Team</string>
+					<key>Plural Name</key>
+					<string>Shas’ui</string>
+					<key>Points</key>
+					<real>70</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 in Farsight Enclave</string>
+					</array>
+					<key>Singular Name</key>
+					<string>Shas’ui</string>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Bonded</string>
+					<key>Stats</key>
+					<string>WS2•BS3•S5•T4•W2•I2•A2•Ld8•Sv2+</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>ion cannon</string>
+								<key>Points</key>
+								<real>30</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>railgun</string>
+								<key>Points</key>
+								<real>50</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>two burst cannon</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>smart missile system</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>targeting array</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>sensor spines</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>multi-tracker</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>blacksun filter</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>target lock</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>pair of gun drones</string>
+								<key>Points</key>
+								<real>20</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>flechette discharger</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>disruption pod</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>decoy launchers</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>4</real>
+								<key>Name</key>
+								<string>seeker missile</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>1</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Hammerhead Gunship</string>
+					<key>Points</key>
+					<real>90</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>0-1 in Farsight Enclave</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Tank, Skimmer</string>
+					<key>Stats</key>
+					<string>FA13•SA12•RA10•BS3(4)</string>
+				</dict>
+				<dict>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Default</key>
+								<true/>
+								<key>Equipped</key>
+								<true/>
+								<key>Name</key>
+								<string>Kroot guns</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+					</array>
+					<key>Link Requirement</key>
+					<dict>
+						<key>Names</key>
+						<array>
+							<string>Kroot Carnivore Squad</string>
+						</array>
+					</dict>
+					<key>Maximum Size</key>
+					<integer>3</integer>
+					<key>Minimum Size</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Krootox</string>
+					<key>Points</key>
+					<real>50</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>attached to a Kroot Carnivore Squad</string>
+						<string>not Farsight Enclave</string>
+					</array>
+					<key>Size</key>
+					<integer>1</integer>
+					<key>Special Rules</key>
+					<string>Attached Unit</string>
+					<key>Stats</key>
+					<string>WS4•BS3•S6•T3(5)•W3•I3•A3•Ld*•Sv*</string>
+				</dict>
+			</array>
+			<key>Upper Limit</key>
+			<real>3</real>
+		</dict>
+	</array>
+	<key>System</key>
+	<string>WH40K3</string>
+	<key>Traits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Sept</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Base</key>
+					<string>#C8893A</string>
+					<key>Name</key>
+					<string>T’au</string>
+					<key>Trim</key>
+					<string>#2B2B2B</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#C9962E</string>
+					<key>Name</key>
+					<string>Tau’n</string>
+					<key>Trim</key>
+					<string>#2A2F6E</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#E8E6DF</string>
+					<key>Name</key>
+					<string>Vior’la</string>
+					<key>Trim</key>
+					<string>#9E1A1A</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#A3A65A</string>
+					<key>Name</key>
+					<string>D’yanoi</string>
+					<key>Trim</key>
+					<string>#1F6B35</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#E3D3A0</string>
+					<key>Name</key>
+					<string>Dal’yth</string>
+					<key>Trim</key>
+					<string>#8A5A2B</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#3A3F44</string>
+					<key>Name</key>
+					<string>Sa’cea</string>
+					<key>Trim</key>
+					<string>#8F9AA6</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#2A2F6E</string>
+					<key>Name</key>
+					<string>Bork’an</string>
+					<key>Trim</key>
+					<string>#B3261E</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#1F8A8A</string>
+					<key>Name</key>
+					<string>Fal’shia</string>
+					<key>Trim</key>
+					<string>#F7F7F5</string>
+				</dict>
+				<dict>
+					<key>Base</key>
+					<string>#B3261E</string>
+					<key>Name</key>
+					<string>Farsight Enclave</string>
+					<key>Trim</key>
+					<string>#F7F7F5</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>Version</key>
+	<integer>20261124</integer>
+</dict>
+</plist>

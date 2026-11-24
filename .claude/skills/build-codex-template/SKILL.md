@@ -8,7 +8,7 @@ description: Build a new Warhammer 40,000 faction .qmtemplate (e.g. in WH40K3/) 
 Faction templates are generated, not hand-edited: each one has a data script in `factions/` that describes the army with the builders in `qmtemplate.py` and writes the whole `.qmtemplate` in one go. To change a generated template, edit its script and re-run it.
 
 - `qmtemplate.py` — builders (`opt`, `unit`, `fixed`, `standard`, `toggle`, `armoury`, `items`, `standard_foc`, `unit_limit`, `trait`, `template`, `write`) and an outline viewer.
-- `factions/wh40k3_dark_eldar.py` — the worked example. Copy it as the starting point for the next codex.
+- `factions/wh40k3_dark_eldar.py`, `factions/wh40k3_tau.py` — worked examples. Copy the closer one as the starting point for the next codex.
 
 Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorted keys, whole-number reals bare (`<real>20</real>`, `<real>0</real>`), fractions as-is (`<real>-0.34</real>`), Prerequisite as an array even with one condition. The Dark Eldar script rebuilds the app-saved `WH40K3/Dark Eldar.qmtemplate` byte-for-byte; keep it that way, so after the user re-saves a template in the app, regenerating shows only real differences. When the user has edited a generated template in the app, diff it against the script's output and fold their changes back into the script.
 
@@ -37,6 +37,10 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 | Mixed-model unit (e.g. Warriors and/or Incubi) | one Command group: base model `count=size, maximum=-1, default=True`, other model types at their extra cost; 0-1 types noted in `prereq` |
 | Character weapon choices ("two single-handed, or one single + one two-handed") | an Equipment group with `maximum=2` for single-handed and a group with `maximum=1` for two-handed |
 | "May take wargear from the Armoury, up to 100 pts" | `magic_items=armoury('Wargear, Arcane Wargear', 100)` plus `items(...)` categories at template level |
+| Slots shared by weapons and systems (Tau battlesuit hard points) | one group per model, `maximum=-3` on a team (`3` on a single model); options using two slots carry `prereq='uses two hard points'` |
+| Unit that takes a slot but joins another unit (Kroot Hounds, Krootox) | its own entry in its slot with `requires=['Kroot Carnivore Squad']` and an "attached to…" note |
+| Flat upgrade for the whole unit (+10 pts per team, not per model) | `[opt('bonded', 10, maximum=1)]` |
+| Armoury item a model can take more than once (drones) | 5th tuple element `True` in `items()` entries (writes `Multiple`) |
 | Dedicated transport | attach it: `attached=[raider()]`; compulsory transport adds `lower=1` |
 | Special character | `upper=1`, all wargear as `fixed(...)` at 0 pts, army restrictions in `prereq` |
 | Vehicle | stats `FA10•SA10•RA10•BS4`; walkers/vehicle-like characters mix in `WS•BS•S•…•I•A` |
