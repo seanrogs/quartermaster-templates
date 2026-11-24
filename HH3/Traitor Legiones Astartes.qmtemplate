@@ -3230,6 +3230,20 @@
 						<array>
 							<dict>
 								<key>Count</key>
+								<integer>2</integer>
+								<key>Default</key>
+								<true/>
+								<key>Maximum</key>
+								<real>2</real>
+								<key>Name</key>
+								<string>Support</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
 								<integer>0</integer>
 								<key>Maximum</key>
 								<real>1</real>
@@ -9256,7 +9270,7 @@
 					<real>450</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Night Lords</string>
+						<string>World Eaters</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
@@ -9295,7 +9309,7 @@
 					<real>600</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Night Lords</string>
+						<string>World Eaters</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
@@ -10746,10 +10760,6 @@
 								<string>Saturnine war axe</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Reaping Blow (2); Power</string>
-								<key>Stats</key>
-								<string>IM:I•AM:A•SM+1•AP2•D2</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10758,10 +10768,6 @@
 								<string>Saturnine concussion hammer</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Critical Hit (6+); Power</string>
-								<key>Stats</key>
-								<string>IM-3•AM:A•SM:x2•AP2•D3</string>
 							</dict>
 						</array>
 						<array>
@@ -10776,10 +10782,6 @@
 								<string>Saturnine disruption fist</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Power</string>
-								<key>Stats</key>
-								<string>IM-2•AM:A•SM+2•AP2•D3</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -10788,10 +10790,6 @@
 								<string>Saturnine concussion hammer</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Critical Hit (6+); Power</string>
-								<key>Stats</key>
-								<string>IM-3•AM:A•SM:x2•AP2•D3</string>
 							</dict>
 						</array>
 						<array>
@@ -10802,45 +10800,6 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>plasma blaster</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>2</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>plasma blaster sustained fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Breaching (6+); Plasma</string>
-											<key>Stats</key>
-											<string>R18•FP2•RS7•AP4•D1</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>2</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>plasma blaster maximal fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Breaching (5+), Overload (1); Plasma</string>
-											<key>Stats</key>
-											<string>R18•FP2•RS8•AP4•D1</string>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>10</real>
 							</dict>
@@ -13400,9 +13359,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -13893,9 +13850,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -14230,9 +14185,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -14661,9 +14614,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -14802,9 +14753,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -15160,9 +15109,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -15574,9 +15521,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -15811,9 +15756,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -16134,9 +16077,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -16382,9 +16323,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -16638,9 +16577,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -16981,9 +16918,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -17248,9 +17183,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -17827,9 +17760,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -18012,9 +17943,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -18376,9 +18305,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -18758,9 +18685,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -19061,9 +18986,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -19523,9 +19446,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -19858,9 +19779,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -20137,9 +20056,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -20460,9 +20377,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -20772,9 +20687,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -21203,9 +21116,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -21709,9 +21620,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -22004,9 +21913,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -22407,9 +22314,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -22759,9 +22664,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -23160,9 +23063,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -23389,9 +23290,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -23617,9 +23516,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -23983,9 +23880,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -24277,9 +24172,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -24653,9 +24546,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -24893,9 +24784,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -27489,9 +27378,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -27748,9 +27635,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -27902,9 +27787,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -28269,9 +28152,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -28569,9 +28450,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -28731,9 +28610,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -29624,9 +29501,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -30386,9 +30261,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -30788,9 +30661,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -31158,9 +31029,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -31996,9 +31865,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -32509,9 +32376,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -33062,9 +32927,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -33291,9 +33154,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -33786,9 +33647,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -33957,9 +33816,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -34035,9 +33892,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -34222,9 +34077,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -34312,9 +34165,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -34503,9 +34354,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -35232,9 +35081,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -35774,9 +35621,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -36330,9 +36175,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -36373,9 +36216,7 @@
 										<key>Name</key>
 										<string>Legion Sergeant Melee Weapons</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>replace chainsword</string>
-										</array>
+										<string>replace chainsword</string>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -36385,9 +36226,7 @@
 										<key>Name</key>
 										<string>Legion Pistols</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>replace bolt pistol</string>
-										</array>
+										<string>replace bolt pistol</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -36511,9 +36350,7 @@
 										<key>Name</key>
 										<string>Legion Sergeant Melee Weapons</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>replace chainsword</string>
-										</array>
+										<string>replace chainsword</string>
 									</dict>
 									<dict>
 										<key>Items</key>
@@ -36523,9 +36360,7 @@
 										<key>Name</key>
 										<string>Legion Pistols</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>replace bolt pistol</string>
-										</array>
+										<string>replace bolt pistol</string>
 									</dict>
 								</array>
 								<key>Name</key>
@@ -36976,9 +36811,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -38132,9 +37965,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -38611,9 +38442,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -39099,9 +38928,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -39298,9 +39125,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -39501,9 +39326,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -39818,9 +39641,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -40324,9 +40145,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -40772,9 +40591,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -41197,9 +41014,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -41419,9 +41234,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -41941,9 +41754,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -42172,9 +41983,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -42328,9 +42137,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -42749,9 +42556,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -43036,9 +42841,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -43318,9 +43121,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -43442,9 +43243,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -43823,9 +43622,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -44297,9 +44094,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -44807,9 +44602,7 @@
 										<key>Name</key>
 										<string>Prime Advantage</string>
 										<key>Prerequisite</key>
-										<array>
-											<string>Prime Slot</string>
-										</array>
+										<string>Prime Slot</string>
 									</dict>
 								</array>
 								<key>Maximum</key>
@@ -45393,9 +45186,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -45444,10 +45235,6 @@
 											<string>plasma bombard</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma / Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6/7•AP4•D1</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45456,10 +45243,6 @@
 											<string>twin heavy disintegrator</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Overload (2); Disintegrator</string>
-											<key>Stats</key>
-											<string>R24•FP2•RS7•AP2•D2</string>
 										</dict>
 									</array>
 									<array>
@@ -45474,10 +45257,6 @@
 											<string>Saturnine disruption fist</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Power</string>
-											<key>Stats</key>
-											<string>IM-2•AM:A•SM+2•AP2•D3</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45486,10 +45265,6 @@
 											<string>plasma bombard</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma / Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6/7•AP4•D1</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45498,10 +45273,6 @@
 											<string>twin heavy disintegrator</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Overload (2); Disintegrator</string>
-											<key>Stats</key>
-											<string>R24•FP2•RS7•AP2•D2</string>
 										</dict>
 									</array>
 									<array>
@@ -45518,10 +45289,6 @@
 											<array>
 												<string>Saturnine disruption fist</string>
 											</array>
-											<key>Special Rules</key>
-											<string>Template, Breaching (6+), Overload (1); Assault, Particle</string>
-											<key>Stats</key>
-											<string>R:Template•FP1•RS6•AP3•D1</string>
 										</dict>
 									</array>
 									<array>
@@ -45581,10 +45348,6 @@
 											<string>plasma bombard</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma / Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6/7•AP4•D1</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45593,10 +45356,6 @@
 											<string>twin heavy disintegrator</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Overload (2); Disintegrator</string>
-											<key>Stats</key>
-											<string>R24•FP2•RS7•AP2•D2</string>
 										</dict>
 									</array>
 									<array>
@@ -45611,10 +45370,6 @@
 											<string>Saturnine disruption fist</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Power</string>
-											<key>Stats</key>
-											<string>IM-2•AM:A•SM+2•AP2•D3</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45623,10 +45378,6 @@
 											<string>plasma bombard</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma / Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6/7•AP4•D1</string>
 										</dict>
 										<dict>
 											<key>Count</key>
@@ -45635,10 +45386,6 @@
 											<string>twin heavy disintegrator</string>
 											<key>Points</key>
 											<real>0</real>
-											<key>Special Rules</key>
-											<string>Overload (2); Disintegrator</string>
-											<key>Stats</key>
-											<string>R24•FP2•RS7•AP2•D2</string>
 										</dict>
 									</array>
 									<array>
@@ -45655,10 +45402,6 @@
 											<array>
 												<string>Saturnine disruption fist</string>
 											</array>
-											<key>Special Rules</key>
-											<string>Template, Breaching (6+), Overload (1); Assault, Particle</string>
-											<key>Stats</key>
-											<string>R:Template•FP1•RS6•AP3•D1</string>
 										</dict>
 									</array>
 									<array>
@@ -45715,45 +45458,6 @@
 								<real>-1</real>
 								<key>Name</key>
 								<string>plasma bombard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>2</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>plasma bombard sustained fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6•AP4•D1</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>2</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>plasma bombard maximal fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS7•AP4•D1</string>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>0</real>
 							</dict>
@@ -45764,10 +45468,6 @@
 								<string>twin heavy disintegrator</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Overload (2); Disintegrator</string>
-								<key>Stats</key>
-								<string>R24•FP2•RS7•AP2•D2</string>
 							</dict>
 						</array>
 						<array>
@@ -45792,64 +45492,17 @@
 											<string>particle shredder</string>
 											<key>Points</key>
 											<real>5</real>
-											<key>Special Rules</key>
-											<string>Template, Breaching (6+), Overload (1); Assault, Particle</string>
-											<key>Stats</key>
-											<string>R:Template•FP1•RS6•AP3•D1</string>
 										</dict>
 									</array>
 								</array>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Power</string>
-								<key>Stats</key>
-								<string>IM-2•AM:A•SM+2•AP2•D3</string>
 							</dict>
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
 								<string>plasma bombard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>plasma bombard sustained fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (6+); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS6•AP4•D1</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>-1</real>
-											<key>Name</key>
-											<string>plasma bombard maximal fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (3"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R24•FP1•RS7•AP4•D1</string>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>0</real>
 							</dict>
@@ -45860,10 +45513,6 @@
 								<string>twin heavy disintegrator</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Overload (2); Disintegrator</string>
-								<key>Stats</key>
-								<string>R24•FP2•RS7•AP2•D2</string>
 							</dict>
 						</array>
 						<array>
@@ -45975,9 +45624,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -46742,9 +46389,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -47321,9 +46966,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -47874,9 +47517,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -48126,9 +47767,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -48597,9 +48236,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -48612,6 +48249,10 @@
 					<string>Atramentar</string>
 					<key>Points</key>
 					<real>35</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Night Lords</string>
+					</array>
 					<key>Size</key>
 					<integer>4</integer>
 					<key>Special Rules</key>
@@ -48786,9 +48427,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -48947,9 +48586,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -49599,9 +49236,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -51124,9 +50759,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -51573,9 +51206,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -53865,9 +53496,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -54194,9 +53823,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -54515,9 +54142,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -54812,9 +54437,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55020,9 +54643,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55269,9 +54890,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55317,9 +54936,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55379,9 +54996,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55550,9 +55165,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55659,9 +55272,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -55846,9 +55457,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -56187,9 +55796,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -56377,9 +55984,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -56621,9 +56226,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -56656,55 +56259,12 @@
 								<string>disintegration cannon</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Overload (2); Disintegrator</string>
-								<key>Stats</key>
-								<string>R24•FP2•RS9•AP2•D3</string>
 							</dict>
 							<dict>
 								<key>Count</key>
 								<integer>0</integer>
 								<key>Name</key>
 								<string>heavy plasma bombard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>heavy plasma bombard sustained fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (5"), Barrage (1), Breaching (6+); Plasma</string>
-											<key>Stats</key>
-											<string>R36•FP1•RS7•AP4•D2</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>heavy plasma bombard maximal fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (5"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R36•FP1•RS8•AP4•D2</string>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>0</real>
 							</dict>
@@ -56715,10 +56275,6 @@
 								<string>inversion beamer</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Heavy (RS), Blast (5"); Conversion</string>
-								<key>Stats</key>
-								<string>R&lt;15•FP1•RS8•AP2•D3 / R15-30•FP1•RS7•AP3•D2</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -56727,10 +56283,6 @@
 								<string>graviton pulveriser</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Heavy (D), Blast (3"), Breaching (6+), Shock (Pinned), Pinning (3); Graviton</string>
-								<key>Stats</key>
-								<string>R18•FP1•RS9•AP3•D3</string>
 							</dict>
 						</array>
 						<array>
@@ -56743,45 +56295,6 @@
 								<real>1</real>
 								<key>Name</key>
 								<string>heavy plasma bombard</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>heavy plasma bombard sustained fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (5"), Barrage (1), Breaching (6+); Plasma</string>
-											<key>Stats</key>
-											<string>R36•FP1•RS7•AP4•D2</string>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>1</integer>
-											<key>Default</key>
-											<true/>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>heavy plasma bombard maximal fire</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Blast (5"), Barrage (1), Breaching (5+), Overload (2); Plasma</string>
-											<key>Stats</key>
-											<string>R36•FP1•RS8•AP4•D2</string>
-										</dict>
-									</array>
-								</array>
 								<key>Points</key>
 								<real>0</real>
 							</dict>
@@ -56792,10 +56305,6 @@
 								<string>disintegration cannon</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Overload (2); Disintegrator</string>
-								<key>Stats</key>
-								<string>R24•FP2•RS9•AP2•D3</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -56804,10 +56313,6 @@
 								<string>inversion beamer</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Heavy (RS), Blast (5"); Conversion</string>
-								<key>Stats</key>
-								<string>R&lt;15•FP1•RS8•AP2•D3 / R15-30•FP1•RS7•AP3•D2</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -56816,10 +56321,6 @@
 								<string>graviton pulveriser</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Heavy (D), Blast (3"), Breaching (6+), Shock (Pinned), Pinning (3); Graviton</string>
-								<key>Stats</key>
-								<string>R18•FP1•RS9•AP3•D3</string>
 							</dict>
 						</array>
 						<array>
@@ -56834,10 +56335,6 @@
 								<string>2 photonic incinerators</string>
 								<key>Points</key>
 								<real>0</real>
-								<key>Special Rules</key>
-								<string>Template, Panic (2); Assault, Flame</string>
-								<key>Stats</key>
-								<string>R:Template•FP1•RS6•AP4•D1</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -56846,10 +56343,6 @@
 								<string>2 concussive resonators</string>
 								<key>Points</key>
 								<real>10</real>
-								<key>Special Rules</key>
-								<string>Template, Overload (1), Stun (2); Assault, Sonic</string>
-								<key>Stats</key>
-								<string>R:Template•FP2•RS6•AP5•D1</string>
 							</dict>
 							<dict>
 								<key>Count</key>
@@ -56959,9 +56452,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -57245,9 +56736,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -57655,9 +57144,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -57767,9 +57254,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -57907,9 +57392,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -57955,9 +57438,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58033,9 +57514,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58154,9 +57633,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58280,9 +57757,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58311,9 +57786,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58342,9 +57815,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58390,9 +57861,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58492,9 +57961,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -58554,9 +58021,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -59498,9 +58963,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -59622,9 +59085,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -60237,9 +59698,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -60361,9 +59820,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -60447,9 +59904,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -60707,9 +60162,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -61268,9 +60721,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -61512,9 +60963,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -61802,9 +61251,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -61881,9 +61328,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -61989,9 +61434,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -62081,9 +61524,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -62451,9 +61892,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -62611,9 +62050,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -62859,9 +62296,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -63139,9 +62574,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -63285,9 +62718,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -63566,9 +62997,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -63796,9 +63225,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -63923,9 +63350,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64194,9 +63619,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64308,9 +63731,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64439,9 +63860,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64595,9 +64014,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64726,9 +64143,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64804,9 +64219,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -64882,9 +64295,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -65028,9 +64439,7 @@
 							<key>Name</key>
 							<string>Prime Advantage</string>
 							<key>Prerequisite</key>
-							<array>
-								<string>Prime Slot</string>
-							</array>
+							<string>Prime Slot</string>
 						</dict>
 					</array>
 					<key>Maximum Size</key>
@@ -66196,6 +65605,6 @@
 		</dict>
 	</array>
 	<key>Version</key>
-	<integer>20261112</integer>
+	<integer>20261123</integer>
 </dict>
 </plist>
