@@ -8,7 +8,8 @@ description: Build a new Warhammer 40,000 faction .qmtemplate (e.g. in WH40K3/) 
 Faction templates are generated, not hand-edited: each one has a data script in `factions/` that describes the army with the builders in `qmtemplate.py` and writes the whole `.qmtemplate` in one go. To change a generated template, edit its script and re-run it.
 
 - `qmtemplate.py` — builders (`opt`, `unit`, `fixed`, `standard`, `toggle`, `armoury`, `items`, `standard_foc`, `unit_limit`, `trait`, `template`, `write`) and an outline viewer.
-- `factions/wh40k3_dark_eldar.py`, `factions/wh40k3_tau.py` — worked examples. Copy the closer one as the starting point for the next codex.
+- `factions/wh40k3_dark_eldar.py`, `factions/wh40k3_tau.py` — worked examples of stand-alone codexes. Copy the closer one as the starting point for the next codex.
+- `factions/wh40k3_dark_angels.py`, `factions/wh40k3_blood_angels.py` — worked examples of supplement codexes built on a parent template (see below).
 
 Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorted keys, whole-number reals bare (`<real>20</real>`, `<real>0</real>`), fractions as-is (`<real>-0.34</real>`), Prerequisite as an array even with one condition. The Dark Eldar script rebuilds the app-saved `WH40K3/Dark Eldar.qmtemplate` byte-for-byte; keep it that way, so after the user re-saves a template in the app, regenerating shows only real differences. When the user has edited a generated template in the app, diff it against the script's output and fold their changes back into the script.
 
@@ -40,6 +41,8 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 | Every model in a multi-model unit may take armoury wargear (Shas'vre bodyguards) | an Equipment group `[opt('Wargear, Arcane Wargear', 0, maximum=-1, magic_items=armoury(...))]` so the allowance scales with unit size |
 | Slots shared by weapons and systems (Tau battlesuit hard points) | one group per model, `maximum=-3` on a team (`3` on a single model); options using two slots carry `prereq='uses two hard points'` |
 | Gear that unlocks armoury items (drone controller → drones) | the gear as a 0-pt option; the unlocked items live in the armoury with `prereq='drone controller'` — don't bundle them into packaged options |
+| Army variant that moves units between slots (Ravenwing bikes as Troops) or allows only some units (Deathwing) | the unit in each slot it can fill, `prereq='Ravenwing'` on the moved copy and `prereq=['not Deathwing', 'not Ravenwing']` on units the variants ban |
+| Command squad that depends on the leader (Deathwing Terminators for the Master of the Deathwing) | attach each squad type to the character; the alternatives carry a `prereq` naming the upgrade that unlocks them |
 | Unit that takes a slot but joins another unit (Kroot Hounds, Krootox) | its own entry in its slot with `requires=['Kroot Carnivore Squad']` and an "attached to…" note |
 | Flat upgrade for the whole unit (+10 pts per team, not per model) | `[opt('bonded', 10, maximum=1)]` — the option only, not also a Special Rule |
 | Armoury item a model can take more than once (drones) | 5th tuple element `True` in `items()` entries (writes `Multiple`) |
@@ -49,6 +52,16 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 | Restrictions the app can't enforce ("one per army", "Haemonculi only", "10 models or fewer") | `prereq='…'` free-text note; separate conditions go in a list, `prereq=['Army led by an Archon', 'not Wych Cult']` |
 
 Stat strings use `•` between characteristics; keep codex oddities as written (`A2(4)`, `T3(4)`, `AD6`, `Sv-` for no save). Equipment and armoury item names are lowercase common nouns (`plasma grenades`, `shadow field`); named artefacts and special rules keep their capitals (`Crucible of Malediction`, `Animus Vitae`). Army-wide special rules (e.g. Fleet of Foot) are not repeated on every unit.
+
+## Supplement codexes
+
+Some codexes only list what differs from a parent army ("Tactical Squad — see Codex: Space Marines"). Don't retype the parent's units: load the parent template from the output folder and copy them.
+
+- `load(path)` reads the parent; `base_unit(parent, 'Scout Squad', Points=..., Prerequisite=[...])` returns a deep copy with top-level keys changed (`_` for spaces in key names, `None` removes a key); `base_items(parent, 'Wargear')` copies an Items category.
+- Edit the copy in place: `find_option(unit, 'Veteran Sergeant')` to change an option, `remove_options(unit, [...])` to drop options (it removes the parent's special-character options too, e.g. Lysander), or replace a whole `Equipment` group.
+- Units the supplement rewrites (different points, squad sizes or weapons) can still start from the closest parent unit; units new to the supplement are built with `unit()` as usual.
+- Keep the parent's armoury and drop or replace the items the codex removes; sort the new items into the existing list.
+- Because the script reads the parent, re-run supplements after the parent template changes.
 
 ## 3. Build, check, publish
 

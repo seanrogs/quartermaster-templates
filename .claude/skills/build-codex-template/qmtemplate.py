@@ -22,6 +22,7 @@ Conventions (as used by the WH40K3 templates):
   - Reals are written the way Quartermaster 6.7 saves them: whole numbers
     bare (<real>20</real>, <real>0</real>), fractions as-is (<real>-0.34</real>).
 """
+import copy
 import plistlib
 import re
 import sys
@@ -171,6 +172,86 @@ def template(name, system, version, organisation, item_categories=None, traits=N
     if traits:
         t['Traits'] = traits
     return t
+
+
+# ---------------------------------------------------------------- reusing an existing template
+# Supplement codexes (Dark Angels, Blood Angels...) build on a parent list: load the parent,
+# copy its units with base_unit() and change what the supplement changes.
+
+GROUP_KEYS = ('Command', 'Equipment', 'Mount', 'Magic')
+
+
+def load(path):
+    with open(path, 'rb') as f:
+        return plistlib.load(f)
+
+
+def base_unit(parent, name, **changes):
+    """A deep copy of the parent template's first unit called name, with top-level keys changed.
+
+    Pass a value of None to remove a key, e.g. base_unit(sm, 'Scout Squad', Prerequisite=None).
+    """
+    for section in parent['Organisation']:
+        for u in section['Units']:
+            if u['Name'] == name:
+                u = copy.deepcopy(u)
+                for key, value in changes.items():
+                    key = key.replace('_', ' ')
+                    if value is None:
+                        u.pop(key, None)
+                    else:
+                        u[key] = float(value) if key in ('Points', 'Limit From Points') else value
+                return u
+    raise KeyError(name)
+
+
+def base_items(parent, category):
+    """A deep copy of one of the parent template's Items categories."""
+    for cat in parent.get('Items', []):
+        if cat['Category'] == category:
+            return copy.deepcopy(cat)
+    raise KeyError(category)
+
+
+def all_options(node):
+    """Every option dict in a unit's groups (and their nested Options), not attached units."""
+    for key in GROUP_KEYS + ('Options',):
+        for group in node.get(key, []):
+            for o in (group if isinstance(group, list) else [group]):
+                yield o
+                yield from all_options(o)
+
+
+def find_option(unit, name):
+    for o in all_options(unit):
+        if o['Name'] == name:
+            return o
+    raise KeyError(name)
+
+
+def remove_options(unit, names):
+    """Remove the named options from every group of a unit, dropping groups left empty."""
+    names = set(names)
+
+    def prune(node):
+        for key in GROUP_KEYS + ('Options',):
+            if key not in node:
+                continue
+            groups = []
+            for group in node[key]:
+                kept = [o for o in group if o['Name'] not in names]
+                for o in kept:
+                    prune(o)
+                if kept:
+                    if group and 'Maximum' in group[0] and 'Maximum' not in kept[0]:
+                        kept[0] = dict(kept[0], Maximum=group[0]['Maximum'])
+                    groups.append(kept)
+            if groups:
+                node[key] = groups
+            else:
+                del node[key]
+    prune(unit)
+    return unit
 
 
 _WHOLE_REAL = re.compile(rb'<real>(-?\d+)\.0</real>')
