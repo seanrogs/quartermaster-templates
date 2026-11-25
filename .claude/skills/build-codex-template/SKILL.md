@@ -33,6 +33,7 @@ Output format: `write()` produces exactly what Quartermaster 6.7 saves — sorte
 | "Up to two models may take X or Y" | one group `[opt('X', pts, maximum=2), opt('Y', pts)]` |
 | One per model / two per model | `maximum=-1` / `maximum=-2`; one per three models is `-0.34` |
 | "All models may have X at +N pts per model" | `toggle('X', N)` |
+| Upgrade for the whole unit that changes a profile (Ork Fighter: +1 WS and I) | on a multi-model unit, a stat modifier on a unit-wide option is applied once per model and stacks (WS+3 for three models), so put the `Stats` on a nested option instead: `{'Name': 'Ork Fighter', 'Points': 5.0, 'Options': [[opt('combat training', 0, count=1, maximum=1, default=True, stats='WS+1•I+1')]]}`. On a single model, `opt('Ork Fighter', 5, maximum=1, stats='WS+1•I+1')` is fine. Absolute stats (`Ld=8•Sv=6+`) and weapon profiles don't stack and can stay on the option |
 | Upgrade one model to a character at +N | `command=[[opt('Sergeant', N, maximum=1, stats=..., options=..., magic_items=...)]]` |
 | A character model added on top of the squad | `opt(..., count=1, default=True, additional=True)` |
 | Mixed-model unit (e.g. Warriors and/or Incubi) | one Command group: base model `count=size, maximum=-1, default=True`, other model types at their extra cost; 0-1 types noted in `prereq` |

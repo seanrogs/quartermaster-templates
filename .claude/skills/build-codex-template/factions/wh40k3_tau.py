@@ -4,7 +4,7 @@ Usage: python3 -B factions/wh40k3_tau.py "WH40K3/Tau.qmtemplate"
 
 A 'Sub-faction' Trait holds 'Farsight Enclave' (the septs have no rules of their own, so
 they are left out). Commander Farsight's Breakaway Faction rules hang off that variant: banned units get 'not Farsight Enclave', units limited to
-0-1 get a note, and the Ork Fighter upgrade needs 'Farsight Enclave'.
+0-1 get a note, and the Ork Fighter upgrade needs 'Farsight Enclave' (compulsory for his bodyguard).
 
 Battlesuit hard points are one group per model (maximum -3 on teams, 3 on a single
 Commander). Twin-linked weapons use two hard points; the app can't count that, so
@@ -31,9 +31,19 @@ GUN_DRONE = 'WS2•BS2•S3•T3•W1•I4•A1•Ld7•Sv4+'
 SHIELD_DRONE = 'WS2•BS2•S3•T3•W1•I4•A1•Ld-•Sv4+'
 
 
-def ork_fighter():
-    """Farsight Enclave upgrade for Tau units: +1 WS and I at +5 pts per model."""
-    return [{'Name': 'Ork Fighter', 'Points': 5.0, 'Stats': 'WS+1•I+1', 'Prerequisite': [FARSIGHT]}]
+def ork_fighter(single=False, compulsory=False):
+    """Farsight Enclave upgrade for Tau units: +1 WS and I at +5 pts per model.
+
+    On a team the stat change sits in a Count 1 default sub-option, since a stat on a unit-wide
+    upgrade is applied once per model and would stack (WS+3 for a team of three).
+    """
+    if single:
+        return [opt('Ork Fighter', 5, maximum=1, stats='WS+1•I+1', prereq=FARSIGHT)]
+    o = {'Name': 'Ork Fighter', 'Points': 5.0, 'Prerequisite': [FARSIGHT],
+         'Options': [[opt('combat training', 0, count=1, maximum=1, default=True, stats='WS+1•I+1')]]}
+    if compulsory:
+        o.update(Default=True, Equipped=True)
+    return [o]
 
 
 def bonded():
@@ -77,11 +87,11 @@ def team_leader(shas_vre_stats, markerlight=False):
     ]]
 
 
-def bodyguard(prereq=None):
+def bodyguard(prereq=None, ork_fighters=False):
     return unit('XV8 Crisis Battlesuit Bodyguard Team', 40, 'WS3•BS3•S5•T4•W2•I3•A2•Ld8•Sv3+', size=1,
                 minimum=1, maximum=2, singular='Shas’vre', plural='Shas’vre', upper=1,
-                equipment=[standard('XV8 Crisis battlesuits'), crisis_hard_points(-3), bonded(), ork_fighter(),
-                           [opt(ARMOURY[0]['Name'], 0, maximum=-1, magic_items=ARMOURY)]],
+                equipment=[standard('XV8 Crisis battlesuits'), crisis_hard_points(-3), bonded(),
+                           ork_fighter(compulsory=ork_fighters), [opt(ARMOURY[0]['Name'], 0, maximum=-1, magic_items=ARMOURY)]],
                 prereq=prereq)
 
 
@@ -109,7 +119,7 @@ def devilfish(prereq=None, lower=None):
 
 def commander(name, pts, stats):
     return unit(name, pts, stats, rules='Independent Character; Bodyguard',
-                equipment=[standard('XV8 Crisis battlesuit'), crisis_hard_points(3), ork_fighter()],
+                equipment=[standard('XV8 Crisis battlesuit'), crisis_hard_points(3), ork_fighter(single=True)],
                 magic_items=ARMOURY, attached=[bodyguard()])
 
 
@@ -124,7 +134,7 @@ HQ = [
          rules='Dawn Blade; Ork Fighter; Breakaway Faction; Independent Character; Bodyguard',
          equipment=[fixed('XV8 Crisis battlesuit'), fixed('shield generator'), fixed('plasma rifle'),
                     fixed('Dawn Blade')],
-         attached=[bodyguard(prereq='must take Ork Fighter')], prereq=FARSIGHT),
+         attached=[bodyguard(ork_fighters=True)], prereq=FARSIGHT),
     unit('Aun’shi', 105, 'WS5•BS3•S3•T3•W3•I5•A4•Ld10•Sv4+', upper=1,
          rules='Independent Character; Blade Master; Inspiring Presence; Price of Failure',
          equipment=[fixed('honour blade'), fixed('hard-wired shield generator'), fixed('photon grenades'),
@@ -227,7 +237,7 @@ if __name__ == '__main__':
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     ethereal = unit_limit('Ethereal Caste Member', ['Ethereal', 'Aun’shi'])
-    write(template('Tau', 'WH40K3', 20261124,
+    write(template('Tau', 'WH40K3', 20261125,
                    standard_foc(HQ, ELITES, TROOPS, FAST, HEAVY, hq_limits=[ethereal]), ITEMS,
                    traits=[trait('Sub-faction', [(FARSIGHT, '#B3261E', '#F7F7F5')])]),
           sys.argv[1])
