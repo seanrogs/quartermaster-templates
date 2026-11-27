@@ -703,12 +703,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -724,7 +724,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -740,7 +740,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -758,7 +758,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -772,12 +772,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -793,7 +793,7 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Iron Discipline / Cadian Shock Troops / Death Korps of Krieg</string>
 										</array>
 									</dict>
 								</array>
@@ -809,7 +809,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -825,6 +825,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -841,7 +845,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -857,7 +861,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -904,7 +908,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -1371,12 +1388,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -1392,7 +1409,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -1408,7 +1425,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -1426,7 +1443,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -1440,12 +1457,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -1461,7 +1478,7 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Iron Discipline / Cadian Shock Troops / Death Korps of Krieg</string>
 										</array>
 									</dict>
 								</array>
@@ -1477,7 +1494,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -1493,6 +1510,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -1509,7 +1530,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -1525,7 +1546,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -1572,7 +1593,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2027,12 +2061,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2048,7 +2082,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -2064,7 +2098,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -2082,7 +2116,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -2096,12 +2130,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -2117,7 +2151,7 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Iron Discipline / Cadian Shock Troops / Death Korps of Krieg</string>
 										</array>
 									</dict>
 								</array>
@@ -2133,7 +2167,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -2149,6 +2183,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -2165,7 +2203,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2181,7 +2219,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -2228,7 +2266,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2473,7 +2524,7 @@
 							<real>95</real>
 							<key>Prerequisite</key>
 							<array>
-								<string>Command Squad</string>
+								<string>Command Squad / Mechanised</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -2673,6 +2724,10 @@
 										<string>lascannon</string>
 										<key>Points</key>
 										<real>25</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>not Jungle Fighters</string>
+										</array>
 									</dict>
 									<dict>
 										<key>Count</key>
@@ -2690,12 +2745,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2711,7 +2766,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -2727,7 +2782,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -2745,7 +2800,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -2759,12 +2814,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -2780,7 +2835,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -2796,6 +2851,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -2812,7 +2871,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -2828,7 +2887,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -2875,7 +2934,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3103,12 +3175,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3124,7 +3196,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -3140,7 +3212,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -3158,7 +3230,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -3172,12 +3244,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -3193,7 +3265,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -3209,6 +3281,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -3225,7 +3301,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3241,7 +3317,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -3288,7 +3364,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3524,12 +3613,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3545,7 +3634,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -3561,7 +3650,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -3579,7 +3668,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -3593,12 +3682,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -3614,7 +3703,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -3630,6 +3719,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -3646,7 +3739,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3662,7 +3755,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -3709,7 +3802,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3837,12 +3943,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3858,7 +3964,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -3874,7 +3980,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -3892,7 +3998,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -3906,12 +4012,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -3927,7 +4033,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -3943,6 +4049,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -3959,7 +4069,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -3975,7 +4085,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -4022,7 +4132,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -4041,7 +4164,7 @@
 							<real>35</real>
 							<key>Prerequisite</key>
 							<array>
-								<string>0-5 Support Squads</string>
+								<string>Standard / Special Weapon squads / Cadian Shock Troops / Catachan Jungle Fighters / Harakoni Warhawks</string>
 							</array>
 							<key>Size</key>
 							<integer>6</integer>
@@ -4112,22 +4235,35 @@
 									<dict>
 										<key>Name</key>
 										<string>Hardened Fighters</string>
+										<key>Options</key>
+										<array>
+											<array>
+												<dict>
+													<key>Count</key>
+													<integer>1</integer>
+													<key>Default</key>
+													<true/>
+													<key>Maximum</key>
+													<real>1</real>
+													<key>Name</key>
+													<string>Sentinels</string>
+													<key>Points</key>
+													<real>0</real>
+													<key>Stats</key>
+													<string>WS+1•A+1</string>
+												</dict>
+											</array>
+										</array>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
-										<key>Stats</key>
-										<string>WS+1•A+1</string>
 									</dict>
 								</array>
 								<array>
 									<dict>
-										<key>Count</key>
-										<integer>0</integer>
-										<key>Maximum</key>
-										<real>1</real>
 										<key>Name</key>
 										<string>Xeno-fighters</string>
 										<key>Options</key>
@@ -4165,7 +4301,18 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -4313,6 +4460,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Sanctioned Psykers</string>
+								<string>Standard / Sanctioned Psykers / Cadian Shock Troops / Mordian Iron Guard</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -4563,6 +4711,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Priests</string>
+								<string>Standard / Priests / Valhallan Ice Warriors / Tallarn Desert Raiders / Tanith First &amp; Only</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -4573,392 +4722,6 @@
 							<key>Upper Limit</key>
 							<integer>1</integer>
 						</dict>
-					</array>
-					<key>Command</key>
-					<array>
-						<array>
-							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
-								<key>Name</key>
-								<string>Regimental Doctrines</string>
-								<key>Options</key>
-								<array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>5</real>
-											<key>Name</key>
-											<string>Priests</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Techpriest Enginseers</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Sanctioned Psykers</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Storm Trooper squads</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Ratling Squads</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Ogryn squads</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Special Weapon squads</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Conscript platoons</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Rough Rider squadrons</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Heavy Weapon platoons</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Drop Troops</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Grenadiers</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Mechanised</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Die-hards</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Iron Discipline</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Independent Commissars</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Close Order Drill</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Hardened Fighters</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Jungle Fighters</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Light Infantry</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Sharpshooters</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Xeno-fighters: Orks</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Xeno-fighters: Eldar</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Xeno-fighters: Tyranids</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Veterans</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>chem-inhalers</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>cameleoline</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>carapace armour</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>cyber-enhancement</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>warrior weapons</string>
-											<key>Points</key>
-											<real>0</real>
-										</dict>
-									</array>
-									<array>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Maximum</key>
-											<real>1</real>
-											<key>Name</key>
-											<string>Cadian Shock Troops</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Grenadiers; Sanctioned Psykers; Special Weapon squads; Storm Trooper squads; Iron Discipline; Sharpshooters; Conscript platoons</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Valhallan Ice Warriors</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Heavy Weapon platoons; Priests; Conscript platoons; Xeno-fighters: Orks; Close Order Drill; Veterans</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Tallarn Desert Raiders</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Priests; Hardened Fighters; Rough Rider squadrons; Light Infantry; Sharpshooters</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Mordian Iron Guard</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Sanctioned Psykers; Ratling squads; Heavy Weapon platoons; Sharpshooters; Close Order Drill; Die-hards</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Armageddon Steel Legions</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Mechanised; Storm Trooper squads; Xeno-fighters: Orks; Ratling squads; Conscript platoons</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Tanith First &amp; Only</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Light Infantry; Priests; Sharpshooters; Veterans; Hardened Fighters; Independent Commissars; Special Equipment: Cameleoline</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Catachan Jungle Fighters</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Veterans; Jungle Fighters; Hardened Fighters; Special Weapon squads; Ogryn squads</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Savlar Chem-dogs</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Rough Rider squadrons; Ogryn squads; Special Equipment: Chem-inhalers; Light Infantry; Xeno-fighters: Orks</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Terrax Guard</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Independent Commissars; Special Equipment: Carapace Armour; Close Order Drill; Grenadiers; Storm Trooper squads</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Harakoni Warhawks</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Drop Troops; Storm Trooper squads; Special Equipment: Carapace Armour; Heavy Weapon platoons; Special Weapon squads</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Death Korps of Krieg</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Rough Rider squadrons; Iron Discipline; Die-hards; Hardened Fighters; Storm Trooper squads; Heavy Weapon platoons</string>
-										</dict>
-										<dict>
-											<key>Count</key>
-											<integer>0</integer>
-											<key>Name</key>
-											<string>Kanak Skull Takers</string>
-											<key>Points</key>
-											<real>0</real>
-											<key>Special Rules</key>
-											<string>Special Equipment: Warrior Weapons; Ogryn squads; Hardened Fighters; Rough Riders squadrons; Die-hards</string>
-										</dict>
-									</array>
-								</array>
-								<key>Points</key>
-								<real>0</real>
-							</dict>
-						</array>
 					</array>
 					<key>Lower Limit</key>
 					<integer>1</integer>
@@ -4983,7 +4746,6 @@
 						<dict>
 							<key>Equipment</key>
 							<array>
-								<array/>
 								<array>
 									<dict>
 										<key>Count</key>
@@ -5120,6 +4882,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit From Points</key>
+					<real>1500</real>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -5130,7 +4894,7 @@
 					<real>125</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Cadian, 1,500+ points</string>
+						<string>Cadian Shock Troops</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
@@ -5243,6 +5007,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit From Points</key>
+					<real>2000</real>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -5251,10 +5017,6 @@
 					<string>Commissar Yarrick</string>
 					<key>Points</key>
 					<real>146</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>2,000+ points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -5326,6 +5088,8 @@
 							</dict>
 						</array>
 					</array>
+					<key>Limit From Points</key>
+					<real>1500</real>
 					<key>Maximum Size</key>
 					<integer>1</integer>
 					<key>Minimum Size</key>
@@ -5334,10 +5098,6 @@
 					<string>Colonel-Commissar Ibram Gaunt</string>
 					<key>Points</key>
 					<real>75</real>
-					<key>Prerequisite</key>
-					<array>
-						<string>1,500+ points</string>
-					</array>
 					<key>Size</key>
 					<integer>1</integer>
 					<key>Special Rules</key>
@@ -6043,6 +5803,10 @@
 							<string>Last Chancers</string>
 							<key>Points</key>
 							<real>11</real>
+							<key>Prerequisite</key>
+							<array>
+								<string>Sub-unit</string>
+							</array>
 							<key>Singular Name</key>
 							<string>Last Chancer</string>
 							<key>Size</key>
@@ -6807,12 +6571,12 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>chem inhalers</string>
+								<string>chem-inhalers</string>
 								<key>Points</key>
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -6828,7 +6592,7 @@
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 								</array>
 							</dict>
 						</array>
@@ -6844,7 +6608,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 								</array>
 								<key>Stats</key>
 								<string>Sv=4+</string>
@@ -6862,7 +6626,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Cyber-enhancement</string>
 								</array>
 							</dict>
 						</array>
@@ -6876,12 +6640,12 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Die Hards</string>
+								<string>Die-hards</string>
 								<key>Points</key>
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
 							</dict>
 						</array>
@@ -6897,7 +6661,7 @@
 								<real>15</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
 								<key>Stats</key>
 								<string>A+1</string>
@@ -6913,6 +6677,10 @@
 								<string>Jungle Fighters</string>
 								<key>Points</key>
 								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Jungle Fighters / Catachan Jungle Fighters</string>
+								</array>
 								<key>Special Rules</key>
 								<string>Sv=6+</string>
 							</dict>
@@ -6929,7 +6697,7 @@
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -6945,7 +6713,712 @@
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Doctrines</string>
+									<string>Xeno-fighters</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Xeno-fighters: Orks</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Maximum Size</key>
+					<integer>9</integer>
+					<key>Minimum Size</key>
+					<integer>4</integer>
+					<key>Name</key>
+					<string>Hardened Veterans</string>
+					<key>Points</key>
+					<real>8</real>
+					<key>Size</key>
+					<integer>4</integer>
+					<key>Special Rules</key>
+					<string>Infiltrators</string>
+					<key>Stats</key>
+					<string>WS3•BS4•S3•T3•W1•I3•A1•Ld7•Sv5+</string>
+					<key>Upper Limit</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>Attached Units</key>
+					<array>
+						<dict>
+							<key>Equipment</key>
+							<array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>1</integer>
+										<key>Default</key>
+										<true/>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>turret-mounted multi-laser</string>
+										<key>Points</key>
+										<real>0</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>heavy flamer</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>heavy bolter</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>hull-mounted heavy flamer</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>hull-mounted heavy bolter</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>armoured crew compartment</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>camo netting</string>
+										<key>Points</key>
+										<real>1</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>extra armour</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>hunter-killer missile</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>improved comms</string>
+										<key>Points</key>
+										<real>20</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>mine sweeper</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>pintle storm bolter</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>pintle heavy stubber</string>
+										<key>Points</key>
+										<real>12</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>rough terrain modification</string>
+										<key>Points</key>
+										<real>5</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>searchlight</string>
+										<key>Points</key>
+										<real>1</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>smoke launchers</string>
+										<key>Points</key>
+										<real>3</real>
+									</dict>
+								</array>
+								<array>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Maximum</key>
+										<real>1</real>
+										<key>Name</key>
+										<string>track guards</string>
+										<key>Points</key>
+										<real>10</real>
+									</dict>
+								</array>
+							</array>
+							<key>Maximum Size</key>
+							<integer>1</integer>
+							<key>Minimum Size</key>
+							<integer>1</integer>
+							<key>Name</key>
+							<string>Chimera</string>
+							<key>Points</key>
+							<real>95</real>
+							<key>Size</key>
+							<integer>1</integer>
+							<key>Special Rules</key>
+							<string>Tank; Amphibious</string>
+							<key>Stats</key>
+							<string>FA12•SA10•RA10•BS3</string>
+						</dict>
+					</array>
+					<key>Command</key>
+					<array>
+						<array>
+							<dict>
+								<key>Additional</key>
+								<true/>
+								<key>Count</key>
+								<integer>1</integer>
+								<key>Default</key>
+								<true/>
+								<key>Magic Items</key>
+								<array>
+									<dict>
+										<key>Items</key>
+										<array/>
+										<key>Limit</key>
+										<real>50</real>
+										<key>Name</key>
+										<string>Wargear</string>
+									</dict>
+								</array>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hardened Veteran Sergeant</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>laspistol and close combat weapon</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>shotgun</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>lasgun</string>
+											<key>Points</key>
+											<real>0</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-2</real>
+											<key>Name</key>
+											<string>bolt pistol</string>
+											<key>Points</key>
+											<real>1</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>plasma pistol</string>
+											<key>Points</key>
+											<real>10</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>power fist</string>
+											<key>Points</key>
+											<real>20</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>power weapon</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>close combat weapon</string>
+											<key>Points</key>
+											<real>1</real>
+										</dict>
+									</array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Maximum</key>
+											<real>-1</real>
+											<key>Name</key>
+											<string>bolter</string>
+											<key>Points</key>
+											<real>1</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>shotgun</string>
+											<key>Points</key>
+											<real>1</real>
+										</dict>
+										<dict>
+											<key>Count</key>
+											<integer>0</integer>
+											<key>Name</key>
+											<string>storm bolter</string>
+											<key>Points</key>
+											<real>5</real>
+										</dict>
+									</array>
+								</array>
+								<key>Points</key>
+								<real>13</real>
+								<key>Stats</key>
+								<string>WS3•BS4•S3•T3•W1•I3•A2•Ld8•Sv5+</string>
+							</dict>
+						</array>
+					</array>
+					<key>Equipment</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>-1</real>
+								<key>Name</key>
+								<string>lasgun</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>shotgun</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>laspistol and close combat weapon</string>
+								<key>Points</key>
+								<real>0</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>heavy weapon crew with lascannon</string>
+								<key>Points</key>
+								<real>25</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>heavy weapon crew with autocannon</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Cadian pattern</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>heavy weapon crew with mortar</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>heavy weapon crew with heavy bolter</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>heavy weapon crew with missile launcher</string>
+								<key>Points</key>
+								<real>15</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>heavy flamer</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Jungle Fighters</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>3</real>
+								<key>Name</key>
+								<string>meltagun</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>plasma gun</string>
+								<key>Points</key>
+								<real>10</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>grenade launcher</string>
+								<key>Points</key>
+								<real>8</real>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>flamer</string>
+								<key>Points</key>
+								<real>6</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>vox-caster</string>
+								<key>Points</key>
+								<real>5</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>frag grenades</string>
+								<key>Points</key>
+								<real>1</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Name</key>
+								<string>krak grenades</string>
+								<key>Points</key>
+								<real>2</real>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>chem-inhalers</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>cameleoline</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>carapace armour</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
+								</array>
+								<key>Stats</key>
+								<string>Sv=4+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>cyber-enhancement</string>
+								<key>Points</key>
+								<real>20</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Special Equipment: Cyber-enhancement</string>
+								</array>
+							</dict>
+						</array>
+					</array>
+					<key>Magic</key>
+					<array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Die-hards</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Hardened Fighters</string>
+								<key>Points</key>
+								<real>15</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
+								</array>
+								<key>Stats</key>
+								<string>A+1</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Jungle Fighters</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Jungle Fighters / Catachan Jungle Fighters</string>
+								</array>
+								<key>Special Rules</key>
+								<string>Sv=6+</string>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Light Infantry</string>
+								<key>Points</key>
+								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
+								</array>
+							</dict>
+						</array>
+						<array>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Maximum</key>
+								<real>1</real>
+								<key>Name</key>
+								<string>Xeno-fighters</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Doctrines</string>
+									<string>Xeno-fighters</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Xeno-fighters: Orks</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -6960,7 +7433,7 @@
 					<real>8</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>0-1 / Veterans Regimental Doctrine</string>
+						<string>Veterans / Valhallan Ice Warriors / Tanith First &amp; Only / Catachan Jungle Fighters</string>
 					</array>
 					<key>Size</key>
 					<integer>4</integer>
@@ -7249,6 +7722,10 @@
 					<string>Ogryns</string>
 					<key>Points</key>
 					<real>25</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Ogryn squads / Catachan Jungle Fighters / Savlar Chem-dogs / Kanak Skull Takers</string>
+					</array>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
@@ -8115,6 +8592,10 @@
 					<string>Storm Troopers</string>
 					<key>Points</key>
 					<real>10</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Storm Trooper squads / Cadian Shock Troops / Armageddon Steel Legions / Terrax Guard / Harakoni Warhawks / Death Korps of Krieg</string>
+					</array>
 					<key>Size</key>
 					<integer>4</integer>
 					<key>Special Rules</key>
@@ -8150,6 +8631,10 @@
 					<string>Ratlings</string>
 					<key>Points</key>
 					<real>11</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Ratling squads / Mordian Iron Guard / Armageddon Steel Legions</string>
+					</array>
 					<key>Size</key>
 					<integer>3</integer>
 					<key>Special Rules</key>
@@ -8504,6 +8989,10 @@
 					<true/>
 					<key>Points</key>
 					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Techpriest Enginseers</string>
+					</array>
 					<key>Size</key>
 					<integer>0</integer>
 					<key>Upper Limit</key>
@@ -8657,7 +9146,7 @@
 					<real>0</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Regimental Doctrine</string>
+						<string>Independent Commissars / Tanith First &amp; Only / Terrax Guard</string>
 					</array>
 					<key>Size</key>
 					<integer>1</integer>
@@ -9110,12 +9599,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -9131,7 +9620,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -9147,7 +9636,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -9165,7 +9654,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -9181,12 +9670,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -9202,7 +9691,7 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Iron Discipline / Cadian Shock Troops / Death Korps of Krieg</string>
 										</array>
 									</dict>
 								</array>
@@ -9218,7 +9707,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -9234,6 +9723,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -9250,7 +9743,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -9266,7 +9759,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -9313,7 +9806,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -9564,6 +10070,8 @@
 							<string>Tank; Amphibious</string>
 							<key>Stats</key>
 							<string>FA12•SA10•RA10•BS3</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Command</key>
@@ -9808,7 +10316,7 @@
 										<real>2</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Warrior Weapons / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -9955,12 +10463,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -9976,7 +10484,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -9992,7 +10500,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -10010,7 +10518,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -10026,12 +10534,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -10047,7 +10555,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -10063,6 +10571,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -10079,7 +10591,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -10095,7 +10607,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -10142,7 +10654,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -10413,7 +10938,7 @@
 										<real>2</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Warrior Weapons / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -10488,12 +11013,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -10509,7 +11034,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -10525,7 +11050,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -10543,7 +11068,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -10557,12 +11082,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -10578,7 +11103,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -10594,6 +11119,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -10610,7 +11139,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -10626,7 +11155,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -10673,7 +11202,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -10694,6 +11236,8 @@
 							<string>Remnants</string>
 							<key>Stats</key>
 							<string>WS3•BS3•S3•T3•W1•I3•A1•Ld7•Sv5+</string>
+							<key>Upper Limit</key>
+							<integer>1</integer>
 						</dict>
 						<dict>
 							<key>Equipment</key>
@@ -10813,6 +11357,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Sanctioned Psykers</string>
+								<string>Standard / Sanctioned Psykers / Cadian Shock Troops / Mordian Iron Guard</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -11063,6 +11608,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Priests</string>
+								<string>Standard / Priests / Valhallan Ice Warriors / Tallarn Desert Raiders / Tanith First &amp; Only</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -11088,7 +11634,7 @@
 								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Close Order Drill / Valhallan Ice Warriors / Mordian Iron Guard / Terrax Guard</string>
 								</array>
 							</dict>
 						</array>
@@ -11211,7 +11757,7 @@
 								<real>0</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Close Order Drill / Valhallan Ice Warriors / Mordian Iron Guard / Terrax Guard</string>
 								</array>
 							</dict>
 						</array>
@@ -11226,6 +11772,10 @@
 					<true/>
 					<key>Points</key>
 					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Conscript Platoons / Cadian Shock Troops / Valhallan Ice Warriors</string>
+					</array>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -12014,7 +12564,7 @@
 								<real>2</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Warrior Weapons / Kanak Skull Takers</string>
 								</array>
 							</dict>
 						</array>
@@ -12137,12 +12687,12 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>chem inhalers</string>
+								<string>chem-inhalers</string>
 								<key>Points</key>
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -12158,7 +12708,7 @@
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 								</array>
 							</dict>
 						</array>
@@ -12174,7 +12724,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 								</array>
 								<key>Stats</key>
 								<string>Sv=4+</string>
@@ -12192,7 +12742,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Cyber-enhancement</string>
 								</array>
 							</dict>
 						</array>
@@ -12206,12 +12756,12 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Die Hards</string>
+								<string>Die-hards</string>
 								<key>Points</key>
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
 							</dict>
 						</array>
@@ -12227,7 +12777,7 @@
 								<real>15</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
 								<key>Stats</key>
 								<string>WS+1</string>
@@ -12243,6 +12793,10 @@
 								<string>Jungle Fighters</string>
 								<key>Points</key>
 								<real>10</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Jungle Fighters / Catachan Jungle Fighters</string>
+								</array>
 								<key>Special Rules</key>
 								<string>Sv=6+</string>
 							</dict>
@@ -12259,7 +12813,7 @@
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 								</array>
 							</dict>
 						</array>
@@ -12306,7 +12860,20 @@
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Doctrines</string>
+									<string>Xeno-fighters</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Count</key>
+								<integer>0</integer>
+								<key>Name</key>
+								<string>Xeno-fighters: Orks</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -13162,23 +13729,6 @@
 							</dict>
 						</array>
 					</array>
-					<key>Magic</key>
-					<array>
-						<array>
-							<dict>
-								<key>Name</key>
-								<string>Infiltrate</string>
-								<key>Points</key>
-								<real>1</real>
-							</dict>
-							<dict>
-								<key>Name</key>
-								<string>Deep Strike</string>
-								<key>Points</key>
-								<real>1</real>
-							</dict>
-						</array>
-					</array>
 					<key>Maximum Size</key>
 					<integer>9</integer>
 					<key>Minimum Size</key>
@@ -13189,12 +13739,10 @@
 					<real>10</real>
 					<key>Prerequisite</key>
 					<array>
-						<string>Grenadiers</string>
+						<string>Grenadiers / Cadian Shock Troops / Terrax Guard</string>
 					</array>
 					<key>Size</key>
 					<integer>4</integer>
-					<key>Special Rules</key>
-					<string>Infiltrators</string>
 					<key>Stats</key>
 					<string>WS3•BS4•S3•T3•W1•I3•A1•Ld7•Sv5+</string>
 					<key>Upper Limit</key>
@@ -13747,7 +14295,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 								</array>
 								<key>Stats</key>
 								<string>Sv=4+</string>
@@ -13765,7 +14313,7 @@
 								<real>20</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Special Equipment: Cyber-enhancement</string>
 								</array>
 							</dict>
 						</array>
@@ -13779,12 +14327,12 @@
 								<key>Maximum</key>
 								<real>1</real>
 								<key>Name</key>
-								<string>Die Hards</string>
+								<string>Die-hards</string>
 								<key>Points</key>
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
 							</dict>
 						</array>
@@ -13799,6 +14347,10 @@
 					<string>Rough Riders</string>
 					<key>Points</key>
 					<real>8</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Rough Rider squadrons / Tallarn Desert Raiders / Savlar Chem-dogs / Death Korps of Krieg / Kanak Skull Takers</string>
+					</array>
 					<key>Size</key>
 					<integer>4</integer>
 					<key>Special Rules</key>
@@ -14012,22 +14564,35 @@
 							<dict>
 								<key>Name</key>
 								<string>Hardened Fighters</string>
+								<key>Options</key>
+								<array>
+									<array>
+										<dict>
+											<key>Count</key>
+											<integer>1</integer>
+											<key>Default</key>
+											<true/>
+											<key>Maximum</key>
+											<real>1</real>
+											<key>Name</key>
+											<string>Sentinels</string>
+											<key>Points</key>
+											<real>0</real>
+											<key>Stats</key>
+											<string>WS+1•A+1</string>
+										</dict>
+									</array>
+								</array>
 								<key>Points</key>
 								<real>10</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 								</array>
-								<key>Stats</key>
-								<string>WS+1•A+1</string>
 							</dict>
 						</array>
 						<array>
 							<dict>
-								<key>Count</key>
-								<integer>0</integer>
-								<key>Maximum</key>
-								<real>1</real>
 								<key>Name</key>
 								<string>Xeno-fighters</string>
 								<key>Options</key>
@@ -14065,7 +14630,18 @@
 								<real>5</real>
 								<key>Prerequisite</key>
 								<array>
-									<string>Regimental Doctrine</string>
+									<string>Doctrines</string>
+									<string>Xeno-fighters</string>
+								</array>
+							</dict>
+							<dict>
+								<key>Name</key>
+								<string>Xeno-fighters: Orks</string>
+								<key>Points</key>
+								<real>5</real>
+								<key>Prerequisite</key>
+								<array>
+									<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 								</array>
 							</dict>
 						</array>
@@ -14523,12 +15099,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -14544,7 +15120,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -14560,7 +15136,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -14578,7 +15154,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -14594,12 +15170,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -14615,7 +15191,7 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Iron Discipline / Cadian Shock Troops / Death Korps of Krieg</string>
 										</array>
 									</dict>
 								</array>
@@ -14631,7 +15207,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -14647,6 +15223,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -14663,7 +15243,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -14679,7 +15259,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -14726,7 +15306,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -14969,7 +15562,7 @@
 							<real>95</real>
 							<key>Prerequisite</key>
 							<array>
-								<string>Command Squad</string>
+								<string>Command Squad / Mechanised</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -15186,12 +15779,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -15207,7 +15800,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -15223,7 +15816,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -15241,7 +15834,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -15255,12 +15848,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -15276,7 +15869,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -15292,6 +15885,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -15308,7 +15905,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -15324,7 +15921,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -15371,7 +15968,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -15607,12 +16217,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -15628,7 +16238,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -15644,7 +16254,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -15662,7 +16272,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -15676,12 +16286,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -15697,7 +16307,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -15713,6 +16323,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -15729,7 +16343,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -15745,7 +16359,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -15792,7 +16406,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -16020,12 +16647,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>chem inhalers</string>
+										<string>chem-inhalers</string>
 										<key>Points</key>
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Chem-inhalers / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -16041,7 +16668,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cameleoline / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -16057,7 +16684,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Carapace Armour / Terrax Guard / Harakoni Warhawks</string>
 										</array>
 										<key>Stats</key>
 										<string>Sv=4+</string>
@@ -16075,7 +16702,7 @@
 										<real>20</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Special Equipment: Cyber-enhancement</string>
 										</array>
 									</dict>
 								</array>
@@ -16089,12 +16716,12 @@
 										<key>Maximum</key>
 										<real>1</real>
 										<key>Name</key>
-										<string>Die Hards</string>
+										<string>Die-hards</string>
 										<key>Points</key>
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Die-hards / Mordian Iron Guard / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 									</dict>
 								</array>
@@ -16110,7 +16737,7 @@
 										<real>15</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Hardened Fighters / Tallarn Desert Raiders / Tanith First &amp; Only / Catachan Jungle Fighters / Death Korps of Krieg / Kanak Skull Takers</string>
 										</array>
 										<key>Stats</key>
 										<string>WS+1</string>
@@ -16126,6 +16753,10 @@
 										<string>Jungle Fighters</string>
 										<key>Points</key>
 										<real>10</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Jungle Fighters / Catachan Jungle Fighters</string>
+										</array>
 										<key>Special Rules</key>
 										<string>Sv=6+</string>
 									</dict>
@@ -16142,7 +16773,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Light Infantry / Tallarn Desert Raiders / Tanith First &amp; Only / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -16158,7 +16789,7 @@
 										<real>10</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Sharpshooters / Cadian Shock Troops / Tallarn Desert Raiders / Mordian Iron Guard / Tanith First &amp; Only</string>
 										</array>
 									</dict>
 								</array>
@@ -16205,7 +16836,20 @@
 										<real>5</real>
 										<key>Prerequisite</key>
 										<array>
-											<string>Regimental Doctrine</string>
+											<string>Doctrines</string>
+											<string>Xeno-fighters</string>
+										</array>
+									</dict>
+									<dict>
+										<key>Count</key>
+										<integer>0</integer>
+										<key>Name</key>
+										<string>Xeno-fighters: Orks</string>
+										<key>Points</key>
+										<real>5</real>
+										<key>Prerequisite</key>
+										<array>
+											<string>Valhallan Ice Warriors / Armageddon Steel Legions / Savlar Chem-dogs</string>
 										</array>
 									</dict>
 								</array>
@@ -16351,6 +16995,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Sanctioned Psykers</string>
+								<string>Standard / Sanctioned Psykers / Cadian Shock Troops / Mordian Iron Guard</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -16601,6 +17246,7 @@
 							<key>Prerequisite</key>
 							<array>
 								<string>0-5 Priests</string>
+								<string>Standard / Priests / Valhallan Ice Warriors / Tallarn Desert Raiders / Tanith First &amp; Only</string>
 							</array>
 							<key>Size</key>
 							<integer>1</integer>
@@ -16622,6 +17268,10 @@
 					<true/>
 					<key>Points</key>
 					<real>0</real>
+					<key>Prerequisite</key>
+					<array>
+						<string>Standard / Heavy Weapon platoons / Valhallan Ice Warriors / Mordian Iron Guard / Harakoni Warhawks / Death Korps of Krieg</string>
+					</array>
 					<key>Size</key>
 					<integer>0</integer>
 				</dict>
@@ -17460,6 +18110,249 @@
 	</array>
 	<key>System</key>
 	<string>WH40K3</string>
+	<key>Traits</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Regiment</string>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Standard</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Doctrines</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Cadian Shock Troops</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Valhallan Ice Warriors</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Tallarn Desert Raiders</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Mordian Iron Guard</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Armageddon Steel Legions</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Tanith First &amp; Only</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Catachan Jungle Fighters</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Savlar Chem-dogs</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Terrax Guard</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Harakoni Warhawks</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Death Korps of Krieg</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Kanak Skull Takers</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Maximum</key>
+			<integer>5</integer>
+			<key>Multiple</key>
+			<true/>
+			<key>Name</key>
+			<string>Regimental Doctrines</string>
+			<key>Prerequisite</key>
+			<array>
+				<string>Doctrines</string>
+			</array>
+			<key>Variants</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Priests</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Techpriest Enginseers</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Sanctioned Psykers</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Storm Trooper squads</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Ratling squads</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Ogryn squads</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Weapon squads</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Conscript Platoons</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Rough Rider squadrons</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Heavy Weapon platoons</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Drop Troops</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Warrior Weapons</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Grenadiers</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Warrior Weapons</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Mechanised</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Warrior Weapons</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Die-hards</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Chem-inhalers</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Iron Discipline</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Chem-inhalers</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Independent Commissars</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Close Order Drill</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Hardened Fighters</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Jungle Fighters</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Cameleoline</string>
+						<string>no Special Equipment: Carapace Armour</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Light Infantry</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Special Equipment: Carapace Armour</string>
+						<string>no Mechanised</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Sharpshooters</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Xeno-fighters</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Veterans</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Equipment: Chem-inhalers</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Iron Discipline</string>
+						<string>no Die-hards</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Equipment: Cameleoline</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Jungle Fighters</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Equipment: Carapace Armour</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Jungle Fighters</string>
+						<string>no Light Infantry</string>
+					</array>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Equipment: Cyber-enhancement</string>
+				</dict>
+				<dict>
+					<key>Name</key>
+					<string>Special Equipment: Warrior Weapons</string>
+					<key>Prerequisite</key>
+					<array>
+						<string>no Drop Troops</string>
+						<string>no Mechanised</string>
+						<string>no Grenadiers</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Version</key>
 	<integer>20250313</integer>
 </dict>
